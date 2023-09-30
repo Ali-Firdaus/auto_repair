@@ -44,7 +44,7 @@ app_license = "MIT"
 # role_home_page = {
 #	"Role": "home_page"
 # }
-
+website_route_rules = [{'from_route': '/garage/<path:name>', 'to_route': 'garage'},]
 # Generators
 # ----------
 
