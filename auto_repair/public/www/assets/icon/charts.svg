@@ -1,22 +1,28 @@
-<?xml version="1.0" ?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 64 64" id="svg5" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-<defs id="defs2"/>
-<g id="layer1" transform="translate(0,-192)">
-<path d="m 10,201 h 49 v 6 H 10 Z" id="path10237" style="fill:#3e4f59;fill-opacity:1;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 10,207 h 49 v 40 H 10 Z" id="path10239" style="fill:#acbec2;fill-opacity:1;fill-rule:evenodd;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 10,207 v 40 h 29.769532 a 28.484051,41.392605 35.599482 0 0 18.625,-40 z" id="path10241" style="fill:#e8edee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.00002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 12,200 c -1.645006,0 -3,1.355 -3,3 v 40 c 0,0.55229 0.4477153,1 1,1 0.552285,0 1,-0.44771 1,-1 v -40 c 0,-0.56413 0.435873,-1 1,-1 h 45 c 0.564127,0 1,0.43587 1,1 v 3 H 16 c -0.552285,0 -1,0.44772 -1,1 0,0.55229 0.447715,1 1,1 h 42 v 37 c 0,0.56413 -0.435873,1 -1,1 H 8 c -0.5522847,0 -1,0.44772 -1,1 0,0.55229 0.4477153,1 1,1 h 49 c 1.645006,0 3,-1.35499 3,-3 0,-14 0,-28 0,-42 0,-1.645 -1.354994,-3 -3,-3 z" id="path10243" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 55,203 c -0.552285,0 -1,0.44772 -1,1 0,0.55229 0.447715,1 1,1 0.552285,0 1,-0.44771 1,-1 0,-0.55228 -0.447715,-1 -1,-1 z" id="path10245" style="color:#000000;fill:#ed7161;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
-<path d="m 51,203 c -0.552285,0 -1,0.44772 -1,1 0,0.55229 0.447715,1 1,1 0.552285,0 1,-0.44771 1,-1 0,-0.55228 -0.447715,-1 -1,-1 z" id="path10247" style="color:#000000;fill:#ecba16;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
-<path d="m 47,203 c -0.552285,0 -1,0.44772 -1,1 0,0.55229 0.447715,1 1,1 0.552285,0 1,-0.44771 1,-1 0,-0.55228 -0.447715,-1 -1,-1 z" id="path10249" style="color:#000000;fill:#42b05c;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
-<path d="m 5,246 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z" id="path10251" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
-<path d="m 13,206 c -0.552285,0 -1,0.44772 -1,1 0,0.55229 0.447715,1 1,1 0.552285,0 1,-0.44771 1,-1 0,-0.55228 -0.447715,-1 -1,-1 z" id="path10253" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
-<path d="m 32,217 a 11,11 0 0 0 -11,11 11,11 0 0 0 11,11 11,11 0 0 0 11,-11 H 32 Z" id="path15638" style="fill:#0075d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 32.000003,217 a 11,11 0 0 0 -10.999999,11 11,11 0 0 0 5.388662,9.4375 23.505793,27.007267 53.71305 0 0 4.300788,-2.58984 A 23.505793,27.007267 53.71305 0 0 37.458986,228 h -5.458989 z" id="path4621" style="fill:#0588e2;fill-opacity:1;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 36,213 v 11 H 47 A 11,11 0 0 0 36,213 Z" id="rect15643" style="fill:#fe73c5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 32,216 c -6.615566,0 -12,5.38444 -12,12 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 c 0,-5.53468 4.465314,-10 10,-10 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z m 0,4.69727 a 1,1 0 0 0 -1,1 V 228 a 1.0001,1.0001 0 0 0 1,1 h 9.798828 c -0.523115,5.03811 -4.619227,9 -9.798828,9 -3.873794,0 -7.218897,-2.19534 -8.882813,-5.4043 a 1,1 0 0 0 -1.349609,-0.42773 1,1 0 0 0 -0.427734,1.34961 C 23.337686,237.37053 27.369685,240 32,240 c 6.615566,0 12,-5.38444 12,-12 a 1.0001,1.0001 0 0 0 -1,-1 H 33 v -5.30273 a 1,1 0 0 0 -1,-1 z" id="path11964" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
-<path d="m 36.000002,213 -3e-6,11 h 3.86328 A 23.505793,27.007267 53.71305 0 0 42.48047,215.11328 11,11 0 0 0 36.000002,213 Z" id="ellipse4635" style="fill:#fe93d3;fill-opacity:1;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-<path d="m 36,212 a 1.0001,1.0001 0 0 0 -1,1 v 11 a 1.0001,1.0001 0 0 0 1,1 h 11 a 1.0001,1.0001 0 0 0 1,-1 c 0,-1.66945 -0.342528,-3.26376 -0.960938,-4.71094 a 1,1 0 0 0 -1.3125,-0.52734 1,1 0 0 0 -0.52539,1.3125 c 0.38365,0.8978 0.490167,1.91454 0.595703,2.92578 H 37 v -8.80273 c 2.291208,0.23813 4.395178,1.10473 5.960937,2.62304 a 1,1 0 0 0 1.414063,-0.0215 1,1 0 0 0 -0.02148,-1.41406 C 42.194319,213.291 39.241092,212 36,212 Z" id="path11966" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
-</g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#394240" d="M34,31.011h29c0.553,0,1-0.447,1-1c0-16.568-13.432-30-30-30c-0.553,0-1,0.447-1,1v29
+			C33,30.563,33.447,31.011,34,31.011z M35,2.036c14.667,0.516,26.459,12.307,26.975,26.975H35V2.036z"/>
+		<path fill="#394240" d="M63,33.011H36c-0.044,0-0.082,0.019-0.125,0.024c-0.084,0.011-0.168,0.019-0.248,0.05
+			c-0.078,0.031-0.143,0.084-0.209,0.133c-0.036,0.027-0.079,0.041-0.112,0.072c-0.002,0.002-0.003,0.006-0.005,0.008
+			c-0.086,0.084-0.152,0.185-0.203,0.295c-0.004,0.009-0.014,0.016-0.018,0.025c-0.016,0.038-0.015,0.084-0.026,0.125
+			c-0.023,0.084-0.051,0.169-0.052,0.256L35,34.011c0,0.053,0.022,0.1,0.031,0.152c0.012,0.074,0.016,0.148,0.044,0.219
+			c0.035,0.088,0.092,0.16,0.149,0.233c0.021,0.028,0.031,0.063,0.057,0.089l0.01,0.01c0,0,0.002,0.003,0.004,0.004l19.918,20.506
+			C60.643,49.795,64,42.295,64,34.011l0,0C64,33.458,63.553,33.011,63,33.011z M55.126,52.376l-16.77-17.365h23.618
+			C61.741,41.647,59.2,47.693,55.126,52.376z"/>
+		<path fill="#394240" d="M31.615,34.302C31.012,33.698,31,32.616,31,32.616V5.011c0-0.553-0.447-1-1-1c-16.568,0-30,13.432-30,30
+			s13.432,30,30,30c8.284,0,15.784-3.357,21.213-8.787l-1.335-1.335C49.858,53.862,32.596,35.282,31.615,34.302z M30,62.011
+			c-15.464,0-28-12.536-28-28C2,18.882,14,6.563,29,6.036c0,0,0,26.068,0,26.975s0.343,1.81,1.016,2.482
+			s18.332,19.658,18.332,19.658C43.434,59.421,37.021,62.011,30,62.011z"/>
+	</g>
+	<path fill="#45AAB8" d="M30,62.011c-15.464,0-28-12.536-28-28C2,18.882,14,6.563,29,6.036c0,0,0,26.068,0,26.975
+		s0.343,1.81,1.016,2.482s18.332,19.658,18.332,19.658C43.434,59.421,37.021,62.011,30,62.011z"/>
+	<path fill="#F76D57" d="M35,2.036c14.667,0.516,26.459,12.307,26.975,26.975H35V2.036z"/>
+	<path fill="#F9EBB2" d="M55.126,52.376l-16.77-17.365h23.618C61.741,41.647,59.2,47.693,55.126,52.376z"/>
+</g>
+</svg>
