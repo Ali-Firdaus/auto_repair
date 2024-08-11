@@ -1,0 +1,2 @@
+import{$b as s,Ab as i,Bb as a,Ub as r,ea as o}from"./chunk-GO625YJS.js";import"./chunk-NUKY5LFD.js";var m=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-cash-budgeting"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,p){n&1&&(i(0,"p"),r(1,` cash-budgeting works!
+`),a())}});let t=e;return t})();export{m as CashBudgetingComponent};
