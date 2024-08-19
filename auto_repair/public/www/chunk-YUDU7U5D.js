@@ -1,2 +1,0 @@
-import{$b as p,Ab as a,Bb as i,Ub as r,ea as o}from"./chunk-GO625YJS.js";import"./chunk-NUKY5LFD.js";var m=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-working-capital-plan"]],standalone:!0,features:[p],decls:2,vars:0,template:function(n,s){n&1&&(a(0,"p"),r(1,` working-capital-plan works!
-`),i())}});let e=t;return e})();export{m as WorkingCapitalPlanComponent};

@@ -1,0 +1,2 @@
+import{$b as s,Ab as a,Bb as i,Ub as r,ea as o}from"./chunk-MMIEADOO.js";import"./chunk-WPBPOQOO.js";var m=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-leaves"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,p){n&1&&(a(0,"p"),r(1,` leaves works!
+`),i())}});let t=e;return t})();export{m as LeavesComponent};

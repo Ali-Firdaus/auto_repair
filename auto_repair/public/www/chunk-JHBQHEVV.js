@@ -1,2 +1,0 @@
-import{$b as m,Ab as a,Bb as i,Ub as r,ea as o}from"./chunk-GO625YJS.js";import"./chunk-NUKY5LFD.js";var f=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-net-profit-management"]],standalone:!0,features:[m],decls:2,vars:0,template:function(n,s){n&1&&(a(0,"p"),r(1,` net-profit-management works!
-`),i())}});let t=e;return t})();export{f as NetProfitManagementComponent};

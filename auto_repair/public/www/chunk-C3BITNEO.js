@@ -1,0 +1,2 @@
+import{$b as s,Ab as a,Bb as r,Ub as i,ea as o}from"./chunk-MMIEADOO.js";import"./chunk-WPBPOQOO.js";var m=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-operations-dashboard"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,d){n&1&&(a(0,"p"),i(1,` operations-dashboard works!
+`),r())}});let t=e;return t})();export{m as OperationsDashboardComponent};
