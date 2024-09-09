@@ -1,0 +1,2 @@
+import{Fb as r,Gb as a,_b as i,fc as s,ha as o}from"./chunk-FXS5JXIV.js";import"./chunk-WPBPOQOO.js";var m=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-hr-dashboard"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,c){n&1&&(r(0,"p"),i(1,` hr-dashboard works!
+`),a())}});let t=e;return t})();export{m as HrDashboardComponent};

@@ -1,0 +1,2 @@
+import{Fb as a,Gb as r,_b as i,fc as s,ha as o}from"./chunk-FXS5JXIV.js";import"./chunk-WPBPOQOO.js";var m=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-strategy-dashboard"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,c){n&1&&(a(0,"p"),i(1,` strategy-dashboard works!
+`),r())}});let e=t;return e})();export{m as StrategyDashboardComponent};
