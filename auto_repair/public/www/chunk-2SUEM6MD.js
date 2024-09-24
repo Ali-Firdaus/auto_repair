@@ -1,0 +1,2 @@
+import{$b as a,Gb as r,Hb as i,gc as s,ia as o}from"./chunk-DGESEL2D.js";import"./chunk-WPBPOQOO.js";var u=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-user"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,p){n&1&&(r(0,"p"),a(1,` user works!
+`),i())}});let t=e;return t})();export{u as UserComponent};
