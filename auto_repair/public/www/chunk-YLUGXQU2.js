@@ -1,0 +1,1 @@
+var a=e=>Object.entries(e).reduce((t,[r,o])=>(o==null||(t[r]=o),t),{});var l=(e,t)=>(e=Math.ceil(e),t=Math.floor(t),Math.floor(Math.random()*(t-e+1))+e);var s=e=>{if(e){let t=e.toLowerCase().split(" ");for(let r=0,o=t.length;r<o;r++)t[r]=t[r][0].toUpperCase()+t[r].substr(1);return t.join(" ")}};export{a,l as b,s as c};
