@@ -1,0 +1,2 @@
+import{$b as r,Gb as o,Hb as i,gc as s,ia as a}from"./chunk-ZM54FCVP.js";import"./chunk-WPBPOQOO.js";var m=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=a({type:e,selectors:[["app-appraisals"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,c){n&1&&(o(0,"p"),r(1,` appraisals works!
+`),i())}});let t=e;return t})();export{m as AppraisalsComponent};

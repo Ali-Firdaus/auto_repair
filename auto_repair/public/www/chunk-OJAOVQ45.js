@@ -1,2 +1,0 @@
-import{Fb as a,Gb as i,_b as r,fc as c,ha as o}from"./chunk-FXS5JXIV.js";import"./chunk-WPBPOQOO.js";var m=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-accounting-dashboard"]],standalone:!0,features:[c],decls:2,vars:0,template:function(n,d){n&1&&(a(0,"p"),r(1,` accounting-dashboard works!
-`),i())}});let e=t;return e})();export{m as AccountingDashboardComponent};

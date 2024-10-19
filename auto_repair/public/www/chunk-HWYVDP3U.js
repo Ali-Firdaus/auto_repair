@@ -1,0 +1,2 @@
+import{$b as r,Gb as a,Hb as i,gc as s,ia as o}from"./chunk-ZM54FCVP.js";import"./chunk-WPBPOQOO.js";var l=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-leads"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,p){n&1&&(a(0,"p"),r(1,` leads works!
+`),i())}});let t=e;return t})();export{l as LeadsComponent};
