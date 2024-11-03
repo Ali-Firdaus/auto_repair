@@ -1,0 +1,2 @@
+import{Gb as r,Hb as a,bc as i,ia as o,ic as p}from"./chunk-WPXKPCZA.js";import"./chunk-WPBPOQOO.js";var m=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-payroll"]],standalone:!0,features:[p],decls:2,vars:0,template:function(n,l){n&1&&(r(0,"p"),i(1,` payroll works!
+`),a())}});let t=e;return t})();export{m as PayrollComponent};
