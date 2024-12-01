@@ -171,12 +171,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 --------------------------------------------------------------------------------
-Package: ngx-touch-keyboard
+Package: @ionic/angular
 License: "MIT"
 
 
 --------------------------------------------------------------------------------
-Package: @ionic/angular
+Package: ngx-touch-keyboard
 License: "MIT"
 
 
