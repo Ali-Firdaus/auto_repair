@@ -1,0 +1,35 @@
+{
+    "kpis": {
+      "kpi1": "#eb1515",
+      "kpi2": "#f77300",
+      "kpi3": "#a026bf",
+      "kpi4": "#116614",
+      "kpi5": "#d6d60d",
+      "kpi6": "#b5b5a5",
+      "kpi7": "#114acf"
+    },
+    "directorates": {
+      "directorate1": "#eb1515",
+      "directorate2": "#f77300",
+      "directorate3": "#fce300",
+      "directorate4": "#a6f200",
+      "directorate5": "#02cf46",
+      "directorate6": "#09ccde",
+      "directorate7": "#114acf",
+      "directorate8": "#9455e6",
+      "directorate9": "#d111ce",
+      "directorate10": "#cfb8ce",
+      "directorate11": "#453c44"
+    },
+    "status": {
+      "onTime": "#2b9103",
+      "critical": "#f0a002",
+      "delayed": "#d60f10",
+      "completed": "#3f51b5"
+    },
+    "time": {
+      "accumlated": "#f0a002",
+      "monthly": "#3f51b5",
+      "point": "#d60f10"
+    }
+  }
