@@ -1,0 +1,2 @@
+import{Ib as i,Jb as r,bc as a,ic as p,ka as o}from"./chunk-HRITC6Z5.js";import"./chunk-WPBPOQOO.js";var u=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-opportunities"]],standalone:!0,features:[p],decls:2,vars:0,template:function(n,c){n&1&&(i(0,"p"),a(1,` opportunities works!
+`),r())}});let e=t;return e})();export{u as OpportunitiesComponent};
