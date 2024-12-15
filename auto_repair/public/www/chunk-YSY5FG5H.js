@@ -1,5 +1,1 @@
-<<<<<<<< HEAD:auto_repair/public/www/chunk-YSY5FG5H.js
 import{b as e}from"./chunk-Q35G2YM7.js";import{c as s}from"./chunk-CK5JLLTZ.js";import{c as t,d as r,i as c}from"./chunk-T4J6S44B.js";import"./chunk-WPBPOQOO.js";var a=":host(.ion-color){color:var(--ion-color-base)}",n=a,i=class{constructor(o){c(this,o),this.color=void 0}render(){let o=s(this);return t(r,{key:"8922ebdd7486c9cb9f9b547a49e5be2261df4ba1",class:e(this.color,{[o]:!0})},t("slot",{key:"164cbd0f81a00adfac04f544524e905f721c121c"}))}};i.style=n;export{i as ion_text};
-========
-import{b as e}from"./chunk-OGGGGMUA.js";import{c as s}from"./chunk-HOMIRGD4.js";import{c as t,d as r,i as c}from"./chunk-LXPXATAF.js";import"./chunk-NUKY5LFD.js";var a=":host(.ion-color){color:var(--ion-color-base)}",n=a,i=class{constructor(o){c(this,o),this.color=void 0}render(){let o=s(this);return t(r,{key:"8922ebdd7486c9cb9f9b547a49e5be2261df4ba1",class:e(this.color,{[o]:!0})},t("slot",{key:"164cbd0f81a00adfac04f544524e905f721c121c"}))}};i.style=n;export{i as ion_text};
->>>>>>>> refs/remotes/origin/si10:auto_repair/public/www/chunk-V7PGBAII.js
