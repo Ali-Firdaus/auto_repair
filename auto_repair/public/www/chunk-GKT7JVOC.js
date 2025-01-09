@@ -1,2 +1,0 @@
-import{Ub as o,Vb as a,oc as p,tb as i}from"./chunk-VODEKRI5.js";import"./chunk-4672KUFR.js";var l=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=i({type:t,selectors:[["app-appraisals"]],decls:2,vars:0,template:function(n,s){n&1&&(o(0,"p"),p(1,` appraisals works!
-`),a())},encapsulation:2});let e=t;return e})();export{l as AppraisalsComponent};
