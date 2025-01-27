@@ -1,1 +1,0 @@
-import{e as c,f as n}from"./chunk-LAVMOBE2.js";function g(f,a,e){let r=n(f,e==null?void 0:e.in);if(isNaN(a))return c((e==null?void 0:e.in)||f,NaN);if(!a)return r;let h=r.getDate(),t=c((e==null?void 0:e.in)||f,r.getTime());t.setMonth(r.getMonth()+a+1,0);let u=t.getDate();return h>=u?t:(r.setFullYear(t.getFullYear(),t.getMonth(),h),r)}export{g as a};
