@@ -1,0 +1,141 @@
+{
+  "strategy": {
+    "title": "الإستراتجية",
+    "business-intelligence": "ذكاء الأعمال",
+    "daily-reports": "التقارير ليومية",
+    "strategic-framework": "الإطار الاستراتيجي",
+    "dashboards": "المنصات"
+  },
+  "innovation": {
+    "title": "الأبتكار",
+    "innovation-processes": "عمليات الابتكار"
+  },
+  "operations": {
+    "title": "التشغيل",
+    "employees": "الموظفين",
+    "appraisals": "تقارير الأداء",
+    "leaves": "الإجازات"
+  },
+  "finance": {
+    "title": "المالية",
+    "expenses": "المصاريف",
+    "payment-terms": "شروط الدفع",
+    "payroll": "الرواتب",
+    "procurement": {
+      "title": "المشتريات",
+      "suppliers": "الموردين",
+      "rfqs": "طلبات التسعيرات",
+      "supplier-quotations": "التسعيرات",
+      "purchase-orders": "أوامر الشراء"
+    }
+  },
+  "production": {
+    "title": "الإنتاج",
+    "garage": {
+      "title": "الجراج",
+      "notifications": "التنبيهات",
+      "incomplete": "غير مكتملة",
+      "completed": "مكتملة",
+      "vehicles": "المركبات",
+      "import-brands": "تحميل انواع المركبات",
+      "import-garage-data": "تحميل بيانات الجراج"
+    },
+    "manufacturing": {
+      "title": "التصنيع",
+      "production-plans": {
+        "title": "خطط التصنيع",
+        "incomplete": "غير مكتملة",
+        "completed": "مكتملة"
+      },
+      "boms": "فاتورة المواد",
+      "operations": "أعمال التصنيع"
+    },
+    "consultancy": {
+      "title": "الإستشارات",
+      "incomplete": "غير مكتملة",
+      "completed": "مكتملة"
+    },
+    "investments": {
+      "title": "الإستثمارات",
+      "incomplete": "غير مكتملة",
+      "completed": "مكتملة"
+    },
+    "pos": {},
+    "sales": {}
+  },
+  "support": {
+    "title": "الدعم",
+    "customers": "الزبائن",
+    "services": "الخدمات",
+    "inventory": {
+      "title": "جرد",
+      "stock": "المخزون",
+      "entries": "إدخالات",
+      "material-requests": "طلبات مادية"
+    },
+    "pos": {
+      "title": "تقاط البيع",
+      "shop": "المحلات التجارية",
+      "branches": "الفروع",
+      "transactions": "المعاملات"
+    },
+    "sales": {
+      "title": "المبيعات",
+      "quotations": "عروض أسعار المبيعات",
+      "sales-orders": "أوامر البيع"
+    }
+  },
+  "utilities": {
+    "title": "روابط إضافية",
+    "mind-map": "الخريطة الذهنية",
+    "knowledge-hub": "المركز المعرفي",
+    "meetings": "الإجتماعات",
+    "key-documents": "المستندات الرئيسية"
+  },
+  "about": "عن البرنامج",
+  "portal": {
+    "search": "بحث",
+    "overdue": "المتأخرات",
+    "in-progress": "ضمن المواعيد",
+    "calendar": "التقويم",
+    "events": {
+      "title": "الفعاليات",
+      "empty": "لا توجد أحداث في التقويم. يمكنك إضافة حدث جديد من خلال النقر على زر الإضافة في الزاوية العليا"
+    },
+    "notes": {
+      "title": "ملاحظات",
+      "subtitle": "لا توجد ملاحظات معلقة",
+      "instructions": "الرجاء إنشاء ملاحظة جديدة"
+    },
+    "jobs": {
+      "title": "الوظائف",
+      "subtitle": "لا توجد وظائف معلقة!",
+      "instructions": "الرجاء إنشاء وظيفة جديدة"
+    },
+    "tasks": {
+      "title": "المهام",
+      "subtitle": "لا توجد مهام معلقة!!",
+      "instructions": "الرجاء إنشاء مهمة جديدة"
+    },
+    "approvals": {
+      "title": "الموافقات",
+      "subtitle": "لا توجد موافقات معلقة!",
+      "instructions": "الرجاء إنشاء موافقات جديدة"
+    },
+    "projects": {
+      "title": "المشاريع",
+      "subtitle": "لا مشاريع معلقة!",
+      "instructions": "الرجاء إنشاء مشروع جديد"
+    },
+    "statistics": "إحصائيات",
+    "employee": "أداء الموظف",
+    "department": "أداء القسم"
+  },
+  "jobs": "الوظائف",
+  "tasks": "المهام",
+  "projects": "المشاريع",
+  "approvals": "الإعتماد",
+  "ideas": "الأفكار",
+  "dashboard": "المنصة",
+  "dashboards": "المنصات"
+}
