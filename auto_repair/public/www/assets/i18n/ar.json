@@ -38,7 +38,11 @@
       "completed": "مكتملة",
       "vehicles": "المركبات",
       "import-brands": "تحميل انواع المركبات",
-      "import-garage-data": "تحميل بيانات الجراج"
+      "import-garage-data": "تحميل بيانات الجراج",
+      "initiation": "البدء",
+      "planning": "التخطيط",
+      "execution": "التنفيذ",
+      "completion": "الإنتهاء"
     },
     "manufacturing": {
       "title": "التصنيع",
@@ -48,17 +52,29 @@
         "completed": "مكتملة"
       },
       "boms": "فاتورة المواد",
-      "operations": "أعمال التصنيع"
+      "operations": "أعمال التصنيع",
+      "initiation": "البدء",
+      "planning": "التخطيط",
+      "execution": "التنفيذ",
+      "completion": "الإنتهاء"
     },
     "consultancy": {
       "title": "الإستشارات",
       "incomplete": "غير مكتملة",
-      "completed": "مكتملة"
+      "completed": "مكتملة",
+      "initiation": "البدء",
+      "planning": "التخطيط",
+      "execution": "التنفيذ",
+      "completion": "الإنتهاء"
     },
     "investments": {
       "title": "الإستثمارات",
       "incomplete": "غير مكتملة",
-      "completed": "مكتملة"
+      "completed": "مكتملة",
+      "initiation": "التفكير",
+      "planning": "التخطيط",
+      "execution": "النماذج الأولية",
+      "completion": "تسويق"
     },
     "pos": {},
     "sales": {}
