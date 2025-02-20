@@ -1,2 +1,0 @@
-import{Ub as i,Vb as p,qc as r,tb as o}from"./chunk-IRRWBJMI.js";import"./chunk-GJFJZJGV.js";var m=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-opportunities"]],decls:2,vars:0,template:function(n,c){n&1&&(i(0,"p"),r(1,` opportunities works!
-`),p())},encapsulation:2});let e=t;return e})();export{m as OpportunitiesComponent};
