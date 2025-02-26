@@ -1,0 +1,173 @@
+{
+  "strategy": {
+    "title": "Strategy",
+    "business-intelligence": "Business Intelligence",
+    "daily-reports": "Daily Reports",
+    "strategic-framework": "Strategic Framework"
+  },
+  "innovation": {
+    "title": "Innovation",
+    "innovation-processes": "Innovation Processes"
+  },
+  "operations": {
+    "title": "Operations",
+    "employees": "Employees",
+    "appraisals": "Appraisals",
+    "leaves": "Leaves"
+  },
+  "finance": {
+    "title": "Finance",
+    "expenses": "Expenses",
+    "payment-terms": "Payment Terms",
+    "payroll": "Payroll",
+    "procurement": {
+      "title": "Procurement",
+      "suppliers": "Suppliers",
+      "rfqs": "RFQs",
+      "supplier-quotations": "Supplier Quotations",
+      "purchase-orders": "Purchase Orders"
+    }
+  },
+  "production": {
+    "title": "Production",
+    "garage": {
+      "title": "Garage",
+      "notifications": "Notifications",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "vehicles": "Vehicles",
+      "import-brands": "Import Brands",
+      "import-garage-data": "Import Garage Data",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "production-plans": {
+        "title": "Production Plans",
+        "incomplete": "Incomplete",
+        "completed": "Completed"
+      },
+      "work-orders": {
+        "title": "Work Orders",
+        "incomplete": "Incomplete",
+        "completed": "Completed"
+      },
+      "job-cards": {
+        "title": "Job Cards",
+        "incomplete": "Incomplete",
+        "completed": "Completed"
+      },
+      "boms": "BoMs",
+      "operations": "Operations",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "consultancy": {
+      "title": "Consultancy",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "investments": {
+      "title": "Investment",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "initiation": "Ideation",
+      "planning": "Planning",
+      "execution": "Protoyping",
+      "completion": "Commercialization"
+    },
+    "pos": {},
+    "sales": {}
+  },
+  "support": {
+    "title": "Support",
+    "customers": "Customers",
+    "services": "Services",
+    "inventory": {
+      "title": "Inventory",
+      "stock": "Stock",
+      "entries": "Entries",
+      "material-requests": "Material Requests"
+    },
+    "pos": {
+      "title": "POS",
+      "shop": "Shops",
+      "branches": "Branches",
+      "transactions": "Transactions"
+    },
+    "sales": {
+      "title": "Sales",
+      "quotations": "Quotations",
+      "sales-orders": "Sales Orders"
+    }
+  },
+  "utilities": {
+    "title": "Utilities",
+    "mind-map": "Mind Map",
+    "knowledge-hub": "Knowledge Hub",
+    "meetings": "Meetings",
+    "key-documents": "Key Documents",
+    "translations": "Translations"
+  },
+  "about": "About",
+  "portal": {
+    "search": "Search",
+    "in-progress": "In Progress",
+    "overdue": "Overdue",
+    "calendar": "Calendar",
+    "events": {
+      "title": "Events",
+      "empty": "There are no events in the calendar. You can add a new event by clicking on the add button at the top right corner"
+    },
+    "notes": {
+      "title": "Notes",
+      "subtitle": "No Pending Notes!",
+      "instructions": "Please create a new note"
+    },
+    "jobs": {
+      "title": "Jobs",
+      "subtitle": "No Pending Jobs!",
+      "instructions": "Please create a new job"
+    },
+    "tasks": {
+      "title": "Tasks",
+      "subtitle": "No Pending Tasks!",
+      "instructions": "Please create a new task"
+    },
+    "approvals": {
+      "title": "Approvals",
+      "subtitle": "No Pending Approvals!",
+      "instructions": "Please create a new approval"
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "No Pending Projects!",
+      "instructions": "Please create a new project"
+    },
+    "statistics": "Statistics",
+    "employee": "Employee",
+    "department": "Department",
+    "strategy": "Strategy",
+    "innovation": "Innovation",
+    "operations": "Operations",
+    "finance": "Finance",
+    "production": "Production",
+    "support": "Support"
+  },
+  "Jobs": "Jobs",
+  "tasks": "Tasks",
+  "approvals": "Approvals",
+  "projects": "Projects",
+  "ideas": "Ideas",
+  "dashboard": "Dashboard",
+  "dashboards": "Dashboards"
+}
