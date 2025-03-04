@@ -138,6 +138,11 @@
       "subtitle": "No Pending Jobs!",
       "instructions": "Please create a new job"
     },
+    "wos": {
+      "title": "Work Orders",
+      "subtitle": "No Pending Work Orders!",
+      "instructions": "Please create a new work order"
+    },
     "tasks": {
       "title": "Tasks",
       "subtitle": "No Pending Tasks!",
