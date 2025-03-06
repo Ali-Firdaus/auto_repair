@@ -108,7 +108,8 @@
     "sales": {
       "title": "المبيعات",
       "quotations": "عروض أسعار المبيعات",
-      "sales-orders": "أوامر البيع"
+      "sales-orders": "أوامر البيع",
+      "sales-invoices": "Sales Invoices"
     }
   },
   "utilities": {

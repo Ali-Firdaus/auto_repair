@@ -107,7 +107,8 @@
     "sales": {
       "title": "Sales",
       "quotations": "Quotations",
-      "sales-orders": "Sales Orders"
+      "sales-orders": "Sales Orders",
+      "sales-invoices": "Sales Invoices"
     }
   },
   "utilities": {

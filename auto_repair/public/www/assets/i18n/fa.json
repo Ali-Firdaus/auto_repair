@@ -91,7 +91,8 @@
     "sales": {
       "title": "فروش",
       "quotations": "نقل قول های فروش",
-      "sales-orders": "سفارشات فروش"
+      "sales-orders": "سفارشات فروش",
+      "sales-invoices": "Sales Invoices"
     }
   },
   "utilities": {
