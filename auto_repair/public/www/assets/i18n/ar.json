@@ -86,7 +86,12 @@
       "execution": "النماذج الأولية",
       "completion": "تسويق"
     },
-    "pos": {},
+    "pos": {
+      "title": "تقاط البيع",
+      "shop": "المحلات التجارية",
+      "branches": "الفروع",
+      "transactions": "المعاملات"
+    },
     "sales": {}
   },
   "support": {
@@ -99,12 +104,7 @@
       "entries": "إدخالات",
       "material-requests": "طلبات مادية"
     },
-    "pos": {
-      "title": "تقاط البيع",
-      "shop": "المحلات التجارية",
-      "branches": "الفروع",
-      "transactions": "المعاملات"
-    },
+
     "sales": {
       "title": "المبيعات",
       "quotations": "عروض أسعار المبيعات",

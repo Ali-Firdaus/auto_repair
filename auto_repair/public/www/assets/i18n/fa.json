@@ -69,7 +69,12 @@
       "incomplete": "ناقص",
       "completed": "تکمیل شد"
     },
-    "pos": {},
+    "pos": {
+      "title": "نقطه فروش",
+      "shop": "مغازه ها",
+      "branches": "شاخه ها",
+      "transactions": "معاملات"
+    },
     "sales": {}
   },
   "support": {
@@ -81,12 +86,6 @@
       "stock": "سهام",
       "entries": "ورودی ها",
       "material-requests": "درخواست مواد"
-    },
-    "pos": {
-      "title": "نقطه فروش",
-      "shop": "مغازه ها",
-      "branches": "شاخه ها",
-      "transactions": "معاملات"
     },
     "sales": {
       "title": "فروش",

@@ -37,7 +37,7 @@
       "completed": "Completed",
       "vehicles": "Vehicles",
       "import-brands": "Import Brands",
-      "import-garage-data": "Import Garage Data",
+      "import": "Import Garage Data",
       "initiation": "Initiation",
       "planning": "Planning",
       "execution": "Execution",
@@ -60,8 +60,10 @@
         "incomplete": "Incomplete",
         "completed": "Completed"
       },
+      "import": "Import",
       "boms": "BoMs",
       "operations": "Operations",
+      "workstations": "Work Stations",
       "initiation": "Initiation",
       "planning": "Planning",
       "execution": "Execution",
@@ -85,7 +87,12 @@
       "execution": "Protoyping",
       "completion": "Commercialization"
     },
-    "pos": {},
+    "pos": {
+      "title": "POS",
+      "shop": "Shops",
+      "branches": "Branches",
+      "transactions": "Transactions"
+    },
     "sales": {}
   },
   "support": {
@@ -97,12 +104,6 @@
       "stock": "Stock",
       "entries": "Entries",
       "material-requests": "Material Requests"
-    },
-    "pos": {
-      "title": "POS",
-      "shop": "Shops",
-      "branches": "Branches",
-      "transactions": "Transactions"
     },
     "sales": {
       "title": "Sales",
