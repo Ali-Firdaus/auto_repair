@@ -36,8 +36,8 @@
       "incomplete": "Incomplete",
       "completed": "Completed",
       "vehicles": "Vehicles",
-      "import-brands": "Import Brands",
-      "import": "Import Garage Data",
+      "brands": "Brands",
+      "import": "Import Data",
       "initiation": "Initiation",
       "planning": "Planning",
       "execution": "Execution",
@@ -99,6 +99,7 @@
     "title": "Support",
     "customers": "Customers",
     "services": "Services",
+    "assets": "Assets",
     "inventory": {
       "title": "Inventory",
       "stock": "Stock",
