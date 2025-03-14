@@ -99,7 +99,12 @@
     "title": "Support",
     "customers": "Customers",
     "services": "Services",
-    "assets": "Assets",
+    "assets": {
+      "title": "Assets",
+      "records": "Records",
+      "journal-entries": "Journal Entries",
+      "assets-locations": "Assets Locations"
+    },
     "inventory": {
       "title": "Inventory",
       "stock": "Stock",

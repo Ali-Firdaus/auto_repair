@@ -1,0 +1,1 @@
+import{g as o,h as d}from"./chunk-Q3BO7IOE.js";function f(t,e,r){return o((r==null?void 0:r.in)||t,+d(t)+e)}function l(t,e,r){return f(t,e*1e3,r)}function s(t,e,r){let u=d(t,r==null?void 0:r.in);return u.setHours(e),u}export{l as a,s as b};
