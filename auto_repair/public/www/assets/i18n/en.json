@@ -17,9 +17,17 @@
   },
   "finance": {
     "title": "Finance",
+    "accounts": "Accounts",
     "expenses": "Expenses",
     "payment-terms": "Payment Terms",
+    "journal-entries": "Journal Entries",
     "payroll": "Payroll",
+    "sales": {
+      "title": "Sales",
+      "quotations": "Quotations",
+      "sales-orders": "Sales Orders",
+      "sales-invoices": "Sales Invoices"
+    },
     "procurement": {
       "title": "Procurement",
       "suppliers": "Suppliers",
@@ -102,20 +110,14 @@
     "assets": {
       "title": "Assets",
       "records": "Records",
-      "journal-entries": "Journal Entries",
-      "assets-locations": "Assets Locations"
+      "categories": "Categories",
+      "import": "Import"
     },
     "inventory": {
       "title": "Inventory",
       "stock": "Stock",
       "entries": "Entries",
       "material-requests": "Material Requests"
-    },
-    "sales": {
-      "title": "Sales",
-      "quotations": "Quotations",
-      "sales-orders": "Sales Orders",
-      "sales-invoices": "Sales Invoices"
     }
   },
   "utilities": {
@@ -181,6 +183,11 @@
   "approvals": "Approvals",
   "projects": "Projects",
   "ideas": "Ideas",
+  "assets": "Assets",
+  "liabilities": "Liabilities",
+  "equity": "Equity",
+  "income": "Income",
+  "expenses": "Expenses",
   "dashboard": "Dashboard",
   "dashboards": "Dashboards"
 }

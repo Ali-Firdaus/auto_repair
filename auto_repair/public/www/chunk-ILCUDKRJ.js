@@ -1,2 +1,0 @@
-import{Ub as s,Vb as i,oc as r,ub as o}from"./chunk-66G4HTWL.js";import"./chunk-GJFJZJGV.js";var l=(()=>{let e=class e{constructor(){}ngOnInit(){}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-assets-journal-entries"]],decls:2,vars:0,template:function(n,c){n&1&&(s(0,"p"),r(1,` assets-journal-entries works!
-`),i())},encapsulation:2});let t=e;return t})();export{l as AssetsJournalEntriesComponent};
