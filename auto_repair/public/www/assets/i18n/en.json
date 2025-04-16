@@ -33,7 +33,8 @@
       "suppliers": "Suppliers",
       "rfqs": "RFQs",
       "supplier-quotations": "Supplier Quotations",
-      "purchase-orders": "Purchase Orders"
+      "purchase-orders": "Purchase Orders",
+      "purchase-invoices": "Purchase invoices"
     }
   },
   "production": {
