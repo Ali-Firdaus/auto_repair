@@ -119,7 +119,8 @@
       "title": "Inventory",
       "stock": "Stock",
       "entries": "Entries",
-      "material-requests": "Material Requests"
+      "material-requests": "Material Requests",
+      "delivery-notes": "Delivery Notes"
     }
   },
   "utilities": {
