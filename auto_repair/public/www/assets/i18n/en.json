@@ -102,6 +102,21 @@
       "branches": "Branches",
       "transactions": "Transactions"
     },
+    "pos-plus": {
+      "title": "POS Plus",
+      "incomplete": "Incompletes",
+      "completed": "Completed"
+    },
+    "projects": {
+      "title": "Projects",
+      "incomplete": "Incompletes",
+      "completed": "Completed"
+    },
+    "tasks": {
+      "title": "Tasks",
+      "incomplete": "Incompletes",
+      "completed": "Completed"
+    },
     "sales": {}
   },
   "support": {
@@ -118,7 +133,7 @@
     "inventory": {
       "title": "Inventory",
       "stock": "Stock",
-      "entries": "Entries",
+      "entries": "Stock Entries",
       "material-requests": "Material Requests",
       "delivery-notes": "Delivery Notes"
     }
