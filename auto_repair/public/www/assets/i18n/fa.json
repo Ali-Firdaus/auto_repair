@@ -1,0 +1,157 @@
+{
+  "strategy": {
+    "title": "استراتژی",
+    "business-intelligence": "هوش تجاری",
+    "daily-reports": "گزارش های روزانه",
+    "strategic-framework": "چارچوب استراتژیک"
+  },
+  "innovation": {
+    "title": "نوآوری",
+    "innovation-processes": "فرآیندهای نوآوری"
+  },
+  "operations": {
+    "title": "عملیات",
+    "employees": "کارمندان",
+    "appraisals": "ارزیابی ها",
+    "leaves": "برگ"
+  },
+  "finance": {
+    "title": "امور مالی",
+    "expenses": "مخارج",
+    "payment-terms": "شرایط پرداخت",
+    "payroll": "حقوق و دستمزد",
+    "procurement": {
+      "title": "تدارکات",
+      "suppliers": "تامین کنندگان",
+      "rfqs": "درخواست برای نقل قول",
+      "supplier-quotations": "نقل قول های تامین کننده",
+      "purchase-orders": "سفارشات خرید"
+    }
+  },
+  "production": {
+    "title": "تولید",
+    "garage": {
+      "title": "گاراژ",
+      "notifications": "اطلاعیه ها",
+      "incomplete": "ناقص",
+      "completed": "تکمیل شد",
+      "vehicles": "وسایل نقلیه",
+      "import-brands": "برندهای وارداتی",
+      "import-garage-data": "وارد کردن داده های گاراژ"
+    },
+    "manufacturing": {
+      "title": "تولید",
+      "production-plans": {
+        "title": "طرح های تولید",
+        "incomplete": "ناقص",
+        "completed": "تکمیل شد"
+      },
+      "work-orders": {
+        "title": "سفارشات کاری",
+        "incomplete": "ناقص",
+        "completed": "تکمیل شد"
+      },
+      "job-cards": {
+        "title": "کارت های شغلی",
+        "incomplete": "ناقص",
+        "completed": "تکمیل شد"
+      },
+      "boms": "صورتحساب مواد",
+      "operations": "عملیات"
+    },
+    "consultancy": {
+      "title": "مشاوره",
+      "incomplete": "ناقص",
+      "completed": "تکمیل شد"
+    },
+    "investments": {
+      "title": "سرمایه گذاری",
+      "incomplete": "ناقص",
+      "completed": "تکمیل شد"
+    },
+    "pos": {
+      "title": "نقطه فروش",
+      "shop": "مغازه ها",
+      "branches": "شاخه ها",
+      "transactions": "معاملات"
+    },
+    "sales": {}
+  },
+  "support": {
+    "title": "پشتیبانی کنید",
+    "customers": "مشتریان",
+    "services": "خدمات",
+    "inventory": {
+      "title": "موجودی",
+      "stock": "سهام",
+      "entries": "ورودی ها",
+      "material-requests": "درخواست مواد"
+    },
+    "sales": {
+      "title": "فروش",
+      "quotations": "نقل قول های فروش",
+      "sales-orders": "سفارشات فروش",
+      "sales-invoices": "Sales Invoices"
+    }
+  },
+  "utilities": {
+    "title": "آب و برق",
+    "mind-map": "نقشه ذهنی",
+    "knowledge-hub": "مرکز دانش",
+    "meetings": "جلسات",
+    "key-documents": "اسناد کلیدی",
+    "translations": "ترجمه ها"
+  },
+  "about": "درباره",
+  "portal": {
+    "search": "جستجو کنید",
+    "in-progress": "در حال انجام است",
+    "overdue": "عقب افتاده",
+    "calendar": "تقویم",
+    "events": {
+      "title": "رویدادها",
+      "empty": "هیچ رویدادی در تقویم وجود ندارد. با کلیک بر روی دکمه افزودن در گوشه سمت راست بالا می توانید یک رویداد جدید اضافه کنید"
+    },
+    "notes": {
+      "title": "یادداشت ها",
+      "subtitle": "هیچ یادداشت معلقی وجود ندارد!",
+      "instructions": "لطفا یک یادداشت جدید ایجاد کنید"
+    },
+    "jobs": {
+      "title": "مشاغل",
+      "subtitle": "بدون شغل معلق!",
+      "instructions": "لطفا یک شغل جدید ایجاد کنید"
+    },
+    "tasks": {
+      "title": "وظایف",
+      "subtitle": "بدون کار معلق!",
+      "instructions": "لطفا یک کار جدید ایجاد کنید"
+    },
+    "approvals": {
+      "title": "تاییدیه ها",
+      "subtitle": "بدون تاییدیه های معلق!",
+      "instructions": "لطفاً یک تأییدیه جدید ایجاد کنید"
+    },
+    "projects": {
+      "title": "پروژه ها",
+      "subtitle": "بدون پروژه معلق!",
+      "instructions": "لطفا یک پروژه جدید ایجاد کنید"
+    },
+    "statistics": "آمار",
+    "employee": "کارمند",
+    "department": "بخش",
+    "strategy": "استراتژی",
+    "innovation": "نوآوری",
+    "operations": "عملیات",
+    "finance": "امور مالی",
+    "production": "تولید",
+    "support": "پشتیبانی کنید"
+  },
+  "jobs": "مشاغل",
+  "tasks": "وظایف",
+  "projects": "پروژه ها",
+  "approvals": "تاییدیه ها",
+  "ideas": "ایده ها",
+  "dashboard": "داشبورد",
+  "dashboards": "داشبوردها"
+}

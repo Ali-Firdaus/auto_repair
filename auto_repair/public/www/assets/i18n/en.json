@@ -1,0 +1,212 @@
+{
+  "strategy": {
+    "title": "Strategy",
+    "business-intelligence": "Business Intelligence",
+    "daily-reports": "Daily Reports",
+    "strategic-framework": "Strategic Framework"
+  },
+  "innovation": {
+    "title": "Innovation",
+    "innovation-processes": "Innovation Processes"
+  },
+  "operations": {
+    "title": "Operations",
+    "employees": "Employees",
+    "appraisals": "Appraisals",
+    "leaves": "Leaves"
+  },
+  "finance": {
+    "title": "Finance",
+    "accounts": "Chart of Accounts",
+    "expenses": "Expenses",
+    "payment-terms": "Payment Terms",
+    "journal-entries": "Journal Entries",
+    "payroll": "Payroll",
+    "sales": {
+      "title": "Sales",
+      "quotations": "Quotations",
+      "sales-orders": "Sales Orders",
+      "sales-invoices": "Sales Invoices"
+    },
+    "procurement": {
+      "title": "Procurement",
+      "suppliers": "Suppliers",
+      "rfqs": "RFQs",
+      "supplier-quotations": "Supplier Quotations",
+      "purchase-orders": "Purchase Orders",
+      "purchase-invoices": "Purchase invoices"
+    }
+  },
+  "production": {
+    "title": "Production",
+    "garage": {
+      "title": "Garage",
+      "notifications": "Notifications",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "vehicles": "Vehicles",
+      "brands": "Brands",
+      "import": "Import Data",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "production-plans": {
+        "title": "Production Plans",
+        "incomplete": "Incomplete",
+        "completed": "Completed"
+      },
+      "work-orders": {
+        "title": "Work Orders",
+        "incomplete": "Incomplete",
+        "completed": "Completed"
+      },
+      "job-cards": {
+        "title": "Job Cards",
+        "incomplete": "Incomplete",
+        "completed": "Completed"
+      },
+      "import": "Import",
+      "boms": "BoMs",
+      "operations": "Operations",
+      "workstations": "Work Stations",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "consultancy": {
+      "title": "Consultancy",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "investments": {
+      "title": "Investment",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "initiation": "Ideation",
+      "planning": "Planning",
+      "execution": "Protoyping",
+      "completion": "Commercialization"
+    },
+    "pos": {
+      "title": "POS",
+      "shop": "Shops",
+      "branches": "Branches",
+      "invoices": "Invoices"
+    },
+    "pos-plus": {
+      "title": "POS Plus",
+      "incomplete": "Incompletes",
+      "completed": "Completed"
+    },
+    "projects": {
+      "title": "Projects",
+      "incomplete": "Incompletes",
+      "completed": "Completed"
+    },
+    "tasks": {
+      "title": "Tasks",
+      "incomplete": "Incompletes",
+      "completed": "Completed"
+    },
+    "sales": {}
+  },
+  "support": {
+    "title": "Support",
+    "customers": "Customers",
+    "services": "Services",
+    "categories": "Segments",
+    "assets": {
+      "title": "Assets",
+      "records": "Records",
+      "categories": "Categories",
+      "import": "Import"
+    },
+    "inventory": {
+      "title": "Inventory",
+      "stock": "Stock",
+      "entries": "Stock Entries",
+      "material-requests": "Material Requests",
+      "delivery-notes": "Delivery Notes"
+    }
+  },
+  "utilities": {
+    "title": "Utilities",
+    "mind-map": "Mind Map",
+    "knowledge-hub": "Knowledge Hub",
+    "meetings": "Meetings",
+    "key-documents": "Key Documents",
+    "translations": "Translations",
+    "issues": "Issues"
+  },
+  "about": "About",
+  "portal": {
+    "search": "Search",
+    "in-progress": "In Progress",
+    "overdue": "Overdue",
+    "calendar": "Calendar",
+    "events": {
+      "title": "Events",
+      "empty": "There are no events in the calendar. You can add a new event by clicking on the add button at the top right corner"
+    },
+    "notes": {
+      "title": "Notes",
+      "subtitle": "No Pending Notes!",
+      "instructions": "Please create a new note"
+    },
+    "jobs": {
+      "title": "Jobs",
+      "subtitle": "No Pending Jobs!",
+      "instructions": "Please create a new job"
+    },
+    "wos": {
+      "title": "Work Orders",
+      "subtitle": "No Pending Work Orders!",
+      "instructions": "Please create a new work order"
+    },
+    "tasks": {
+      "title": "Tasks",
+      "subtitle": "No Pending Tasks!",
+      "instructions": "Please create a new task"
+    },
+    "approvals": {
+      "title": "Approvals",
+      "subtitle": "No Pending Approvals!",
+      "instructions": "Please create a new approval"
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "No Pending Projects!",
+      "instructions": "Please create a new project"
+    },
+    "statistics": "Statistics",
+    "employee": "Employee",
+    "department": "Department",
+    "strategy": "Strategy",
+    "innovation": "Innovation",
+    "operations": "Operations",
+    "finance": "Finance",
+    "production": "Production",
+    "support": "Support"
+  },
+  "Jobs": "Jobs",
+  "tasks": "Tasks",
+  "approvals": "Approvals",
+  "projects": "Projects",
+  "ideas": "Ideas",
+  "assets": "Assets",
+  "liabilities": "Liabilities",
+  "equity": "Equity",
+  "income": "Income",
+  "expenses": "Expenses",
+  "dashboard": "Dashboard",
+  "dashboards": "Dashboards"
+}
