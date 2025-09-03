@@ -1,0 +1,2 @@
+import{Vb as r,Wb as i,pc as a,ub as o}from"./chunk-R6BEAULM.js";import"./chunk-GJFJZJGV.js";var m=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-restaurant-completed"]],decls:2,vars:0,template:function(n,p){n&1&&(r(0,"p"),a(1,` restaurant-completed works!
+`),i())},encapsulation:2});let e=t;return e})();export{m as RestaurantCompletedComponent};

@@ -1,0 +1,1 @@
+import{_ as d}from"./chunk-R6BEAULM.js";import{h as a}from"./chunk-GJFJZJGV.js";var o=(()=>{let e=class e{isErrorState(t,i){return!!(t&&t.invalid&&(t.touched||i&&i.submitted))}};a(e,"\u0275fac",function(i){return new(i||e)}),a(e,"\u0275prov",d({token:e,factory:e.\u0275fac,providedIn:"root"}));let n=e;return n})();export{o as a};
