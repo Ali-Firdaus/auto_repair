@@ -1,2 +1,0 @@
-import{Vb as o,Wb as a,pc as p,ub as i}from"./chunk-RQOWWUWT.js";import"./chunk-GJFJZJGV.js";var l=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=i({type:t,selectors:[["app-appraisals"]],decls:2,vars:0,template:function(n,s){n&1&&(o(0,"p"),p(1,` appraisals works!
-`),a())},encapsulation:2});let e=t;return e})();export{l as AppraisalsComponent};

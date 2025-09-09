@@ -11,13 +11,14 @@
   },
   "operations": {
     "title": "Operations",
+    "departments": "Departments",
     "employees": "Employees",
     "appraisals": "Appraisals",
     "leaves": "Leaves"
   },
   "finance": {
     "title": "Finance",
-    "accounts": "Chart of Accounts",
+    "accounts": "Accounts",
     "expenses": "Expenses",
     "payment-terms": "Payment Terms",
     "journal-entries": "Journal Entries",
@@ -138,6 +139,11 @@
       "material-requests": "Material Requests",
       "delivery-notes": "Delivery Notes"
     }
+  },
+  "processes": {
+    "title": "Processes",
+    "incomplete": "Incomplete",
+    "completed": "Completed"
   },
   "utilities": {
     "title": "Utilities",
