@@ -142,8 +142,9 @@
   },
   "processes": {
     "title": "Processes",
-    "incomplete": "Incomplete",
-    "completed": "Completed"
+    "task-management": "Task Management",
+    "job-management": "Job Management",
+    "project-management": "Project Management"
   },
   "utilities": {
     "title": "Utilities",
