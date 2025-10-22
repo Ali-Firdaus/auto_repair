@@ -103,49 +103,35 @@
       "branches": "Branches",
       "invoices": "Invoices"
     },
-    "pos-plus": {
-      "title": "POS Plus",
-      "incomplete": "Incompletes",
-      "completed": "Completed"
+    "processes": {
+      "title": "Processes",
+      "task-management": "Task Management",
+      "job-management": "Job Management",
+      "project-management": "Project Management"
     },
-    "projects": {
-      "title": "Projects",
-      "incomplete": "Incompletes",
-      "completed": "Completed"
-    },
-    "tasks": {
-      "title": "Tasks",
-      "incomplete": "Incompletes",
-      "completed": "Completed"
-    },
-    "sales": {}
-  },
-  "support": {
-    "title": "Support",
-    "customers": "Customers",
     "services": "Services",
-    "barcodes": "Barcodes",
     "categories": "Segments",
-    "assets": {
-      "title": "Assets",
-      "records": "Records",
-      "categories": "Categories",
-      "import": "Import"
-    },
     "inventory": {
       "title": "Inventory",
       "stock": "Stock",
       "entries": "Stock Entries",
       "material-requests": "Material Requests",
-      "delivery-notes": "Delivery Notes"
+      "delivery-notes": "Delivery Notes",
+      "operations": "Operations"
     }
   },
-  "processes": {
-    "title": "Processes",
-    "task-management": "Task Management",
-    "job-management": "Job Management",
-    "project-management": "Project Management"
+  "support": {
+    "title": "Support",
+    "customers": "Customers",
+    "barcodes": "Barcodes",
+    "assets": {
+      "title": "Assets",
+      "records": "Records",
+      "categories": "Categories",
+      "import": "Import"
+    }
   },
+
   "utilities": {
     "title": "Utilities",
     "mind-map": "Mind Map",
