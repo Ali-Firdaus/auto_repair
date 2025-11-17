@@ -1,116 +1,156 @@
 {
   "strategy": {
     "title": "Strategy",
-    "business-intelligence": "Business Intelligence",
-    "daily-reports": "Daily Reports",
-    "strategic-framework": "Strategic Framework"
+    "organization-structure": "Organization Structure",
+    "strategic-innovation-canvas": "Strategic Innovation Canvas",
+    "strategic-framework": "Strategic Framework",
+    "annual-business-plan": "Annual Business Plan",
+    "performance-analytics": {
+      "title": "Performance Analytics",
+      "organization-structure": "Organization Structure",
+      "strategic-innovation-canvas": "Strategic Innovation Canvas",
+      "strategic-framework": "Strategic Framework",
+      "annual-business-plan": "Annual Business Plan",
+      "daily-sales-reports": "Daily Sales Reports"
+    },
+    "dashboards": {
+      "title": "Performance Dashboards",
+      "strategy-dashboard": "Strategy Dashboard",
+      "innovation-dashboard": "Innovation Dashboard",
+      "operation-dashboard": "Operation Dashboard",
+      "finance-dashboard": "Finance Dashboard",
+      "production-dashboard": "Production Dashboard",
+      "support-dashboard": "Support Dashboard"
+    },
+    "business-intelligence": "Business Intelligence"
   },
-  "innovation": {
-    "title": "Innovation",
-    "innovation-processes": "Innovation Processes"
-  },
-  "operations": {
-    "title": "Operations",
+  "operation": {
+    "title": "Operation",
     "departments": "Departments",
     "employees": "Employees",
     "appraisals": "Appraisals",
-    "leaves": "Leaves"
-  },
-  "finance": {
-    "title": "Finance",
-    "accounts": "Accounts",
-    "expenses": "Expenses",
-    "payment-terms": "Payment Terms",
-    "journal-entries": "Journal Entries",
-    "payroll": "Payroll",
-    "sales": {
-      "title": "Sales",
-      "quotations": "Quotations",
-      "sales-orders": "Sales Orders",
-      "sales-invoices": "Sales Invoices"
+    "leaves": "Leaves",
+    "strategy-implementation": {
+      "title": "Strategy Implementation",
+      "organization-structure": "Organization Structure",
+      "strategic-innovation-canvas": "Strategic Innovation Canvas",
+      "strategic-framework": "Strategic Framework",
+      "annual-business-plan": "Annual Business Plan"
     },
-    "procurement": {
-      "title": "Procurement",
-      "suppliers": "Suppliers",
-      "rfqs": "RFQs",
-      "supplier-quotations": "Supplier Quotations",
-      "purchase-orders": "Purchase Orders",
-      "purchase-invoices": "Purchase invoices"
-    }
-  },
-  "production": {
-    "title": "Production",
-    "garage": {
-      "title": "Garage",
-      "notifications": "Notifications",
-      "incomplete": "Incomplete",
-      "completed": "Completed",
-      "vehicles": "Vehicles",
-      "brands": "Brands",
-      "import": "Import Data",
-      "initiation": "Initiation",
-      "planning": "Planning",
-      "execution": "Execution",
-      "completion": "Completion"
+    "regulatory-framework": {
+      "title": "Regulatory Framework",
+      "staff-handbook": "Staff Handbook",
+      "working-environment": "Working Environment"
     },
-    "manufacturing": {
-      "title": "Manufacturing",
-      "production-plans": {
-        "title": "Production Plans",
-        "incomplete": "Incomplete",
-        "completed": "Completed"
-      },
-      "work-orders": {
-        "title": "Work Orders",
-        "incomplete": "Incomplete",
-        "completed": "Completed"
-      },
-      "job-cards": {
-        "title": "Job Cards",
-        "incomplete": "Incomplete",
-        "completed": "Completed"
-      },
-      "import": "Import",
-      "boms": "BoMs",
-      "operations": "Operations",
-      "workstations": "Work Stations",
-      "initiation": "Initiation",
-      "planning": "Planning",
-      "execution": "Execution",
-      "completion": "Completion"
+    "hr-management": {
+      "title": "HR Management",
+      "employee-information": "Employee Information",
+      "process-recruitment": "Process Recruitment",
+      "employees-development": "Employees Development",
+      "retention-plan": "Retention Plan",
+      "leaves": "Leaves",
+      "human-capital": "Human Capital",
+      "departments": "Departments"
     },
-    "consultancy": {
-      "title": "Consultancy",
-      "incomplete": "Incomplete",
-      "completed": "Completed",
-      "initiation": "Initiation",
-      "planning": "Planning",
-      "execution": "Execution",
-      "completion": "Completion"
-    },
-    "investments": {
-      "title": "Investment",
-      "incomplete": "Incomplete",
-      "completed": "Completed",
-      "initiation": "Ideation",
-      "planning": "Planning",
-      "execution": "Protoyping",
-      "completion": "Commercialization"
-    },
-    "pos": {
-      "title": "POS",
-      "shop": "Shops",
-      "branches": "Branches",
-      "invoices": "Invoices"
+    "pr": {
+      "title": "PR",
+      "utilise-tasks-and-projects": "Utilise Tasks and Projects"
     },
     "processes": {
       "title": "Processes",
       "task-management": "Task Management",
       "job-management": "Job Management",
       "project-management": "Project Management"
+    }
+  },
+  "production": {
+    "title": "Production",
+    "categories": "Categories",
+    "channels": {
+      "title": "Channels",
+      "garage": {
+        "title": "Garage",
+        "notifications": "Notifications",
+        "incomplete": "Incomplete",
+        "completed": "Completed",
+        "vehicles": "Vehicles",
+        "brands": "Brands",
+        "import": "Import Data",
+        "initiation": "Initiation",
+        "planning": "Planning",
+        "execution": "Execution",
+        "completion": "Completion"
+      },
+      "manufacturing": {
+        "title": "Manufacturing",
+        "production-plans": {
+          "title": "Production Plans",
+          "incomplete": "Incomplete",
+          "completed": "Completed"
+        },
+        "work-orders": {
+          "title": "Work Orders",
+          "incomplete": "Incomplete",
+          "completed": "Completed"
+        },
+        "job-cards": {
+          "title": "Job Cards",
+          "incomplete": "Incomplete",
+          "completed": "Completed"
+        },
+        "import": "Import",
+        "boms": "BoMs",
+        "operations": "Operations",
+        "workstations": "Work Stations",
+        "initiation": "Initiation",
+        "planning": "Planning",
+        "execution": "Execution",
+        "completion": "Completion"
+      },
+      "consultancy": {
+        "title": "Consultancy",
+        "incomplete": "Incomplete",
+        "completed": "Completed",
+        "initiation": "Initiation",
+        "planning": "Planning",
+        "execution": "Execution",
+        "completion": "Completion"
+      },
+      "investments": {
+        "title": "Investment",
+        "incomplete": "Incomplete",
+        "completed": "Completed",
+        "initiation": "Ideation",
+        "planning": "Planning",
+        "execution": "Protoyping",
+        "completion": "Commercialization"
+      },
+      "pos": {
+        "title": "POS",
+        "shop": "Shops",
+        "branches": "Branches",
+        "invoices": "Invoices"
+      },
+      "tasks": "Task Management",
+      "jobs": "Job Management",
+      "projects": "Project Management"
     },
-    "services": "Services",
-    "categories": "Segments",
+    "internal": {
+      "title": "Internal",
+      "tasks": "Task Management",
+      "projects": "Project Management"
+    },
+    "capacity": "Capacity",
+    "maintenance": {
+      "title": "Maintenance",
+      "scheduled-maintenance-and-failure": "Scheduled Maintenance & Failure",
+      "overall-equipment-effectiveness": "Overall Equipment Effectiveness"
+    },
+    "hse": {
+      "title": "HSE",
+      "hse-system": "HSE system",
+      "safety-training-and-licenses": "Safety Training & Licenses"
+    },
     "inventory": {
       "title": "Inventory",
       "stock": "Stock",
@@ -120,18 +160,121 @@
       "operations": "Operations"
     }
   },
-  "support": {
-    "title": "Support",
-    "customers": "Customers",
-    "barcodes": "Barcodes",
+  "finance": {
+    "title": "Finance",
+    "accounting": {
+      "title": "Accounting",
+      "journal-entries": "Journal Entries",
+      "sales-quotations": "Sales Quotations",
+      "sales-orders": "Sales Orders",
+      "sales-invoices": "Sales Invoices",
+      "suppliers": "Suppliers",
+      "rfqs": "RFQs",
+      "supplier-quotations": "Supplier Quotations",
+      "purchase-orders": "Purchase Orders",
+      "purchase-invoices": "Purchase invoices",
+      "expenses": "Expenses",
+      "payment-terms": "Payment Terms"
+    },
+    "banking": {
+      "title": "Banking",
+      "cash-entry": "Cash Entry",
+      "bank-reconciliation": "Bank Reconciliation",
+      "audit-report": "Audit Report"
+    },
+    "financing": {
+      "title": "Financing",
+      "loan-management": "Loan Management",
+      "equity": "Equity",
+      "dividend-payment-entry": "Dividend Payment Entry"
+    },
     "assets": {
       "title": "Assets",
-      "records": "Records",
-      "categories": "Categories",
-      "import": "Import"
+      "asset-categories": "Asset Categories",
+      "asset-purchase": "Asset Purchase",
+      "asset-sale": "Asset Sale",
+      "depreciations": "Depreciations",
+      "investments": "Investments"
+    },
+    "reports": {
+      "title": "Reports",
+      "general-ledger": "General Ledger",
+      "trial-balance": "Trial Balance",
+      "profit-and-loss": "Profit And Loss",
+      "balance-sheet": "Balance Sheet",
+      "cash-flow": "Cash Flow",
+      "bank-reconciliation": "Bank Reconciliation"
+    },
+    "accounts-settings": {
+      "title": "Accounts Settings",
+      "chart-of-accounts": "Chart of Accounts",
+      "tax-settings": "Tax Settings",
+      "fiscal-years-period": "Fiscal Years - Period",
+      "cost-centers": "Cost Centers",
+      "currency-and-exchange-rates": "Currency and Exchange Rates"
     }
   },
-
+  "innovation": {
+    "title": "Innovation",
+    "innovation-management-process": "Innovation Management Process",
+    "innovation-development-process": "Innovation Development Process",
+    "innovation-commercialization-process": "Innovation Commercialization Process",
+    "ip-management-process": "IP Management Process"
+  },
+  "support": {
+    "title": "Support",
+    "sales-and-marketing": {
+      "title": "Sales & Marketing",
+      "project-process": "Project Process",
+      "sales-channels": "Sales Channels",
+      "sales-team-by-channels-and-territories": "Sales team by channels and territories",
+      "sales-persons-with-annual-and-monthly-sales-target-and-achievements": "Sales Persons with annual and monthly sales target and achievements",
+      "market-share-region-wise": "Market Share region wise",
+      "brand-awareness-regionwise": "Brand Awareness regionwise",
+      "marketing-campaigns": "Marketing Campaigns",
+      "sales-partners-distributors": "Sales Partners/Distributors"
+    },
+    "crm": "CRM",
+    "customer-support": {
+      "title": "Customer Support",
+      "customers-list": "Customers List",
+      "issues-ticket": "Issues Ticket",
+      "customer-communication": "Customer Communication",
+      "service-level-agreement": "Service Level Agreement (SLA)",
+      "warranty": "Warranty",
+      "maintenance-visit": "Maintenance Visit",
+      "customer-feedback": "Customer Feedback",
+      "help-and-faqs": "Help and FAQs"
+    },
+    "inventory-and-stores-management": {
+      "title": "Inventory & Stores Management",
+      "item": "Item",
+      "item-operations": "Item Operations",
+      "warehouse": "Warehouse",
+      "stock-entry": "Stock Entry",
+      "purchase-invoice": "Purchase Invoice",
+      "delivery-notes": "Delivery Notes",
+      "stock-reconciliation": "Stock Reconciliation",
+      "material-request": "Material Request",
+      "barcodes": "Barcodes",
+      "stock-ledger-report": "Stock Ledger Report"
+    },
+    "transport-and-logistics": {
+      "title": "Transport & Logistics",
+      "delivery-trip": "Delivery Trip",
+      "vehicle": "Vehicle",
+      "driver": "Driver",
+      "shipment": "Shipment"
+    },
+    "supplier-management": {
+      "title": "Supplier Management",
+      "suppliers-information": "Suppliers Information"
+    },
+    "hospitality": {
+      "title": "Hospitality",
+      "tasks-and-projects": "Tasks and Projects"
+    }
+  },
   "utilities": {
     "title": "Utilities",
     "mind-map": "Mind Map",
@@ -139,7 +282,28 @@
     "meetings": "Meetings",
     "key-documents": "Key Documents",
     "translations": "Translations",
-    "issues": "Issues"
+    "issues": "Issues",
+    "processes": {
+      "Jobs": "Jobs",
+      "tasks": "Tasks",
+      "approvals": "Approvals",
+      "internal-scope-full": "Operational (OP)",
+      "external-scope-full": "Production (Prod)",
+      "internal-scope": "Op",
+      "external-scope": "Prod",
+      "external": {
+        "initiation": "Customer Details",
+        "planning": "Order Placement",
+        "execution": "Order Processing",
+        "completion": "Completion"
+      },
+      "internal": {
+        "initiation": "Initiation",
+        "planning": "Planning",
+        "execution": "Development",
+        "completion": "Implementation"
+      }
+    }
   },
   "about": "About",
   "portal": {
@@ -191,9 +355,6 @@
     "production": "Production",
     "support": "Support"
   },
-  "Jobs": "Jobs",
-  "tasks": "Tasks",
-  "approvals": "Approvals",
   "projects": "Projects",
   "ideas": "Ideas",
   "assets": "Assets",
@@ -201,6 +362,6 @@
   "equity": "Equity",
   "income": "Income",
   "expenses": "Expenses",
-  "dashboard": "Dashboard",
-  "dashboards": "Dashboards"
+  "dashboard": "Performance Dashboard",
+  "dashboards": "Performance Dashboards"
 }
