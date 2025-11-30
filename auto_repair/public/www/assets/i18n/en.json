@@ -273,6 +273,12 @@
     "hospitality": {
       "title": "Hospitality",
       "tasks-and-projects": "Tasks and Projects"
+    },
+    "services": {
+      "title": "Services"
+    },
+    "segments": {
+      "title": "Segments"
     }
   },
   "utilities": {
@@ -287,10 +293,10 @@
       "Jobs": "Jobs",
       "tasks": "Tasks",
       "approvals": "Approvals",
-      "internal-scope-full": "Operational (OP)",
-      "external-scope-full": "Production (Prod)",
-      "internal-scope": "Op",
-      "external-scope": "Prod",
+      "internal-scope-full": "Operational (O)",
+      "external-scope-full": "Production (P)",
+      "internal-scope": "O",
+      "external-scope": "P",
       "external": {
         "initiation": "Customer Details",
         "planning": "Order Placement",
@@ -313,10 +319,11 @@
     "calendar": "Calendar",
     "events": {
       "title": "Events",
-      "empty": "There are no events in the calendar. You can add a new event by clicking on the add button at the top right corner"
+      "subtitle": "No Pending Events!",
+      "instructions": "Please create a new event"
     },
     "notes": {
-      "title": "Notes",
+      "title": "Notes & Reminders",
       "subtitle": "No Pending Notes!",
       "instructions": "Please create a new note"
     },
