@@ -1,2 +1,0 @@
-import{Wb as i,Xb as a,mb as o,uc as c}from"./chunk-AR4XDI6V.js";import"./chunk-4672KUFR.js";var s=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-maintenance"]],decls:2,vars:0,template:function(n,m){n&1&&(i(0,"p"),c(1,` maintenance works!
-`),a())},encapsulation:2});let e=t;return e})();export{s as MaintenanceComponent};

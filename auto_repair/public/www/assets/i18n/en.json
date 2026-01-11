@@ -165,6 +165,7 @@
     "accounting": {
       "title": "Accounting",
       "journal-entries": "Journal Entries",
+      "payment-entries": "Payment Entries",
       "sales-quotations": "Sales Quotations",
       "sales-orders": "Sales Orders",
       "sales-invoices": "Sales Invoices",
@@ -237,7 +238,7 @@
     "crm": "CRM",
     "customer-support": {
       "title": "Customer Support",
-      "customers-list": "Customers List",
+      "customers": "Customers",
       "issues-ticket": "Issues Ticket",
       "customer-communication": "Customer Communication",
       "service-level-agreement": "Service Level Agreement (SLA)",
@@ -248,7 +249,7 @@
     },
     "inventory-and-stores-management": {
       "title": "Inventory & Stores Management",
-      "item": "Item",
+      "items": "Storeable Items",
       "item-operations": "Item Operations",
       "warehouse": "Warehouse",
       "stock-entry": "Stock Entry",
@@ -352,6 +353,11 @@
       "subtitle": "No Pending Projects!",
       "instructions": "Please create a new project"
     },
+    "transactions": {
+      "title": "Transactions",
+      "subtitle": "No Pending Transactions!",
+      "instructions": "Please create a new transaction"
+    },
     "statistics": "Statistics",
     "employee": "Employee",
     "department": "Department",
@@ -362,8 +368,11 @@
     "production": "Production",
     "support": "Support"
   },
+  "tasks": "Tasks",
+  "jobs": "Jobs",
   "projects": "Projects",
-  "ideas": "Ideas",
+  "transactions": "Transactions",
+  "events": "Events",
   "assets": "Assets",
   "liabilities": "Liabilities",
   "equity": "Equity",
