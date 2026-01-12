@@ -44,12 +44,9 @@ app_license = "MIT"
 # role_home_page = {
 #	"Role": "home_page"
 # }
-website_redirects = [
-    {"source": "/garage", "target": "/si6"},
-    {"source": "/garage/<path:path>", "target": "/si6"}
+website_route_rules = [
+    {"from_route": "/si6/<path:path>", "to_route": "si6"}
 ]
-website_route_rules = [{'from_route': '/si6/<path:name>', 'to_route': 'si6'},]
-
 # Generators
 # ----------
 
