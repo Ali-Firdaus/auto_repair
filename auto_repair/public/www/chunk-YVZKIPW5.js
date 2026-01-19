@@ -1,1 +1,0 @@
-import{a as i,d as o}from"./chunk-XK22QDSE.js";function u(e){return n=>{let t=(e?Math[e]:Math.trunc)(n);return t===0?0:t}}function f(e,n){return+o(e)-+o(n)}function a(e,n,r){let t=f(e,n)/i;return u(r==null?void 0:r.roundingMethod)(t)}export{u as a,a as b};
