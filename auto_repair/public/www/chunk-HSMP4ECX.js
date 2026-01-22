@@ -1,1 +1,0 @@
-import{a as i}from"./chunk-U4PKZRGW.js";import{a as f,d as t}from"./chunk-IQFAA7O4.js";function o(e,r){return+t(e)-+t(r)}function p(e,r,n){let d=o(e,r)/f;return i(n==null?void 0:n.roundingMethod)(d)}export{p as a};
