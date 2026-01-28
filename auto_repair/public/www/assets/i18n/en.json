@@ -83,13 +83,14 @@
       },
       "manufacturing": {
         "title": "Manufacturing",
+        "work-orders": {
+          "title": "Work Orders"
+        },
+        "operations": {
+          "title": "Operations"
+        },
         "production-plans": {
           "title": "Production Plans",
-          "incomplete": "Incomplete",
-          "completed": "Completed"
-        },
-        "work-orders": {
-          "title": "Work Orders",
           "incomplete": "Incomplete",
           "completed": "Completed"
         },
@@ -100,7 +101,6 @@
         },
         "import": "Import",
         "boms": "BoMs",
-        "operations": "Operations",
         "workstations": "Work Stations",
         "initiation": "Initiation",
         "planning": "Planning",
@@ -310,6 +310,12 @@
         "planning": "Planning",
         "execution": "Development",
         "completion": "Implementation"
+      },
+      "manufacturing": {
+        "initiation": "Order Preperation",
+        "planning": "Planning",
+        "execution": "Production",
+        "completion": "Delivery"
       }
     }
   },
