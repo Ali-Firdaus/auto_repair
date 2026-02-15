@@ -217,10 +217,17 @@
   },
   "innovation": {
     "title": "Innovation",
+    "innovation-process": "Innovation Process",
     "innovation-management-process": "Innovation Management Process",
     "innovation-development-process": "Innovation Development Process",
     "innovation-commercialization-process": "Innovation Commercialization Process",
-    "ip-management-process": "IP Management Process"
+    "ip-management-process": "IP Management Process",
+    "process": {
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Development",
+      "completion": "Completion"
+    }
   },
   "support": {
     "title": "Support",
