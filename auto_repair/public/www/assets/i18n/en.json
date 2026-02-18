@@ -86,7 +86,7 @@
         "work-orders": {
           "title": "Work Orders"
         },
-        "operations": {
+        "production-operations": {
           "title": "Operations"
         },
         "production-plans": {
@@ -221,13 +221,7 @@
     "innovation-management-process": "Innovation Management Process",
     "innovation-development-process": "Innovation Development Process",
     "innovation-commercialization-process": "Innovation Commercialization Process",
-    "ip-management-process": "IP Management Process",
-    "process": {
-      "initiation": "Initiation",
-      "planning": "Planning",
-      "execution": "Development",
-      "completion": "Completion"
-    }
+    "ip-management-process": "IP Management Process"
   },
   "support": {
     "title": "Support",
@@ -323,6 +317,12 @@
         "planning": "Planning",
         "execution": "Production",
         "completion": "Delivery"
+      },
+      "innovation": {
+        "initiation": "Initiation",
+        "planning": "Planning",
+        "execution": "Development",
+        "completion": "Completion"
       }
     }
   },
