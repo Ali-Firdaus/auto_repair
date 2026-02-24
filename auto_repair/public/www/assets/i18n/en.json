@@ -48,7 +48,14 @@
       "process-recruitment": "Process Recruitment",
       "employees-development": "Employees Development",
       "retention-plan": "Retention Plan",
-      "leaves": "Leaves",
+      "leaves": {
+        "title": "Leaves",
+        "leave-applications": "Applications",
+        "leave-types": "Types",
+        "leave-policies": "Policies",
+        "leave-policy-assignments": "Policy Assignments",
+        "leave-allocations": "Allocations"
+      },
       "human-capital": "Human Capital",
       "departments": "Departments"
     },
