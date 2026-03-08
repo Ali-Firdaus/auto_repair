@@ -1,1 +1,0 @@
-import{b as e,c as a,g as t,h as o}from"./chunk-ZQQP26ZW.js";var _=a({providedIn:"root"},o({leaveTypeFields:["name","leave_type_name","max_leaves_allowed","is_carry_forward","is_lwp","is_ppl","is_compensatory","earned_leave_frequency"],leave_type:void 0}),t(r=>({setLeaveType(p){e(r,{leave_type:p})}})));export{_ as a};

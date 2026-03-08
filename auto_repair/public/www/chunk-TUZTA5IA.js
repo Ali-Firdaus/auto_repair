@@ -1,0 +1,1 @@
+import{b as e,c as t,g as i,h as o}from"./chunk-CEMJ5ZY6.js";var r=t({providedIn:"root"},o({itemFields:["name","item_code","item_name","item_group","stock_uom","sales_uom","purchase_uom","is_stock_item","valuation_rate","standard_rate","image","description"],item:void 0,serviceItemLoading:!1,serviceItem:void 0}),i(m=>({setItem:a=>{e(m,{item:a})}})));export{r as a};

@@ -1,2 +1,0 @@
-import{Wb as i,Xb as a,mb as o,uc as c}from"./chunk-7UBGYJFH.js";import"./chunk-4672KUFR.js";var l=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-allocations"]],decls:2,vars:0,template:function(n,s){n&1&&(i(0,"p"),c(1,` allocations works!
-`),a())},encapsulation:2});let e=t;return e})();export{l as AllocationsComponent};

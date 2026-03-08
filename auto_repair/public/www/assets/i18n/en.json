@@ -50,11 +50,12 @@
       "retention-plan": "Retention Plan",
       "leaves": {
         "title": "Leaves",
-        "leave-applications": "Applications",
-        "leave-types": "Types",
-        "leave-policies": "Policies",
-        "leave-policy-assignments": "Policy Assignments",
-        "leave-allocations": "Allocations"
+        "holiday-lists": "Holiday Lists",
+        "leave-periods": "Leave Periods",
+        "leave-types": "Leave Types",
+        "leave-policies": "Leave Policies",
+        "leave-policy-assignments": "Leave Policy Assignments",
+        "leave-applications": "Leave Applications"
       },
       "human-capital": "Human Capital",
       "departments": "Departments"
@@ -68,6 +69,10 @@
       "task-management": "Task Management",
       "job-management": "Job Management",
       "project-management": "Project Management"
+    },
+    "reports": {
+      "title": "Reports",
+      "leave-balance-summary-report": "Leave Balance Summary Report"
     }
   },
   "production": {
@@ -206,12 +211,15 @@
     },
     "reports": {
       "title": "Reports",
-      "general-ledger": "General Ledger",
-      "trial-balance": "Trial Balance",
-      "profit-and-loss": "Profit And Loss",
-      "balance-sheet": "Balance Sheet",
-      "cash-flow": "Cash Flow",
-      "bank-reconciliation": "Bank Reconciliation"
+      "general-ledger-report": "General Ledger",
+      "trial-balance-report": "Trial Balance",
+      "profit-and-loss-report": "Profit And Loss",
+      "balance-sheet-report": "Balance Sheet",
+      "cash-flow-report": "Cash Flow",
+      "payment-entries-report": "Payment Entries",
+      "bank-reconciliation-report": "Bank Reconciliation",
+      "purchase-analytics-report": "Purchase Analytics",
+      "sales-analytics-report": "Sales Analytics"
     },
     "accounts-settings": {
       "title": "Accounts Settings",
@@ -243,7 +251,15 @@
       "marketing-campaigns": "Marketing Campaigns",
       "sales-partners-distributors": "Sales Partners/Distributors"
     },
-    "crm": "CRM",
+    "crm": {
+      "title": "CRM",
+      "leads": "Leads",
+      "opportunities": "Opportunities",
+      "contacts": "Contacts",
+      "accounts": "Accounts",
+      "sales-pipeline": "Sales Pipeline",
+      "customer-communication": "Customer Communication"
+    },
     "customer-support": {
       "title": "Customer Support",
       "customers": "Customers",
@@ -266,8 +282,7 @@
       "purchase-receipts": "Purchase Receipts",
       "stock-reconciliation": "Stock Reconciliation",
       "material-request": "Material Request",
-      "barcodes": "Barcodes",
-      "stock-ledger-report": "Stock Ledger Report"
+      "barcodes": "Barcodes"
     },
     "transport-and-logistics": {
       "title": "Transport & Logistics",
@@ -289,6 +304,14 @@
     },
     "segments": {
       "title": "Segments"
+    },
+    "reports": {
+      "title": "Reports",
+      "stock-ledger-report": "Stock Ledger Report",
+      "stock-analytics-report": "Stock Analytics Report",
+      "stock-balance-report": "Stock Balance Report",
+      "stock-reconciliation-report": "Stock Reconciliation Report",
+      "customer-acquisition-report": "Customer Acquisition Report"
     }
   },
   "utilities": {
@@ -296,6 +319,7 @@
     "mind-map": "Mind Map",
     "knowledge-hub": "Knowledge Hub",
     "meetings": "Meetings",
+    "si6-bot": "SI6 Bot",
     "key-documents": "Key Documents",
     "translations": "Translations",
     "issues": "Issues",
