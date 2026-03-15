@@ -153,5 +153,54 @@
   "approvals": "تاییدیه ها",
   "ideas": "ایده ها",
   "dashboard": "داشبورد",
-  "dashboards": "داشبوردها"
+  "dashboards": "داشبوردها",
+  "sales-quotations": {
+    "draft": "پیش نویس",
+    "grand-total": "جمع کل",
+    "currency": {
+      "omr": "OMR"
+    }
+  },
+  "sales-quotation": {
+    "information": {
+      "title": "اطلاعات پیش فاکتور فروش"
+    },
+    "fields": {
+      "customer-name": "نام مشتری",
+      "mobile-number": "شماره موبایل",
+      "tax-template": "الگوی مالیات",
+      "approver": "تایید کننده"
+    },
+    "errors": {
+      "invalid-customer-name": "نام مشتری نامعتبر است",
+      "invalid-mobile-number": "شماره موبایل نامعتبر است",
+      "invalid-amount": "مقدار نامعتبر است"
+    },
+    "payment-terms": {
+      "title": "شرایط پرداخت",
+      "term": "شرط پرداخت"
+    },
+    "items": {
+      "title": "آیتم ها"
+    },
+    "summary": {
+      "title": "خلاصه",
+      "net-total": "جمع خالص",
+      "vat": "مالیات بر ارزش افزوده",
+      "discount": "تخفیف",
+      "approved-by": "تایید شده توسط",
+      "on": "در"
+    },
+    "actions": {
+      "create": "ایجاد",
+      "update": "به روز رسانی",
+      "request-approval": "درخواست تایید",
+      "approve": "تایید",
+      "create-sales-order": "ایجاد سفارش فروش"
+    },
+    "approval": {
+      "pending-title": "در انتظار",
+      "pending-instructions": "این پیش فاکتور در انتظار تایید است"
+    }
+  }
 }

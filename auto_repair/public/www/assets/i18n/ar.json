@@ -1,14 +1,492 @@
-January 2025
-7/1/2025
-شركة مسقط للحلول التقنية
-
-January 2025
-29/1/2025 
-شركة مسقط للاعمال العامة
-
-Feburary 2025
-5/2/2025
-شركة مسقط للحلول التقنية
-
-19/2/2025
-شركة النحلة
+{
+  "strategy": {
+    "title": "الاستراتيجية",
+    "organization-structure": "الهيكل التنظيمي",
+    "strategic-innovation-canvas": "لوحة الابتكار الاستراتيجي",
+    "strategic-framework": "الإطار الاستراتيجي",
+    "annual-business-plan": "خطة الأعمال السنوية",
+    "performance-analytics": {
+      "title": "تحليلات الأداء",
+      "organization-structure": "الهيكل التنظيمي",
+      "strategic-innovation-canvas": "لوحة الابتكار الاستراتيجي",
+      "strategic-framework": "الإطار الاستراتيجي",
+      "annual-business-plan": "خطة الأعمال السنوية",
+      "daily-sales-reports": "تقارير المبيعات اليومية"
+    },
+    "dashboards": {
+      "title": "لوحات الأداء",
+      "strategy-dashboard": "لوحة الاستراتيجية",
+      "innovation-dashboard": "لوحة الابتكار",
+      "operation-dashboard": "لوحة العمليات",
+      "finance-dashboard": "لوحة المالية",
+      "production-dashboard": "لوحة الإنتاج",
+      "support-dashboard": "لوحة الدعم"
+    },
+    "business-intelligence": "ذكاء الأعمال"
+  },
+  "operation": {
+    "title": "العمليات",
+    "departments": "الأقسام",
+    "employees": "الموظفون",
+    "appraisals": "التقييمات",
+    "leaves": "الإجازات",
+    "strategy-implementation": {
+      "title": "تنفيذ الاستراتيجية",
+      "organization-structure": "الهيكل التنظيمي",
+      "strategic-innovation-canvas": "لوحة الابتكار الاستراتيجي",
+      "strategic-framework": "الإطار الاستراتيجي",
+      "annual-business-plan": "خطة الأعمال السنوية"
+    },
+    "regulatory-framework": {
+      "title": "الإطار التنظيمي",
+      "staff-handbook": "دليل الموظفين",
+      "working-environment": "بيئة العمل"
+    },
+    "hr-management": {
+      "title": "إدارة الموارد البشرية",
+      "employees": "الموظفون",
+      "process-recruitment": "عملية التوظيف",
+      "employees-development": "تطوير الموظفين",
+      "retention-plan": "خطة الاستبقاء",
+      "leaves": {
+        "title": "الإجازات",
+        "holiday-lists": "قوائم العطلات",
+        "leave-periods": "فترات الإجازة",
+        "leave-types": "أنواع الإجازات",
+        "leave-policies": "سياسات الإجازات",
+        "leave-policy-assignments": "تعيينات سياسة الإجازات",
+        "leave-applications": "طلبات الإجازة"
+      },
+      "human-capital": "رأس المال البشري",
+      "departments": "الأقسام"
+    },
+    "pr": {
+      "title": "العلاقات العامة",
+      "utilise-tasks-and-projects": "الاستفادة من المهام والمشاريع"
+    },
+    "processes": {
+      "title": "العمليات",
+      "task-management": "إدارة المهام",
+      "job-management": "إدارة الوظائف",
+      "project-management": "إدارة المشاريع"
+    },
+    "reports": {
+      "title": "التقارير",
+      "leave-balance-summary-report": "تقرير ملخص رصيد الإجازات"
+    }
+  },
+  "production": {
+    "title": "الإنتاج",
+    "categories": "الفئات",
+    "channels": {
+      "title": "القنوات",
+      "garage": {
+        "title": "المرآب",
+        "notifications": "الإشعارات",
+        "incomplete": "غير مكتمل",
+        "completed": "مكتمل",
+        "vehicles": "المركبات",
+        "brands": "العلامات التجارية",
+        "import": "استيراد البيانات",
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التنفيذ",
+        "completion": "الإكمال"
+      },
+      "manufacturing": {
+        "title": "التصنيع",
+        "work-orders": {
+          "title": "أوامر العمل"
+        },
+        "production-operations": {
+          "title": "العمليات"
+        },
+        "production-plans": {
+          "title": "خطط الإنتاج",
+          "incomplete": "غير مكتمل",
+          "completed": "مكتمل"
+        },
+        "job-cards": {
+          "title": "بطاقات العمل",
+          "incomplete": "غير مكتمل",
+          "completed": "مكتمل"
+        },
+        "import": "استيراد",
+        "boms": "قوائم المواد",
+        "workstations": "محطات العمل",
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التنفيذ",
+        "completion": "الإكمال"
+      },
+      "consultancy": {
+        "title": "الاستشارات",
+        "incomplete": "غير مكتمل",
+        "completed": "مكتمل",
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التنفيذ",
+        "completion": "الإكمال"
+      },
+      "investments": {
+        "title": "الاستثمار",
+        "incomplete": "غير مكتمل",
+        "completed": "مكتمل",
+        "initiation": "طرح الفكرة",
+        "planning": "التخطيط",
+        "execution": "النمذجة الأولية",
+        "completion": "التسويق"
+      },
+      "pos": {
+        "title": "نقطة البيع",
+        "shop": "المتاجر",
+        "branches": "الفروع",
+        "invoices": "الفواتير"
+      },
+      "tasks": "إدارة المهام",
+      "jobs": "إدارة الوظائف",
+      "projects": "إدارة المشاريع"
+    },
+    "internal": {
+      "title": "داخلي",
+      "tasks": "إدارة المهام",
+      "projects": "إدارة المشاريع"
+    },
+    "capacity": "الطاقة الاستيعابية",
+    "maintenance": {
+      "title": "الصيانة",
+      "scheduled-maintenance-and-failure": "الصيانة المجدولة والأعطال",
+      "overall-equipment-effectiveness": "الفعالية الإجمالية للمعدات"
+    },
+    "hse": {
+      "title": "الصحة والسلامة والبيئة",
+      "hse-system": "نظام الصحة والسلامة والبيئة",
+      "safety-training-and-licenses": "التدريب والتراخيص السلامة"
+    },
+    "inventory": {
+      "title": "المخزون",
+      "stock": "المخزون",
+      "entries": "قيود المخزون",
+      "material-requests": "طلبات المواد",
+      "delivery-notes": "إشعارات التسليم",
+      "operations": "العمليات"
+    }
+  },
+  "finance": {
+    "title": "المالية",
+    "accounting": {
+      "title": "المحاسبة",
+      "journal-entries": "قيود اليومية",
+      "payment-entries": "قيود الدفع",
+      "sales-orders": "أوامر المبيعات",
+      "sales-invoices": "فواتير المبيعات",
+      "suppliers": "الموردون",
+      "rfqs": "طلبات عروض الأسعار",
+      "supplier-quotations": "عروض أسعار الموردين",
+      "purchase-orders": "أوامر الشراء",
+      "purchase-invoices": "فواتير الشراء",
+      "expenses": "المصروفات",
+      "payment-terms": "شروط الدفع",
+      "sales-quotations": {
+        "title": "عروض أسعار المبيعات",
+        "new-sales-quotation": "عرض سعر مبيعات جديد",
+        "draft": "مسودة",
+        "submitted": "مُعتمد",
+        "grand-total": "الإجمالي الكلي",
+        "currency": {
+          "omr": "ر.ع"
+        },
+        "empty-state": {
+          "subtitle": "القائمة فارغة",
+          "instructions": "يرجى تطبيق عوامل التصفية المناسبة لعرض عروض الأسعار المتاحة"
+        },
+        "sales-quotation": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "معلومات عرض سعر المبيعات"
+          },
+          "fields": {
+            "customer-name": "اسم العميل",
+            "mobile-number": "رقم الهاتف المحمول",
+            "tax-template": "قالب الضريبة",
+            "approver": "الموافق"
+          },
+          "errors": {
+            "invalid-customer-name": "اسم العميل غير صالح",
+            "invalid-mobile-number": "رقم الهاتف المحمول غير صالح",
+            "invalid-amount": "المبلغ غير صالح"
+          },
+          "payment-terms": {
+            "title": "شروط الدفع",
+            "term": "شرط الدفع"
+          },
+          "items": {
+            "title": "العناصر"
+          },
+          "summary": {
+            "title": "الملخص",
+            "net-total": "الصافي الإجمالي",
+            "vat": "ضريبة القيمة المضافة",
+            "discount": "الخصم",
+            "approved-by": "تمت الموافقة بواسطة",
+            "on": "بتاريخ"
+          },
+          "actions": {
+            "create": "إنشاء",
+            "update": "تحديث",
+            "request-approval": "طلب الموافقة",
+            "approve": "موافقة",
+            "create-sales-order": "إنشاء أمر مبيعات"
+          },
+          "approval": {
+            "pending-title": "معلق",
+            "pending-instructions": "عرض السعر هذا بانتظار الموافقة"
+          }
+        }
+      }
+    },
+    "banking": {
+      "title": "الخدمات المصرفية",
+      "cash-entry": "قيد نقدي",
+      "bank-reconciliation": "التسوية البنكية",
+      "audit-report": "تقرير التدقيق"
+    },
+    "financing": {
+      "title": "التمويل",
+      "loan-management": "إدارة القروض",
+      "equity": "حقوق الملكية",
+      "dividend-payment-entry": "قيد دفع الأرباح"
+    },
+    "assets": {
+      "title": "الأصول",
+      "asset-categories": "فئات الأصول",
+      "asset-purchase": "شراء الأصول",
+      "asset-sale": "بيع الأصول",
+      "depreciations": "الاستهلاكات",
+      "investments": "الاستثمارات"
+    },
+    "reports": {
+      "title": "التقارير",
+      "general-ledger-report": "الأستاذ العام",
+      "trial-balance-report": "ميزان المراجعة",
+      "profit-and-loss-report": "الأرباح والخسائر",
+      "balance-sheet-report": "الميزانية العمومية",
+      "cash-flow-report": "التدفقات النقدية",
+      "payment-entries-report": "قيود الدفع",
+      "bank-reconciliation-report": "التسوية البنكية",
+      "purchase-analytics-report": "تحليلات المشتريات",
+      "sales-analytics-report": "تحليلات المبيعات"
+    },
+    "accounts-settings": {
+      "title": "إعدادات الحسابات",
+      "chart-of-accounts": "دليل الحسابات",
+      "tax-settings": "إعدادات الضرائب",
+      "fiscal-years-period": "السنوات المالية - الفترة",
+      "cost-centers": "مراكز التكلفة",
+      "currency-and-exchange-rates": "العملة وأسعار الصرف"
+    }
+  },
+  "innovation": {
+    "title": "الابتكار",
+    "innovation-process": "عملية الابتكار",
+    "innovation-management-process": "عملية إدارة الابتكار",
+    "innovation-development-process": "عملية تطوير الابتكار",
+    "innovation-commercialization-process": "عملية تسويق الابتكار",
+    "ip-management-process": "عملية إدارة الملكية الفكرية"
+  },
+  "support": {
+    "title": "الدعم",
+    "sales-and-marketing": {
+      "title": "المبيعات والتسويق",
+      "project-process": "عملية المشروع",
+      "sales-channels": "قنوات المبيعات",
+      "sales-team-by-channels-and-territories": "فريق المبيعات حسب القنوات والمناطق",
+      "sales-persons-with-annual-and-monthly-sales-target-and-achievements": "مندوبو المبيعات بأهداف وإنجازات سنوية وشهرية",
+      "market-share-region-wise": "الحصة السوقية حسب المنطقة",
+      "brand-awareness-regionwise": "الوعي بالعلامة التجارية حسب المنطقة",
+      "marketing-campaigns": "الحملات التسويقية",
+      "sales-partners-distributors": "شركاء المبيعات/الموزعون"
+    },
+    "crm": {
+      "title": "إدارة علاقات العملاء",
+      "leads": "العملاء المحتملون",
+      "opportunities": "الفرص",
+      "contacts": "جهات الاتصال",
+      "accounts": "الحسابات",
+      "sales-pipeline": "مسار المبيعات",
+      "customer-communication": "التواصل مع العملاء"
+    },
+    "customer-support": {
+      "title": "دعم العملاء",
+      "customers": "العملاء",
+      "issues-ticket": "تذاكر المشاكل",
+      "customer-communication": "التواصل مع العملاء",
+      "service-level-agreement": "اتفاقية مستوى الخدمة (SLA)",
+      "warranty": "الضمان",
+      "maintenance-visit": "زيارة الصيانة",
+      "customer-feedback": "ملاحظات العملاء",
+      "help-and-faqs": "المساعدة والأسئلة الشائعة"
+    },
+    "inventory-and-stores-management": {
+      "title": "إدارة المخزون والمستودعات",
+      "items": "عناصر المخزون",
+      "item-operations": "عمليات التصنيع",
+      "warehouses": "المستودعات",
+      "stock-entry": "قيود المخزون",
+      "purchase-invoice": "فاتورة الشراء",
+      "delivery-notes": "إشعارات التسليم",
+      "purchase-receipts": "استلامات الشراء",
+      "stock-reconciliation": "تسوية المخزون",
+      "material-request": "طلب مواد",
+      "barcodes": "الباركود"
+    },
+    "transport-and-logistics": {
+      "title": "النقل والخدمات اللوجستية",
+      "delivery-trip": "رحلة التسليم",
+      "vehicle": "المركبة",
+      "driver": "السائق",
+      "shipment": "الشحنة"
+    },
+    "supplier-management": {
+      "title": "إدارة الموردين",
+      "suppliers-information": "معلومات الموردين"
+    },
+    "hospitality": {
+      "title": "الضيافة",
+      "tasks-and-projects": "المهام والمشاريع"
+    },
+    "services": {
+      "title": "الخدمات"
+    },
+    "segments": {
+      "title": "القطاعات"
+    },
+    "reports": {
+      "title": "التقارير",
+      "stock-ledger-report": "تقرير دفتر المخزون",
+      "stock-analytics-report": "تقرير تحليلات المخزون",
+      "stock-balance-report": "تقرير رصيد المخزون",
+      "stock-reconciliation-report": "تقرير تسوية المخزون",
+      "customer-acquisition-report": "تقرير اكتساب العملاء"
+    }
+  },
+  "utilities": {
+    "title": "الأدوات",
+    "mind-map": "الخريطة الذهنية",
+    "knowledge-hub": "مركز المعرفة",
+    "meetings": "الاجتماعات",
+    "si6-bot": "روبوت SI6",
+    "key-documents": "المستندات الرئيسية",
+    "translations": "الترجمات",
+    "issues": "المشكلات",
+    "processes": {
+      "Jobs": "الوظائف",
+      "tasks": "المهام",
+      "approvals": "الموافقات",
+      "internal-scope-full": "تشغيلي (O)",
+      "external-scope-full": "إنتاجي (P)",
+      "internal-scope": "O",
+      "external-scope": "P",
+      "external": {
+        "initiation": "تفاصيل العميل",
+        "planning": "تقديم الطلب",
+        "execution": "معالجة الطلب",
+        "completion": "الإكمال"
+      },
+      "internal": {
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التطوير",
+        "completion": "التنفيذ"
+      },
+      "manufacturing": {
+        "initiation": "تحضير الطلب",
+        "planning": "التخطيط",
+        "execution": "الإنتاج",
+        "completion": "التسليم"
+      },
+      "innovation": {
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التطوير",
+        "completion": "الإكمال"
+      }
+    }
+  },
+  "about": "حول",
+  "portal": {
+    "search": "بحث",
+    "in-progress": "قيد التنفيذ",
+    "overdue": "متأخر",
+    "calendar": "التقويم",
+    "events": {
+      "title": "الفعاليات",
+      "subtitle": "لا توجد فعاليات معلقة!",
+      "instructions": "يرجى إنشاء فعالية جديدة"
+    },
+    "notes": {
+      "title": "الملاحظات والتذكيرات",
+      "subtitle": "لا توجد ملاحظات معلقة!",
+      "instructions": "يرجى إنشاء ملاحظة جديدة"
+    },
+    "jobs": {
+      "title": "الوظائف",
+      "subtitle": "لا توجد وظائف معلقة!",
+      "instructions": "يرجى إنشاء وظيفة جديدة"
+    },
+    "wos": {
+      "title": "أوامر العمل",
+      "subtitle": "لا توجد أوامر عمل معلقة!",
+      "instructions": "يرجى إنشاء أمر عمل جديد"
+    },
+    "tasks": {
+      "title": "المهام",
+      "subtitle": "لا توجد مهام معلقة!",
+      "instructions": "يرجى إنشاء مهمة جديدة"
+    },
+    "approvals": {
+      "title": "الموافقات",
+      "subtitle": "لا توجد موافقات معلقة!",
+      "instructions": "يرجى إنشاء موافقة جديدة"
+    },
+    "projects": {
+      "title": "المشاريع",
+      "subtitle": "لا توجد مشاريع معلقة!",
+      "instructions": "يرجى إنشاء مشروع جديد"
+    },
+    "transactions": {
+      "title": "المعاملات",
+      "subtitle": "لا توجد معاملات معلقة!",
+      "instructions": "يرجى إنشاء معاملة جديدة"
+    },
+    "statistics": "الإحصاءات",
+    "employee": "الموظف",
+    "department": "القسم",
+    "strategy": "الاستراتيجية",
+    "innovation": "الابتكار",
+    "operations": "العمليات",
+    "finance": "المالية",
+    "production": "الإنتاج",
+    "support": "الدعم"
+  },
+  "common": {
+    "result-suffix": "نتيجة/نتائج",
+    "previous": "السابق",
+    "next": "التالي",
+    "pagination": "ترقيم الصفحات",
+    "page": "صفحة",
+    "youre-on-page": "أنت على الصفحة"
+  },
+  "tasks": "المهام",
+  "jobs": "الوظائف",
+  "projects": "المشاريع",
+  "transactions": "المعاملات",
+  "events": "الفعاليات",
+  "assets": "الأصول",
+  "liabilities": "الخصوم",
+  "equity": "حقوق الملكية",
+  "income": "الإيرادات",
+  "expenses": "المصروفات",
+  "dashboard": "لوحة الأداء",
+  "dashboards": "لوحات الأداء"
+}

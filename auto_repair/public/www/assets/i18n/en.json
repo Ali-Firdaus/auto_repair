@@ -178,7 +178,6 @@
       "title": "Accounting",
       "journal-entries": "Journal Entries",
       "payment-entries": "Payment Entries",
-      "sales-quotations": "Sales Quotations",
       "sales-orders": "Sales Orders",
       "sales-invoices": "Sales Invoices",
       "suppliers": "Suppliers",
@@ -187,7 +186,64 @@
       "purchase-orders": "Purchase Orders",
       "purchase-invoices": "Purchase invoices",
       "expenses": "Expenses",
-      "payment-terms": "Payment Terms"
+      "payment-terms": "Payment Terms",
+      "sales-quotations": {
+        "title": "Sales Quotations",
+        "new-sales-quotation": "New Sales Quotation",
+        "draft": "Draft",
+        "submitted": "Submitted",
+        "grand-total": "Grand Total",
+        "currency": {
+          "omr": "OMR"
+        },
+        "empty-state": {
+          "subtitle": "List Empty",
+          "instructions": "Please apply proper filters to see available quotations"
+        },
+        "sales-quotation": {
+          "omr": "OMR",
+          "information": {
+            "title": "Sales Quotation Information"
+          },
+          "fields": {
+            "customer-name": "Customer Name",
+            "mobile-number": "Mobile Number",
+            "tax-template": "Tax Template",
+            "approver": "Approver"
+          },
+          "errors": {
+            "invalid-customer-name": "Invalid customer name",
+            "invalid-mobile-number": "Invalid mobile number",
+            "invalid-amount": "Invalid amount"
+          },
+          "payment-terms": {
+            "title": "Payment Terms",
+            "term": "Payment Term"
+          },
+          "items": {
+            "title": "Items"
+          },
+          "summary": {
+            "title": "Summary",
+            "net-total": "Net Total",
+            "vat": "VAT",
+            "discount": "Discount",
+            "approved-by": "Approved by",
+            "on": "on"
+          },
+          "actions": {
+            "create": "Create",
+            "update": "Update",
+            "request-approval": "Request Approval",
+            "approve": "Approve",
+            "create-sales-order": "Create Sales Order"
+          },
+          "approval": {
+            "pending-title": "Pending",
+            "pending-instructions": "This Quotation is waiting for approval"
+          }
+        }
+      }
     },
     "banking": {
       "title": "Banking",
@@ -323,6 +379,7 @@
     "key-documents": "Key Documents",
     "translations": "Translations",
     "issues": "Issues",
+    "transactions": "Transactions",
     "processes": {
       "Jobs": "Jobs",
       "tasks": "Tasks",
@@ -413,16 +470,14 @@
     "production": "Production",
     "support": "Support"
   },
-  "tasks": "Tasks",
-  "jobs": "Jobs",
-  "projects": "Projects",
-  "transactions": "Transactions",
-  "events": "Events",
-  "assets": "Assets",
-  "liabilities": "Liabilities",
-  "equity": "Equity",
-  "income": "Income",
-  "expenses": "Expenses",
+  "common": {
+    "result-suffix": "result(s)",
+    "previous": "Previous",
+    "next": "Next",
+    "pagination": "Pagination",
+    "page": "page",
+    "youre-on-page": "You're on page"
+  },
   "dashboard": "Performance Dashboard",
   "dashboards": "Performance Dashboards"
 }

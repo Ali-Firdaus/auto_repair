@@ -1,0 +1,1 @@
+import{lb as o}from"./chunk-53IFIEHM.js";var s=(()=>{let t=class t{transform(n){let r=n.replace(/-/g," ").split(" ");for(var e=0;e<r.length;e++)r[e]=r[e].charAt(0).toUpperCase()+r[e].slice(1);return r.join(" ")}};t.\u0275fac=function(r){return new(r||t)},t.\u0275pipe=o({name:"removeHyphen",type:t,pure:!0});let a=t;return a})();export{s as a};
