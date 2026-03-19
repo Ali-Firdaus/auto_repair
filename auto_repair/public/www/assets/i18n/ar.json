@@ -4,6 +4,41 @@
     "organization-structure": "الهيكل التنظيمي",
     "strategic-innovation-canvas": "لوحة الابتكار الاستراتيجي",
     "strategic-framework": "الإطار الاستراتيجي",
+    "strategic-framework-view": {
+      "toggles": {
+        "systems-performance": "أداء الأنظمة",
+        "kpis-targets": "أهداف مؤشرات الأداء",
+        "kpis-weights": "أوزان مؤشرات الأداء",
+        "pillars-weights": "أوزان الركائز",
+        "systems-weights": "أوزان الأنظمة"
+      },
+      "systems": {
+        "overall": "الإجمالي",
+        "update-button": "تحديث",
+        "update-confirm-header": "تحديث أوزان الأنظمة؟",
+        "confirm": "تأكيد",
+        "cancel": "إلغاء",
+        "loading": "جاري التحميل",
+        "update-success": "تم تحديث أوزان الأنظمة بنجاح!",
+        "action-failed-header": "فشل الإجراء",
+        "update-failed-message": "تعذر تحديث أوزان الأنظمة!",
+        "ok": "موافق"
+      },
+      "pillars": {
+        "system-label": "النظام",
+        "all": "الكل",
+        "update-button": "تحديث الركائز",
+        "loading": "جار تحديث الركائز...",
+        "update-failed-message": "تعذر تحديث الركائز!",
+        "update-weights-confirm-header": "تحديث أوزان الركائز؟",
+        "update-weights-success": "تم تحديث أوزان الركائز بنجاح!",
+        "update-weights-failed-message": "تعذر تحديث أوزان الركائز!"
+      },
+      "empty-state": {
+        "subtitle": "إجراء مطلوب!",
+        "instructions": "يرجى استيراد مؤشرات الأداء من الإعدادات للوصول إلى الإطار الاستراتيجي."
+      }
+    },
     "annual-business-plan": "خطة الأعمال السنوية",
     "performance-analytics": {
       "title": "تحليلات الأداء",
@@ -330,6 +365,16 @@
     "inventory-and-stores-management": {
       "title": "إدارة المخزون والمستودعات",
       "items": "عناصر المخزون",
+      "warehouse": "المستودع",
+      "all-warehouses": "كل المستودعات",
+      "category": "الفئة",
+      "all-categories": "كل الفئات",
+      "trading": "تجاري",
+      "products": "المنتجات",
+      "raw-material": "مواد خام",
+      "new-item": "عنصر جديد",
+      "empty-subtitle": "القائمة فارغة",
+      "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لعرض قطع الغيار المتاحة",
       "item-operations": "عمليات التصنيع",
       "warehouses": "المستودعات",
       "stock-entry": "قيود المخزون",
@@ -379,6 +424,7 @@
     "key-documents": "المستندات الرئيسية",
     "translations": "الترجمات",
     "issues": "المشكلات",
+    "transactions": "Transactions",
     "processes": {
       "Jobs": "الوظائف",
       "tasks": "المهام",
@@ -477,16 +523,6 @@
     "page": "صفحة",
     "youre-on-page": "أنت على الصفحة"
   },
-  "tasks": "المهام",
-  "jobs": "الوظائف",
-  "projects": "المشاريع",
-  "transactions": "المعاملات",
-  "events": "الفعاليات",
-  "assets": "الأصول",
-  "liabilities": "الخصوم",
-  "equity": "حقوق الملكية",
-  "income": "الإيرادات",
-  "expenses": "المصروفات",
   "dashboard": "لوحة الأداء",
   "dashboards": "لوحات الأداء"
 }

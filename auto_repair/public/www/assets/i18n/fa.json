@@ -1,97 +1,418 @@
 {
   "strategy": {
     "title": "استراتژی",
-    "business-intelligence": "هوش تجاری",
-    "daily-reports": "گزارش های روزانه",
-    "strategic-framework": "چارچوب استراتژیک"
+    "organization-structure": "ساختار سازمانی",
+    "strategic-innovation-canvas": "بوم نوآوری استراتژیک",
+    "strategic-framework": "چارچوب استراتژیک",
+    "strategic-framework-view": {
+      "toggles": {
+        "systems-performance": "عملکرد سیستم ها",
+        "kpis-targets": "اهداف شاخص های کلیدی عملکرد",
+        "kpis-weights": "اوزان شاخص های کلیدی عملکرد",
+        "pillars-weights": "اوزان ارکان",
+        "systems-weights": "اوزان سیستم ها"
+      },
+      "systems": {
+        "overall": "جمع کل",
+        "update-button": "به روز رسانی",
+        "update-confirm-header": "اوزان سیستم ها به روز شوند؟",
+        "confirm": "تایید",
+        "cancel": "انصراف",
+        "loading": "در حال بارگذاری",
+        "update-success": "اوزان سیستم ها با موفقیت به روز شد!",
+        "action-failed-header": "انجام عملیات ناموفق بود",
+        "update-failed-message": "به روز رسانی اوزان سیستم ها ممکن نشد!",
+        "ok": "باشه"
+      },
+      "pillars": {
+        "system-label": "سیستم",
+        "all": "همه",
+        "update-button": "به روز رسانی ارکان",
+        "loading": "در حال به روز رسانی ارکان...",
+        "update-failed-message": "به روز رسانی ارکان ممکن نشد!",
+        "update-weights-confirm-header": "اوزان ارکان به روز شوند؟",
+        "update-weights-success": "اوزان ارکان با موفقیت به روز شد!",
+        "update-weights-failed-message": "به روز رسانی اوزان ارکان ممکن نشد!"
+      },
+      "empty-state": {
+        "subtitle": "اقدام لازم است!",
+        "instructions": "لطفا برای دسترسی به چارچوب استراتژیک، شاخص های کلیدی عملکرد را از تنظیمات وارد کنید."
+      }
+    },
+    "annual-business-plan": "طرح کسب و کار سالانه",
+    "performance-analytics": {
+      "title": "تجزیه و تحلیل عملکرد",
+      "organization-structure": "ساختار سازمانی",
+      "strategic-innovation-canvas": "بوم نوآوری استراتژیک",
+      "strategic-framework": "چارچوب استراتژیک",
+      "annual-business-plan": "طرح کسب و کار سالانه",
+      "daily-sales-reports": "گزارش های فروش روزانه"
+    },
+    "dashboards": {
+      "title": "داشبوردهای عملکرد",
+      "strategy-dashboard": "داشبورد استراتژی",
+      "innovation-dashboard": "داشبورد نوآوری",
+      "operation-dashboard": "داشبورد عملیات",
+      "finance-dashboard": "داشبورد مالی",
+      "production-dashboard": "داشبورد تولید",
+      "support-dashboard": "داشبورد پشتیبانی"
+    },
+    "business-intelligence": "هوش تجاری"
   },
-  "innovation": {
-    "title": "نوآوری",
-    "innovation-processes": "فرآیندهای نوآوری"
-  },
-  "operations": {
+  "operation": {
     "title": "عملیات",
+    "departments": "بخش ها",
     "employees": "کارمندان",
     "appraisals": "ارزیابی ها",
-    "leaves": "برگ"
-  },
-  "finance": {
-    "title": "امور مالی",
-    "expenses": "مخارج",
-    "payment-terms": "شرایط پرداخت",
-    "payroll": "حقوق و دستمزد",
-    "procurement": {
-      "title": "تدارکات",
-      "suppliers": "تامین کنندگان",
-      "rfqs": "درخواست برای نقل قول",
-      "supplier-quotations": "نقل قول های تامین کننده",
-      "purchase-orders": "سفارشات خرید"
+    "leaves": "برگ",
+    "strategy-implementation": {
+      "title": "پیاده سازی استراتژی",
+      "organization-structure": "ساختار سازمانی",
+      "strategic-innovation-canvas": "بوم نوآوری استراتژیک",
+      "strategic-framework": "چارچوب استراتژیک",
+      "annual-business-plan": "طرح کسب و کار سالانه"
+    },
+    "regulatory-framework": {
+      "title": "چارچوب نظارتی",
+      "staff-handbook": "دفترچه راهنمای کارکنان",
+      "working-environment": "محیط کار"
+    },
+    "hr-management": {
+      "title": "مدیریت منابع انسانی",
+      "employees": "کارمندان",
+      "process-recruitment": "فرآیند استخدام",
+      "employees-development": "توسعه کارکنان",
+      "retention-plan": "طرح حفظ",
+      "leaves": {
+        "title": "برگ",
+        "holiday-lists": "لیست تعطیلات",
+        "leave-periods": "ترک دوره ها",
+        "leave-types": "ترک انواع",
+        "leave-policies": "ترک سیاست ها",
+        "leave-policy-assignments": "تکالیف خط مشی را ترک کنید",
+        "leave-applications": "برنامه ها را ترک کنید"
+      },
+      "human-capital": "سرمایه انسانی",
+      "departments": "بخش ها"
+    },
+    "pr": {
+      "title": "روابط عمومی",
+      "utilise-tasks-and-projects": "از وظایف و پروژه ها استفاده کنید"
+    },
+    "processes": {
+      "title": "فرآیندها",
+      "task-management": "مدیریت وظایف",
+      "job-management": "مدیریت شغل",
+      "project-management": "مدیریت پروژه"
+    },
+    "reports": {
+      "title": "گزارش ها",
+      "leave-balance-summary-report": "گزارش خلاصه موجودی ترک"
     }
   },
   "production": {
     "title": "تولید",
-    "garage": {
-      "title": "گاراژ",
-      "notifications": "اطلاعیه ها",
-      "incomplete": "ناقص",
-      "completed": "تکمیل شد",
-      "vehicles": "وسایل نقلیه",
-      "import-brands": "برندهای وارداتی",
-      "import-garage-data": "وارد کردن داده های گاراژ"
-    },
-    "manufacturing": {
-      "title": "تولید",
-      "production-plans": {
-        "title": "طرح های تولید",
+    "categories": "دسته بندی ها",
+    "channels": {
+      "title": "کانال ها",
+      "garage": {
+        "title": "گاراژ",
+        "notifications": "اطلاعیه ها",
         "incomplete": "ناقص",
-        "completed": "تکمیل شد"
+        "completed": "تکمیل شد",
+        "vehicles": "وسایل نقلیه",
+        "brands": "برندها",
+        "import": "وارد کردن داده ها",
+        "initiation": "شروع",
+        "planning": "برنامه ریزی",
+        "execution": "اعدام",
+        "completion": "تکمیل"
       },
-      "work-orders": {
-        "title": "سفارشات کاری",
+      "manufacturing": {
+        "title": "تولید",
+        "work-orders": {
+          "title": "سفارشات کاری"
+        },
+        "production-operations": {
+          "title": "عملیات"
+        },
+        "production-plans": {
+          "title": "طرح های تولید",
+          "incomplete": "ناقص",
+          "completed": "تکمیل شد"
+        },
+        "job-cards": {
+          "title": "کارت های شغلی",
+          "incomplete": "ناقص",
+          "completed": "تکمیل شد"
+        },
+        "import": "واردات",
+        "boms": "صورت مواد اولیه",
+        "workstations": "ایستگاه های کاری",
+        "initiation": "شروع",
+        "planning": "برنامه ریزی",
+        "execution": "اعدام",
+        "completion": "تکمیل"
+      },
+      "consultancy": {
+        "title": "مشاوره",
         "incomplete": "ناقص",
-        "completed": "تکمیل شد"
+        "completed": "تکمیل شد",
+        "initiation": "شروع",
+        "planning": "برنامه ریزی",
+        "execution": "اعدام",
+        "completion": "تکمیل"
       },
-      "job-cards": {
-        "title": "کارت های شغلی",
+      "investments": {
+        "title": "سرمایه گذاری",
         "incomplete": "ناقص",
-        "completed": "تکمیل شد"
+        "completed": "تکمیل شد",
+        "initiation": "ایده پردازی",
+        "planning": "برنامه ریزی",
+        "execution": "نمونه سازی",
+        "completion": "تجاری سازی"
       },
-      "boms": "صورتحساب مواد",
-      "operations": "عملیات"
+      "pos": {
+        "title": "نقطه فروش",
+        "shop": "مغازه ها",
+        "branches": "شاخه ها",
+        "invoices": "فاکتورها"
+      },
+      "tasks": "مدیریت وظایف",
+      "jobs": "مدیریت شغل",
+      "projects": "مدیریت پروژه"
     },
-    "consultancy": {
-      "title": "مشاوره",
-      "incomplete": "ناقص",
-      "completed": "تکمیل شد"
+    "internal": {
+      "title": "داخلی",
+      "tasks": "مدیریت وظایف",
+      "projects": "مدیریت پروژه"
     },
-    "investments": {
-      "title": "سرمایه گذاری",
-      "incomplete": "ناقص",
-      "completed": "تکمیل شد"
+    "capacity": "ظرفیت",
+    "maintenance": {
+      "title": "تعمیر و نگهداری",
+      "scheduled-maintenance-and-failure": "تعمیر و نگهداری برنامه ریزی شده و خرابی",
+      "overall-equipment-effectiveness": "اثربخشی کلی تجهیزات"
     },
-    "pos": {
-      "title": "نقطه فروش",
-      "shop": "مغازه ها",
-      "branches": "شاخه ها",
-      "transactions": "معاملات"
+    "hse": {
+      "title": "بهداشت، ایمنی و محیط زیست",
+      "hse-system": "سیستم بهداشت، ایمنی و محیط زیست",
+      "safety-training-and-licenses": "آموزش ایمنی و مجوزها"
     },
-    "sales": {}
-  },
-  "support": {
-    "title": "پشتیبانی کنید",
-    "customers": "مشتریان",
-    "services": "خدمات",
     "inventory": {
       "title": "موجودی",
       "stock": "سهام",
-      "entries": "ورودی ها",
-      "material-requests": "درخواست مواد"
-    },
-    "sales": {
-      "title": "فروش",
-      "quotations": "نقل قول های فروش",
+      "entries": "ورودی های سهام",
+      "material-requests": "درخواست مواد",
+      "delivery-notes": "یادداشت های تحویل",
+      "operations": "عملیات"
+    }
+  },
+  "finance": {
+    "title": "امور مالی",
+    "accounting": {
+      "title": "حسابداری",
+      "journal-entries": "مدخل های مجله",
+      "payment-entries": "ورودی های پرداخت",
       "sales-orders": "سفارشات فروش",
-      "sales-invoices": "Sales Invoices"
+      "sales-invoices": "فاکتورهای فروش",
+      "suppliers": "تامین کنندگان",
+      "rfqs": "درخواست های قیمت",
+      "supplier-quotations": "نقل قول های تامین کننده",
+      "purchase-orders": "سفارشات خرید",
+      "purchase-invoices": "فاکتورهای خرید",
+      "expenses": "مخارج",
+      "payment-terms": "شرایط پرداخت",
+      "sales-quotations": {
+        "title": "نقل قول های فروش",
+        "new-sales-quotation": "قیمت فروش جدید",
+        "draft": "پیش نویس",
+        "submitted": "ارسال شد",
+        "grand-total": "کل بزرگ",
+        "currency": {
+          "omr": "ر.ع"
+        },
+        "empty-state": {
+          "subtitle": "لیست خالی است",
+          "instructions": "لطفا فیلترهای مناسب را برای مشاهده نقل قول های موجود اعمال کنید"
+        },
+        "sales-quotation": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "اطلاعات قیمت فروش"
+          },
+          "fields": {
+            "customer-name": "نام مشتری",
+            "mobile-number": "شماره موبایل",
+            "tax-template": "الگوی مالیاتی",
+            "approver": "تایید کننده"
+          },
+          "errors": {
+            "invalid-customer-name": "نام مشتری نامعتبر است",
+            "invalid-mobile-number": "شماره موبایل نامعتبر است",
+            "invalid-amount": "مقدار نامعتبر"
+          },
+          "payment-terms": {
+            "title": "شرایط پرداخت",
+            "term": "مدت پرداخت"
+          },
+          "items": {
+            "title": "موارد"
+          },
+          "summary": {
+            "title": "خلاصه",
+            "net-total": "کل خالص",
+            "vat": "مالیات بر ارزش افزوده",
+            "discount": "تخفیف",
+            "approved-by": "تایید شده توسط",
+            "on": "در"
+          },
+          "actions": {
+            "create": "ایجاد کنید",
+            "update": "به روز رسانی",
+            "request-approval": "درخواست تایید",
+            "approve": "تایید کنید",
+            "create-sales-order": "ایجاد سفارش فروش"
+          },
+          "approval": {
+            "pending-title": "در انتظار",
+            "pending-instructions": "این نقل قول در انتظار تایید است"
+          }
+        }
+      }
+    },
+    "banking": {
+      "title": "بانکداری",
+      "cash-entry": "ورود نقدی",
+      "bank-reconciliation": "تسویه حساب بانکی",
+      "audit-report": "گزارش حسابرسی"
+    },
+    "financing": {
+      "title": "تامین مالی",
+      "loan-management": "مدیریت وام",
+      "equity": "حقوق صاحبان سهام",
+      "dividend-payment-entry": "ورودی پرداخت سود سهام"
+    },
+    "assets": {
+      "title": "دارایی ها",
+      "asset-categories": "دسته بندی دارایی ها",
+      "asset-purchase": "خرید دارایی",
+      "asset-sale": "فروش دارایی",
+      "depreciations": "استهلاک ها",
+      "investments": "سرمایه گذاری ها"
+    },
+    "reports": {
+      "title": "گزارش ها",
+      "general-ledger-report": "دفتر کل",
+      "trial-balance-report": "تراز آزمایشی",
+      "profit-and-loss-report": "سود و زیان",
+      "balance-sheet-report": "ترازنامه",
+      "cash-flow-report": "جریان نقدی",
+      "payment-entries-report": "ورودی های پرداخت",
+      "bank-reconciliation-report": "تسویه حساب بانکی",
+      "purchase-analytics-report": "خرید تجزیه و تحلیل",
+      "sales-analytics-report": "تجزیه و تحلیل فروش"
+    },
+    "accounts-settings": {
+      "title": "تنظیمات حساب ها",
+      "chart-of-accounts": "نمودار حساب",
+      "tax-settings": "تنظیمات مالیاتی",
+      "fiscal-years-period": "سالهای مالی - دوره",
+      "cost-centers": "مراکز هزینه",
+      "currency-and-exchange-rates": "ارز و نرخ ارز"
+    }
+  },
+  "innovation": {
+    "title": "نوآوری",
+    "innovation-process": "فرآیند نوآوری",
+    "innovation-management-process": "فرآیند مدیریت نوآوری",
+    "innovation-development-process": "فرآیند توسعه نوآوری",
+    "innovation-commercialization-process": "فرآیند تجاری سازی نوآوری",
+    "ip-management-process": "فرآیند مدیریت مالکیت فکری"
+  },
+  "support": {
+    "title": "پشتیبانی کنید",
+    "sales-and-marketing": {
+      "title": "فروش و بازاریابی",
+      "project-process": "فرآیند پروژه",
+      "sales-channels": "کانال های فروش",
+      "sales-team-by-channels-and-territories": "تیم فروش بر اساس کانال ها و مناطق",
+      "sales-persons-with-annual-and-monthly-sales-target-and-achievements": "افراد فروش با هدف و دستاوردهای فروش سالانه و ماهانه",
+      "market-share-region-wise": "سهم بازار منطقه عاقلانه",
+      "brand-awareness-regionwise": "آگاهی از برند در سطح منطقه",
+      "marketing-campaigns": "کمپین های بازاریابی",
+      "sales-partners-distributors": "شرکای فروش / توزیع کنندگان"
+    },
+    "crm": {
+      "title": "مدیریت ارتباط با مشتری",
+      "leads": "منجر می شود",
+      "opportunities": "فرصت ها",
+      "contacts": "مخاطبین",
+      "accounts": "حساب ها",
+      "sales-pipeline": "خط لوله فروش",
+      "customer-communication": "ارتباط با مشتری"
+    },
+    "customer-support": {
+      "title": "پشتیبانی مشتری",
+      "customers": "مشتریان",
+      "issues-ticket": "بلیط صادر می کند",
+      "customer-communication": "ارتباط با مشتری",
+      "service-level-agreement": "توافق نامه سطح خدمات",
+      "warranty": "گارانتی",
+      "maintenance-visit": "بازدید تعمیر و نگهداری",
+      "customer-feedback": "بازخورد مشتری",
+      "help-and-faqs": "راهنما و سوالات متداول"
+    },
+    "inventory-and-stores-management": {
+      "title": "مدیریت موجودی و انبار",
+      "items": "اقلام موجودی",
+      "warehouse": "انبار",
+      "all-warehouses": "همه انبارها",
+      "category": "دسته بندی",
+      "all-categories": "همه دسته بندی ها",
+      "trading": "تجاری",
+      "products": "محصولات",
+      "raw-material": "مواد اولیه",
+      "new-item": "قلم جدید",
+      "empty-subtitle": "فهرست خالی است",
+      "empty-instructions": "لطفاً فیلترهای مناسب را اعمال کنید تا قطعات یدکی موجود نمایش داده شود",
+      "item-operations": "عملیات ساخت",
+      "warehouses": "انبارها",
+      "stock-entry": "ورودی های سهام",
+      "purchase-invoice": "فاکتور خرید",
+      "delivery-notes": "یادداشت های تحویل",
+      "purchase-receipts": "رسید خرید",
+      "stock-reconciliation": "تطبیق سهام",
+      "material-request": "درخواست مواد",
+      "barcodes": "بارکدها"
+    },
+    "transport-and-logistics": {
+      "title": "حمل و نقل و تدارکات",
+      "delivery-trip": "سفر تحویل",
+      "vehicle": "وسیله نقلیه",
+      "driver": "راننده",
+      "shipment": "حمل و نقل"
+    },
+    "supplier-management": {
+      "title": "مدیریت تامین کننده",
+      "suppliers-information": "اطلاعات تامین کنندگان"
+    },
+    "hospitality": {
+      "title": "مهمان نوازی",
+      "tasks-and-projects": "وظایف و پروژه ها"
+    },
+    "services": {
+      "title": "خدمات"
+    },
+    "segments": {
+      "title": "بخش ها"
+    },
+    "reports": {
+      "title": "گزارش ها",
+      "stock-ledger-report": "گزارش دفتر کل سهام",
+      "stock-analytics-report": "گزارش تجزیه و تحلیل سهام",
+      "stock-balance-report": "گزارش موجودی سهام",
+      "stock-reconciliation-report": "گزارش تطبیق سهام",
+      "customer-acquisition-report": "گزارش جذب مشتری"
     }
   },
   "utilities": {
@@ -99,8 +420,44 @@
     "mind-map": "نقشه ذهنی",
     "knowledge-hub": "مرکز دانش",
     "meetings": "جلسات",
+    "si6-bot": "ربات اس آی 6",
     "key-documents": "اسناد کلیدی",
-    "translations": "ترجمه ها"
+    "translations": "ترجمه ها",
+    "issues": "مسائل",
+    "transactions": "معاملات",
+    "processes": {
+      "Jobs": "مشاغل",
+      "tasks": "وظایف",
+      "approvals": "تاییدیه ها",
+      "internal-scope-full": "عملیاتی (او)",
+      "external-scope-full": "تولیدی (پی)",
+      "internal-scope": "او",
+      "external-scope": "پ",
+      "external": {
+        "initiation": "جزئیات مشتری",
+        "planning": "ثبت سفارش",
+        "execution": "پردازش سفارش",
+        "completion": "تکمیل"
+      },
+      "internal": {
+        "initiation": "شروع",
+        "planning": "برنامه ریزی",
+        "execution": "توسعه",
+        "completion": "پیاده سازی"
+      },
+      "manufacturing": {
+        "initiation": "آماده سازی سفارش",
+        "planning": "برنامه ریزی",
+        "execution": "تولید",
+        "completion": "تحویل"
+      },
+      "innovation": {
+        "initiation": "شروع",
+        "planning": "برنامه ریزی",
+        "execution": "توسعه",
+        "completion": "تکمیل"
+      }
+    }
   },
   "about": "درباره",
   "portal": {
@@ -110,7 +467,8 @@
     "calendar": "تقویم",
     "events": {
       "title": "رویدادها",
-      "empty": "هیچ رویدادی در تقویم وجود ندارد. با کلیک بر روی دکمه افزودن در گوشه سمت راست بالا می توانید یک رویداد جدید اضافه کنید"
+      "subtitle": "هیچ رویداد معلقی وجود ندارد!",
+      "instructions": "لطفا یک رویداد جدید ایجاد کنید"
     },
     "notes": {
       "title": "یادداشت ها",
@@ -121,6 +479,11 @@
       "title": "مشاغل",
       "subtitle": "بدون شغل معلق!",
       "instructions": "لطفا یک شغل جدید ایجاد کنید"
+    },
+    "wos": {
+      "title": "سفارشات کاری",
+      "subtitle": "بدون دستور کار معلق!",
+      "instructions": "لطفاً یک سفارش کاری جدید ایجاد کنید"
     },
     "tasks": {
       "title": "وظایف",
@@ -137,6 +500,11 @@
       "subtitle": "بدون پروژه معلق!",
       "instructions": "لطفا یک پروژه جدید ایجاد کنید"
     },
+    "transactions": {
+      "title": "معاملات",
+      "subtitle": "بدون معامله معلق!",
+      "instructions": "لطفا یک تراکنش جدید ایجاد کنید"
+    },
     "statistics": "آمار",
     "employee": "کارمند",
     "department": "بخش",
@@ -147,60 +515,14 @@
     "production": "تولید",
     "support": "پشتیبانی کنید"
   },
-  "jobs": "مشاغل",
-  "tasks": "وظایف",
-  "projects": "پروژه ها",
-  "approvals": "تاییدیه ها",
-  "ideas": "ایده ها",
-  "dashboard": "داشبورد",
-  "dashboards": "داشبوردها",
-  "sales-quotations": {
-    "draft": "پیش نویس",
-    "grand-total": "جمع کل",
-    "currency": {
-      "omr": "OMR"
-    }
+  "common": {
+    "result-suffix": "نتیجه(های)",
+    "previous": "قبلی",
+    "next": "بعدی",
+    "pagination": "صفحه بندی",
+    "page": "صفحه",
+    "youre-on-page": "شما در صفحه هستید"
   },
-  "sales-quotation": {
-    "information": {
-      "title": "اطلاعات پیش فاکتور فروش"
-    },
-    "fields": {
-      "customer-name": "نام مشتری",
-      "mobile-number": "شماره موبایل",
-      "tax-template": "الگوی مالیات",
-      "approver": "تایید کننده"
-    },
-    "errors": {
-      "invalid-customer-name": "نام مشتری نامعتبر است",
-      "invalid-mobile-number": "شماره موبایل نامعتبر است",
-      "invalid-amount": "مقدار نامعتبر است"
-    },
-    "payment-terms": {
-      "title": "شرایط پرداخت",
-      "term": "شرط پرداخت"
-    },
-    "items": {
-      "title": "آیتم ها"
-    },
-    "summary": {
-      "title": "خلاصه",
-      "net-total": "جمع خالص",
-      "vat": "مالیات بر ارزش افزوده",
-      "discount": "تخفیف",
-      "approved-by": "تایید شده توسط",
-      "on": "در"
-    },
-    "actions": {
-      "create": "ایجاد",
-      "update": "به روز رسانی",
-      "request-approval": "درخواست تایید",
-      "approve": "تایید",
-      "create-sales-order": "ایجاد سفارش فروش"
-    },
-    "approval": {
-      "pending-title": "در انتظار",
-      "pending-instructions": "این پیش فاکتور در انتظار تایید است"
-    }
-  }
+  "dashboard": "داشبورد",
+  "dashboards": "داشبوردها"
 }

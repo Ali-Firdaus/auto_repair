@@ -4,6 +4,41 @@
     "organization-structure": "Organization Structure",
     "strategic-innovation-canvas": "Strategic Innovation Canvas",
     "strategic-framework": "Strategic Framework",
+    "strategic-framework-view": {
+      "toggles": {
+        "systems-performance": "Systems Performance",
+        "kpis-targets": "KPIs Targets",
+        "kpis-weights": "KPIs Weights",
+        "pillars-weights": "Pillars Weights",
+        "systems-weights": "Systems Weights"
+      },
+      "systems": {
+        "overall": "Overall",
+        "update-button": "Update",
+        "update-confirm-header": "Update Systems Weights?",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "loading": "Loading",
+        "update-success": "Systems Weights Updated Successfully!",
+        "action-failed-header": "Action Failed",
+        "update-failed-message": "Could Not Update Systems Weights!",
+        "ok": "OK"
+      },
+      "pillars": {
+        "system-label": "System",
+        "all": "All",
+        "update-button": "Update Pillars",
+        "loading": "Updating Pillars...",
+        "update-failed-message": "Could Not Update Pillars!",
+        "update-weights-confirm-header": "Update Pillars Weights?",
+        "update-weights-success": "Pillars Weights Updated Successfully!",
+        "update-weights-failed-message": "Could Not Update Pillars Weights!"
+      },
+      "empty-state": {
+        "subtitle": "Action Required!",
+        "instructions": "Please import KPIs from settings to access the Strategic Framework."
+      }
+    },
     "annual-business-plan": "Annual Business Plan",
     "performance-analytics": {
       "title": "Performance Analytics",
@@ -330,6 +365,16 @@
     "inventory-and-stores-management": {
       "title": "Inventory & Stores Management",
       "items": "Stock Items",
+      "warehouse": "Warehouse",
+      "all-warehouses": "All Warehouses",
+      "category": "Category",
+      "all-categories": "All Categories",
+      "trading": "Trading",
+      "products": "Products",
+      "raw-material": "Raw Material",
+      "new-item": "New Item",
+      "empty-subtitle": "List Empty",
+      "empty-instructions": "Please apply proper filters to see available spare parts",
       "item-operations": "Fabrication Operations",
       "warehouses": "Warehouses",
       "stock-entry": "Stock Entries",
