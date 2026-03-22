@@ -37,6 +37,27 @@
       "empty-state": {
         "subtitle": "اقدام لازم است!",
         "instructions": "لطفا برای دسترسی به چارچوب استراتژیک، شاخص های کلیدی عملکرد را از تنظیمات وارد کنید."
+      },
+      "kpis": {
+        "update-button": "به روز رسانی شاخص ها"
+      },
+      "targets": {
+        "templates": {
+          "strategy": "الگوی استراتژی",
+          "innovation": "الگوی نوآوری",
+          "operations": "الگوی عملیات",
+          "finance": "الگوی مالی",
+          "production": "الگوی تولید",
+          "support": "الگوی پشتیبانی"
+        }
+      },
+      "performance": {
+        "templates": {
+          "strategy": "الگوی استراتژی",
+          "finance": "الگوی مالی",
+          "production": "الگوی تولید",
+          "support": "الگوی پشتیبانی"
+        }
       }
     },
     "annual-business-plan": "طرح کسب و کار سالانه",
@@ -46,7 +67,63 @@
       "strategic-innovation-canvas": "بوم نوآوری استراتژیک",
       "strategic-framework": "چارچوب استراتژیک",
       "annual-business-plan": "طرح کسب و کار سالانه",
-      "daily-sales-reports": "گزارش های فروش روزانه"
+      "daily-sales-reports": "گزارش های فروش روزانه",
+      "daily-sales-reports-view": {
+        "select-date-range": "انتخاب بازه تاریخی",
+        "start-date": "تاریخ شروع",
+        "end-date": "تاریخ پایان",
+        "tabs": {
+          "details": "جزئیات",
+          "payments": "پرداخت ها",
+          "finance": "مالی",
+          "jobs": "وظایف"
+        },
+        "empty-state": {
+          "subtitle": "موجود نیست!",
+          "instructions": "برای فیلترهای انتخاب شده داده ای موجود نیست."
+        },
+        "details": {
+          "columns": {
+            "no": "ردیف",
+            "invoice": "فاکتور",
+            "item": "آیتم",
+            "qty": "تعداد",
+            "total-amount": "مبلغ کل",
+            "total-cost": "هزینه کل",
+            "gross-profit": "سود ناخالص"
+          }
+        },
+        "payments": {
+          "columns": {
+            "date": "تاریخ",
+            "payment-method": "روش پرداخت",
+            "net-total-omr": "جمع خالص (ر.ع)",
+            "taxes-omr": "مالیات (ر.ع)",
+            "grand-total-omr": "جمع کل (ر.ع)",
+            "owner": "مالک"
+          }
+        },
+        "jobs": {
+          "columns": {
+            "parameter": "پارامتر",
+            "value": "مقدار"
+          }
+        },
+        "finance": {
+          "columns": {
+            "title": "عنوان",
+            "amount-omr": "مبلغ (ر.ع)"
+          }
+        }
+      },
+      "strategic-framework-view": {
+        "company-performance": "عملکرد شرکت",
+        "performance": {
+          "zero-to-90": "0-90%",
+          "ninety-to-95": "90-95%",
+          "above-95": "بالاتر از 95%"
+        }
+      }
     },
     "dashboards": {
       "title": "داشبوردهای عملکرد",
@@ -57,10 +134,50 @@
       "production-dashboard": "داشبورد تولید",
       "support-dashboard": "داشبورد پشتیبانی"
     },
-    "business-intelligence": "هوش تجاری"
+    "business-intelligence": "هوش تجاری",
+    "menu": {
+      "daily-reports": "گزارش های روزانه"
+    },
+    "common": {
+      "year": "سال",
+      "system": "سیستم",
+      "pillar": "ستون",
+      "update-existing": "به روز رسانی موارد موجود",
+      "import-data": "وارد کردن داده",
+      "search": "جستجو",
+      "select-page": "انتخاب صفحه",
+      "select-option": "انتخاب یک گزینه",
+      "this-month": "این ماه",
+      "accumulated": "تجمعی",
+      "view-table": "نمایش جدول",
+      "kpi": "شاخص کلیدی",
+      "weight": "وزن",
+      "keys": "کلیدها",
+      "target": "هدف",
+      "achieved": "محقق شده",
+      "efficiency": "کارایی",
+      "cumulative": "تجمعی",
+      "months": {
+        "jan": "ژان",
+        "feb": "فور",
+        "mar": "مار",
+        "apr": "آور",
+        "may": "مه",
+        "jun": "ژوئن",
+        "jul": "ژوئیه",
+        "aug": "اوت",
+        "sep": "سپت",
+        "oct": "اکت",
+        "nov": "نوام",
+        "dec": "دسام"
+      }
+    }
   },
   "operation": {
     "title": "عملیات",
+    "menu": {
+      "system": "عملیات"
+    },
     "departments": "بخش ها",
     "employees": "کارمندان",
     "appraisals": "ارزیابی ها",
@@ -70,7 +187,26 @@
       "organization-structure": "ساختار سازمانی",
       "strategic-innovation-canvas": "بوم نوآوری استراتژیک",
       "strategic-framework": "چارچوب استراتژیک",
-      "annual-business-plan": "طرح کسب و کار سالانه"
+      "annual-business-plan": "طرح کسب و کار سالانه",
+      "company-performance": "عملکرد شرکت",
+      "systems-performance": "عملکرد سیستم ها",
+      "action-required": "اقدام لازم است!",
+      "kpi-import-instructions": "لطفا شاخص های کلیدی عملکرد را از تنظیمات وارد کنید تا به چارچوب استراتژیک دسترسی داشته باشید.",
+      "year": "سال",
+      "system": "سیستم",
+      "pillar": "ستون",
+      "this-month": "این ماه",
+      "accumulated": "تجمعی",
+      "select-option": "یک گزینه را انتخاب کنید",
+      "view-table": "نمایش جدول",
+      "kpi": "شاخص کلیدی عملکرد",
+      "weight": "وزن",
+      "keys": "کلیدها",
+      "target": "هدف",
+      "achieved": "دستیابی",
+      "efficiency": "کارایی",
+      "cumulative": "تجمعی",
+      "select-page": "انتخاب صفحه"
     },
     "regulatory-framework": {
       "title": "چارچوب نظارتی",
@@ -80,24 +216,42 @@
     "hr-management": {
       "title": "مدیریت منابع انسانی",
       "employees": "کارمندان",
+      "new-employee": "کارمند جدید",
+      "new-department": "بخش جدید",
+      "list-empty": "لیست خالی است",
+      "employees-empty-instructions": "لطفا یک کارمند را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا کارمندان موجود نمایش داده شوند",
+      "departments-empty-instructions": "لطفا یک بخش را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا بخش های موجود نمایش داده شوند",
       "process-recruitment": "فرآیند استخدام",
       "employees-development": "توسعه کارکنان",
       "retention-plan": "طرح حفظ",
       "leaves": {
         "title": "برگ",
         "holiday-lists": "لیست تعطیلات",
+        "new-holiday-list": "لیست تعطیلات جدید",
+        "holiday-lists-empty-instructions": "لطفا یک لیست تعطیلات را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا لیست های تعطیلات موجود نمایش داده شوند",
         "leave-periods": "ترک دوره ها",
+        "new-leave-period": "دوره مرخصی جدید",
+        "leave-periods-empty-instructions": "لطفا یک دوره مرخصی را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا دوره های مرخصی موجود نمایش داده شوند",
         "leave-types": "ترک انواع",
+        "new-leave-type": "نوع مرخصی جدید",
+        "leave-types-empty-instructions": "لطفا یک نوع مرخصی را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا انواع مرخصی موجود نمایش داده شوند",
         "leave-policies": "ترک سیاست ها",
+        "new-leave-policy": "سیاست مرخصی جدید",
+        "leave-policies-empty-instructions": "لطفا یک سیاست مرخصی را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا سیاست های مرخصی موجود نمایش داده شوند",
         "leave-policy-assignments": "تکالیف خط مشی را ترک کنید",
-        "leave-applications": "برنامه ها را ترک کنید"
+        "new-leave-policy-assignment": "تخصیص سیاست مرخصی جدید",
+        "leave-policy-assignments-empty-instructions": "لطفا یک تخصیص سیاست مرخصی را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا تخصیص های سیاست مرخصی موجود نمایش داده شوند",
+        "leave-applications": "برنامه ها را ترک کنید",
+        "new-leave-application": "درخواست مرخصی جدید",
+        "leave-applications-empty-instructions": "لطفا یک درخواست مرخصی را در بخش پشتیبان اضافه کنید یا فیلترهای مناسب را اعمال کنید تا درخواست های مرخصی موجود نمایش داده شوند"
       },
       "human-capital": "سرمایه انسانی",
       "departments": "بخش ها"
     },
     "pr": {
       "title": "روابط عمومی",
-      "utilise-tasks-and-projects": "از وظایف و پروژه ها استفاده کنید"
+      "utilise-tasks-and-projects": "از وظایف و پروژه ها استفاده کنید",
+      "status": "روابط عمومی کار می کند!"
     },
     "processes": {
       "title": "فرآیندها",
@@ -107,7 +261,175 @@
     },
     "reports": {
       "title": "گزارش ها",
-      "leave-balance-summary-report": "گزارش خلاصه موجودی ترک"
+      "leave-balance-summary-report": "گزارش خلاصه موجودی ترک",
+      "date": "تاریخ"
+    },
+    "cards": {
+      "common": {
+        "system-not-configured": "سیستم پیکربندی نشده است!",
+        "to": "تا",
+        "owner-avatar-alt": "مالک"
+      },
+      "department": {
+        "status": {
+          "enabled": "فعال",
+          "disabled": "غیرفعال"
+        }
+      },
+      "employee": {
+        "contract": {
+          "left": "{{duration}} باقی مانده",
+          "expired": "قرارداد منقضی شده است!"
+        }
+      },
+      "leave-application": {
+        "status": {
+          "approved": "تایید شده",
+          "rejected": "رد شده",
+          "open": "در انتظار"
+        }
+      },
+      "leave-period": {
+        "status": {
+          "active": "فعال",
+          "inactive": "غیرفعال"
+        }
+      },
+      "leave-policy": {
+        "status": {
+          "confirmed": "تایید شده",
+          "draft": "پیش نویس"
+        }
+      },
+      "leave-type": {
+        "days": "{{count}} روز"
+      }
+    },
+    "forms": {
+      "common": {
+        "create": "Create",
+        "update": "Update",
+        "confirm": "Confirm",
+        "approve": "Approve",
+        "select-date-range": "Select a date range",
+        "effective-from": "Effective From",
+        "effective-to": "Effective To"
+      },
+      "department": {
+        "details": "Department Details",
+        "department-name": "Department Name",
+        "department-name-invalid": "Department name is invalid",
+        "system": "System",
+        "leave-approvers": "Leave Approvers",
+        "approver": "Approver"
+      },
+      "employee": {
+        "general": "General",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "mobile-phone": "Mobile Phone",
+        "date-of-birth": "Date of Birth",
+        "contract": "Contract",
+        "department": "Department",
+        "status": "Status",
+        "active": "Active",
+        "inactive": "Inactive",
+        "date-of-joining": "Date of Joining",
+        "current-contract-duration": "Current Contract Duration",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "salary": "Salary",
+        "bank-name": "Bank Name",
+        "bank-account-number": "Bank Account number",
+        "salary-in-omr": "Salary in OMR",
+        "hr-cost": "HR Cost",
+        "monthly-cost": "Monthly Cost",
+        "daily-cost": "Daily Cost",
+        "hourly-cost": "Hourly Cost",
+        "relative-cost-percentage": "Relative Cost Percentage"
+      },
+      "employee-performance": {
+        "average-duration": "Average Duration",
+        "completion-rate": "Completion Rate",
+        "monthly-jobs": "Monthly Jobs",
+        "assigned-services": "Assigned Services",
+        "not-available": "Not available",
+        "job": "Job",
+        "jobs": "Jobs",
+        "services": "Services"
+      },
+      "holiday-list": {
+        "details": "Holiday List Details",
+        "year": "Year",
+        "holiday-list-name": "Holiday List Name",
+        "official-holidays": "Official Holidays",
+        "holidays": "Holidays",
+        "no-holidays-available": "No holidays available."
+      },
+      "leave-application": {
+        "details": "Leave Application Details",
+        "employee": "Employee",
+        "approver": "Approver",
+        "leave-type": "Leave Type",
+        "description": "Description",
+        "duration": "Leave Duration",
+        "policy-assignment": "Policy Assignment",
+        "select-leave-type-message": "Please select a leave type to view allocation details.",
+        "no-allocation-details": "No leave allocation details available for {{leaveType}}.",
+        "total-leaves": "Total Leaves",
+        "expired-leaves": "Expired Leaves",
+        "leaves-taken": "Leaves Taken",
+        "leaves-pending-approval": "Leaves Pending Approval",
+        "remaining-leaves": "Remaining Leaves",
+        "duration-days": "{{count}} day(s)",
+        "leave-approval": "Leave Approval",
+        "leave-approved-on": "Leave Approved on"
+      },
+      "leave-period": {
+        "details": "Leave Period Details",
+        "is-active": "Is Active"
+      },
+      "leave-policy": {
+        "details": "Leave Policy Details",
+        "form-policy-name": "Form Policy Name",
+        "leave-type": "Leave Type",
+        "annual-allocation-max": "Annual Allocation (Max: {{max}})"
+      },
+      "leave-policy-assignment": {
+        "details": "Leave Policy Assignment Details",
+        "employee": "Employee",
+        "leave-policy": "Leave Policy",
+        "leave-period": "Leave Period",
+        "add-unused-leaves": "Add unused leaves from previous allocations",
+        "leave-types": "Leave Types",
+        "leave-type": "Leave Type",
+        "annual-allocation": "Annual Allocation",
+        "no-leave-policy-details": "No leave policy details available."
+      },
+      "leave-type": {
+        "information": "Information",
+        "leave-type-name": "Leave Type Name",
+        "leave-type-name-invalid": "Leave type name is invalid",
+        "max-leaves-allowed": "Max Leaves Allowed",
+        "max-leaves-invalid": "Max leaves allowed is invalid",
+        "leave-frequency": "Leave Frequency",
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "half-yearly": "Half-Yearly",
+        "yearly": "Yearly",
+        "options": "Options",
+        "carry-forward": "Carry Forward",
+        "leave-with-full-payment": "Leave With Full Payment",
+        "leave-with-partial-payment": "Leave With Partial Payment",
+        "leave-without-payment": "Leave Without Payment"
+      }
+    },
+    "dashboard": {
+      "year": "سال",
+      "pillar": "ستون"
     }
   },
   "production": {
@@ -126,7 +448,13 @@
         "initiation": "شروع",
         "planning": "برنامه ریزی",
         "execution": "اعدام",
-        "completion": "تکمیل"
+        "completion": "تکمیل",
+        "brands-actions": {
+          "download-template": "دانلود قالب"
+        },
+        "brands-empty": {
+          "instructions": "لطفا فیلترهای مناسب را برای مشاهده سفارش های فروش موجود اعمال کنید"
+        }
       },
       "manufacturing": {
         "title": "تولید",
@@ -176,11 +504,91 @@
         "title": "نقطه فروش",
         "shop": "مغازه ها",
         "branches": "شاخه ها",
-        "invoices": "فاکتورها"
+        "invoices": "فاکتورها",
+        "new-store": "فروشگاه جدید",
+        "branches-empty": {
+          "instructions": "لطفا فیلترهای مناسب را برای مشاهده فروشگاه های موجود اعمال کنید"
+        },
+        "branches-info": {
+          "instructions": "شما می توانید فروشگاه ها را با نام جستجو کنید."
+        },
+        "invoices-empty": {
+          "subtitle": "تراکنشی وجود ندارد!",
+          "instructions": "هیچ تراکنشی یافت نشد. لطفا از کادر جستجو برای فیلتر کردن استفاده کنید."
+        }
       },
       "tasks": "مدیریت وظایف",
       "jobs": "مدیریت شغل",
       "projects": "مدیریت پروژه"
+    },
+    "menu": {
+      "manufacturing-import": "واردات تولید",
+      "garage": {
+        "notifications": "اعلان های گاراژ",
+        "pending": "گاراژ در انتظار",
+        "completed": "گاراژ تکمیل شده",
+        "vehicles": "وسایل نقلیه گاراژ",
+        "import": "واردات گاراژ"
+      },
+      "consultancy": {
+        "pending": "مشاوره در انتظار",
+        "completed": "مشاوره تکمیل شده"
+      },
+      "investment": {
+        "pending": "سرمایه گذاری در انتظار",
+        "completed": "سرمایه گذاری تکمیل شده"
+      },
+      "pos": {
+        "shop": "فروشگاه POS",
+        "branches": "شعب POS",
+        "transactions": "تراکنش های POS"
+      }
+    },
+    "ui": {
+      "search": "جستجو",
+      "vehicle": "وسیله نقلیه",
+      "garage-jobs": "کارهای گاراژ",
+      "results-count": "{{count}} نتیجه",
+      "actions": {
+        "create": "ایجاد کنید"
+      },
+      "pagination": {
+        "previous": "قبلی",
+        "next": "بعدی",
+        "pagination": "صفحه بندی",
+        "page": "صفحه",
+        "current": "شما در صفحه هستید"
+      },
+      "empty": {
+        "list-empty": "لیست خالی است"
+      },
+      "garage-jobs-empty": {
+        "subtitle": "هیچ کار گاراژی در سیستم وجود ندارد!",
+        "instructions": "در صورت نیاز لطفا یک کار گاراژ جدید ایجاد کنید."
+      },
+      "vehicles-empty": {
+        "subtitle": "هیچ وسیله نقلیه ای در سیستم وجود ندارد!",
+        "instructions": "لطفا هنگام ایجاد یک کار جدید، یک وسیله نقلیه جدید ایجاد کنید."
+      }
+    },
+    "cards": {
+      "garage-job": {
+        "owner-avatar": "مالک"
+      },
+      "pos-invoice": {
+        "selling-amount": "مبلغ فروش",
+        "owner-avatar": "مالک",
+        "currency": {
+          "omr": "ر.ع"
+        },
+        "status": {
+          "paid": "پرداخت شده",
+          "unpaid": "پرداخت نشده",
+          "return": "مرجوعی",
+          "overdue": "سررسید گذشته",
+          "consolidated": "تجمیع شده"
+        }
+      }
     },
     "internal": {
       "title": "داخلی",
@@ -205,6 +613,184 @@
       "material-requests": "درخواست مواد",
       "delivery-notes": "یادداشت های تحویل",
       "operations": "عملیات"
+    },
+    "garage": {
+      "sections": {
+        "general-information": "General Information",
+        "registration": "Registration",
+        "insurance": "Insurance",
+        "jobs-history": "Jobs History"
+      },
+      "fields": {
+        "select-date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "brand": "Brand",
+        "model": "Model",
+        "production-year": "Production Year",
+        "chassis-number": "Chassis Number",
+        "owner": "Owner",
+        "plate-number": "Plate Number",
+        "plate-code": "Plate Code",
+        "registration-date-range": "Registration Date Range",
+        "registration-issue-date": "Registration Issue Date",
+        "registration-expiry-date": "Registration Expiry Date",
+        "insurance-company": "Insurance Company",
+        "insurance-date-range": "Insurance Date Range",
+        "insurance-issue-date": "Insurance Issue Date",
+        "insurance-expiry-date": "Insurance Expiry Date",
+        "logo-url": "Logo url",
+        "discount-omr": "Discount in OMR",
+        "qc-employee": "QC Employee",
+        "charge": "Charge",
+        "part": "Part",
+        "qty": "QTY",
+        "employee": "Employee",
+        "allocated-duration": "Allocated Duration",
+        "duration-unit": "Duration Unit",
+        "customer-name": "Customer Name",
+        "customer-phone": "Customer Phone",
+        "odometer": "Odometer",
+        "inspector": "Inspector",
+        "notes": "Notes",
+        "issue-date": "Issue Date",
+        "expiry-date": "Expiry Date",
+        "duration": "Duration",
+        "start-time": "Start Time",
+        "stop-time": "Stop Time",
+        "service-duration": "Service Duration",
+        "assigned-employee": "Assigned Employee"
+      },
+      "jobs": {
+        "count": "Jobs Count:",
+        "none-in-range": "No jobs found for the selected date range."
+      },
+      "brand": {
+        "details": "Brand Details",
+        "models": "Models"
+      },
+      "actions": {
+        "update": "Update",
+        "download": "Download",
+        "cancel": "Cancel",
+        "actions": "Actions",
+        "start": "Start",
+        "stop": "Stop",
+        "complete": "Complete",
+        "add-additional-services": "Add Additional Services",
+        "approve-services": "Approve Services",
+        "send-invoice": "Send Invoice",
+        "send-receipt": "Send Receipt",
+        "create-invoice": "Create Invoice",
+        "mark-as-delivered": "Mark as Delivered"
+      },
+      "invoice": {
+        "tax-invoice": "Tax Invoice",
+        "add-stamp": "Add stamp"
+      },
+      "table": {
+        "type": "Type",
+        "item": "Item",
+        "quantity": "Quantity",
+        "amount-omr": "Amount OMR",
+        "service": "Service",
+        "spare-part": "Spare Part",
+        "labor": "Labor"
+      },
+      "summary": {
+        "discount": "Discount",
+        "net-total": "Net Total",
+        "vat": "VAT (5%)",
+        "grand-total": "Grand Total",
+        "tax": "Tax"
+      },
+      "payment": {
+        "details": "Payment Details",
+        "methods": {
+          "card": "Card",
+          "cash": "Cash"
+        },
+        "confirm-payment": "Confirm Payment"
+      },
+      "errors": {
+        "invalid-amount": "Invalid amount!",
+        "no-employee": "No Employee",
+        "invalid-quantity": "Invalid Quantity",
+        "odometer-invalid": "Odometer invalid!",
+        "max-letters": "Reached maximum number of letters",
+        "insurance-company-invalid": "Insurance Company Invalid!",
+        "invalid-chassis-number": "Invalid chassis number",
+        "plate-number-invalid": "Plate number invalid!",
+        "plate-code-invalid": "Plate code invalid!"
+      },
+      "steps": {
+        "charges": "Charges",
+        "confirmation": "Confirmation",
+        "services-parts": "Services & Parts",
+        "extra-services-parts": "Extra Services & Parts",
+        "task-assignment": "Task Assignment",
+        "timing": "Timing",
+        "approval": "Approval",
+        "quality-control": "Quality Control",
+        "payment": "Payment",
+        "delivery": "Delivery",
+        "customer": "Customer",
+        "inspection": "Inspection"
+      },
+      "qc": {
+        "service-completed": "Service Completed"
+      },
+      "confirmation": {
+        "in-person": "In Person Confirmation",
+        "electronic-signature": "Electronic signature",
+        "whatsapp": "WhatsApp Confirmation",
+        "remote-link": "Remote Link",
+        "no-customer-confirmation": "No Customer Confirmation"
+      },
+      "signature": {
+        "customer-signature": "Customer Signature",
+        "services-repairs": "Services/Repairs",
+        "services": "Services",
+        "spare-parts": "Spare Parts",
+        "signature": "Signature"
+      },
+      "terms": {
+        "title": "General Terms and Conditions",
+        "accept": "Accept terms & conditions",
+        "consent-for-service": "Consent for Service:",
+        "understanding-of-services": "Understanding of Services:",
+        "cost-estimates": "Cost Estimates:",
+        "approval-for-additional-work": "Approval for Additional Work:",
+        "parts-and-labor-warranty": "Parts and Labor Warranty:",
+        "vehicle-pickup": "Vehicle Pickup:",
+        "liability": "Liability:",
+        "customer-responsibilities": "Customer Responsibilities:",
+        "dispute-resolution": "Dispute Resolution:"
+      },
+      "timing": {
+        "delay-warning": "There is a delay in this service!"
+      },
+      "units": {
+        "minute": "Minute",
+        "hour": "Hour",
+        "day": "Day"
+      },
+      "inspection": {
+        "previous-reading": "Previous reading"
+      },
+      "alerts": {
+        "confirmation": "Confirmation Alert!"
+      },
+      "messages": {
+        "no-add-after-confirmation": "Adding Services are parts are not possible after confirmation",
+        "services-approved": "Services Approved",
+        "discount-check-before-confirmation": "Please make sure discount amount is correct befor econfirmation",
+        "assign-employee-to-service": "Please assign an employee to this service",
+        "sign-within-boundaries": "Please sign within the boundaries of the highlighted borders"
+      },
+      "stock": {
+        "out-of-stock": "out of stock"
+      }
     }
   },
   "finance": {
@@ -213,15 +799,336 @@
       "title": "حسابداری",
       "journal-entries": "مدخل های مجله",
       "payment-entries": "ورودی های پرداخت",
-      "sales-orders": "سفارشات فروش",
       "sales-invoices": "فاکتورهای فروش",
       "suppliers": "تامین کنندگان",
-      "rfqs": "درخواست های قیمت",
-      "supplier-quotations": "نقل قول های تامین کننده",
-      "purchase-orders": "سفارشات خرید",
       "purchase-invoices": "فاکتورهای خرید",
       "expenses": "مخارج",
       "payment-terms": "شرایط پرداخت",
+      "payroll": "حقوق و دستمزد",
+      "cards": {
+        "grand-total": "جمع کل",
+        "outstanding-amount": "مبلغ معوق",
+        "returned": "مرجوعی",
+        "currency": {
+          "omr": "ر.ع"
+        }
+      },
+      "expenses-ui": {
+        "new-expense": "هزینه جدید",
+        "new-expense-entry": "ورودی هزینه جدید",
+        "empty-subtitle": "فهرست خالی است!",
+        "empty-instructions": "هیچ هزینه ای ایجاد نشده است",
+        "sections": {
+          "request-details": "جزئیات درخواست",
+          "accounts": "حساب ها",
+          "description": "توضیحات",
+          "attachments": "پیوست ها",
+          "approval": "تایید"
+        },
+        "fields": {
+          "account": "حساب",
+          "amount": "مقدار",
+          "total": "مجموع",
+          "add-account": "افزودن حساب",
+          "description": "توضیحات",
+          "approver": "تایید کننده",
+          "department": "بخش"
+        },
+        "attachments": {
+          "empty-subtitle": "بدون پیوست",
+          "empty-instructions": "هیچ پیوستی یافت نشد",
+          "import": "وارد کردن"
+        },
+        "expense": {
+          "title": "اطلاعات هزینه"
+        },
+        "actions": {
+          "upload-success": "پیوست با موفقیت بارگذاری شد!",
+          "upload-failed": "بارگذاری پیوست ناموفق بود!",
+          "remove-attachment-header": "پیوست حذف شود؟",
+          "remove-success": "پیوست با موفقیت حذف شد!",
+          "remove-failed": "حذف پیوست ناموفق بود!",
+          "create-header": "ورودی هزینه جدید ایجاد شود؟",
+          "create-success": "ورودی هزینه با موفقیت ایجاد شد!",
+          "create-failed": "ایجاد ورودی هزینه ناموفق بود!",
+          "update-header": "ورودی هزینه به روز شود؟",
+          "update-success": "ورودی هزینه با موفقیت به روز شد!",
+          "update-failed": "به روزرسانی ورودی هزینه ناموفق بود!",
+          "request-approval-header": "درخواست تایید ارسال شود؟",
+          "request-approval-success": "درخواست تایید با موفقیت ارسال شد!",
+          "request-approval-failed": "ارسال درخواست تایید ناموفق بود!",
+          "approve-header": "ورودی هزینه تایید شود؟",
+          "approve-success": "ورودی هزینه با موفقیت تایید شد!",
+          "approve-failed": "تایید ورودی هزینه ناموفق بود!"
+        },
+        "pending-approval": "این ورودی دفتر در انتظار تایید است"
+      },
+      "payments": {
+        "empty": "پرداختی یافت نشد!",
+        "paid-amount": "مبلغ پرداخت شده:",
+        "outstanding-amount": "مبلغ باقی مانده:",
+        "create": "ایجاد پرداخت",
+        "actions": {
+          "create-success": "پرداخت با موفقیت ایجاد شد!",
+          "create-failed": "ایجاد ورودی پرداخت ناموفق بود!"
+        }
+      },
+      "receipts": {
+        "empty": "رسید خریدی یافت نشد!",
+        "create": "ایجاد رسید خرید",
+        "actions": {
+          "create-success": "رسید خرید با موفقیت ایجاد شد!",
+          "create-failed": "ایجاد اعلان تحویل ناموفق بود!"
+        }
+      },
+      "deliveries": {
+        "empty": "تحویلی یافت نشد!",
+        "create": "ایجاد اعلان تحویل",
+        "actions": {
+          "create-success": "اعلان تحویل با موفقیت ایجاد شد!",
+          "create-failed": "ایجاد اعلان تحویل ناموفق بود!"
+        }
+      },
+      "attachments": {
+        "empty": "پیوستی یافت نشد!",
+        "import": "وارد کردن",
+        "actions": {
+          "upload-success": "پیوست با موفقیت بارگذاری شد!",
+          "upload-failed": "بارگذاری پیوست ناموفق بود!",
+          "remove-header": "پیوست حذف شود؟",
+          "remove-success": "پیوست با موفقیت حذف شد!",
+          "remove-failed": "حذف پیوست ناموفق بود!"
+        }
+      },
+      "rfqs": {
+        "title": "درخواست های قیمت",
+        "rfq": {
+          "information": {
+            "title": "اطلاعات درخواست قیمت"
+          },
+          "fields": {
+            "supplier": "تامین کننده",
+            "approver": "تاییدکننده"
+          },
+          "summary": {
+            "title": "خلاصه",
+            "new-subtitle": "درخواست قیمت هنوز ایجاد نشده است",
+            "new-instructions": "لطفا جزئیات درخواست را تکمیل و ذخیره کنید",
+            "draft-subtitle": "درخواست ذخیره شد اما تایید نشده است!",
+            "draft-instructions": "برای ادامه لطفا درخواست تایید ارسال کنید",
+            "confirmed-subtitle": "در انتظار تایید",
+            "confirmed-instructions": "این درخواست قیمت در انتظار تایید است"
+          },
+          "items": {
+            "title": "اقلام",
+            "item": "کالا"
+          },
+          "actions": {
+            "view-pdf": "نمایش PDF",
+            "create-supplier-quotation": "ایجاد پیش فاکتور تامین کننده",
+            "create-header": "درخواست قیمت جدید ایجاد شود؟",
+            "create-success": "درخواست قیمت با موفقیت ایجاد شد!",
+            "create-failed": "ایجاد درخواست قیمت ناموفق بود!",
+            "update-header": "درخواست قیمت به روز شود؟",
+            "update-success": "درخواست قیمت با موفقیت به روز شد!",
+            "update-failed": "به روزرسانی درخواست قیمت ناموفق بود!",
+            "request-approval-header": "درخواست تایید برای درخواست قیمت ارسال شود؟",
+            "request-approval-success": "درخواست قیمت با موفقیت به روز شد!",
+            "request-approval-failed": "به روزرسانی درخواست قیمت ناموفق بود!",
+            "approve-header": "درخواست قیمت تایید شود؟",
+            "approve-success": "پیش فاکتور با موفقیت تایید شد!",
+            "approve-failed": "تایید پیش فاکتور ناموفق بود!",
+            "create-supplier-quotation-header": "پیش فاکتور تامین کننده جدید ایجاد شود؟",
+            "create-supplier-quotation-success": "پیش فاکتور تامین کننده با موفقیت ایجاد شد!",
+            "create-supplier-quotation-failed": "ایجاد پیش فاکتور تامین کننده ناموفق بود!"
+          }
+        },
+        "rfq-pdf-modal": {
+          "new": "درخواست قیمت جدید"
+        }
+      },
+      "purchase-orders": {
+        "title": "سفارشات خرید",
+        "purchase-order": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "اطلاعات سفارش خرید"
+          },
+          "fields": {
+            "supplier": "تامین کننده",
+            "approver": "تاییدکننده"
+          },
+          "summary": {
+            "title": "خلاصه",
+            "net-total": "جمع خالص",
+            "vat": "مالیات بر ارزش افزوده",
+            "grand-total": "جمع کل"
+          },
+          "items": {
+            "title": "اقلام",
+            "item": "کالا",
+            "rate-in-omr": "نرخ به ر.ع",
+            "amount-in-omr": "مبلغ به ر.ع"
+          },
+          "payments": "پرداخت ها",
+          "purchase-receipts": "رسیدهای خرید",
+          "actions": {
+            "view-pdf": "نمایش PDF",
+            "confirm-request-approval": "تایید و درخواست تایید",
+            "create-header": "سفارش خرید ایجاد شود؟",
+            "create-success": "سفارش خرید با موفقیت ایجاد شد!",
+            "create-failed": "ایجاد سفارش خرید ناموفق بود!",
+            "update-header": "سفارش خرید به روز شود؟",
+            "update-success": "سفارش خرید با موفقیت به روز شد!",
+            "update-failed": "به روزرسانی سفارش خرید ناموفق بود!",
+            "request-approval-header": "درخواست تایید ارسال شود؟",
+            "request-approval-success": "درخواست تایید با موفقیت ارسال شد!",
+            "request-approval-failed": "به روزرسانی سفارش خرید ناموفق بود!",
+            "approve-header": "سفارش خرید تایید شود؟",
+            "approve-success": "سفارش خرید با موفقیت تایید شد!",
+            "approve-failed": "تایید سفارش خرید ناموفق بود!"
+          }
+        },
+        "purchase-order-pdf-modal": {
+          "new": "سفارش خرید جدید"
+        }
+      },
+      "sales-orders": {
+        "title": "سفارشات فروش",
+        "sales-order": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "اطلاعات سفارش فروش"
+          },
+          "fields": {
+            "customer-name": "نام مشتری",
+            "mobile-number": "شماره موبایل",
+            "tax-template": "الگوی مالیات",
+            "warehouse": "انبار",
+            "delivery-date": "تاریخ تحویل",
+            "approver": "تاییدکننده"
+          },
+          "payment-terms": {
+            "title": "شرایط پرداخت",
+            "term": "شرط پرداخت"
+          },
+          "items": {
+            "title": "اقلام"
+          },
+          "summary": {
+            "title": "خلاصه",
+            "net-total": "جمع خالص",
+            "vat": "مالیات بر ارزش افزوده",
+            "discount": "تخفیف",
+            "grand-total": "جمع کل"
+          },
+          "sales-invoice": "فاکتور فروش",
+          "payments": "پرداخت ها",
+          "delivery": "تحویل",
+          "actions": {
+            "confirm-request-approval": "تایید و درخواست تایید",
+            "create-header": "سفارش فروش ایجاد شود؟",
+            "create-success": "سفارش فروش با موفقیت ایجاد شد!",
+            "create-failed": "ایجاد سفارش فروش ناموفق بود!",
+            "update-header": "سفارش فروش به روز شود؟",
+            "update-success": "سفارش فروش با موفقیت به روز شد!",
+            "update-failed": "به روزرسانی سفارش فروش ناموفق بود!",
+            "request-approval-header": "درخواست تایید ارسال شود؟",
+            "request-approval-success": "درخواست تایید با موفقیت ارسال شد!",
+            "request-approval-failed": "ارسال درخواست تایید ناموفق بود!",
+            "approve-header": "سفارش فروش تایید شود؟",
+            "approve-success": "سفارش فروش با موفقیت تایید شد!",
+            "approve-failed": "تایید سفارش فروش ناموفق بود!",
+            "create-customer-failed": "ایجاد مشتری جدید ناموفق بود!"
+          }
+        }
+      },
+      "supplier-quotations": {
+        "title": "نقل قول های تامین کننده",
+        "supplier-quotation": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "اطلاعات پیش فاکتور تامین کننده"
+          },
+          "fields": {
+            "supplier": "تامین کننده",
+            "approver": "تاییدکننده"
+          },
+          "summary": {
+            "title": "خلاصه",
+            "net-total": "جمع خالص",
+            "vat": "مالیات بر ارزش افزوده",
+            "grand-total": "جمع کل",
+            "new-subtitle": "پیش فاکتور تامین کننده هنوز ایجاد نشده است",
+            "new-instructions": "لطفا جزئیات پیش فاکتور را تکمیل و ذخیره کنید",
+            "draft-subtitle": "پیش فاکتور ذخیره شد اما تایید نشده است!",
+            "draft-instructions": "برای ادامه لطفا درخواست تایید ارسال کنید",
+            "confirmed-subtitle": "در انتظار تایید",
+            "confirmed-instructions": "این پیش فاکتور در انتظار تایید است"
+          },
+          "items": {
+            "title": "اقلام",
+            "item": "کالا",
+            "rate-in-omr": "نرخ به ر.ع",
+            "amount-in-omr": "مبلغ به ر.ع"
+          },
+          "actions": {
+            "create-purchase-order": "ایجاد سفارش خرید",
+            "create-header": "پیش فاکتور تامین کننده جدید ایجاد شود؟",
+            "create-success": "پیش فاکتور تامین کننده با موفقیت ایجاد شد!",
+            "create-failed": "ایجاد پیش فاکتور تامین کننده ناموفق بود!",
+            "update-header": "پیش فاکتور تامین کننده به روز شود؟",
+            "update-success": "پیش فاکتور تامین کننده با موفقیت به روز شد!",
+            "update-failed": "به روزرسانی پیش فاکتور تامین کننده ناموفق بود!",
+            "request-approval-header": "درخواست تایید ارسال شود؟",
+            "request-approval-success": "درخواست تایید با موفقیت ارسال شد!",
+            "request-approval-failed": "ارسال درخواست تایید ناموفق بود!",
+            "approve-header": "پیش فاکتور تامین کننده تایید شود؟",
+            "approve-success": "پیش فاکتور تامین کننده با موفقیت تایید شد!",
+            "approve-failed": "تایید پیش فاکتور تامین کننده ناموفق بود!",
+            "create-purchase-order-header": "سفارش خرید جدید ایجاد شود؟",
+            "create-purchase-order-success": "سفارش خرید با موفقیت ایجاد شد!",
+            "create-purchase-order-failed": "ایجاد سفارش خرید ناموفق بود!"
+          }
+        }
+      },
+      "payment-terms-ui": {
+        "new-payment-term": "شرط پرداخت جدید",
+        "invoice-percentage": "درصد فاکتور",
+        "empty-subtitle": "فهرست خالی است!",
+        "empty-instructions": "هیچ شرط پرداختی ایجاد نشده است",
+        "details": "جزئیات شرایط پرداخت",
+        "fields": {
+          "payment-term-name": "نام شرط پرداخت",
+          "invoice-portion": "بخش فاکتور %"
+        },
+        "errors": {
+          "invalid-payment-term-name": "نام شرط پرداخت نامعتبر است",
+          "invalid-invoice-portion": "بخش فاکتور نامعتبر است",
+          "invalid-credit-duration": "مدت اعتبار نامعتبر است",
+          "invalid-discount-amount": "مبلغ تخفیف نامعتبر است",
+          "invalid-discount-validity": "اعتبار تخفیف نامعتبر است"
+        },
+        "credit-duration": {
+          "title": "مدت اعتبار",
+          "type": "نوع",
+          "credit-duration": "مدت اعتبار"
+        },
+        "due-date": {
+          "day-after-invoice-date": "روز(ها) پس از تاریخ فاکتور",
+          "day-after-end-of-invoice-month": "روز(ها) پس از پایان ماه فاکتور",
+          "month-after-end-of-invoice-month": "ماه(ها) پس از پایان ماه فاکتور"
+        },
+        "discount": {
+          "title": "جزئیات تخفیف",
+          "discount-type": "نوع تخفیف",
+          "percentage": "درصد",
+          "amount": "مبلغ",
+          "discount-amount": "مبلغ تخفیف",
+          "discount-validity-based-on": "اعتبار تخفیف بر اساس",
+          "discount-validity": "اعتبار تخفیف"
+        }
+      },
       "sales-quotations": {
         "title": "نقل قول های فروش",
         "new-sales-quotation": "قیمت فروش جدید",
@@ -298,7 +1205,46 @@
       "asset-purchase": "خرید دارایی",
       "asset-sale": "فروش دارایی",
       "depreciations": "استهلاک ها",
-      "investments": "سرمایه گذاری ها"
+      "investments": "سرمایه گذاری ها",
+      "asset-purchase-ui": {
+        "new-asset": "دارایی جدید",
+        "empty-subtitle": "فهرست خالی است",
+        "empty-instructions": "لطفا فیلترهای مناسب را برای مشاهده دارایی های موجود اعمال کنید",
+        "modal": {
+          "title": "پنجره دارایی",
+          "asset-details": "جزئیات دارایی",
+          "fields": {
+            "asset-name": "نام دارایی",
+            "asset-code": "کد دارایی",
+            "gross-purchase-amount-omr": "مبلغ ناخالص خرید OMR",
+            "opening-depreciation-amount-omr": "مبلغ استهلاک افتتاحیه OMR",
+            "asset-category": "دسته دارایی",
+            "purchase-date": "تاریخ خرید",
+            "purchase-date-hint": "DD/MM/YYYY",
+            "location": "موقعیت"
+          }
+        }
+      },
+      "asset-categories-ui": {
+        "new-asset-category": "دسته دارایی جدید",
+        "empty-subtitle": "فهرست خالی است",
+        "empty-instructions": "لطفا فیلترهای مناسب را برای مشاهده دسته های موجود اعمال کنید",
+        "search-instructions": "می توانید دارایی را با شماره مرجع یا نام دسته جستجو کنید.",
+        "modal": {
+          "details": "جزئیات دسته دارایی",
+          "fields": {
+            "asset-category-name": "نام دسته دارایی",
+            "fixed-asset-account": "حساب دارایی ثابت",
+            "accumulated-depreciation-account": "حساب استهلاک انباشته",
+            "depreciation-expense-account": "حساب هزینه استهلاک"
+          },
+          "errors": {
+            "invalid-asset-category-name": "نام دسته دارایی نامعتبر است",
+            "invalid-accumulated-depreciation-account": "حساب استهلاک انباشته نامعتبر است",
+            "invalid-depreciation-expense-account": "حساب هزینه استهلاک نامعتبر است"
+          }
+        }
+      }
     },
     "reports": {
       "title": "گزارش ها",
@@ -310,7 +1256,41 @@
       "payment-entries-report": "ورودی های پرداخت",
       "bank-reconciliation-report": "تسویه حساب بانکی",
       "purchase-analytics-report": "خرید تجزیه و تحلیل",
-      "sales-analytics-report": "تجزیه و تحلیل فروش"
+      "sales-analytics-report": "تجزیه و تحلیل فروش",
+      "common": {
+        "year": "سال",
+        "period": "دوره",
+        "tree-type": "نوع درخت",
+        "document-type": "نوع سند",
+        "value-quantity": "ارزش / مقدار"
+      },
+      "periodicity": {
+        "weekly": "هفتگی",
+        "monthly": "ماهانه",
+        "quarterly": "فصلی",
+        "half-yearly": "شش ماهه",
+        "yearly": "سالانه"
+      },
+      "dimensions": {
+        "item": "آیتم",
+        "item-group": "گروه آیتم",
+        "customer": "مشتری",
+        "customer-group": "گروه مشتری",
+        "supplier": "تامین کننده",
+        "supplier-group": "گروه تامین کننده"
+      },
+      "documents": {
+        "sales-order": "سفارش فروش",
+        "sales-invoice": "فاکتور فروش",
+        "delivery-note": "یادداشت تحویل",
+        "purchase-order": "سفارش خرید",
+        "purchase-invoice": "فاکتور خرید",
+        "purchase-receipt": "رسید خرید"
+      },
+      "measures": {
+        "value": "ارزش",
+        "quantity": "مقدار"
+      }
     },
     "accounts-settings": {
       "title": "تنظیمات حساب ها",
@@ -318,7 +1298,43 @@
       "tax-settings": "تنظیمات مالیاتی",
       "fiscal-years-period": "سالهای مالی - دوره",
       "cost-centers": "مراکز هزینه",
-      "currency-and-exchange-rates": "ارز و نرخ ارز"
+      "currency-and-exchange-rates": "ارز و نرخ ارز",
+      "fiscal-years": {
+        "title": "سال های مالی",
+        "new-fiscal-year": "سال مالی جدید",
+        "empty-subtitle": "فهرست خالی است",
+        "empty-instructions": "لطفاً فیلترهای مناسب را برای مشاهده سال های مالی موجود اعمال کنید"
+      },
+      "bom-approvals": {
+        "production-cost": "هزینه تولید",
+        "empty-subtitle": "فهرست خالی است!",
+        "empty-instructions": "هیچ BoM ایجاد نشده است"
+      },
+      "coa-table": {
+        "no": "شماره",
+        "select-page": "انتخاب صفحه"
+      }
+    },
+    "common": {
+      "approved": "تایید شده",
+      "awaiting-approval": "در انتظار تایید",
+      "actions": "اقدامات",
+      "create": "ایجاد",
+      "update": "به روز رسانی",
+      "request-approval": "درخواست تایید",
+      "approve": "تایید",
+      "pending": "در انتظار",
+      "draft": "پیش نویس",
+      "confirm": "تایید",
+      "cancel": "لغو",
+      "loading": "در حال بارگذاری",
+      "action-failed": "اقدام ناموفق بود",
+      "ok": "باشه",
+      "unit": "واحد",
+      "approved-by": "تایید شده توسط",
+      "on": "در",
+      "validate-before-submit": "لطفا قبل از ارسال از معتبر بودن همه فیلدها مطمئن شوید",
+      "fill-before-submit": "لطفا قبل از ارسال از پر بودن همه فیلدها مطمئن شوید"
     }
   },
   "innovation": {
@@ -327,7 +1343,31 @@
     "innovation-management-process": "فرآیند مدیریت نوآوری",
     "innovation-development-process": "فرآیند توسعه نوآوری",
     "innovation-commercialization-process": "فرآیند تجاری سازی نوآوری",
-    "ip-management-process": "فرآیند مدیریت مالکیت فکری"
+    "ip-management-process": "فرآیند مدیریت مالکیت فکری",
+    "dashboard": {
+      "filters": {
+        "year": "سال",
+        "pillar": "محور"
+      },
+      "ai": {
+        "title": "تحلیل نوآوری برای سال {{year}}",
+        "prompt": "شاخص های کلیدی عملکرد نوآوری به صورت JSON را برای سال {{year}} تحلیل کنید و یک گزارش کامل همراه با پیشنهادها ارائه دهید."
+      }
+    },
+    "processes": {
+      "title": "فرآیندهای نوآوری",
+      "my-items": "فرآیندهای من",
+      "create": "فرآیند نوآوری جدید",
+      "toast-created": "فرآیند نوآوری با موفقیت ایجاد شد!",
+      "alert-create-failed": "ایجاد فرآیند نوآوری جدید ممکن نشد!"
+    },
+    "options": {
+      "title": "گزینه های فرآیند",
+      "confirm-create-header": "فرآیند مدیریت پروژه جدید ایجاد شود؟",
+      "labels": {
+        "recommendations": "توصیه ها"
+      }
+    }
   },
   "support": {
     "title": "پشتیبانی کنید",
@@ -360,7 +1400,39 @@
       "warranty": "گارانتی",
       "maintenance-visit": "بازدید تعمیر و نگهداری",
       "customer-feedback": "بازخورد مشتری",
-      "help-and-faqs": "راهنما و سوالات متداول"
+      "help-and-faqs": "راهنما و سوالات متداول",
+      "new-customer": "مشتری جدید",
+      "customers-empty-instructions": "لطفا یک مشتری جدید ایجاد کنید یا فیلترهای مناسب را برای مشاهده مشتریان موجود اعمال کنید.",
+      "new-issue": "مسئله جدید",
+      "issues-empty-instructions": "هیچ مسئله ای ایجاد نشده است",
+      "customer": "مشتری",
+      "general-information": "اطلاعات عمومی",
+      "customer-name": "نام مشتری",
+      "mobile-number": "شماره موبایل",
+      "type": "نوع",
+      "individual": "حقیقی",
+      "company": "شرکت",
+      "customer-info-check": "لطفا مطمئن شوید که همه فیلدها به درستی پر شده اند",
+      "invalid-customer-name": "نام مشتری نامعتبر است",
+      "invalid-mobile-number": "شماره موبایل نامعتبر است",
+      "description": "توضیحات",
+      "subject": "موضوع",
+      "priority": "اولویت",
+      "low": "کم",
+      "medium": "متوسط",
+      "high": "زیاد",
+      "issue-type": "نوع مسئله",
+      "slow-connection": "اتصال کند",
+      "data-loss": "از دست رفتن داده",
+      "invalid-data": "داده نامعتبر",
+      "feature-request": "درخواست ویژگی",
+      "bug": "باگ",
+      "status": "وضعیت",
+      "open": "باز",
+      "replied": "پاسخ داده شد",
+      "on-hold": "در انتظار",
+      "resolved": "حل شده",
+      "closed": "بسته"
     },
     "inventory-and-stores-management": {
       "title": "مدیریت موجودی و انبار",
@@ -377,13 +1449,62 @@
       "empty-instructions": "لطفاً فیلترهای مناسب را اعمال کنید تا قطعات یدکی موجود نمایش داده شود",
       "item-operations": "عملیات ساخت",
       "warehouses": "انبارها",
+      "new-warehouse": "انبار جدید",
+      "warehouses-empty-instructions": "لطفا یک انبار جدید ایجاد کنید.",
       "stock-entry": "ورودی های سهام",
       "purchase-invoice": "فاکتور خرید",
       "delivery-notes": "یادداشت های تحویل",
+      "delivery-notes-empty-instructions": "لطفا یک یادداشت تحویل جدید ایجاد کنید.",
       "purchase-receipts": "رسید خرید",
+      "purchase-receipts-empty-instructions": "لطفا یک رسید خرید جدید ایجاد کنید.",
       "stock-reconciliation": "تطبیق سهام",
       "material-request": "درخواست مواد",
-      "barcodes": "بارکدها"
+      "barcodes": "بارکدها",
+      "no-barcodes-available": "هیچ بارکدی موجود نیست",
+      "new-material-request": "درخواست مواد جدید",
+      "material-requests-empty-instructions": "لطفا یک درخواست مواد اضافه کنید",
+      "request-details": "جزئیات درخواست",
+      "request-type": "نوع درخواست",
+      "manufacture": "تولید",
+      "purchase": "خرید",
+      "material-transfer": "انتقال مواد",
+      "material-issue": "تحویل مواد",
+      "item": "آیتم",
+      "bill-of-material": "لیست مواد",
+      "add-item": "افزودن آیتم",
+      "production-cost": "هزینه تولید",
+      "raw-material-and-sub-assembly": "مواد اولیه و زیرمجموعه",
+      "operations": "عملیات",
+      "total-production-cost": "کل هزینه تولید",
+      "approval": "تایید",
+      "approver": "تاییدکننده",
+      "department": "بخش",
+      "waiting-approval": "این درخواست مواد در انتظار تایید است",
+      "new-operation": "عملیات جدید",
+      "operations-empty-instructions": "لطفا یک عملیات جدید ایجاد کنید.",
+      "new-stock-transfer": "انتقال موجودی جدید",
+      "stock-entries-empty-instructions": "لطفا یک درخواست مواد اضافه کنید",
+      "stock-transfer": "انتقال موجودی",
+      "locations": "مکان ها",
+      "source-warehouse": "انبار مبدا",
+      "destination-warehouse": "انبار مقصد",
+      "select-source-warehouse": "لطفا انبار مبدا را انتخاب کنید.",
+      "create-transfer": "ایجاد انتقال",
+      "topup-quantity": "مقدار شارژ",
+      "invalid-topup-quantity": "مقدار شارژ نامعتبر",
+      "confirm-topup": "تایید شارژ",
+      "confirm-topup-header": "تایید شارژ موجودی؟",
+      "no-stock-movement-for-item": "هیچ حرکت موجودی برای این آیتم وجود ندارد"
+    },
+    "dashboard": {
+      "filters": {
+        "year": "سال",
+        "pillar": "محور"
+      },
+      "ai": {
+        "title": "تحلیل پشتیبانی برای سال {{year}}",
+        "prompt": "شاخص های کلیدی عملکرد پشتیبانی به صورت JSON را برای سال {{year}} تحلیل کنید و یک گزارش کامل همراه با پیشنهادها ارائه دهید."
+      }
     },
     "transport-and-logistics": {
       "title": "حمل و نقل و تدارکات",
@@ -394,17 +1515,115 @@
     },
     "supplier-management": {
       "title": "مدیریت تامین کننده",
-      "suppliers-information": "اطلاعات تامین کنندگان"
+      "suppliers-information": "اطلاعات تامین کنندگان",
+      "suppliers": "تامین کنندگان",
+      "new-supplier": "تامین کننده جدید",
+      "empty-instructions": "لطفا یک تامین کننده اضافه کنید یا فیلترهای مناسب را برای مشاهده تامین کنندگان موجود اعمال کنید",
+      "supplier-details": "جزئیات تامین کننده",
+      "supplier-name": "نام تامین کننده",
+      "invalid-supplier-name": "نام تامین کننده نامعتبر است",
+      "country": "کشور",
+      "country-oman": "عمان",
+      "country-uae": "امارات",
+      "country-usa": "آمریکا",
+      "country-india": "هند",
+      "country-china": "چین",
+      "contact-details": "جزئیات تماس تامین کننده",
+      "mobile-phone": "تلفن همراه",
+      "invalid-phone-number": "شماره تلفن نامعتبر است",
+      "supplier-email": "ایمیل تامین کننده",
+      "invalid-email": "ایمیل نامعتبر است",
+      "address": "آدرس",
+      "invalid-address": "آدرس نامعتبر است",
+      "supplier-type": "نوع تامین کننده",
+      "supplier-group": "گروه تامین کننده",
+      "all-supplier-groups": "همه گروه های تامین کننده",
+      "group-services": "خدمات",
+      "group-local": "محلی",
+      "group-electrical": "برقی",
+      "group-hardware": "سخت افزار",
+      "group-pharmaceutical": "دارویی",
+      "group-distributor": "توزیع کننده",
+      "company": "شرکت",
+      "individual": "حقیقی",
+      "proprietorship": "مالکیت انفرادی",
+      "partnership": "شراکت"
     },
     "hospitality": {
       "title": "مهمان نوازی",
       "tasks-and-projects": "وظایف و پروژه ها"
     },
     "services": {
-      "title": "خدمات"
+      "title": "خدمات",
+      "new-service": "خدمت جدید",
+      "empty-instructions": "لطفا فیلترهای مناسب را برای مشاهده خدمات موجود اعمال کنید",
+      "service-information": "اطلاعات خدمت",
+      "service-name": "نام خدمت",
+      "service-number": "شماره خدمت",
+      "selling-rate-omr": "نرخ فروش (OMR)",
+      "costing-and-profitability": "هزینه و سودآوری",
+      "target-profit": "سود هدف %",
+      "invalid-target-profit-percentage": "درصد سود هدف نامعتبر است",
+      "hr-costs": "هزینه های منابع انسانی",
+      "other-costs": "سایر هزینه ها",
+      "summary": "خلاصه",
+      "employee": "کارمند",
+      "hours": "ساعت",
+      "invalid-hours": "ساعت نامعتبر است",
+      "amount-in-omr": "مبلغ به OMR",
+      "invalid-amount": "مبلغ نامعتبر است",
+      "invalid-quantity": "تعداد نامعتبر است",
+      "accommodation": "اقامت",
+      "travel": "سفر",
+      "food": "غذا",
+      "other": "سایر",
+      "no-entry": "ورودی وجود ندارد!",
+      "add-raw-material-item": "لطفا یک آیتم ماده اولیه اضافه کنید.",
+      "add-hr-cost": "لطفا یک هزینه منابع انسانی اضافه کنید",
+      "add-other-cost": "لطفا یک هزینه دیگر اضافه کنید"
     },
     "segments": {
-      "title": "بخش ها"
+      "title": "بخش ها",
+      "new-segment": "بخش جدید",
+      "new-category-segment": "دسته/بخش جدید",
+      "segment-name": "نام بخش",
+      "parent-category": "دسته والد",
+      "empty-instructions": "لطفا فیلترهای مناسب را برای مشاهده دسته ها و بخش های موجود اعمال کنید"
+    },
+    "menu": {
+      "assets": "دارایی ها",
+      "assets-categories": "دسته های دارایی",
+      "stock": "موجودی",
+      "material-requests": "درخواست های مواد"
+    },
+    "common": {
+      "search": "جستجو",
+      "year": "سال",
+      "results": "نتیجه",
+      "list-empty": "فهرست خالی است",
+      "previous": "قبلی",
+      "next": "بعدی",
+      "pagination": "صفحه بندی",
+      "page": "صفحه",
+      "you-are-on-page": "شما در صفحه هستید",
+      "cancel": "لغو",
+      "create": "ایجاد",
+      "update": "به روز رسانی",
+      "actions": "اقدامات",
+      "active": "فعال",
+      "disabled": "غیرفعال",
+      "download": "دانلود",
+      "select-date-range": "انتخاب بازه تاریخ",
+      "start-date": "تاریخ شروع",
+      "end-date": "تاریخ پایان",
+      "check-information": "بررسی اطلاعات",
+      "fill-before-submission": "لطفا قبل از ارسال از تکمیل همه فیلدها مطمئن شوید",
+      "fill-before-confirmation": "لطفا قبل از تایید از تکمیل همه فیلدها مطمئن شوید",
+      "request-approval": "درخواست تایید",
+      "approve": "تایید",
+      "pending": "در انتظار",
+      "approved-by": "تایید شده توسط",
+      "on": "در"
     },
     "reports": {
       "title": "گزارش ها",
@@ -412,7 +1631,14 @@
       "stock-analytics-report": "گزارش تجزیه و تحلیل سهام",
       "stock-balance-report": "گزارش موجودی سهام",
       "stock-reconciliation-report": "گزارش تطبیق سهام",
-      "customer-acquisition-report": "گزارش جذب مشتری"
+      "customer-acquisition-report": "گزارش جذب مشتری",
+      "range": "بازه",
+      "quantity": "تعداد",
+      "value": "ارزش",
+      "weekly": "هفتگی",
+      "monthly": "ماهانه",
+      "quarterly": "فصلی",
+      "yearly": "سالانه"
     }
   },
   "utilities": {
@@ -421,6 +1647,102 @@
     "knowledge-hub": "مرکز دانش",
     "meetings": "جلسات",
     "si6-bot": "ربات اس آی 6",
+    "si6-bot-message": "پیام",
+    "si6-bot-response": "پاسخ",
+    "links": {
+      "title": "پیوندها",
+      "enter-link": "یک پیوند وارد کنید",
+      "create": "ایجاد پیوند",
+      "empty-subtitle": "هیچ پیوندی وجود ندارد",
+      "empty-instructions": "لطفا یک پیوند جدید ایجاد کنید یا فیلترهای مناسب را برای مشاهده پیوندهای موجود اعمال کنید"
+    },
+    "events": {
+      "title": "رویدادهای تقویم",
+      "create": "رویداد جدید",
+      "empty-subtitle": "هیچ رویدادی وجود ندارد",
+      "empty-instructions": "لطفا یک رویداد جدید ایجاد کنید یا فیلترهای مناسب را برای مشاهده رویدادهای موجود اعمال کنید"
+    },
+    "notes": {
+      "title": "یادداشت ها",
+      "create": "یادداشت جدید",
+      "empty-subtitle": "هیچ یادداشتی وجود ندارد",
+      "empty-instructions": "لطفا یک یادداشت جدید ایجاد کنید یا فیلترهای مناسب را برای مشاهده یادداشت های موجود اعمال کنید"
+    },
+    "filters": {
+      "all": "همه",
+      "incomplete": "ناقص",
+      "completed": "تکمیل شده",
+      "scope-op": "عملیاتی",
+      "scope-prod": "تولیدی"
+    },
+    "tasks": {
+      "title": "وظایف",
+      "my-items": "وظایف من",
+      "create": "وظیفه جدید",
+      "empty-subtitle": "هیچ وظیفه ای وجود ندارد",
+      "empty-instructions": "لطفا یک وظیفه جدید ایجاد کنید یا فیلترهای مناسب را برای مشاهده وظایف موجود اعمال کنید"
+    },
+    "projects": {
+      "title": "پروژه ها",
+      "my-items": "پروژه های من",
+      "create": "پروژه جدید",
+      "empty-subtitle": "هیچ پروژه ای وجود ندارد",
+      "empty-instructions": "لطفا یک پروژه جدید ایجاد کنید یا فیلترهای مناسب را برای مشاهده پروژه های موجود اعمال کنید",
+      "pending-process-status": "وضعیت فرآیندهای در انتظار",
+      "active-pending-tasks": "وظایف فعال در انتظار",
+      "project-information": "اطلاعات پروژه",
+      "project-name": "نام پروژه"
+    },
+    "jobs": {
+      "title": "مشاغل",
+      "my-items": "مشاغل من",
+      "create": "شغل جدید",
+      "options-title": "گزینه های شغل",
+      "empty-subtitle": "هیچ شغلی وجود ندارد",
+      "empty-instructions": "لطفا یک شغل جدید ایجاد کنید یا فیلترهای مناسب را برای مشاهده مشاغل موجود اعمال کنید",
+      "pending-process-status": "وضعیت فرآیندهای در انتظار",
+      "active-pending-tasks": "وظایف فعال در انتظار"
+    },
+    "logs": {
+      "title": "گزارش ها",
+      "empty-subtitle": "فهرست خالی است",
+      "empty-instructions": "لطفا فیلترهای مناسب را برای مشاهده گزارش های فعالیت موجود اعمال کنید"
+    },
+    "translations-page": {
+      "create": "ترجمه جدید",
+      "download-template": "دانلود الگو",
+      "import": "وارد کردن",
+      "empty-subtitle": "فهرست خالی است",
+      "empty-instructions": "هیچ ترجمه ای ایجاد نشده است"
+    },
+    "translation-modal": {
+      "new": "ترجمه جدید",
+      "language": "زبان ترجمه",
+      "source-text": "متن مبدا",
+      "translated-text": "متن ترجمه شده",
+      "create": "ایجاد",
+      "update": "به روز رسانی",
+      "cancel": "لغو"
+    },
+    "modal-options": {
+      "source-system": "سیستم مبدا",
+      "task-details": "جزئیات وظیفه",
+      "subject": "موضوع",
+      "description": "توضیحات",
+      "employee": "کارمند",
+      "department": "بخش",
+      "date-range": "انتخاب بازه تاریخ",
+      "start-date": "تاریخ شروع",
+      "invalid-description": "توضیحات وظیفه نامعتبر است",
+      "create-task": "ایجاد وظیفه",
+      "customer": "مشتری",
+      "customer-name": "نام مشتری",
+      "customer-phone": "تلفن مشتری",
+      "customer-email": "ایمیل مشتری",
+      "invalid-name": "نام نامعتبر است!",
+      "invalid-phone": "شماره تلفن نامعتبر است!",
+      "invalid-email": "ایمیل نامعتبر است!"
+    },
     "key-documents": "اسناد کلیدی",
     "translations": "ترجمه ها",
     "issues": "مسائل",
@@ -433,6 +1755,42 @@
       "external-scope-full": "تولیدی (پی)",
       "internal-scope": "او",
       "external-scope": "پ",
+      "labels": {
+        "requester": "درخواست کننده",
+        "channeling": "ارجاع",
+        "assignment": "تخصیص",
+        "canvas": "بوم",
+        "feasibility": "امکان سنجی",
+        "rfq": "درخواست قیمت",
+        "supplier-quotation": "پیشنهاد تامین کننده",
+        "purchase-order": "سفارش خرید",
+        "poa": "برنامه اقدام",
+        "approval": "تایید",
+        "quality-control": "کنترل کیفیت",
+        "attachments": "پیوست ها",
+        "feedback": "بازخورد",
+        "report": "گزارش",
+        "closure": "بستن",
+        "customer": "مشتری",
+        "initial-request": "درخواست اولیه",
+        "initial-request-items": "اقلام درخواست اولیه",
+        "items-selection": "انتخاب اقلام",
+        "sales-quotation": "پیش فاکتور فروش",
+        "parking": "پارکینگ",
+        "vehicle-details": "جزئیات خودرو",
+        "vehicle-inspection": "بازرسی خودرو",
+        "customer-signature": "امضای مشتری",
+        "sales-order": "سفارش فروش",
+        "raw-material-transfer": "انتقال مواد اولیه",
+        "additional-items": "اقلام اضافی",
+        "material-transfer": "انتقال مواد",
+        "remarks": "ملاحظات",
+        "profitability": "سودآوری",
+        "invoice": "فاکتور",
+        "payment": "پرداخت",
+        "delivery": "تحویل",
+        "follow-up": "پیگیری"
+      },
       "external": {
         "initiation": "جزئیات مشتری",
         "planning": "ثبت سفارش",
@@ -459,7 +1817,283 @@
       }
     }
   },
-  "about": "درباره",
+  "settings": {
+    "tabs": {
+      "subscription": "اشتراک",
+      "company": "شرکت",
+      "imports": "ورود اطلاعات",
+      "roles": "نقش ها",
+      "users": "کاربران"
+    },
+    "status": {
+      "ready": "آماده",
+      "not-ready": "آماده نیست"
+    },
+    "common": {
+      "loading": "در حال بارگذاری",
+      "action-failed": "انجام عملیات ناموفق بود",
+      "ok": "باشه",
+      "systems": "سیستم ها",
+      "checkbox-label": "گزینه",
+      "general-information": "اطلاعات عمومی",
+      "name": "نام",
+      "email": "ایمیل",
+      "role": "نقش",
+      "assign": "تخصیص",
+      "operate": "اجرا",
+      "approve": "تایید",
+      "strategy-pages": "صفحات استراتژی",
+      "operation-pages": "صفحات عملیات",
+      "production-pages": "صفحات تولید",
+      "finance-pages": "صفحات مالی",
+      "innovation-pages": "صفحات نوآوری",
+      "support-pages": "صفحات پشتیبانی",
+      "utilities-pages": "صفحات ابزارها",
+      "portal-pages": "صفحات پرتال",
+      "others-pages": "سایر صفحات",
+      "fill-before-submission": "لطفا قبل از ثبت، از تکمیل همه فیلدها مطمئن شوید",
+      "portal": "پرتال",
+      "other": "سایر"
+    },
+    "users": {
+      "title": "کاربران",
+      "new-user": "کاربر جدید",
+      "employee-not-set": "کارمند تنظیم نشده است!",
+      "user-photo-alt": "عکس کاربر",
+      "empty": {
+        "subtitle": "کاربری وجود ندارد",
+        "instructions": "لطفا یک کاربر جدید ایجاد کنید یا فیلترهای مناسب اعمال کنید"
+      },
+      "modal": {
+        "telephone-number": "شماره تلفن",
+        "invalid-name": "نام نامعتبر است",
+        "invalid-email": "ایمیل نامعتبر است",
+        "actions": {
+          "create-header": "کاربر جدید ایجاد شود؟",
+          "update-header": "کاربر به روز شود؟",
+          "created-success": "کاربر با موفقیت ایجاد شد!",
+          "updated-success": "کاربر با موفقیت به روز شد!",
+          "create-failed": "ایجاد کاربر ممکن نشد!",
+          "update-failed": "به روزرسانی کاربر ممکن نشد!"
+        }
+      }
+    },
+    "roles": {
+      "title": "نقش ها",
+      "new-role": "نقش جدید",
+      "counts": {
+        "systems": "سیستم",
+        "operations": "عملیات",
+        "views": "نمایش"
+      },
+      "modal": {
+        "role-name": "نام نقش",
+        "invalid-role-name": "نام نقش نامعتبر است",
+        "actions": {
+          "create-header": "نقش جدید ایجاد شود؟",
+          "update-header": "نقش به روز شود؟",
+          "created-success": "نقش جدید با موفقیت ایجاد شد!",
+          "updated-success": "نقش با موفقیت به روز شد!",
+          "update-failed": "به روزرسانی نقش ممکن نشد!"
+        }
+      }
+    },
+    "subscription": {
+      "title": "اشتراک",
+      "restricted": "محدود",
+      "package": "بسته",
+      "grace-period-days": "دوره تنفس به روز *",
+      "last-paid-date": "تاریخ آخرین پرداخت",
+      "next-due-date": "تاریخ سررسید بعدی",
+      "custom-package": "بسته سفارشی",
+      "packages": {
+        "gold": "طلایی",
+        "silver": "نقره ای",
+        "bronze": "برنزی",
+        "pos": "نقطه فروش",
+        "custom": "سفارشی"
+      },
+      "no-custom-package": "بسته سفارشی یافت نشد!",
+      "create-custom-package": "ایجاد بسته سفارشی",
+      "custom-package-features": "{{count}} قابلیت در بسته سفارشی موجود است.",
+      "update-custom-package": "به روزرسانی بسته سفارشی",
+      "not-available": "موجود نیست!",
+      "actions": {
+        "update-subscription": "به روزرسانی اشتراک",
+        "updated-success": "اشتراک شرکت با موفقیت به روز شد!",
+        "update-failed": "به روزرسانی اشتراک شرکت ممکن نشد!"
+      }
+    },
+    "company": {
+      "form": {
+        "business-type": "نوع کسب و کار *",
+        "tax-identification-number": "شماره مالیاتی *",
+        "website": "وب سایت",
+        "slogan": "شعار",
+        "default-holiday-list": "لیست تعطیلات پیش فرض",
+        "contact-info": "اطلاعات تماس",
+        "email": "ایمیل *",
+        "primary-number": "شماره اصلی *",
+        "whatsapp-number": "شماره واتساپ",
+        "instagram-account": "حساب اینستاگرام",
+        "address": "آدرس",
+        "city": "شهر *",
+        "address-line-1": "خط آدرس 1 *",
+        "address-line-2": "خط آدرس 2",
+        "logos": "لوگوها",
+        "company-logo": "لوگوی شرکت *",
+        "company-logo-alt": "لوگوی شرکت",
+        "stamp": "مهر *",
+        "stamp-alt": "مهر شرکت",
+        "brand": "برند",
+        "brand-alt": "برند شرکت"
+      },
+      "business-types": {
+        "auto-repairs": "تعمیر خودرو",
+        "restaurant": "رستوران",
+        "beauty-salon": "سالن زیبایی",
+        "retail": "خرده فروشی",
+        "manufacturing": "تولید",
+        "fashion-shop": "فروشگاه پوشاک",
+        "medical-center": "مرکز پزشکی",
+        "investment": "سرمایه گذاری",
+        "consultancy": "مشاوره"
+      },
+      "actions": {
+        "photo-uploaded-success": "عکس با موفقیت بارگذاری شد!",
+        "upload-photo-failed": "بارگذاری عکس ممکن نشد!",
+        "photo-deleted-success": "عکس با موفقیت حذف شد!",
+        "delete-photo-failed": "حذف عکس ممکن نشد!",
+        "updated-success": "جزئیات شرکت با موفقیت به روز شد!",
+        "update-failed": "به روزرسانی جزئیات شرکت ممکن نشد!"
+      }
+    },
+    "configuration": {
+      "steps": {
+        "global-settings": "تنظیمات عمومی",
+        "fiscal-years": "سال های مالی",
+        "service-repair-categories": "دسته بندی خدمات/تعمیرات",
+        "maximum-job-delay": "حداکثر تاخیر کار",
+        "stock-warning-level": "سطح هشدار موجودی",
+        "system-reset": "بازنشانی سیستم"
+      },
+      "global": {
+        "job-creation": "ایجاد کار",
+        "view-canceled-job": "نمایش کار لغو شده",
+        "customer-portal": "پرتال مشتری",
+        "device-camera": "دوربین دستگاه",
+        "notification-alerts": "هشدارهای اعلان",
+        "backend-configurations": "تنظیمات بک اند",
+        "performance-dashboard": "داشبورد عملکرد"
+      },
+      "form": {
+        "hours": "ساعت",
+        "invalid-hours": "مقدار نامعتبر، حداقل 1 ساعت",
+        "stock-quantity": "مقدار موجودی",
+        "invalid-stock-quantity": "مقدار نامعتبر، حداقل 2 مورد"
+      },
+      "fiscal-years": {
+        "year": "سال",
+        "start-of-year": "شروع سال",
+        "end-of-year": "پایان سال"
+      },
+      "actions": {
+        "confirm": "تایید",
+        "cancel": "لغو",
+        "update-header": "تنظیمات به روز شود؟",
+        "updated-success": "تنظیمات با موفقیت به روز شد!",
+        "update-failed": "به روزرسانی تنظیمات ممکن نشد!"
+      }
+    },
+    "import": {
+      "actions": {
+        "download-template": "دانلود قالب",
+        "import": "ورود",
+        "entries-created-success": "ورودی ها با موفقیت ایجاد شدند!",
+        "upload-failed": "بارگذاری ورودی ها ممکن نشد!",
+        "invalid-file": "فایل انتخابی SI-6.xlsx نیست!"
+      },
+      "cards": {
+        "fiscal-years": "سال های مالی",
+        "accounts": "حساب ها",
+        "departments": "بخش ها",
+        "users": "کاربران",
+        "employees": "کارمندان",
+        "segments": "بخش بندی ها",
+        "raw-material": "مواد اولیه",
+        "trading-items": "اقلام بازرگانی",
+        "products-items": "اقلام محصول",
+        "services": "خدمات",
+        "assets": "دارایی ها",
+        "customers": "مشتریان",
+        "suppliers": "تامین کنندگان",
+        "opening-accounts": "حساب های افتتاحیه",
+        "invoices": "فاکتورها"
+      },
+      "loading": {
+        "importing-fiscal-years": "در حال ورود سال های مالی",
+        "importing-accounts": "در حال ورود حساب ها",
+        "importing-departments": "در حال ورود بخش ها",
+        "importing-users": "در حال ورود کاربران",
+        "importing-employees": "در حال ورود کارمندان",
+        "importing-segments": "در حال ورود بخش بندی ها",
+        "importing-services": "در حال ورود خدمات",
+        "importing-products": "در حال ورود محصولات",
+        "importing-raw-material": "در حال ورود مواد اولیه",
+        "importing-trading": "در حال ورود بازرگانی",
+        "importing-assets": "در حال ورود دارایی ها",
+        "importing-opening-accounts": "در حال ورود حساب های افتتاحیه",
+        "importing-customers": "در حال ورود مشتریان",
+        "importing-suppliers": "در حال ورود تامین کنندگان",
+        "importing-outstanding-invoices": "در حال ورود فاکتورهای معوق",
+        "importing-invoices": "در حال ورود فاکتورها"
+      }
+    },
+    "reset": {
+      "actions": {
+        "confirm": "تایید",
+        "cancel": "لغو",
+        "confirm-reset": "تایید بازنشانی",
+        "reset-all-transactions": "همه تراکنش ها بازنشانی شوند؟",
+        "reset-success": "تراکنش ها با موفقیت بازنشانی شدند!",
+        "reset-failed": "بازنشانی تراکنش ها ممکن نشد!"
+      },
+      "records": {
+        "quotation": "پیش فاکتور",
+        "sales-order": "سفارش فروش",
+        "sales-invoice": "فاکتور فروش",
+        "delivery-note": "حواله تحویل",
+        "request-for-quotation": "درخواست پیش فاکتور",
+        "supplier-quotation": "پیش فاکتور تامین کننده",
+        "purchase-order": "سفارش خرید",
+        "purchase-invoice": "فاکتور خرید",
+        "purchase-receipt": "رسید خرید",
+        "stock-ledger-entry": "ورودی دفتر موجودی",
+        "payment-ledger-entry": "ورودی دفتر پرداخت",
+        "stock-entry": "ورودی موجودی",
+        "payment-entry": "ورودی پرداخت",
+        "gl-entry": "ورودی دفتر کل",
+        "account": "حساب",
+        "cost-center": "مرکز هزینه",
+        "warehouse": "انبار",
+        "budget": "بودجه",
+        "party-account": "حساب طرف",
+        "employee": "کارمند",
+        "sales-taxes-and-charges-template": "الگوی مالیات و هزینه فروش",
+        "purchase-taxes-and-charges-template": "الگوی مالیات و هزینه خرید",
+        "pos-profile": "پروفایل صندوق فروش",
+        "bom": "صورت مواد",
+        "company": "شرکت",
+        "bank-account": "حساب بانکی",
+        "item-tax-template": "الگوی مالیات کالا",
+        "mode-of-payment": "روش پرداخت",
+        "mode-of-payment-account": "حساب روش پرداخت",
+        "item-default": "پیش فرض کالا",
+        "customer": "مشتری",
+        "supplier": "تامین کننده"
+      }
+    }
+  },
   "portal": {
     "search": "جستجو کنید",
     "in-progress": "در حال انجام است",
@@ -515,14 +2149,326 @@
     "production": "تولید",
     "support": "پشتیبانی کنید"
   },
+  "modals": {
+    "common": {
+      "invalid-task-subject": "موضوع کار نامعتبر است",
+      "approver": "تاییدکننده",
+      "end-date": "تاریخ پایان",
+      "main-assignee": "مسئول اصلی",
+      "allocated-duration": "مدت اختصاص یافته",
+      "duration-unit": "واحد مدت",
+      "minute": "دقیقه",
+      "hour": "ساعت",
+      "day": "روز",
+      "start": "شروع",
+      "finish": "پایان"
+    },
+    "new-task": {
+      "title": "کار جدید"
+    },
+    "new-step": {
+      "title": "افزودن گام جدید",
+      "create-addition-step": "ایجاد گام اضافی"
+    },
+    "alteration-request": {
+      "additional-task": "کار اضافی",
+      "request-approval": "درخواست تایید تغییر"
+    },
+    "alteration-approval": {
+      "title": "تایید تغییر مرحله",
+      "approve": "تایید تغییر"
+    },
+    "approval-task": {
+      "project": "پروژه",
+      "parent-task": "کار والد",
+      "phase": "مرحله",
+      "system": "سیستم",
+      "department": "بخش"
+    },
+    "task-type": {
+      "product": "محصول",
+      "service": "خدمت",
+      "no-raw-material-product": "برای این محصول مواد اولیه موردنیاز وجود ندارد",
+      "no-raw-material-service": "برای این خدمت مواد اولیه موردنیاز وجود ندارد"
+    },
+    "operation": {
+      "title": "عملیات جدید",
+      "operation-name": "نام عملیات",
+      "workstation": "ایستگاه کاری"
+    },
+    "sales-order": {
+      "new": "سفارش فروش جدید"
+    },
+    "ai": {
+      "confirm": "تایید",
+      "cancel": "لغو",
+      "download": "دانلود",
+      "loading": "در حال بارگذاری",
+      "action-failed-header": "انجام عملیات ناموفق بود",
+      "download-failed-message": "دانلود فایل پی دی اف ممکن نشد!",
+      "ok": "باشه",
+      "logo-alt": "لوگوی شرکت",
+      "report-description": "یک گزارش فروش روزانه با استفاده از هوش مصنوعی ایجاد کنید. این گزارش بینش هایی درباره عملکرد فروش روزانه شما ارائه می دهد، از جمله پرفروش ترین اقلام، مجموع درآمد و روندهای مشتریان."
+    }
+  },
   "common": {
+    "search": "جستجو",
+    "create": "ایجاد",
     "result-suffix": "نتیجه(های)",
     "previous": "قبلی",
     "next": "بعدی",
     "pagination": "صفحه بندی",
     "page": "صفحه",
-    "youre-on-page": "شما در صفحه هستید"
+    "youre-on-page": "شما در صفحه هستید",
+    "update": "به روز رسانی",
+    "cards": {
+      "status": {
+        "suspended": "معلق"
+      },
+      "visibility": {
+        "public": "عمومی",
+        "private": "خصوصی"
+      }
+    },
+    "process": {
+      "project-tree": "درخت پروژه",
+      "progress-timing": "زمان بندی پیشرفت",
+      "workflow": "گردش کار",
+      "invalid-job": "کار نامعتبر",
+      "invalid-job-instructions": "لطفا یک کار را انتخاب کنید یا کار جدید ایجاد کنید",
+      "initial-items-selection": "انتخاب اقلام اولیه",
+      "appointment": "قرار ملاقات",
+      "appointment-date": "تاریخ قرار ملاقات",
+      "appointment-time": "زمان قرار ملاقات",
+      "action-required": "اقدام لازم است",
+      "complete-required-fields": "لطفا پیش از تایید از تکمیل بودن همه فیلدها مطمئن شوید!",
+      "save": "ذخیره",
+      "charges-and-profitability": "هزینه ها و سودآوری",
+      "material-consumption": "مصرف مواد",
+      "material-storage": "انبارش مواد",
+      "extra-items": "اقلام اضافی",
+      "recommendations": "توصیه ها",
+      "completion-approval": "تایید تکمیل",
+      "no-attachments": "پیوستی وجود ندارد",
+      "upload-attachment": "لطفا یک پیوست بارگذاری کنید",
+      "attachments-not-found": "هیچ پیوستی یافت نشد",
+      "import": "وارد کردن"
+    },
+    "components": {
+      "approval": {
+        "subject": "Subject",
+        "invalid-task-subject": "Invalid Task Subject",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "approver": "Approver",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "alteration-approval": "Alteration Approval"
+      },
+      "cost-summary": {
+        "raw-material": "Raw Material",
+        "human-resources": "Human Resources",
+        "other-costs": "Other Costs",
+        "total-cost": "Total Cost",
+        "suggested-selling-rate": "Suggested Selling Rate",
+        "actual-selling-rate": "Actual Selling Rate",
+        "net-profit": "Net Profit",
+        "net-profit-percentage": "Net Profit Percentage"
+      },
+      "erpnext-report": {
+        "export": "Export",
+        "select-page": "Select page"
+      },
+      "note": {
+        "is-public": "Is Public",
+        "title": "Title",
+        "note-content": "Note Content",
+        "max-letters": "Reached maximum number of letters",
+        "delete": "Delete"
+      },
+      "step": {
+        "subject": "Subject",
+        "invalid-task-subject": "Invalid Task Subject",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "department": "Department",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "complete": "Complete"
+      },
+      "event": {
+        "event-information": "Event Information",
+        "subject": "Subject",
+        "event-type": "Event Type",
+        "event-type-options": {
+          "event": "Event",
+          "meeting": "Meeting",
+          "call": "Call",
+          "sent-received-email": "Sent/Received Email",
+          "other": "Other"
+        },
+        "description": "Description",
+        "event-timing": "Event Timing",
+        "event-date": "Event Date",
+        "starting-time": "Starting Time",
+        "ending-time": "Ending Time",
+        "repeat-till": "Repeat Till",
+        "repeat-frequency": "Repeat Frequency",
+        "repeat-frequency-options": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly",
+          "yearly": "Yearly"
+        },
+        "auto-repeat-schedule": "Auto Repeat Schedule",
+        "next-schedule": "Next Schedule",
+        "repeat-event": "Repeat Event",
+        "participants": "Participants",
+        "invalid-date-timing": "Invalid date & timing",
+        "no-participants-assigned": "No Participants Assigned",
+        "photo": "Photo",
+        "actions": "Actions",
+        "complete": "Complete",
+        "suspend": "Suspend"
+      },
+      "task": {
+        "view-original": "View Original",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "department": "Department",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "toggles": {
+          "alterations": "Alterations",
+          "steps": "Steps",
+          "events": "Events",
+          "notes": "Notes",
+          "attachments": "Attachments",
+          "actions": "Actions"
+        },
+        "alterations": {
+          "empty-subtitle": "No Alterations",
+          "empty-instructions": "No Alterations found.",
+          "request": "Request Alteration"
+        },
+        "steps": {
+          "empty-subtitle": "No Steps",
+          "empty-instructions": "No Steps found.",
+          "create": "New Step"
+        },
+        "events": {
+          "empty-subtitle": "No Events",
+          "empty-instructions": "No Events found.",
+          "create": "New Event"
+        },
+        "notes": {
+          "empty-subtitle": "No Notes",
+          "empty-instructions": "No Notes found.",
+          "create": "New Note"
+        },
+        "attachments": {
+          "empty-subtitle": "No Attachments",
+          "empty-instructions": "No Attachments found.",
+          "add": "Add Attachment"
+        },
+        "action-required-instructions": "Please ensure all approvals and steps are completed before finishing this task.",
+        "start": "Start",
+        "finish": "Finish",
+        "pending-approvals": "There are pending approvals.",
+        "pending-steps": "There are pending steps.",
+        "completed": "Task Completed!"
+      }
+    },
+    "pdfs": {
+      "actions": {
+        "download": "دانلود"
+      },
+      "status": {
+        "loading": "در حال بارگذاری",
+        "action-failed": "انجام عملیات ناموفق بود",
+        "download-failed": "دانلود PDF ممکن نشد!",
+        "ok": "باشه"
+      },
+      "toggles": {
+        "show-stamp": "نمایش مهر",
+        "show-notes": "نمایش یادداشت ها"
+      },
+      "labels": {
+        "page": "صفحه",
+        "notes": "یادداشت ها",
+        "reference": "مرجع"
+      },
+      "entries": {
+        "category": "دسته بندی",
+        "description": "توضیحات",
+        "qty": "تعداد",
+        "unit-price": "قیمت واحد",
+        "amount": "مبلغ",
+        "fallback-category": "محصولات"
+      }
+    }
   },
+  "popovers": {
+    "common": {
+      "confirm": "تایید",
+      "cancel": "لغو"
+    },
+    "ai-prompt": {
+      "prompt-label": "پرامپت",
+      "ollama-model-label": "مدل اولاما",
+      "data-preview": "پیش نمایش داده",
+      "ai-prompt-title": "پرامپت هوش مصنوعی",
+      "available-local-ollama-models": "مدل های محلی اولاما موجود",
+      "model-name": "نام مدل",
+      "parameter-size": "اندازه پارامتر",
+      "valid-prompt": "پرامپت معتبر",
+      "valid-data": "داده معتبر",
+      "generate": "تولید",
+      "confirm-prompt-header": "تایید پرامپت؟",
+      "prompt-copied-successfully": "پرامپت با موفقیت کپی شد!"
+    },
+    "payment": {
+      "outstanding-amount": "مبلغ باقیمانده",
+      "due-date": "تاریخ سررسید",
+      "method-card": "کارت",
+      "method-cash": "نقدی",
+      "payment-amount": "مبلغ پرداخت",
+      "invalid-amount": "مبلغ نامعتبر!",
+      "confirm-payment": "تایید پرداخت",
+      "confirm-payment-header": "تایید پرداخت؟"
+    },
+    "receipt": {
+      "received-item-list": "فهرست اقلام دریافت شده",
+      "item-label": "قلم",
+      "unit-fallback": "واحد",
+      "confirm-item-receipt": "تایید دریافت اقلام",
+      "confirm-receipt-header": "تایید دریافت اقلام؟"
+    },
+    "duration": {
+      "project-duration": "مدت پروژه",
+      "select-date-range": "انتخاب بازه تاریخ",
+      "start-date": "تاریخ شروع",
+      "end-date": "تاریخ پایان",
+      "create": "ایجاد",
+      "confirm-duration-header": "تایید مدت؟"
+    },
+    "delivery": {
+      "delivery-item-list": "فهرست اقلام تحویل",
+      "item-label": "قلم",
+      "confirm-item-delivery": "تایید تحویل اقلام",
+      "confirm-delivery-header": "تایید تحویل اقلام؟"
+    }
+  },
+  "about": "درباره",
   "dashboard": "داشبورد",
   "dashboards": "داشبوردها"
 }

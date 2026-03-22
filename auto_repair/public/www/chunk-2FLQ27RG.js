@@ -1,2 +1,0 @@
-import{Rb as i,Sb as a,ib as o,pc as r}from"./chunk-53IFIEHM.js";import"./chunk-4672KUFR.js";var p=(()=>{let t=class t{constructor(){}ngOnInit(){}};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-sales-and-marketing"]],decls:2,vars:0,template:function(n,m){n&1&&(i(0,"p"),r(1,` sales-and-marketing works!
-`),a())},encapsulation:2});let e=t;return e})();export{p as SalesAndMarketingComponent};

@@ -1,1 +1,0 @@
-import{Z as a}from"./chunk-53IFIEHM.js";import{g as d}from"./chunk-4672KUFR.js";var o=(()=>{let e=class e{isErrorState(t,i){return!!(t&&t.invalid&&(t.touched||i&&i.submitted))}};d(e,"\u0275fac",function(i){return new(i||e)}),d(e,"\u0275prov",a({token:e,factory:e.\u0275fac,providedIn:"root"}));let n=e;return n})();export{o as a};

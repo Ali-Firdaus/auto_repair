@@ -37,6 +37,27 @@
       "empty-state": {
         "subtitle": "Action Required!",
         "instructions": "Please import KPIs from settings to access the Strategic Framework."
+      },
+      "kpis": {
+        "update-button": "Update KPIs"
+      },
+      "targets": {
+        "templates": {
+          "strategy": "Strategy Template",
+          "innovation": "Innovation Template",
+          "operations": "Operations Template",
+          "finance": "Financial Template",
+          "production": "Production Template",
+          "support": "Support Template"
+        }
+      },
+      "performance": {
+        "templates": {
+          "strategy": "Strategy Template",
+          "finance": "Finance Template",
+          "production": "Production Template",
+          "support": "Support Template"
+        }
       }
     },
     "annual-business-plan": "Annual Business Plan",
@@ -46,7 +67,63 @@
       "strategic-innovation-canvas": "Strategic Innovation Canvas",
       "strategic-framework": "Strategic Framework",
       "annual-business-plan": "Annual Business Plan",
-      "daily-sales-reports": "Daily Sales Reports"
+      "daily-sales-reports": "Daily Sales Reports",
+      "daily-sales-reports-view": {
+        "select-date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "tabs": {
+          "details": "Details",
+          "payments": "Payments",
+          "finance": "Finance",
+          "jobs": "Jobs"
+        },
+        "empty-state": {
+          "subtitle": "Not Available!",
+          "instructions": "No data available for the selected filters."
+        },
+        "details": {
+          "columns": {
+            "no": "No",
+            "invoice": "Invoice",
+            "item": "Item",
+            "qty": "Qty",
+            "total-amount": "Total Amount",
+            "total-cost": "Total Cost",
+            "gross-profit": "Gross Profit"
+          }
+        },
+        "payments": {
+          "columns": {
+            "date": "Date",
+            "payment-method": "Payment Method",
+            "net-total-omr": "Net Total (OMR)",
+            "taxes-omr": "Taxes (OMR)",
+            "grand-total-omr": "Grand Total (OMR)",
+            "owner": "Owner"
+          }
+        },
+        "jobs": {
+          "columns": {
+            "parameter": "Parameter",
+            "value": "Value"
+          }
+        },
+        "finance": {
+          "columns": {
+            "title": "Title",
+            "amount-omr": "Amount (OMR)"
+          }
+        }
+      },
+      "strategic-framework-view": {
+        "company-performance": "Company Performance",
+        "performance": {
+          "zero-to-90": "0-90%",
+          "ninety-to-95": "90-95%",
+          "above-95": "Above 95%"
+        }
+      }
     },
     "dashboards": {
       "title": "Performance Dashboards",
@@ -57,10 +134,50 @@
       "production-dashboard": "Production Dashboard",
       "support-dashboard": "Support Dashboard"
     },
-    "business-intelligence": "Business Intelligence"
+    "business-intelligence": "Business Intelligence",
+    "menu": {
+      "daily-reports": "Daily Reports"
+    },
+    "common": {
+      "year": "Year",
+      "system": "System",
+      "pillar": "Pillar",
+      "update-existing": "Update Existing",
+      "import-data": "Import Data",
+      "search": "Search",
+      "select-page": "Select page",
+      "select-option": "Select an option",
+      "this-month": "This Month",
+      "accumulated": "Accumulated",
+      "view-table": "View Table",
+      "kpi": "KPI",
+      "weight": "Weight",
+      "keys": "Keys",
+      "target": "Target",
+      "achieved": "Achieved",
+      "efficiency": "Efficiency",
+      "cumulative": "Cumulative",
+      "months": {
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dec"
+      }
+    }
   },
   "operation": {
     "title": "Operation",
+    "menu": {
+      "system": "Operations"
+    },
     "departments": "Departments",
     "employees": "Employees",
     "appraisals": "Appraisals",
@@ -70,7 +187,26 @@
       "organization-structure": "Organization Structure",
       "strategic-innovation-canvas": "Strategic Innovation Canvas",
       "strategic-framework": "Strategic Framework",
-      "annual-business-plan": "Annual Business Plan"
+      "annual-business-plan": "Annual Business Plan",
+      "company-performance": "Company Performance",
+      "systems-performance": "Systems Performance",
+      "action-required": "Action Required!",
+      "kpi-import-instructions": "Please Import KPIs from the settings to access the Strategic Framework.",
+      "year": "Year",
+      "system": "System",
+      "pillar": "Pillar",
+      "this-month": "This Month",
+      "accumulated": "Accumulated",
+      "select-option": "Select an option",
+      "view-table": "View Table",
+      "kpi": "KPI",
+      "weight": "Weight",
+      "keys": "Keys",
+      "target": "Target",
+      "achieved": "Achieved",
+      "efficiency": "Efficiency",
+      "cumulative": "Cumulative",
+      "select-page": "Select page"
     },
     "regulatory-framework": {
       "title": "Regulatory Framework",
@@ -80,24 +216,42 @@
     "hr-management": {
       "title": "HR Management",
       "employees": "Employees",
+      "new-employee": "New Employee",
+      "new-department": "New Department",
+      "list-empty": "List Empty",
+      "employees-empty-instructions": "Please add an employee in the backend or apply proper filters to see available employees",
+      "departments-empty-instructions": "Please add a department in the backend or apply proper filters to see available departments",
       "process-recruitment": "Process Recruitment",
       "employees-development": "Employees Development",
       "retention-plan": "Retention Plan",
       "leaves": {
         "title": "Leaves",
         "holiday-lists": "Holiday Lists",
+        "new-holiday-list": "New Holiday List",
+        "holiday-lists-empty-instructions": "Please add a holiday list in the backend or apply proper filters to see available holiday lists",
         "leave-periods": "Leave Periods",
+        "new-leave-period": "New Leave Period",
+        "leave-periods-empty-instructions": "Please add a leave period in the backend or apply proper filters to see available leave periods",
         "leave-types": "Leave Types",
+        "new-leave-type": "New Leave Type",
+        "leave-types-empty-instructions": "Please add a leave type in the backend or apply proper filters to see available leave types",
         "leave-policies": "Leave Policies",
+        "new-leave-policy": "New Leave Policy",
+        "leave-policies-empty-instructions": "Please add a leave policy in the backend or apply proper filters to see available leave policies",
         "leave-policy-assignments": "Leave Policy Assignments",
-        "leave-applications": "Leave Applications"
+        "new-leave-policy-assignment": "New Leave Policy Assignment",
+        "leave-policy-assignments-empty-instructions": "Please add a leave policy assignment in the backend or apply proper filters to see available leave policy assignments",
+        "leave-applications": "Leave Applications",
+        "new-leave-application": "New Leave Application",
+        "leave-applications-empty-instructions": "Please add a leave application in the backend or apply proper filters to see available leave applications"
       },
       "human-capital": "Human Capital",
       "departments": "Departments"
     },
     "pr": {
       "title": "PR",
-      "utilise-tasks-and-projects": "Utilise Tasks and Projects"
+      "utilise-tasks-and-projects": "Utilise Tasks and Projects",
+      "status": "PR works!"
     },
     "processes": {
       "title": "Processes",
@@ -107,7 +261,175 @@
     },
     "reports": {
       "title": "Reports",
-      "leave-balance-summary-report": "Leave Balance Summary Report"
+      "leave-balance-summary-report": "Leave Balance Summary Report",
+      "date": "Date"
+    },
+    "cards": {
+      "common": {
+        "system-not-configured": "System Not Configured!",
+        "to": "to",
+        "owner-avatar-alt": "owner"
+      },
+      "department": {
+        "status": {
+          "enabled": "Enabled",
+          "disabled": "Disabled"
+        }
+      },
+      "employee": {
+        "contract": {
+          "left": "{{duration}} left",
+          "expired": "Contract Expired!"
+        }
+      },
+      "leave-application": {
+        "status": {
+          "approved": "Approved",
+          "rejected": "Rejected",
+          "open": "Open"
+        }
+      },
+      "leave-period": {
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive"
+        }
+      },
+      "leave-policy": {
+        "status": {
+          "confirmed": "Confirmed",
+          "draft": "Draft"
+        }
+      },
+      "leave-type": {
+        "days": "{{count}} Days"
+      }
+    },
+    "forms": {
+      "common": {
+        "create": "Create",
+        "update": "Update",
+        "confirm": "Confirm",
+        "approve": "Approve",
+        "select-date-range": "Select a date range",
+        "effective-from": "Effective From",
+        "effective-to": "Effective To"
+      },
+      "department": {
+        "details": "Department Details",
+        "department-name": "Department Name",
+        "department-name-invalid": "Department name is invalid",
+        "system": "System",
+        "leave-approvers": "Leave Approvers",
+        "approver": "Approver"
+      },
+      "employee": {
+        "general": "General",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "mobile-phone": "Mobile Phone",
+        "date-of-birth": "Date of Birth",
+        "contract": "Contract",
+        "department": "Department",
+        "status": "Status",
+        "active": "Active",
+        "inactive": "Inactive",
+        "date-of-joining": "Date of Joining",
+        "current-contract-duration": "Current Contract Duration",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "salary": "Salary",
+        "bank-name": "Bank Name",
+        "bank-account-number": "Bank Account number",
+        "salary-in-omr": "Salary in OMR",
+        "hr-cost": "HR Cost",
+        "monthly-cost": "Monthly Cost",
+        "daily-cost": "Daily Cost",
+        "hourly-cost": "Hourly Cost",
+        "relative-cost-percentage": "Relative Cost Percentage"
+      },
+      "employee-performance": {
+        "average-duration": "Average Duration",
+        "completion-rate": "Completion Rate",
+        "monthly-jobs": "Monthly Jobs",
+        "assigned-services": "Assigned Services",
+        "not-available": "Not available",
+        "job": "Job",
+        "jobs": "Jobs",
+        "services": "Services"
+      },
+      "holiday-list": {
+        "details": "Holiday List Details",
+        "year": "Year",
+        "holiday-list-name": "Holiday List Name",
+        "official-holidays": "Official Holidays",
+        "holidays": "Holidays",
+        "no-holidays-available": "No holidays available."
+      },
+      "leave-application": {
+        "details": "Leave Application Details",
+        "employee": "Employee",
+        "approver": "Approver",
+        "leave-type": "Leave Type",
+        "description": "Description",
+        "duration": "Leave Duration",
+        "policy-assignment": "Policy Assignment",
+        "select-leave-type-message": "Please select a leave type to view allocation details.",
+        "no-allocation-details": "No leave allocation details available for {{leaveType}}.",
+        "total-leaves": "Total Leaves",
+        "expired-leaves": "Expired Leaves",
+        "leaves-taken": "Leaves Taken",
+        "leaves-pending-approval": "Leaves Pending Approval",
+        "remaining-leaves": "Remaining Leaves",
+        "duration-days": "{{count}} day(s)",
+        "leave-approval": "Leave Approval",
+        "leave-approved-on": "Leave Approved on"
+      },
+      "leave-period": {
+        "details": "Leave Period Details",
+        "is-active": "Is Active"
+      },
+      "leave-policy": {
+        "details": "Leave Policy Details",
+        "form-policy-name": "Form Policy Name",
+        "leave-type": "Leave Type",
+        "annual-allocation-max": "Annual Allocation (Max: {{max}})"
+      },
+      "leave-policy-assignment": {
+        "details": "Leave Policy Assignment Details",
+        "employee": "Employee",
+        "leave-policy": "Leave Policy",
+        "leave-period": "Leave Period",
+        "add-unused-leaves": "Add unused leaves from previous allocations",
+        "leave-types": "Leave Types",
+        "leave-type": "Leave Type",
+        "annual-allocation": "Annual Allocation",
+        "no-leave-policy-details": "No leave policy details available."
+      },
+      "leave-type": {
+        "information": "Information",
+        "leave-type-name": "Leave Type Name",
+        "leave-type-name-invalid": "Leave type name is invalid",
+        "max-leaves-allowed": "Max Leaves Allowed",
+        "max-leaves-invalid": "Max leaves allowed is invalid",
+        "leave-frequency": "Leave Frequency",
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "half-yearly": "Half-Yearly",
+        "yearly": "Yearly",
+        "options": "Options",
+        "carry-forward": "Carry Forward",
+        "leave-with-full-payment": "Leave With Full Payment",
+        "leave-with-partial-payment": "Leave With Partial Payment",
+        "leave-without-payment": "Leave Without Payment"
+      }
+    },
+    "dashboard": {
+      "year": "Year",
+      "pillar": "Pillar"
     }
   },
   "production": {
@@ -117,6 +439,7 @@
       "title": "Channels",
       "garage": {
         "title": "Garage",
+        "old-jobs": "Old Jobs",
         "notifications": "Notifications",
         "incomplete": "Incomplete",
         "completed": "Completed",
@@ -126,7 +449,13 @@
         "initiation": "Initiation",
         "planning": "Planning",
         "execution": "Execution",
-        "completion": "Completion"
+        "completion": "Completion",
+        "brands-actions": {
+          "download-template": "Download Template"
+        },
+        "brands-empty": {
+          "instructions": "Please apply proper filters to see available sales orders"
+        }
       },
       "manufacturing": {
         "title": "Manufacturing",
@@ -176,11 +505,91 @@
         "title": "POS",
         "shop": "Shops",
         "branches": "Branches",
-        "invoices": "Invoices"
+        "invoices": "Invoices",
+        "new-store": "New Store",
+        "branches-empty": {
+          "instructions": "Please apply proper filters to see available stores"
+        },
+        "branches-info": {
+          "instructions": "You can search stores by name."
+        },
+        "invoices-empty": {
+          "subtitle": "No Transactions!",
+          "instructions": "There are no transactions found. Please use the search box for filtering."
+        }
       },
       "tasks": "Task Management",
       "jobs": "Job Management",
       "projects": "Project Management"
+    },
+    "menu": {
+      "manufacturing-import": "Manufacturing Import",
+      "garage": {
+        "notifications": "Garage Notifications",
+        "pending": "Garage Pending",
+        "completed": "Garage Completed",
+        "vehicles": "Garage Vehicles",
+        "import": "Garage Import"
+      },
+      "consultancy": {
+        "pending": "Consultancy Pending",
+        "completed": "Consultancy Completed"
+      },
+      "investment": {
+        "pending": "Investment Pending",
+        "completed": "Investment Completed"
+      },
+      "pos": {
+        "shop": "POS Shop",
+        "branches": "POS Branches",
+        "transactions": "POS Transactions"
+      }
+    },
+    "ui": {
+      "search": "Search",
+      "vehicle": "Vehicle",
+      "garage-jobs": "Garage Jobs",
+      "results-count": "{{count}} result(s)",
+      "actions": {
+        "create": "Create"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "pagination": "Pagination",
+        "page": "page",
+        "current": "You're on page"
+      },
+      "empty": {
+        "list-empty": "List Empty"
+      },
+      "garage-jobs-empty": {
+        "subtitle": "There are no garage jobs in the system!",
+        "instructions": "Please create a new garage job when needed."
+      },
+      "vehicles-empty": {
+        "subtitle": "There are no vehicles in the system!",
+        "instructions": "Please create a new vehicle when creating a new job."
+      }
+    },
+    "cards": {
+      "garage-job": {
+        "owner-avatar": "Owner"
+      },
+      "pos-invoice": {
+        "selling-amount": "Selling Amount",
+        "owner-avatar": "Owner",
+        "currency": {
+          "omr": "OMR"
+        },
+        "status": {
+          "paid": "Paid",
+          "unpaid": "Unpaid",
+          "return": "Return",
+          "overdue": "Overdue",
+          "consolidated": "Consolidated"
+        }
+      }
     },
     "internal": {
       "title": "Internal",
@@ -205,6 +614,184 @@
       "material-requests": "Material Requests",
       "delivery-notes": "Delivery Notes",
       "operations": "Operations"
+    },
+    "garage": {
+      "sections": {
+        "general-information": "General Information",
+        "registration": "Registration",
+        "insurance": "Insurance",
+        "jobs-history": "Jobs History"
+      },
+      "fields": {
+        "select-date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "brand": "Brand",
+        "model": "Model",
+        "production-year": "Production Year",
+        "chassis-number": "Chassis Number",
+        "owner": "Owner",
+        "plate-number": "Plate Number",
+        "plate-code": "Plate Code",
+        "registration-date-range": "Registration Date Range",
+        "registration-issue-date": "Registration Issue Date",
+        "registration-expiry-date": "Registration Expiry Date",
+        "insurance-company": "Insurance Company",
+        "insurance-date-range": "Insurance Date Range",
+        "insurance-issue-date": "Insurance Issue Date",
+        "insurance-expiry-date": "Insurance Expiry Date",
+        "logo-url": "Logo url",
+        "discount-omr": "Discount in OMR",
+        "qc-employee": "QC Employee",
+        "charge": "Charge",
+        "part": "Part",
+        "qty": "QTY",
+        "employee": "Employee",
+        "allocated-duration": "Allocated Duration",
+        "duration-unit": "Duration Unit",
+        "customer-name": "Customer Name",
+        "customer-phone": "Customer Phone",
+        "odometer": "Odometer",
+        "inspector": "Inspector",
+        "notes": "Notes",
+        "issue-date": "Issue Date",
+        "expiry-date": "Expiry Date",
+        "duration": "Duration",
+        "start-time": "Start Time",
+        "stop-time": "Stop Time",
+        "service-duration": "Service Duration",
+        "assigned-employee": "Assigned Employee"
+      },
+      "jobs": {
+        "count": "Jobs Count:",
+        "none-in-range": "No jobs found for the selected date range."
+      },
+      "brand": {
+        "details": "Brand Details",
+        "models": "Models"
+      },
+      "actions": {
+        "update": "Update",
+        "download": "Download",
+        "cancel": "Cancel",
+        "actions": "Actions",
+        "start": "Start",
+        "stop": "Stop",
+        "complete": "Complete",
+        "add-additional-services": "Add Additional Services",
+        "approve-services": "Approve Services",
+        "send-invoice": "Send Invoice",
+        "send-receipt": "Send Receipt",
+        "create-invoice": "Create Invoice",
+        "mark-as-delivered": "Mark as Delivered"
+      },
+      "invoice": {
+        "tax-invoice": "Tax Invoice",
+        "add-stamp": "Add stamp"
+      },
+      "table": {
+        "type": "Type",
+        "item": "Item",
+        "quantity": "Quantity",
+        "amount-omr": "Amount OMR",
+        "service": "Service",
+        "spare-part": "Spare Part",
+        "labor": "Labor"
+      },
+      "summary": {
+        "discount": "Discount",
+        "net-total": "Net Total",
+        "vat": "VAT (5%)",
+        "grand-total": "Grand Total",
+        "tax": "Tax"
+      },
+      "payment": {
+        "details": "Payment Details",
+        "methods": {
+          "card": "Card",
+          "cash": "Cash"
+        },
+        "confirm-payment": "Confirm Payment"
+      },
+      "errors": {
+        "invalid-amount": "Invalid amount!",
+        "no-employee": "No Employee",
+        "invalid-quantity": "Invalid Quantity",
+        "odometer-invalid": "Odometer invalid!",
+        "max-letters": "Reached maximum number of letters",
+        "insurance-company-invalid": "Insurance Company Invalid!",
+        "invalid-chassis-number": "Invalid chassis number",
+        "plate-number-invalid": "Plate number invalid!",
+        "plate-code-invalid": "Plate code invalid!"
+      },
+      "steps": {
+        "charges": "Charges",
+        "confirmation": "Confirmation",
+        "services-parts": "Services & Parts",
+        "extra-services-parts": "Extra Services & Parts",
+        "task-assignment": "Task Assignment",
+        "timing": "Timing",
+        "approval": "Approval",
+        "quality-control": "Quality Control",
+        "payment": "Payment",
+        "delivery": "Delivery",
+        "customer": "Customer",
+        "inspection": "Inspection"
+      },
+      "qc": {
+        "service-completed": "Service Completed"
+      },
+      "confirmation": {
+        "in-person": "In Person Confirmation",
+        "electronic-signature": "Electronic signature",
+        "whatsapp": "WhatsApp Confirmation",
+        "remote-link": "Remote Link",
+        "no-customer-confirmation": "No Customer Confirmation"
+      },
+      "signature": {
+        "customer-signature": "Customer Signature",
+        "services-repairs": "Services/Repairs",
+        "services": "Services",
+        "spare-parts": "Spare Parts",
+        "signature": "Signature"
+      },
+      "terms": {
+        "title": "General Terms and Conditions",
+        "accept": "Accept terms & conditions",
+        "consent-for-service": "Consent for Service:",
+        "understanding-of-services": "Understanding of Services:",
+        "cost-estimates": "Cost Estimates:",
+        "approval-for-additional-work": "Approval for Additional Work:",
+        "parts-and-labor-warranty": "Parts and Labor Warranty:",
+        "vehicle-pickup": "Vehicle Pickup:",
+        "liability": "Liability:",
+        "customer-responsibilities": "Customer Responsibilities:",
+        "dispute-resolution": "Dispute Resolution:"
+      },
+      "timing": {
+        "delay-warning": "There is a delay in this service!"
+      },
+      "units": {
+        "minute": "Minute",
+        "hour": "Hour",
+        "day": "Day"
+      },
+      "inspection": {
+        "previous-reading": "Previous reading"
+      },
+      "alerts": {
+        "confirmation": "Confirmation Alert!"
+      },
+      "messages": {
+        "no-add-after-confirmation": "Adding Services are parts are not possible after confirmation",
+        "services-approved": "Services Approved",
+        "discount-check-before-confirmation": "Please make sure discount amount is correct befor econfirmation",
+        "assign-employee-to-service": "Please assign an employee to this service",
+        "sign-within-boundaries": "Please sign within the boundaries of the highlighted borders"
+      },
+      "stock": {
+        "out-of-stock": "out of stock"
+      }
     }
   },
   "finance": {
@@ -213,15 +800,336 @@
       "title": "Accounting",
       "journal-entries": "Journal Entries",
       "payment-entries": "Payment Entries",
-      "sales-orders": "Sales Orders",
       "sales-invoices": "Sales Invoices",
       "suppliers": "Suppliers",
-      "rfqs": "RFQs",
-      "supplier-quotations": "Supplier Quotations",
-      "purchase-orders": "Purchase Orders",
       "purchase-invoices": "Purchase invoices",
       "expenses": "Expenses",
       "payment-terms": "Payment Terms",
+      "payroll": "Payroll",
+      "cards": {
+        "grand-total": "Grand Total",
+        "outstanding-amount": "Outstanding Amount",
+        "returned": "Returned",
+        "currency": {
+          "omr": "OMR"
+        }
+      },
+      "expenses-ui": {
+        "new-expense": "New Expense",
+        "new-expense-entry": "New Expense Entry",
+        "empty-subtitle": "List Empty!",
+        "empty-instructions": "No Expenses Created",
+        "sections": {
+          "request-details": "Request Details",
+          "accounts": "Accounts",
+          "description": "Description",
+          "attachments": "Attachments",
+          "approval": "Approval"
+        },
+        "fields": {
+          "account": "Account",
+          "amount": "Amount",
+          "total": "Total",
+          "add-account": "Add Account",
+          "description": "Description",
+          "approver": "Approver",
+          "department": "Department"
+        },
+        "attachments": {
+          "empty-subtitle": "No Attachments",
+          "empty-instructions": "There are no attachments found",
+          "import": "Import"
+        },
+        "expense": {
+          "title": "Expense Information"
+        },
+        "actions": {
+          "upload-success": "Attachment Uploaded Successfully!",
+          "upload-failed": "Could Not Upload attachment!",
+          "remove-attachment-header": "Remove Attachment?",
+          "remove-success": "Attachment Removed Successfully!",
+          "remove-failed": "Could not remove attachment!",
+          "create-header": "Create New Expense Entry?",
+          "create-success": "Expense Entry Created Successfully!",
+          "create-failed": "Could Not Create New Expense Entry!",
+          "update-header": "Update Expense Entry?",
+          "update-success": "Expense Entry Updated Successfully!",
+          "update-failed": "Could Not Update Expense Entry!",
+          "request-approval-header": "Request Approval?",
+          "request-approval-success": "Approval Request Sent Successfully!",
+          "request-approval-failed": "Could Not Send Approval Request!",
+          "approve-header": "Approve Expense Entry?",
+          "approve-success": "Expense Entry Approved Successfully!",
+          "approve-failed": "Could Not Approve Expense Entry!"
+        },
+        "pending-approval": "This journal entry is waiting for approval"
+      },
+      "payments": {
+        "empty": "No Payments Found!",
+        "paid-amount": "Paid Amount:",
+        "outstanding-amount": "Outstanding Amount:",
+        "create": "Create Payment",
+        "actions": {
+          "create-success": "Payment Created Successfully!",
+          "create-failed": "Could Not Create Payment Entry!"
+        }
+      },
+      "receipts": {
+        "empty": "No Purchase Receipts Found!",
+        "create": "Create Purchase Receipt",
+        "actions": {
+          "create-success": "Purchase Receipt Created Successfully!",
+          "create-failed": "Could Not Create Delivery Note!"
+        }
+      },
+      "deliveries": {
+        "empty": "No Deliveries Found!",
+        "create": "Create Delivery Note",
+        "actions": {
+          "create-success": "Delivery Note Created Successfully!",
+          "create-failed": "Could Not Create Delivery Note!"
+        }
+      },
+      "attachments": {
+        "empty": "No Attachments!",
+        "import": "Import",
+        "actions": {
+          "upload-success": "Attachment Uploaded Successfully!",
+          "upload-failed": "Could Not Upload attachment!",
+          "remove-header": "Remove Attachment?",
+          "remove-success": "Attachment Removed Successfully!",
+          "remove-failed": "Could remove attachment!"
+        }
+      },
+      "rfqs": {
+        "title": "RFQs",
+        "rfq": {
+          "information": {
+            "title": "Request For Quotation Information"
+          },
+          "fields": {
+            "supplier": "Supplier",
+            "approver": "Approver"
+          },
+          "summary": {
+            "title": "Summary",
+            "new-subtitle": "RFQ Not created yet",
+            "new-instructions": "Please fill and save RFQ details",
+            "draft-subtitle": "RFQ saved but not confirmed!",
+            "draft-instructions": "Please request approval to proceed",
+            "confirmed-subtitle": "Pending Approval",
+            "confirmed-instructions": "This RFQ is pending approval"
+          },
+          "items": {
+            "title": "Items",
+            "item": "Item"
+          },
+          "actions": {
+            "view-pdf": "View PDF",
+            "create-supplier-quotation": "Create Supplier Quotation",
+            "create-header": "Create New RFQ?",
+            "create-success": "RFQ Created Successfully!",
+            "create-failed": "Could Not Create RFQ!",
+            "update-header": "Update RFQ?",
+            "update-success": "RFQ Updated Successfully!",
+            "update-failed": "Could Not Update RFQ!",
+            "request-approval-header": "Request RFQ Approval?",
+            "request-approval-success": "RFQ Updated Successfully!",
+            "request-approval-failed": "Could Not Update RFQ!",
+            "approve-header": "Approve RFQ?",
+            "approve-success": "Quotation Approved Successfully!",
+            "approve-failed": "Could Not Approve Quotation!",
+            "create-supplier-quotation-header": "Create New Supplier Quotation?",
+            "create-supplier-quotation-success": "Supplier Quotation Created Successfully!",
+            "create-supplier-quotation-failed": "Could Not Create Supplier Quotation!"
+          }
+        },
+        "rfq-pdf-modal": {
+          "new": "New Request For Quotation"
+        }
+      },
+      "purchase-orders": {
+        "title": "Purchase Orders",
+        "purchase-order": {
+          "omr": "OMR",
+          "information": {
+            "title": "Purchase Order Information"
+          },
+          "fields": {
+            "supplier": "Supplier",
+            "approver": "Approver"
+          },
+          "summary": {
+            "title": "Summary",
+            "net-total": "Net Total",
+            "vat": "VAT",
+            "grand-total": "Grand Total"
+          },
+          "items": {
+            "title": "Items",
+            "item": "Item",
+            "rate-in-omr": "Rate in OMR",
+            "amount-in-omr": "Amount in OMR"
+          },
+          "payments": "Payments",
+          "purchase-receipts": "Purchase Receipts",
+          "actions": {
+            "view-pdf": "View PDF",
+            "confirm-request-approval": "Confirm & Request Approval",
+            "create-header": "Create Purchase Order?",
+            "create-success": "Purchase Order Created successfully!",
+            "create-failed": "Could Not Create Purchase Order!",
+            "update-header": "Update Purchase Order?",
+            "update-success": "Purchase Order Updated successfully!",
+            "update-failed": "Could Not Update Purchase Order!",
+            "request-approval-header": "Request Approval?",
+            "request-approval-success": "Approval Requested successfully!",
+            "request-approval-failed": "Could Not Update Purchase Order!",
+            "approve-header": "Approve Purchase Order?",
+            "approve-success": "Purchase Order Approved successfully!",
+            "approve-failed": "Could not Approve Purchase Order!"
+          }
+        },
+        "purchase-order-pdf-modal": {
+          "new": "New Purchase Order"
+        }
+      },
+      "sales-orders": {
+        "title": "Sales Orders",
+        "sales-order": {
+          "omr": "OMR",
+          "information": {
+            "title": "Sales Order Information"
+          },
+          "fields": {
+            "customer-name": "Customer Name",
+            "mobile-number": "Mobile Number",
+            "tax-template": "Tax Template",
+            "warehouse": "Warehouse",
+            "delivery-date": "Delivery Date",
+            "approver": "Approver"
+          },
+          "payment-terms": {
+            "title": "Payment Terms",
+            "term": "Payment Term"
+          },
+          "items": {
+            "title": "Items"
+          },
+          "summary": {
+            "title": "Summary",
+            "net-total": "Net Total",
+            "vat": "VAT",
+            "discount": "Discount",
+            "grand-total": "Grand Total"
+          },
+          "sales-invoice": "Sales Invoice",
+          "payments": "Payments",
+          "delivery": "Delivery",
+          "actions": {
+            "confirm-request-approval": "Confirm & Request Approval",
+            "create-header": "Create sales_order?",
+            "create-success": "Sales Order Created Successfully!",
+            "create-failed": "Could Not Create Sales Order!",
+            "update-header": "Update Sales Order?",
+            "update-success": "Sales Order Updated Successfully!",
+            "update-failed": "Could Not Update sales_order!",
+            "request-approval-header": "Request Approval?",
+            "request-approval-success": "Approval Requested Successfully!",
+            "request-approval-failed": "Could Not Request Approval!",
+            "approve-header": "Approve Sales Order?",
+            "approve-success": "sales_order Approved Successfully!",
+            "approve-failed": "Could Not Approve sales_order!",
+            "create-customer-failed": "Could not create a new customer!"
+          }
+        }
+      },
+      "supplier-quotations": {
+        "title": "Supplier Quotations",
+        "supplier-quotation": {
+          "omr": "OMR",
+          "information": {
+            "title": "Supplier Quotation Information"
+          },
+          "fields": {
+            "supplier": "Supplier",
+            "approver": "Approver"
+          },
+          "summary": {
+            "title": "Summary",
+            "net-total": "Net Total",
+            "vat": "VAT",
+            "grand-total": "Grand Total",
+            "new-subtitle": "Supplier Quotation Not created yet",
+            "new-instructions": "Please fill and save Supplier Quotation details",
+            "draft-subtitle": "Supplier Quotation saved but not confirmed!",
+            "draft-instructions": "Please request approval to proceed",
+            "confirmed-subtitle": "Pending Approval",
+            "confirmed-instructions": "This Supplier Quotation is pending approval"
+          },
+          "items": {
+            "title": "Items",
+            "item": "Item",
+            "rate-in-omr": "Rate in OMR",
+            "amount-in-omr": "Amount in OMR"
+          },
+          "actions": {
+            "create-purchase-order": "Create Purchase Order",
+            "create-header": "Create New Supplier Quotation?",
+            "create-success": "Supplier Quotation Created Successfully!",
+            "create-failed": "Could Not Create Supplier Quotation!",
+            "update-header": "Update Supplier Quotation?",
+            "update-success": "Supplier Quotation Updated Successfully!",
+            "update-failed": "Could Not Update Supplier Quotation!",
+            "request-approval-header": "Request Approval?",
+            "request-approval-success": "Approval Requested Successfully!",
+            "request-approval-failed": "Could Not Request Approval!",
+            "approve-header": "Approve Supplier Quotation?",
+            "approve-success": "Supplier Quotation Approved Successfully!",
+            "approve-failed": "Could Not Approve Supplier Quotation!",
+            "create-purchase-order-header": "Create New Purchase Order?",
+            "create-purchase-order-success": "Purchase Order Created Successfully!",
+            "create-purchase-order-failed": "Could Not Create Purchase Order!"
+          }
+        }
+      },
+      "payment-terms-ui": {
+        "new-payment-term": "New Payment Term",
+        "invoice-percentage": "Invoice Percentage",
+        "empty-subtitle": "List Empty!",
+        "empty-instructions": "No Payment Terms Created",
+        "details": "Payment Terms Details",
+        "fields": {
+          "payment-term-name": "Payment Term Name",
+          "invoice-portion": "Invoice Portion %"
+        },
+        "errors": {
+          "invalid-payment-term-name": "Invalid Payment Term Name",
+          "invalid-invoice-portion": "Invalid Invoice Portion",
+          "invalid-credit-duration": "Invalid Credit Duration",
+          "invalid-discount-amount": "Invalid Discount Amount",
+          "invalid-discount-validity": "Invalid Discount Validity"
+        },
+        "credit-duration": {
+          "title": "Credit Duration",
+          "type": "Type",
+          "credit-duration": "Credit Duration"
+        },
+        "due-date": {
+          "day-after-invoice-date": "Day(s) after invoice date",
+          "day-after-end-of-invoice-month": "Day(s) after the end of the invoice month",
+          "month-after-end-of-invoice-month": "Month(s) after the end of the invoice month"
+        },
+        "discount": {
+          "title": "Discount Details",
+          "discount-type": "Discount type",
+          "percentage": "Percentage",
+          "amount": "Amount",
+          "discount-amount": "Discount Amount",
+          "discount-validity-based-on": "Discount Validity Based On",
+          "discount-validity": "Discount Validity"
+        }
+      },
       "sales-quotations": {
         "title": "Sales Quotations",
         "new-sales-quotation": "New Sales Quotation",
@@ -298,7 +1206,46 @@
       "asset-purchase": "Asset Purchase",
       "asset-sale": "Asset Sale",
       "depreciations": "Depreciations",
-      "investments": "Investments"
+      "investments": "Investments",
+      "asset-purchase-ui": {
+        "new-asset": "New Asset",
+        "empty-subtitle": "List Empty",
+        "empty-instructions": "Please apply proper filters to see available assets",
+        "modal": {
+          "title": "Asset Modal",
+          "asset-details": "Asset Details",
+          "fields": {
+            "asset-name": "Asset Name",
+            "asset-code": "Asset Code",
+            "gross-purchase-amount-omr": "Gross Purchase Amount OMR",
+            "opening-depreciation-amount-omr": "Opening Depreciation Amount OMR",
+            "asset-category": "Asset Category",
+            "purchase-date": "Purchase Date",
+            "purchase-date-hint": "DD/MM/YYYY",
+            "location": "Location"
+          }
+        }
+      },
+      "asset-categories-ui": {
+        "new-asset-category": "New Asset Category",
+        "empty-subtitle": "List Empty",
+        "empty-instructions": "Please apply proper filters to see available Categories",
+        "search-instructions": "You can search asset by reference number or category name.",
+        "modal": {
+          "details": "Asset Category Details",
+          "fields": {
+            "asset-category-name": "Asset Category Name",
+            "fixed-asset-account": "Fixed Asset Account",
+            "accumulated-depreciation-account": "Accumulated Depreciation Account",
+            "depreciation-expense-account": "Depreciation Expense Account"
+          },
+          "errors": {
+            "invalid-asset-category-name": "Invalid Asset Category Name",
+            "invalid-accumulated-depreciation-account": "Invalid Accumulated Depreciation Account",
+            "invalid-depreciation-expense-account": "Invalid Depreciation Expense Account"
+          }
+        }
+      }
     },
     "reports": {
       "title": "Reports",
@@ -310,7 +1257,41 @@
       "payment-entries-report": "Payment Entries",
       "bank-reconciliation-report": "Bank Reconciliation",
       "purchase-analytics-report": "Purchase Analytics",
-      "sales-analytics-report": "Sales Analytics"
+      "sales-analytics-report": "Sales Analytics",
+      "common": {
+        "year": "Year",
+        "period": "Period",
+        "tree-type": "Tree Type",
+        "document-type": "Document Type",
+        "value-quantity": "Value / Quantity"
+      },
+      "periodicity": {
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "half-yearly": "Half-Yearly",
+        "yearly": "Yearly"
+      },
+      "dimensions": {
+        "item": "Item",
+        "item-group": "Item Group",
+        "customer": "Customer",
+        "customer-group": "Customer Group",
+        "supplier": "Supplier",
+        "supplier-group": "Supplier Group"
+      },
+      "documents": {
+        "sales-order": "Sales Order",
+        "sales-invoice": "Sales Invoice",
+        "delivery-note": "Delivery Note",
+        "purchase-order": "Purchase Order",
+        "purchase-invoice": "Purchase Invoice",
+        "purchase-receipt": "Purchase Receipt"
+      },
+      "measures": {
+        "value": "Value",
+        "quantity": "Quantity"
+      }
     },
     "accounts-settings": {
       "title": "Accounts Settings",
@@ -318,7 +1299,43 @@
       "tax-settings": "Tax Settings",
       "fiscal-years-period": "Fiscal Years - Period",
       "cost-centers": "Cost Centers",
-      "currency-and-exchange-rates": "Currency and Exchange Rates"
+      "currency-and-exchange-rates": "Currency and Exchange Rates",
+      "fiscal-years": {
+        "title": "Fiscal Years",
+        "new-fiscal-year": "New Fiscal Year",
+        "empty-subtitle": "List Empty",
+        "empty-instructions": "Please apply proper filters to see available fiscal years"
+      },
+      "bom-approvals": {
+        "production-cost": "Production Cost",
+        "empty-subtitle": "List Empty!",
+        "empty-instructions": "No BoMs Created"
+      },
+      "coa-table": {
+        "no": "No.",
+        "select-page": "Select page"
+      }
+    },
+    "common": {
+      "approved": "Approved",
+      "awaiting-approval": "Awaiting Approval",
+      "actions": "Actions",
+      "create": "Create",
+      "update": "Update",
+      "request-approval": "Request Approval",
+      "approve": "Approve",
+      "pending": "Pending",
+      "draft": "Draft",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "loading": "Loading",
+      "action-failed": "Action Failed",
+      "ok": "OK",
+      "unit": "Unit",
+      "approved-by": "Approved by",
+      "on": "on",
+      "validate-before-submit": "Please make sure that all fields are valid before submission",
+      "fill-before-submit": "Please make sure that all fields are filled before submission"
     }
   },
   "innovation": {
@@ -327,7 +1344,31 @@
     "innovation-management-process": "Innovation Management Process",
     "innovation-development-process": "Innovation Development Process",
     "innovation-commercialization-process": "Innovation Commercialization Process",
-    "ip-management-process": "IP Management Process"
+    "ip-management-process": "IP Management Process",
+    "dashboard": {
+      "filters": {
+        "year": "Year",
+        "pillar": "Pillar"
+      },
+      "ai": {
+        "title": "Innovation Analysis for {{year}}",
+        "prompt": "Analyze the following JSON innovation KPIs for the year {{year}} and provide a detailed summary report with recommendations."
+      }
+    },
+    "processes": {
+      "title": "Innovation Processes",
+      "my-items": "My Processes",
+      "create": "New Innovation Process",
+      "toast-created": "New Innovation Process Created Successfully!",
+      "alert-create-failed": "Could Not Create New Innovation Process!"
+    },
+    "options": {
+      "title": "Process Options",
+      "confirm-create-header": "Create New Project Management Process?",
+      "labels": {
+        "recommendations": "Recommendations"
+      }
+    }
   },
   "support": {
     "title": "Support",
@@ -351,6 +1392,140 @@
       "sales-pipeline": "Sales Pipeline",
       "customer-communication": "Customer Communication"
     },
+    "transport-and-logistics": {
+      "title": "Transport & Logistics",
+      "delivery-trip": "Delivery Trip",
+      "vehicle": "Vehicle",
+      "driver": "Driver",
+      "shipment": "Shipment"
+    },
+    "supplier-management": {
+      "title": "Supplier Management",
+      "suppliers-information": "Suppliers Information",
+      "suppliers": "Suppliers",
+      "new-supplier": "New Supplier",
+      "empty-instructions": "Please add a supplier or apply proper filters to see available suppliers",
+      "supplier-details": "Supplier Details",
+      "supplier-name": "Supplier Name",
+      "invalid-supplier-name": "Supplier name is invalid",
+      "country": "Country",
+      "country-oman": "Oman",
+      "country-uae": "UAE",
+      "country-usa": "USA",
+      "country-india": "India",
+      "country-china": "China",
+      "contact-details": "Supplier Contact Details",
+      "mobile-phone": "Mobile Phone",
+      "invalid-phone-number": "Phone number is invalid",
+      "supplier-email": "Supplier Email",
+      "invalid-email": "Email is invalid",
+      "address": "Address",
+      "invalid-address": "Address is invalid",
+      "supplier-type": "Supplier Type",
+      "supplier-group": "Supplier Group",
+      "all-supplier-groups": "All Supplier Groups",
+      "group-services": "Services",
+      "group-local": "Local",
+      "group-electrical": "Electrical",
+      "group-hardware": "Hardware",
+      "group-pharmaceutical": "Pharmaceutical",
+      "group-distributor": "Distributor",
+      "company": "Company",
+      "individual": "Individual",
+      "proprietorship": "Proprietorship",
+      "partnership": "Partnership"
+    },
+    "hospitality": {
+      "title": "Hospitality",
+      "tasks-and-projects": "Tasks and Projects"
+    },
+    "services": {
+      "title": "Services",
+      "new-service": "New Service",
+      "empty-instructions": "Please apply proper filters to see available services",
+      "service-information": "Service Information",
+      "service-name": "Service Name",
+      "service-number": "Service Number",
+      "selling-rate-omr": "Selling Rate OMR",
+      "costing-and-profitability": "Costing And Profitability",
+      "target-profit": "Target Profit %",
+      "invalid-target-profit-percentage": "Invalid Target Profit Percentage",
+      "hr-costs": "HR Costs",
+      "other-costs": "Other Costs",
+      "summary": "Summary",
+      "employee": "Employee",
+      "hours": "Hours",
+      "invalid-hours": "Invalid Hours",
+      "amount-in-omr": "Amount in OMR",
+      "invalid-amount": "Invalid Amount",
+      "invalid-quantity": "Invalid Quantity",
+      "accommodation": "Accommodation",
+      "travel": "Travel",
+      "food": "Food",
+      "other": "Other",
+      "no-entry": "No Entry!",
+      "add-raw-material-item": "Please add a raw material item.",
+      "add-hr-cost": "Please add a HR cost",
+      "add-other-cost": "Please add a Other cost"
+    },
+    "segments": {
+      "title": "Segments",
+      "new-segment": "New Segment",
+      "new-category-segment": "New Category/Segment",
+      "segment-name": "Segment Name",
+      "parent-category": "Parent Category",
+      "empty-instructions": "Please apply proper filters to see available categories and segments"
+    },
+    "menu": {
+      "assets": "Assets",
+      "assets-categories": "Assets Categories",
+      "stock": "Stock",
+      "material-requests": "Material Requests"
+    },
+    "common": {
+      "search": "Search",
+      "year": "Year",
+      "results": "result(s)",
+      "list-empty": "List Empty",
+      "previous": "Previous",
+      "next": "Next",
+      "pagination": "Pagination",
+      "page": "page",
+      "you-are-on-page": "You're on page",
+      "cancel": "Cancel",
+      "create": "Create",
+      "update": "Update",
+      "actions": "Actions",
+      "active": "Active",
+      "disabled": "Disabled",
+      "download": "Download",
+      "select-date-range": "Select a date range",
+      "start-date": "Start date",
+      "end-date": "End date",
+      "check-information": "Check Information",
+      "fill-before-submission": "Please make sure that all fields are filled before submission",
+      "fill-before-confirmation": "Please make sure all fields are filled before confirmation",
+      "request-approval": "Request Approval",
+      "approve": "Approve",
+      "pending": "Pending",
+      "approved-by": "Approved by",
+      "on": "on"
+    },
+    "reports": {
+      "title": "Reports",
+      "stock-ledger-report": "Stock Ledger Report",
+      "stock-analytics-report": "Stock Analytics Report",
+      "stock-balance-report": "Stock Balance Report",
+      "stock-reconciliation-report": "Stock Reconciliation Report",
+      "customer-acquisition-report": "Customer Acquisition Report",
+      "range": "Range",
+      "quantity": "Quantity",
+      "value": "Value",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "yearly": "Yearly"
+    },
     "customer-support": {
       "title": "Customer Support",
       "customers": "Customers",
@@ -360,7 +1535,39 @@
       "warranty": "Warranty",
       "maintenance-visit": "Maintenance Visit",
       "customer-feedback": "Customer Feedback",
-      "help-and-faqs": "Help and FAQs"
+      "help-and-faqs": "Help and FAQs",
+      "new-customer": "New customer",
+      "customers-empty-instructions": "Please create a new customer or apply proper filters to see available customers.",
+      "new-issue": "New Issue",
+      "issues-empty-instructions": "No Issues Created",
+      "customer": "Customer",
+      "general-information": "General Information",
+      "customer-name": "Customer Name",
+      "mobile-number": "Mobile Number",
+      "type": "Type",
+      "individual": "Individual",
+      "company": "Company",
+      "customer-info-check": "Please make sure all fields are filled correctly",
+      "invalid-customer-name": "Invalid customer name",
+      "invalid-mobile-number": "Invalid mobile number",
+      "description": "Description",
+      "subject": "Subject",
+      "priority": "Priority",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "issue-type": "Issue Type",
+      "slow-connection": "Slow Connection",
+      "data-loss": "Data Loss",
+      "invalid-data": "Invalid Data",
+      "feature-request": "Feature Request",
+      "bug": "Bug",
+      "status": "Status",
+      "open": "Open",
+      "replied": "Replied",
+      "on-hold": "On Hold",
+      "resolved": "Resolved",
+      "closed": "Closed"
     },
     "inventory-and-stores-management": {
       "title": "Inventory & Stores Management",
@@ -377,42 +1584,62 @@
       "empty-instructions": "Please apply proper filters to see available spare parts",
       "item-operations": "Fabrication Operations",
       "warehouses": "Warehouses",
+      "new-warehouse": "New Warehouse",
+      "warehouses-empty-instructions": "Please create a new warehouse.",
       "stock-entry": "Stock Entries",
       "purchase-invoice": "Purchase Invoice",
       "delivery-notes": "Delivery Notes",
+      "delivery-notes-empty-instructions": "Please create a new delivery note.",
       "purchase-receipts": "Purchase Receipts",
+      "purchase-receipts-empty-instructions": "Please create a new purchase receipt.",
       "stock-reconciliation": "Stock Reconciliation",
       "material-request": "Material Request",
-      "barcodes": "Barcodes"
+      "barcodes": "Barcodes",
+      "no-barcodes-available": "No barcodes available",
+      "new-material-request": "New Material Request",
+      "material-requests-empty-instructions": "Please add a Material Request",
+      "request-details": "Request Details",
+      "request-type": "Request Type",
+      "manufacture": "Manufacture",
+      "purchase": "Purchase",
+      "material-transfer": "Material Transfer",
+      "material-issue": "Material Issue",
+      "item": "Item",
+      "bill-of-material": "Bill of Material",
+      "add-item": "Add Item",
+      "production-cost": "Production Cost",
+      "raw-material-and-sub-assembly": "Raw Material and Sub Assembly",
+      "operations": "Operations",
+      "total-production-cost": "Total Production Cost",
+      "approval": "Approval",
+      "approver": "Approver",
+      "department": "Department",
+      "waiting-approval": "This Material Request is waiting for approval",
+      "new-operation": "New Operation",
+      "operations-empty-instructions": "Please create a new operation.",
+      "new-stock-transfer": "New Stock Transfer",
+      "stock-entries-empty-instructions": "Please add a Material Request",
+      "stock-transfer": "Stock Transfer",
+      "locations": "Locations",
+      "source-warehouse": "Source Warehouse",
+      "destination-warehouse": "Destination Warehouse",
+      "select-source-warehouse": "Please select a source warehouse.",
+      "create-transfer": "Create Transfer",
+      "topup-quantity": "Topup Quantity",
+      "invalid-topup-quantity": "Invalid Topup Quantity",
+      "confirm-topup": "Confirm Topup",
+      "confirm-topup-header": "Confirm Stock Topup?",
+      "no-stock-movement-for-item": "There are no stock movement for this item"
     },
-    "transport-and-logistics": {
-      "title": "Transport & Logistics",
-      "delivery-trip": "Delivery Trip",
-      "vehicle": "Vehicle",
-      "driver": "Driver",
-      "shipment": "Shipment"
-    },
-    "supplier-management": {
-      "title": "Supplier Management",
-      "suppliers-information": "Suppliers Information"
-    },
-    "hospitality": {
-      "title": "Hospitality",
-      "tasks-and-projects": "Tasks and Projects"
-    },
-    "services": {
-      "title": "Services"
-    },
-    "segments": {
-      "title": "Segments"
-    },
-    "reports": {
-      "title": "Reports",
-      "stock-ledger-report": "Stock Ledger Report",
-      "stock-analytics-report": "Stock Analytics Report",
-      "stock-balance-report": "Stock Balance Report",
-      "stock-reconciliation-report": "Stock Reconciliation Report",
-      "customer-acquisition-report": "Customer Acquisition Report"
+    "dashboard": {
+      "filters": {
+        "year": "Year",
+        "pillar": "Pillar"
+      },
+      "ai": {
+        "title": "Support Analysis for {{year}}",
+        "prompt": "Analyze the following JSON support KPIs for the year {{year}} and provide a detailed summary report with recommendations."
+      }
     }
   },
   "utilities": {
@@ -421,6 +1648,102 @@
     "knowledge-hub": "Knowledge Hub",
     "meetings": "Meetings",
     "si6-bot": "SI6 Bot",
+    "si6-bot-message": "Message",
+    "si6-bot-response": "Response",
+    "links": {
+      "title": "Links",
+      "enter-link": "Enter a link",
+      "create": "Create Link",
+      "empty-subtitle": "No Links",
+      "empty-instructions": "Please create a new link or apply proper filters to see available links"
+    },
+    "events": {
+      "title": "Calendar Events",
+      "create": "New Event",
+      "empty-subtitle": "No Events",
+      "empty-instructions": "Please create a new event or apply proper filters to see available events"
+    },
+    "notes": {
+      "title": "Notes",
+      "create": "New Note",
+      "empty-subtitle": "No Notes",
+      "empty-instructions": "Please create a new note or apply proper filters to see available notes"
+    },
+    "filters": {
+      "all": "All",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "scope-op": "Op",
+      "scope-prod": "Prod"
+    },
+    "tasks": {
+      "title": "Tasks",
+      "my-items": "My Tasks",
+      "create": "New Task",
+      "empty-subtitle": "No Tasks",
+      "empty-instructions": "Please create a new task or apply proper filters to see available tasks"
+    },
+    "projects": {
+      "title": "Projects",
+      "my-items": "My Projects",
+      "create": "New Project",
+      "empty-subtitle": "No Projects",
+      "empty-instructions": "Please create a new project or apply proper filters to see available projects",
+      "pending-process-status": "Pending Process Status",
+      "active-pending-tasks": "Active Pending Tasks",
+      "project-information": "Project Information",
+      "project-name": "Project Name"
+    },
+    "jobs": {
+      "title": "Jobs",
+      "my-items": "My Jobs",
+      "create": "New Job",
+      "options-title": "Job Options",
+      "empty-subtitle": "No Jobs",
+      "empty-instructions": "Please create a new job or apply proper filters to see available jobs",
+      "pending-process-status": "Pending Process Status",
+      "active-pending-tasks": "Active Pending Tasks"
+    },
+    "logs": {
+      "title": "Logs",
+      "empty-subtitle": "List Empty",
+      "empty-instructions": "Please apply proper filters to see available activity logs"
+    },
+    "translations-page": {
+      "create": "New Translation",
+      "download-template": "Download Template",
+      "import": "Import",
+      "empty-subtitle": "List Empty",
+      "empty-instructions": "No Translations Created"
+    },
+    "translation-modal": {
+      "new": "New Translation",
+      "language": "Translation Language",
+      "source-text": "Source Text",
+      "translated-text": "Translated Text",
+      "create": "Create",
+      "update": "Update",
+      "cancel": "Cancel"
+    },
+    "modal-options": {
+      "source-system": "Source System",
+      "task-details": "Task Details",
+      "subject": "Subject",
+      "description": "Description",
+      "employee": "Employee",
+      "department": "Department",
+      "date-range": "Select a date range",
+      "start-date": "Start date",
+      "invalid-description": "Invalid Task Description",
+      "create-task": "Create Task",
+      "customer": "Customer",
+      "customer-name": "Customer Name",
+      "customer-phone": "Customer Phone",
+      "customer-email": "Customer Email",
+      "invalid-name": "Invalid name!",
+      "invalid-phone": "Invalid phone number!",
+      "invalid-email": "Invalid email!"
+    },
     "key-documents": "Key Documents",
     "translations": "Translations",
     "issues": "Issues",
@@ -433,6 +1756,42 @@
       "external-scope-full": "Production (P)",
       "internal-scope": "O",
       "external-scope": "P",
+      "labels": {
+        "requester": "Requester",
+        "channeling": "Channeling",
+        "assignment": "Assignment",
+        "canvas": "Canvas",
+        "feasibility": "Feasibility",
+        "rfq": "RFQ",
+        "supplier-quotation": "Supplier Quotation",
+        "purchase-order": "Purchase Order",
+        "poa": "PoA",
+        "approval": "Approval",
+        "quality-control": "Quality Control",
+        "attachments": "Attachments",
+        "feedback": "Feedback",
+        "report": "Report",
+        "closure": "Closure",
+        "customer": "Customer",
+        "initial-request": "Initial Request",
+        "initial-request-items": "Initial Request Items",
+        "items-selection": "Items Selection",
+        "sales-quotation": "Sales Quotation",
+        "parking": "Parking",
+        "vehicle-details": "Vehicle Details",
+        "vehicle-inspection": "Vehicle Inspection",
+        "customer-signature": "Customer Signature",
+        "sales-order": "Sales Order",
+        "raw-material-transfer": "Raw Material Transfer",
+        "additional-items": "Additional Items",
+        "material-transfer": "Material Transfer",
+        "remarks": "Remarks",
+        "profitability": "Profitability",
+        "invoice": "Invoice",
+        "payment": "Payment",
+        "delivery": "Delivery",
+        "follow-up": "Follow Up"
+      },
       "external": {
         "initiation": "Customer Details",
         "planning": "Order Placement",
@@ -459,7 +1818,283 @@
       }
     }
   },
-  "about": "About",
+  "settings": {
+    "tabs": {
+      "subscription": "Subscription",
+      "company": "Company",
+      "imports": "Imports",
+      "roles": "Roles",
+      "users": "Users"
+    },
+    "status": {
+      "ready": "Ready",
+      "not-ready": "Not Ready"
+    },
+    "common": {
+      "loading": "Loading",
+      "action-failed": "Action Failed",
+      "ok": "OK",
+      "systems": "Systems",
+      "checkbox-label": "Option",
+      "general-information": "General Information",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "assign": "Assign",
+      "operate": "Operate",
+      "approve": "Approve",
+      "strategy-pages": "Strategy Pages",
+      "operation-pages": "Operation Pages",
+      "production-pages": "Production Pages",
+      "finance-pages": "Finance Pages",
+      "innovation-pages": "Innovation Pages",
+      "support-pages": "Support Pages",
+      "utilities-pages": "Utilities Pages",
+      "portal-pages": "Portal Pages",
+      "others-pages": "Others Pages",
+      "fill-before-submission": "Please make sure that all fields are filled before submission",
+      "portal": "Portal",
+      "other": "Other"
+    },
+    "users": {
+      "title": "Users",
+      "new-user": "New User",
+      "employee-not-set": "Employee Not Set!",
+      "user-photo-alt": "User photo",
+      "empty": {
+        "subtitle": "No Users",
+        "instructions": "Please create a new user or apply proper filters to see available users"
+      },
+      "modal": {
+        "telephone-number": "Telephone Number",
+        "invalid-name": "Name is invalid",
+        "invalid-email": "Email is invalid",
+        "actions": {
+          "create-header": "Create New User?",
+          "update-header": "Update User?",
+          "created-success": "User Created Successfully!",
+          "updated-success": "User Updated Successfully!",
+          "create-failed": "Could not create User!",
+          "update-failed": "Could not update User!"
+        }
+      }
+    },
+    "roles": {
+      "title": "Roles",
+      "new-role": "New Role",
+      "counts": {
+        "systems": "System(s)",
+        "operations": "Operation(s)",
+        "views": "View(s)"
+      },
+      "modal": {
+        "role-name": "Role Name",
+        "invalid-role-name": "Invalid Role Name",
+        "actions": {
+          "create-header": "Create New Role?",
+          "update-header": "Update Role?",
+          "created-success": "New Role Created Successfully!",
+          "updated-success": "Role Updated Successfully!",
+          "update-failed": "Could Not Update Role!"
+        }
+      }
+    },
+    "subscription": {
+      "title": "Subscription",
+      "restricted": "Restricted",
+      "package": "Package",
+      "grace-period-days": "Grace Period in Days *",
+      "last-paid-date": "Last Paid Date",
+      "next-due-date": "Next Due Date",
+      "custom-package": "Custom Package",
+      "packages": {
+        "gold": "Gold",
+        "silver": "Silver",
+        "bronze": "Bronze",
+        "pos": "POS",
+        "custom": "Custom"
+      },
+      "no-custom-package": "No Custom Package Found!",
+      "create-custom-package": "Create Custom Package",
+      "custom-package-features": "There are {{count}} available features in the custom package.",
+      "update-custom-package": "Update Custom Package",
+      "not-available": "Not Available!",
+      "actions": {
+        "update-subscription": "Update Subscription",
+        "updated-success": "Company subscription updated successfully!",
+        "update-failed": "Could not update company subscription!"
+      }
+    },
+    "company": {
+      "form": {
+        "business-type": "Business type *",
+        "tax-identification-number": "Tax Identification Number *",
+        "website": "Website",
+        "slogan": "Slogan",
+        "default-holiday-list": "Default Holiday List",
+        "contact-info": "Contact Info",
+        "email": "Email *",
+        "primary-number": "Primary number *",
+        "whatsapp-number": "Whatsapp Number",
+        "instagram-account": "Instagram Account",
+        "address": "Address",
+        "city": "City *",
+        "address-line-1": "Address Line 1 *",
+        "address-line-2": "Address Line 2",
+        "logos": "Logos",
+        "company-logo": "Company Logo *",
+        "company-logo-alt": "Company Logo",
+        "stamp": "Stamp *",
+        "stamp-alt": "Company Stamp",
+        "brand": "Brand",
+        "brand-alt": "Company Brand"
+      },
+      "business-types": {
+        "auto-repairs": "Auto Repairs",
+        "restaurant": "Restaurant",
+        "beauty-salon": "Beauty Salon",
+        "retail": "Retail",
+        "manufacturing": "Manufacturing",
+        "fashion-shop": "Fashion Shop",
+        "medical-center": "Medical Center",
+        "investment": "Investment",
+        "consultancy": "Consultancy"
+      },
+      "actions": {
+        "photo-uploaded-success": "Photo uploaded Successfully!",
+        "upload-photo-failed": "Could not upload photo!",
+        "photo-deleted-success": "Photo deleted Successfully!",
+        "delete-photo-failed": "Could not delete photo!",
+        "updated-success": "Company details updated successfully!",
+        "update-failed": "Could not update company details!"
+      }
+    },
+    "configuration": {
+      "steps": {
+        "global-settings": "Global Settings",
+        "fiscal-years": "Fiscal Years",
+        "service-repair-categories": "Service/Repair Categories",
+        "maximum-job-delay": "Maximum job delay",
+        "stock-warning-level": "Stock warning level",
+        "system-reset": "System Reset"
+      },
+      "global": {
+        "job-creation": "Job Creation",
+        "view-canceled-job": "View Canceled Job",
+        "customer-portal": "Customer Portal",
+        "device-camera": "Device Camera",
+        "notification-alerts": "Notification Alerts",
+        "backend-configurations": "Backend Configurations",
+        "performance-dashboard": "Performance Dashboard"
+      },
+      "form": {
+        "hours": "Hours",
+        "invalid-hours": "Invalid value, minimum 1 hour",
+        "stock-quantity": "Stock Quantity",
+        "invalid-stock-quantity": "Invalid value, minimum 2 items"
+      },
+      "fiscal-years": {
+        "year": "Year",
+        "start-of-year": "Start of the year",
+        "end-of-year": "End of the year"
+      },
+      "actions": {
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "update-header": "Update Settings?",
+        "updated-success": "Settings updated Successfully!",
+        "update-failed": "Could not update settings!"
+      }
+    },
+    "import": {
+      "actions": {
+        "download-template": "Download Template",
+        "import": "Import",
+        "entries-created-success": "Entries Created Successfully!",
+        "upload-failed": "Could not upload entries!",
+        "invalid-file": "Selected file is not SI-6.xlsx!"
+      },
+      "cards": {
+        "fiscal-years": "Fiscal Years",
+        "accounts": "Accounts",
+        "departments": "Departments",
+        "users": "Users",
+        "employees": "Employees",
+        "segments": "Segments",
+        "raw-material": "Raw Material",
+        "trading-items": "Trading Items",
+        "products-items": "Products Items",
+        "services": "Services",
+        "assets": "Assets",
+        "customers": "Customers",
+        "suppliers": "Suppliers",
+        "opening-accounts": "Opening Accounts",
+        "invoices": "Invoices"
+      },
+      "loading": {
+        "importing-fiscal-years": "Importing Fiscal Years",
+        "importing-accounts": "Importing Accounts",
+        "importing-departments": "Importing Departments",
+        "importing-users": "Importing Users",
+        "importing-employees": "Importing Employees",
+        "importing-segments": "Importing Segments",
+        "importing-services": "Importing Services",
+        "importing-products": "Importing Products",
+        "importing-raw-material": "Importing Raw Material",
+        "importing-trading": "Importing Trading",
+        "importing-assets": "Importing Assets",
+        "importing-opening-accounts": "Importing Opening Accounts",
+        "importing-customers": "Importing Customers",
+        "importing-suppliers": "Importing Suppliers",
+        "importing-outstanding-invoices": "Importing Outstanding Invoices",
+        "importing-invoices": "Importing Invoices"
+      }
+    },
+    "reset": {
+      "actions": {
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "confirm-reset": "Confirm Reset",
+        "reset-all-transactions": "Reset All Transactions?",
+        "reset-success": "Transactions reset successfully!",
+        "reset-failed": "Could Not Reset Transactions!"
+      },
+      "records": {
+        "quotation": "Quotation",
+        "sales-order": "Sales Order",
+        "sales-invoice": "Sales Invoice",
+        "delivery-note": "Delivery Note",
+        "request-for-quotation": "Request for Quotation",
+        "supplier-quotation": "Supplier Quotation",
+        "purchase-order": "Purchase Order",
+        "purchase-invoice": "Purchase Invoice",
+        "purchase-receipt": "Purchase Receipt",
+        "stock-ledger-entry": "Stock Ledger Entry",
+        "payment-ledger-entry": "Payment Ledger Entry",
+        "stock-entry": "Stock Entry",
+        "payment-entry": "Payment Entry",
+        "gl-entry": "GL Entry",
+        "account": "Account",
+        "cost-center": "Cost Center",
+        "warehouse": "Warehouse",
+        "budget": "Budget",
+        "party-account": "Party Account",
+        "employee": "Employee",
+        "sales-taxes-and-charges-template": "Sales Taxes and Charges Template",
+        "purchase-taxes-and-charges-template": "Purchase Taxes and Charges Template",
+        "pos-profile": "POS Profile",
+        "bom": "BOM",
+        "company": "Company",
+        "bank-account": "Bank Account",
+        "item-tax-template": "Item Tax Template",
+        "mode-of-payment": "Mode of Payment",
+        "mode-of-payment-account": "Mode of Payment Account",
+        "item-default": "Item Default",
+        "customer": "Customer",
+        "supplier": "Supplier"
+      }
+    }
+  },
   "portal": {
     "search": "Search",
     "in-progress": "In Progress",
@@ -516,13 +2151,330 @@
     "support": "Support"
   },
   "common": {
+    "search": "Search",
+    "create": "Create",
     "result-suffix": "result(s)",
     "previous": "Previous",
     "next": "Next",
     "pagination": "Pagination",
     "page": "page",
-    "youre-on-page": "You're on page"
+    "youre-on-page": "You're on page",
+    "update": "Update",
+    "cards": {
+      "status": {
+        "suspended": "Suspended"
+      },
+      "visibility": {
+        "public": "Public",
+        "private": "Private"
+      }
+    },
+    "process": {
+      "project-tree": "Project Tree",
+      "progress-timing": "Progress Timing",
+      "workflow": "Workflow",
+      "invalid-job": "Invalid Job",
+      "invalid-job-instructions": "Please select or create a job",
+      "initial-items-selection": "Initial Items Selection",
+      "appointment": "Appointment",
+      "appointment-date": "Appointment date",
+      "appointment-time": "Appointment time",
+      "action-required": "Action Required",
+      "complete-required-fields": "Please make sure all fields are filled before confirming!",
+      "save": "Save",
+      "charges-and-profitability": "Charges and Profitability",
+      "material-consumption": "Material Consumption",
+      "material-storage": "Material Storage",
+      "extra-items": "Extra Items",
+      "recommendations": "Recommendations",
+      "completion-approval": "Completion Approval",
+      "no-attachments": "No Attachments",
+      "upload-attachment": "Please upload an attachment",
+      "attachments-not-found": "There are no attachments found",
+      "import": "Import"
+    },
+    "components": {
+      "approval": {
+        "subject": "Subject",
+        "invalid-task-subject": "Invalid Task Subject",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "approver": "Approver",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "alteration-approval": "Alteration Approval"
+      },
+      "cost-summary": {
+        "raw-material": "Raw Material",
+        "human-resources": "Human Resources",
+        "other-costs": "Other Costs",
+        "total-cost": "Total Cost",
+        "suggested-selling-rate": "Suggested Selling Rate",
+        "actual-selling-rate": "Actual Selling Rate",
+        "net-profit": "Net Profit",
+        "net-profit-percentage": "Net Profit Percentage"
+      },
+      "erpnext-report": {
+        "export": "Export",
+        "select-page": "Select page"
+      },
+      "note": {
+        "is-public": "Is Public",
+        "title": "Title",
+        "note-content": "Note Content",
+        "max-letters": "Reached maximum number of letters",
+        "delete": "Delete"
+      },
+      "step": {
+        "subject": "Subject",
+        "invalid-task-subject": "Invalid Task Subject",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "department": "Department",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "complete": "Complete"
+      },
+      "event": {
+        "event-information": "Event Information",
+        "subject": "Subject",
+        "event-type": "Event Type",
+        "event-type-options": {
+          "event": "Event",
+          "meeting": "Meeting",
+          "call": "Call",
+          "sent-received-email": "Sent/Received Email",
+          "other": "Other"
+        },
+        "description": "Description",
+        "event-timing": "Event Timing",
+        "event-date": "Event Date",
+        "starting-time": "Starting Time",
+        "ending-time": "Ending Time",
+        "repeat-till": "Repeat Till",
+        "repeat-frequency": "Repeat Frequency",
+        "repeat-frequency-options": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly",
+          "yearly": "Yearly"
+        },
+        "auto-repeat-schedule": "Auto Repeat Schedule",
+        "next-schedule": "Next Schedule",
+        "repeat-event": "Repeat Event",
+        "participants": "Participants",
+        "invalid-date-timing": "Invalid date & timing",
+        "no-participants-assigned": "No Participants Assigned",
+        "photo": "Photo",
+        "actions": "Actions",
+        "complete": "Complete",
+        "suspend": "Suspend"
+      },
+      "task": {
+        "view-original": "View Original",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "department": "Department",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "toggles": {
+          "alterations": "Alterations",
+          "steps": "Steps",
+          "events": "Events",
+          "notes": "Notes",
+          "attachments": "Attachments",
+          "actions": "Actions"
+        },
+        "alterations": {
+          "empty-subtitle": "No Alterations",
+          "empty-instructions": "No Alterations found.",
+          "request": "Request Alteration"
+        },
+        "steps": {
+          "empty-subtitle": "No Steps",
+          "empty-instructions": "No Steps found.",
+          "create": "New Step"
+        },
+        "events": {
+          "empty-subtitle": "No Events",
+          "empty-instructions": "No Events found.",
+          "create": "New Event"
+        },
+        "notes": {
+          "empty-subtitle": "No Notes",
+          "empty-instructions": "No Notes found.",
+          "create": "New Note"
+        },
+        "attachments": {
+          "empty-subtitle": "No Attachments",
+          "empty-instructions": "No Attachments found.",
+          "add": "Add Attachment"
+        },
+        "action-required-instructions": "Please ensure all approvals and steps are completed before finishing this task.",
+        "start": "Start",
+        "finish": "Finish",
+        "pending-approvals": "There are pending approvals.",
+        "pending-steps": "There are pending steps.",
+        "completed": "Task Completed!"
+      }
+    },
+    "pdfs": {
+      "actions": {
+        "download": "Download"
+      },
+      "status": {
+        "loading": "Loading",
+        "action-failed": "Action Failed",
+        "download-failed": "Could not download PDF!",
+        "ok": "OK"
+      },
+      "toggles": {
+        "show-stamp": "Show Stamp",
+        "show-notes": "Show Notes"
+      },
+      "labels": {
+        "page": "Page",
+        "notes": "Notes",
+        "reference": "Ref"
+      },
+      "entries": {
+        "category": "Category",
+        "description": "Description",
+        "qty": "Qty",
+        "unit-price": "Unit Price",
+        "amount": "Amount",
+        "fallback-category": "Products"
+      }
+    }
   },
+  "popovers": {
+    "common": {
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "ai-prompt": {
+      "prompt-label": "Prompt",
+      "ollama-model-label": "Ollama Model",
+      "data-preview": "Data Preview",
+      "ai-prompt-title": "AI Prompt",
+      "available-local-ollama-models": "Available Local Ollama Models",
+      "model-name": "Model Name",
+      "parameter-size": "Parameter Size",
+      "valid-prompt": "Valid Prompt",
+      "valid-data": "Valid Data",
+      "generate": "Generate",
+      "confirm-prompt-header": "Confirm Prompt?",
+      "prompt-copied-successfully": "Prompt Copied Successfully!"
+    },
+    "payment": {
+      "outstanding-amount": "Outstanding Amount",
+      "due-date": "Due Date",
+      "method-card": "Card",
+      "method-cash": "Cash",
+      "payment-amount": "Payment Amount",
+      "invalid-amount": "Invalid amount!",
+      "confirm-payment": "Confirm Payment",
+      "confirm-payment-header": "Confirm Payment?"
+    },
+    "receipt": {
+      "received-item-list": "Received Item List",
+      "item-label": "Item",
+      "unit-fallback": "Unit",
+      "confirm-item-receipt": "Confirm Item Receipt",
+      "confirm-receipt-header": "Confirm Item Receipt?"
+    },
+    "duration": {
+      "project-duration": "Project Duration",
+      "select-date-range": "Select a date range",
+      "start-date": "Start date",
+      "end-date": "End date",
+      "create": "Create",
+      "confirm-duration-header": "Confirm Duration?"
+    },
+    "delivery": {
+      "delivery-item-list": "Delivery Item List",
+      "item-label": "Item",
+      "confirm-item-delivery": "Confirm Item Delivery",
+      "confirm-delivery-header": "Confirm Item Delivery?"
+    },
+    "links": {
+      "title": "Links",
+      "enter-link": "Enter a link",
+      "create": "Create Link"
+    }
+  },
+  "modals": {
+    "common": {
+      "invalid-task-subject": "Invalid Task Subject",
+      "approver": "Approver",
+      "end-date": "End date",
+      "main-assignee": "Main Assignee",
+      "allocated-duration": "Allocated Duration",
+      "duration-unit": "Duration Unit",
+      "minute": "Minute",
+      "hour": "Hour",
+      "day": "Day",
+      "start": "Start",
+      "finish": "Finish"
+    },
+    "new-task": {
+      "title": "New Task"
+    },
+    "new-step": {
+      "title": "Add New Step",
+      "create-addition-step": "Create Addition Step"
+    },
+    "alteration-request": {
+      "additional-task": "Additional Task",
+      "request-approval": "Request Alteration Approval"
+    },
+    "alteration-approval": {
+      "title": "Phase Alteration Approval",
+      "approve": "Alteration Approval"
+    },
+    "approval-task": {
+      "project": "Project",
+      "parent-task": "Parent Task",
+      "phase": "Phase",
+      "system": "System",
+      "department": "Department"
+    },
+    "task-type": {
+      "product": "Product",
+      "service": "Service",
+      "no-raw-material-product": "There are no raw material required for this product",
+      "no-raw-material-service": "There are no raw material required for this service"
+    },
+    "operation": {
+      "title": "New Operation",
+      "operation-name": "Operation Name",
+      "workstation": "Workstation"
+    },
+    "sales-order": {
+      "new": "New Sales Orders"
+    },
+    "ai": {
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "download": "Download",
+      "loading": "Loading",
+      "action-failed-header": "Action Failed",
+      "download-failed-message": "Could not download PDF!",
+      "ok": "OK",
+      "logo-alt": "Company logo",
+      "report-description": "Generate a daily sales report using AI. This report will provide insights into your sales performance for the day, including top-selling items, total revenue, and customer trends."
+    }
+  },
+  "about": "About",
   "dashboard": "Performance Dashboard",
   "dashboards": "Performance Dashboards"
 }
