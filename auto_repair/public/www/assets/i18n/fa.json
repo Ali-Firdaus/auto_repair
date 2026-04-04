@@ -440,6 +440,7 @@
       "garage": {
         "title": "گاراژ",
         "notifications": "اطلاعیه ها",
+        "old-jobs": "کارهای قدیمی",
         "incomplete": "ناقص",
         "completed": "تکمیل شد",
         "vehicles": "وسایل نقلیه",
@@ -1144,6 +1145,10 @@
         },
         "sales-quotation": {
           "omr": "ر.ع",
+          "grand-total": "جمع کل",
+          "currency": {
+            "omr": "ر.ع"
+          },
           "information": {
             "title": "اطلاعات قیمت فروش"
           },
@@ -1842,6 +1847,7 @@
       "assign": "تخصیص",
       "operate": "اجرا",
       "approve": "تایید",
+      "update": "به روز رسانی",
       "strategy-pages": "صفحات استراتژی",
       "operation-pages": "صفحات عملیات",
       "production-pages": "صفحات تولید",
@@ -1946,7 +1952,13 @@
         "stamp": "مهر *",
         "stamp-alt": "مهر شرکت",
         "brand": "برند",
-        "brand-alt": "برند شرکت"
+        "brand-alt": "برند شرکت",
+        "controls": {
+          "title": "کنترل‌ها",
+          "enable_items_categorization": "فعال‌سازی دسته‌بندی اقلام",
+          "enable_device_camera": "فعال‌سازی دوربین دستگاه",
+          "enable_notification_alerts": "فعال‌سازی هشدارهای اعلان"
+        }
       },
       "business-types": {
         "auto-repairs": "تعمیر خودرو",
@@ -2208,7 +2220,7 @@
       "download-failed-message": "دانلود فایل پی دی اف ممکن نشد!",
       "ok": "باشه",
       "logo-alt": "لوگوی شرکت",
-      "report-description": "یک گزارش فروش روزانه با استفاده از هوش مصنوعی ایجاد کنید. این گزارش بینش هایی درباره عملکرد فروش روزانه شما ارائه می دهد، از جمله پرفروش ترین اقلام، مجموع درآمد و روندهای مشتریان."
+      "report-description": "لطفاً منتظر بمانید تا SI-6 گزارش را تولید کند. پس از آماده شدن گزارش، می‌توانید آن را به عنوان یک فایل PDF برای مرجع خود دانلود کنید."
     }
   },
   "common": {
@@ -2221,6 +2233,12 @@
     "page": "صفحه",
     "youre-on-page": "شما در صفحه هستید",
     "update": "به روز رسانی",
+    "not-found": {
+      "title": "صفحه پیدا نشد",
+      "description": "صفحه ای که به دنبال آن هستید وجود ندارد یا منتقل شده است.",
+      "go-to-portal": "رفتن به پرتال",
+      "go-back": "بازگشت"
+    },
     "cards": {
       "status": {
         "suspended": "معلق"
@@ -2423,7 +2441,12 @@
       "cancel": "لغو"
     },
     "ai-prompt": {
+      "prompt-fields": "فیلدهای پرامپت",
       "prompt-label": "پرامپت",
+      "persona": "پرسونا",
+      "context": "زمینه",
+      "task": "وظیفه",
+      "format": "فرمت",
       "ollama-model-label": "مدل اولاما",
       "data-preview": "پیش نمایش داده",
       "ai-prompt-title": "پرامپت هوش مصنوعی",
@@ -2466,6 +2489,11 @@
       "item-label": "قلم",
       "confirm-item-delivery": "تایید تحویل اقلام",
       "confirm-delivery-header": "تایید تحویل اقلام؟"
+    },
+    "links": {
+      "title": "پیوندها",
+      "enter-link": "یک پیوند وارد کنید",
+      "create": "ایجاد پیوند"
     }
   },
   "about": "درباره",

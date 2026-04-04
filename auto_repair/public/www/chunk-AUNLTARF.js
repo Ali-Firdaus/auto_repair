@@ -1,0 +1,1 @@
+import{mb as n}from"./chunk-WBCF2HME.js";var a=(()=>{class t{transform(p){let e=p.replace(/-/g," ").split(" ");for(var r=0;r<e.length;r++)e[r]=e[r].charAt(0).toUpperCase()+e[r].slice(1);return e.join(" ")}static{this.\u0275fac=function(e){return new(e||t)}}static{this.\u0275pipe=n({name:"removeHyphen",type:t,pure:!0})}}return t})();export{a};

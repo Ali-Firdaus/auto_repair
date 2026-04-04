@@ -1145,6 +1145,10 @@
         },
         "sales-quotation": {
           "omr": "ر.ع",
+          "grand-total": "الإجمالي الكلي",
+          "currency": {
+            "omr": "ر.ع"
+          },
           "information": {
             "title": "معلومات عرض سعر المبيعات"
           },
@@ -1843,6 +1847,7 @@
       "assign": "إسناد",
       "operate": "تشغيل",
       "approve": "اعتماد",
+      "update": "تحديث",
       "strategy-pages": "صفحات الاستراتيجية",
       "operation-pages": "صفحات العمليات",
       "production-pages": "صفحات الإنتاج",
@@ -1947,7 +1952,13 @@
         "stamp": "الختم *",
         "stamp-alt": "ختم الشركة",
         "brand": "العلامة التجارية",
-        "brand-alt": "علامة الشركة"
+        "brand-alt": "علامة الشركة",
+        "controls": {
+          "title": "التحكمات",
+          "enable_items_categorization": "تمكين تصنيف العناصر",
+          "enable_device_camera": "تمكين كاميرا الجهاز",
+          "enable_notification_alerts": "تمكين تنبيهات الإشعارات"
+        }
       },
       "business-types": {
         "auto-repairs": "إصلاح السيارات",
@@ -2209,7 +2220,68 @@
       "download-failed-message": "تعذر تنزيل ملف بي دي إف!",
       "ok": "موافق",
       "logo-alt": "شعار الشركة",
-      "report-description": "أنشئ تقرير مبيعات يومي باستخدام الذكاء الاصطناعي. يقدّم هذا التقرير رؤى حول أداء مبيعاتك لليوم، بما في ذلك أكثر العناصر مبيعًا، وإجمالي الإيرادات، واتجاهات العملاء."
+      "report-description": "يرجى الانتظار ريثما يقوم برنامج SI-6 بإنشاء التقرير. بمجرد أن يصبح التقرير جاهزًا، يمكنك تنزيله كملف PDF للرجوع إليه."
+    }
+  },
+  "popovers": {
+    "common": {
+      "confirm": "تأكيد",
+      "cancel": "إلغاء"
+    },
+    "ai-prompt": {
+      "prompt-fields": "حقول الموجه",
+      "prompt-label": "الموجه",
+      "persona": "الشخصية",
+      "context": "السياق",
+      "task": "المهمة",
+      "format": "التنسيق",
+      "ollama-model-label": "نموذج أولاما",
+      "data-preview": "معاينة البيانات",
+      "ai-prompt-title": "موجه الذكاء الاصطناعي",
+      "available-local-ollama-models": "نماذج أولاما المحلية المتاحة",
+      "model-name": "اسم النموذج",
+      "parameter-size": "حجم المعلمات",
+      "valid-prompt": "موجه صالح",
+      "valid-data": "بيانات صالحة",
+      "generate": "توليد",
+      "confirm-prompt-header": "تأكيد الموجه؟",
+      "prompt-copied-successfully": "تم نسخ الموجه بنجاح!"
+    },
+    "payment": {
+      "outstanding-amount": "المبلغ المستحق",
+      "due-date": "تاريخ الاستحقاق",
+      "method-card": "بطاقة",
+      "method-cash": "نقداً",
+      "payment-amount": "مبلغ الدفع",
+      "invalid-amount": "مبلغ غير صالح!",
+      "confirm-payment": "تأكيد الدفع",
+      "confirm-payment-header": "تأكيد الدفع؟"
+    },
+    "receipt": {
+      "received-item-list": "قائمة العناصر المستلمة",
+      "item-label": "العنصر",
+      "unit-fallback": "وحدة",
+      "confirm-item-receipt": "تأكيد استلام العناصر",
+      "confirm-receipt-header": "تأكيد استلام العناصر؟"
+    },
+    "duration": {
+      "project-duration": "مدة المشروع",
+      "select-date-range": "اختر نطاق التاريخ",
+      "start-date": "تاريخ البدء",
+      "end-date": "تاريخ الانتهاء",
+      "create": "إنشاء",
+      "confirm-duration-header": "تأكيد المدة؟"
+    },
+    "delivery": {
+      "delivery-item-list": "قائمة عناصر التسليم",
+      "item-label": "العنصر",
+      "confirm-item-delivery": "تأكيد تسليم العناصر",
+      "confirm-delivery-header": "تأكيد تسليم العناصر؟"
+    },
+    "links": {
+      "title": "الروابط",
+      "enter-link": "أدخل رابطا",
+      "create": "إنشاء رابط"
     }
   },
   "common": {
@@ -2222,6 +2294,12 @@
     "page": "صفحة",
     "youre-on-page": "أنت على الصفحة",
     "update": "تحديث",
+    "not-found": {
+      "title": "الصفحة غير موجودة",
+      "description": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+      "go-to-portal": "الذهاب إلى البوابة",
+      "go-back": "رجوع"
+    },
     "cards": {
       "status": {
         "suspended": "معلق"
@@ -2416,57 +2494,6 @@
         "amount": "المبلغ",
         "fallback-category": "المنتجات"
       }
-    }
-  },
-  "popovers": {
-    "common": {
-      "confirm": "تأكيد",
-      "cancel": "إلغاء"
-    },
-    "ai-prompt": {
-      "prompt-label": "الموجه",
-      "ollama-model-label": "نموذج أولاما",
-      "data-preview": "معاينة البيانات",
-      "ai-prompt-title": "موجه الذكاء الاصطناعي",
-      "available-local-ollama-models": "نماذج أولاما المحلية المتاحة",
-      "model-name": "اسم النموذج",
-      "parameter-size": "حجم المعلمات",
-      "valid-prompt": "موجه صالح",
-      "valid-data": "بيانات صالحة",
-      "generate": "توليد",
-      "confirm-prompt-header": "تأكيد الموجه؟",
-      "prompt-copied-successfully": "تم نسخ الموجه بنجاح!"
-    },
-    "payment": {
-      "outstanding-amount": "المبلغ المستحق",
-      "due-date": "تاريخ الاستحقاق",
-      "method-card": "بطاقة",
-      "method-cash": "نقداً",
-      "payment-amount": "مبلغ الدفع",
-      "invalid-amount": "مبلغ غير صالح!",
-      "confirm-payment": "تأكيد الدفع",
-      "confirm-payment-header": "تأكيد الدفع؟"
-    },
-    "receipt": {
-      "received-item-list": "قائمة العناصر المستلمة",
-      "item-label": "العنصر",
-      "unit-fallback": "وحدة",
-      "confirm-item-receipt": "تأكيد استلام العناصر",
-      "confirm-receipt-header": "تأكيد استلام العناصر؟"
-    },
-    "duration": {
-      "project-duration": "مدة المشروع",
-      "select-date-range": "اختر نطاق التاريخ",
-      "start-date": "تاريخ البدء",
-      "end-date": "تاريخ الانتهاء",
-      "create": "إنشاء",
-      "confirm-duration-header": "تأكيد المدة؟"
-    },
-    "delivery": {
-      "delivery-item-list": "قائمة عناصر التسليم",
-      "item-label": "العنصر",
-      "confirm-item-delivery": "تأكيد تسليم العناصر",
-      "confirm-delivery-header": "تأكيد تسليم العناصر؟"
     }
   },
   "about": "حول",

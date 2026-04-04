@@ -1145,6 +1145,10 @@
         },
         "sales-quotation": {
           "omr": "OMR",
+          "grand-total": "Grand Total",
+          "currency": {
+            "omr": "OMR"
+          },
           "information": {
             "title": "Sales Quotation Information"
           },
@@ -1843,6 +1847,7 @@
       "assign": "Assign",
       "operate": "Operate",
       "approve": "Approve",
+      "update": "Update",
       "strategy-pages": "Strategy Pages",
       "operation-pages": "Operation Pages",
       "production-pages": "Production Pages",
@@ -1947,7 +1952,13 @@
         "stamp": "Stamp *",
         "stamp-alt": "Company Stamp",
         "brand": "Brand",
-        "brand-alt": "Company Brand"
+        "brand-alt": "Company Brand",
+        "controls": {
+          "title": "Controls",
+          "enable_items_categorization": "Enable Items Categorization",
+          "enable_device_camera": "Enable Device Camera",
+          "enable_notification_alerts": "Enable Notification Alerts"
+        }
       },
       "business-types": {
         "auto-repairs": "Auto Repairs",
@@ -2160,6 +2171,12 @@
     "page": "page",
     "youre-on-page": "You're on page",
     "update": "Update",
+    "not-found": {
+      "title": "Page Not Found",
+      "description": "The page you are looking for doesn't exist or has been moved.",
+      "go-to-portal": "Go to Portal",
+      "go-back": "Go Back"
+    },
     "cards": {
       "status": {
         "suspended": "Suspended"
@@ -2362,7 +2379,12 @@
       "cancel": "Cancel"
     },
     "ai-prompt": {
+      "prompt-fields": "Prompt Fields",
       "prompt-label": "Prompt",
+      "persona": "Persona",
+      "context": "Context",
+      "task": "Task",
+      "format": "Format",
       "ollama-model-label": "Ollama Model",
       "data-preview": "Data Preview",
       "ai-prompt-title": "AI Prompt",
@@ -2471,7 +2493,7 @@
       "download-failed-message": "Could not download PDF!",
       "ok": "OK",
       "logo-alt": "Company logo",
-      "report-description": "Generate a daily sales report using AI. This report will provide insights into your sales performance for the day, including top-selling items, total revenue, and customer trends."
+      "report-description": "Please wait while SI-6 generates the report. Once the report is ready, you can download it as a PDF file for your reference."
     }
   },
   "about": "About",
