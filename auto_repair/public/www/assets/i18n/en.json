@@ -1826,7 +1826,7 @@
     "tabs": {
       "subscription": "Subscription",
       "company": "Company",
-      "imports": "Imports",
+      "system-data": "System Data",
       "roles": "Roles",
       "users": "Users"
     },
@@ -2017,12 +2017,14 @@
         "update-failed": "Could not update settings!"
       }
     },
-    "import": {
+    "system-data": {
       "actions": {
         "download-template": "Download Template",
         "import": "Import",
+        "export": "Export",
         "entries-created-success": "Entries Created Successfully!",
         "upload-failed": "Could not upload entries!",
+        "export-failed": "Could not export data!",
         "invalid-file": "Selected file is not SI-6.xlsx!"
       },
       "cards": {
@@ -2039,6 +2041,7 @@
         "assets": "Assets",
         "customers": "Customers",
         "suppliers": "Suppliers",
+        "vehicles": "Vehicles",
         "opening-accounts": "Opening Accounts",
         "invoices": "Invoices"
       },
@@ -2057,8 +2060,10 @@
         "importing-opening-accounts": "Importing Opening Accounts",
         "importing-customers": "Importing Customers",
         "importing-suppliers": "Importing Suppliers",
+        "importing-vehicles": "Importing Vehicles",
         "importing-outstanding-invoices": "Importing Outstanding Invoices",
-        "importing-invoices": "Importing Invoices"
+        "importing-invoices": "Importing Invoices",
+        "exporting": "Exporting data..."
       }
     },
     "reset": {
@@ -2498,5 +2503,100 @@
   },
   "about": "About",
   "dashboard": "Performance Dashboard",
-  "dashboards": "Performance Dashboards"
+  "dashboards": "Performance Dashboards",
+  "user-guide": {
+    "title": "User Guide",
+    "subtitle": "Your step-by-step guide to operating the system",
+    "sections": {
+      "setup": {
+        "title": "System Setup",
+        "description": "Begin by navigating to the Settings page. This is your starting point to configure the entire system. Complete each tab in order to get your organization up and running."
+      },
+      "subscription": {
+        "title": "Subscription & Company",
+        "description": "Activate your subscription plan to unlock system features. Then configure your company profile with essential details like tax ID, phone number, domain, logo, and official stamp."
+      },
+      "system-data": {
+        "title": "Data Imports",
+        "description": "Import your organization's data including employees, chart of accounts, items, and other essential records. The import wizard guides you through uploading spreadsheets and mapping fields."
+      },
+      "roles-users": {
+        "title": "Roles & Users",
+        "description": "Define roles with specific permissions to control access across modules. Then create user accounts and assign them appropriate roles to ensure secure, role-based access."
+      },
+      "systems": {
+        "title": "Systems Overview",
+        "description": "The application is organized into six integrated systems, each serving a distinct business function. Enable the systems you need from your subscription settings.",
+        "strategy": {
+          "title": "Strategy",
+          "desc": "Define strategic objectives, KPIs, and business plans"
+        },
+        "operation": {
+          "title": "Operation",
+          "desc": "Manage HR, departments, leaves, and regulatory compliance"
+        },
+        "production": {
+          "title": "Production",
+          "desc": "Handle manufacturing, garage operations, and POS channels"
+        },
+        "finance": {
+          "title": "Finance",
+          "desc": "Accounting, banking, assets, and financial reporting"
+        },
+        "innovation": {
+          "title": "Innovation",
+          "desc": "Drive innovation processes from ideation to commercialization"
+        },
+        "support": {
+          "title": "Support",
+          "desc": "Sales, marketing, CRM, logistics, and inventory management"
+        }
+      },
+      "portal": {
+        "title": "Portal Page",
+        "description": "The Portal is your centralized dashboard. View in-progress tasks, overdue items, upcoming events, department stats, and quick notes — all in one place. Use the search bar to find anything across the system."
+      },
+      "kpi-import": {
+        "title": "KPI Import from Strategy",
+        "description": "KPIs are defined in the Strategy module's Strategic Framework. Once configured, they automatically flow into performance dashboards across all systems, providing real-time tracking of your strategic goals."
+      },
+      "dashboards": {
+        "title": "Performance Dashboards",
+        "description": "Each system has a dedicated performance dashboard displaying key metrics and charts. Dashboards pull KPI data from the Strategy module to show progress, trends, and areas needing attention."
+      },
+      "finance": {
+        "title": "Finance for Accountants",
+        "description": "The Finance module provides a complete accounting suite. Manage your Chart of Accounts, record Journal Entries, track Banking transactions, manage Assets, handle Financing, and generate comprehensive financial Reports.",
+        "chart-of-accounts": "Chart of Accounts",
+        "journal-entries": "Journal Entries",
+        "banking": "Banking",
+        "assets": "Assets",
+        "financing": "Financing",
+        "reports": "Reports"
+      },
+      "support-inventory": {
+        "title": "Support & Inventory",
+        "description": "Use the Support module to create and manage items, monitor inventory levels, track stock movements, and manage suppliers. Set reorder points to receive alerts when stock runs low.",
+        "items": "Create & Manage Items",
+        "inventory": "Monitor Inventory Levels",
+        "suppliers": "Supplier Management"
+      },
+      "tasks-jobs-projects": {
+        "title": "Tasks, Jobs & Projects",
+        "description": "These are the main driving actions in the system. Tasks are individual work items, Jobs group related tasks with deadlines, and Projects organize multiple jobs into larger initiatives. They power workflow across all modules.",
+        "task": {
+          "title": "Tasks",
+          "desc": "Individual actionable work items assigned to team members"
+        },
+        "job": {
+          "title": "Jobs",
+          "desc": "Groups of related tasks with timelines and milestones"
+        },
+        "project": {
+          "title": "Projects",
+          "desc": "Large initiatives combining multiple jobs and resources"
+        }
+      }
+    }
+  }
 }
