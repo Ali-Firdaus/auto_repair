@@ -1,4 +1,4 @@
-import{a as h}from"./chunk-VOC5ZUF7.js";import"./chunk-D6FLY3E4.js";import"./chunk-BWXWOEJ4.js";import"./chunk-W5KFC7EZ.js";import{O as y,Q as f,X as g}from"./chunk-Q25HJJBT.js";import{d as u}from"./chunk-H67ZAU2Z.js";import"./chunk-EICOMGDD.js";import{Jb as m,Kb as r,Lb as c,Nc as d,ca as n,jb as p,kc as l,wa as _}from"./chunk-WBCF2HME.js";import"./chunk-XY4JVPMI.js";import"./chunk-3A2TMJPV.js";import"./chunk-FK6H3RFT.js";import"./chunk-4LAIL3YS.js";import"./chunk-3VUJARFJ.js";import"./chunk-U4S3RQJB.js";import"./chunk-TFAIVKUR.js";import"./chunk-YUNOCBLG.js";import"./chunk-YJ5TA4PT.js";import"./chunk-2NIBOUWM.js";import"./chunk-I547WOKC.js";import"./chunk-NRC4DAUY.js";import"./chunk-OWRIGUTI.js";import"./chunk-NMFL75IO.js";import"./chunk-FIRXXYNY.js";var C=(()=>{class a{constructor(){this.crudStore=n(h),this.router=n(u),this.si6_accounting_data={name:"si6_accounting_data",script_type:"API",api_method:"si6_accounting_data",script:`
+import{a as h}from"./chunk-VOC5ZUF7.js";import"./chunk-D6FLY3E4.js";import"./chunk-BWXWOEJ4.js";import"./chunk-W5KFC7EZ.js";import{O as y,Q as f,X as g}from"./chunk-Q25HJJBT.js";import{d as u}from"./chunk-H67ZAU2Z.js";import"./chunk-EICOMGDD.js";import{Jb as m,Kb as n,Lb as c,Nc as l,ca as r,jb as _,kc as d,wa as p}from"./chunk-WBCF2HME.js";import"./chunk-XY4JVPMI.js";import"./chunk-3A2TMJPV.js";import"./chunk-FK6H3RFT.js";import"./chunk-4LAIL3YS.js";import"./chunk-3VUJARFJ.js";import"./chunk-U4S3RQJB.js";import"./chunk-TFAIVKUR.js";import"./chunk-YUNOCBLG.js";import"./chunk-YJ5TA4PT.js";import"./chunk-2NIBOUWM.js";import"./chunk-I547WOKC.js";import"./chunk-NRC4DAUY.js";import"./chunk-OWRIGUTI.js";import"./chunk-NMFL75IO.js";import"./chunk-FIRXXYNY.js";var C=(()=>{class a{constructor(){this.crudStore=r(h),this.router=r(u),this.si6_accounting_data={name:"si6_accounting_data",script_type:"API",api_method:"si6_accounting_data",script:`
       # Frappe Server Script \u2014 API Type
 # Method Name: si6_accounting_data
 # Endpoint: GET /api/method/si6_accounting_data
@@ -975,6 +975,71 @@ def insert_if_missing(doctype, filters, doc_data):
     else:
         skipped.append(f"{doctype}: {filters}")
 
+
+def upsert_sales_tax_template(title, company, taxes):
+    template_name = frappe.db.get_value(
+        "Sales Taxes and Charges Template", {"title": title}, "name"
+    )
+
+    def normalize(rows):
+        normalized = []
+        for row in rows or []:
+            normalized.append(
+                {
+                    "charge_type": row.get("charge_type")
+                    if isinstance(row, dict)
+                    else row.charge_type,
+                    "account_head": row.get("account_head")
+                    if isinstance(row, dict)
+                    else row.account_head,
+                    "description": row.get("description")
+                    if isinstance(row, dict)
+                    else row.description,
+                    "rate": frappe.utils.flt(
+                        row.get("rate") if isinstance(row, dict) else row.rate
+                    ),
+                }
+            )
+        return normalized
+
+    desired_taxes = normalize(taxes)
+
+    if not template_name:
+        doc = frappe.get_doc(
+            {
+                "doctype": "Sales Taxes and Charges Template",
+                "title": title,
+                "company": company,
+                "taxes": taxes,
+            }
+        )
+        doc.insert(ignore_permissions=True, ignore_if_duplicate=True)
+        created.append(f"Sales Taxes and Charges Template: {doc.name} (created)")
+        return
+
+    doc = frappe.get_doc("Sales Taxes and Charges Template", template_name)
+    existing_taxes = normalize(doc.taxes)
+
+    if doc.company != company or existing_taxes != desired_taxes:
+        doc.company = company
+        doc.set("taxes", [])
+        for row in taxes:
+            doc.append(
+                "taxes",
+                {
+                    "charge_type": row.get("charge_type"),
+                    "account_head": row.get("account_head"),
+                    "description": row.get("description"),
+                    "rate": row.get("rate"),
+                },
+            )
+        doc.save(ignore_permissions=True)
+        created.append(f"Sales Taxes and Charges Template: {doc.name} (updated)")
+    else:
+        skipped.append(
+            f"Sales Taxes and Charges Template: {{'title': '{title}'}} (unchanged)"
+        )
+
 # ------------------------------------------------------------------
 # 1. Global Defaults
 # ------------------------------------------------------------------
@@ -1339,14 +1404,10 @@ elif not tax_account_name:
     skipped.append("Sales Taxes and Charges Template: skipped (no tax account found)")
 else:
     for template in tax_templates_preset:
-        insert_if_missing(
-            "Sales Taxes and Charges Template",
-            {"title": template["title"]},
-            {
-                "title": template["title"],
-                "company": company_name,
-                "taxes": template["taxes"],
-            },
+        upsert_sales_tax_template(
+            title=template["title"],
+            company=company_name,
+            taxes=template["taxes"],
         )
 
 # ------------------------------------------------------------------
@@ -1622,6 +1683,66 @@ for permission in permissions_preset:
     )
 
 # ------------------------------------------------------------------
+# 20. Role Permissions Manager (User / System Manager)
+# ------------------------------------------------------------------
+custom_docperm_filters = {
+    "parent": "User",
+    "permlevel": 0,
+    "role": "System Manager",
+}
+docperm_filters = {
+    "parent": "User",
+    "permlevel": 0,
+    "role": "System Manager",
+}
+permissions_updated = False
+
+custom_docperm_name = frappe.db.get_value(
+    "Custom DocPerm", custom_docperm_filters, "name"
+)
+if custom_docperm_name:
+    current_value = frappe.db.get_value(
+        "Custom DocPerm", custom_docperm_name, "set_user_permissions"
+    )
+    if frappe.utils.cint(current_value) != 0:
+        frappe.db.set_value(
+            "Custom DocPerm", custom_docperm_name, "set_user_permissions", 0
+        )
+        permissions_updated = True
+        created.append(
+            "Role Permissions(User/System Manager): set_user_permissions disabled (custom)"
+        )
+    else:
+        skipped.append(
+            "Role Permissions(User/System Manager): set_user_permissions already disabled (custom)"
+        )
+else:
+    docperm_name = frappe.db.get_value("DocPerm", docperm_filters, "name")
+    if docperm_name:
+        current_value = frappe.db.get_value(
+            "DocPerm", docperm_name, "set_user_permissions"
+        )
+        if frappe.utils.cint(current_value) != 0:
+            frappe.db.set_value("DocPerm", docperm_name, "set_user_permissions", 0)
+            permissions_updated = True
+            created.append(
+                "Role Permissions(User/System Manager): set_user_permissions disabled"
+            )
+        else:
+            skipped.append(
+                "Role Permissions(User/System Manager): set_user_permissions already disabled"
+            )
+    else:
+        skipped.append(
+            "Role Permissions(User/System Manager): skipped (permission row not found)"
+        )
+
+if permissions_updated:
+    skipped.append(
+        "Role Permissions(User/System Manager): cache clear skipped in Server Script sandbox"
+    )
+
+# ------------------------------------------------------------------
 frappe.db.commit()
 
 frappe.response["message"] = {
@@ -1630,4 +1751,4 @@ frappe.response["message"] = {
     "total_created": len(created),
     "total_skipped": len(skipped),
 }
-    `},this.scripts=[this.si6_accounting_data,this.si6_app_bootstrap,this.si6_guard_context,this.si6_portal_data,this.si6_reference_data,this.si6_fetch_required_documents,this.si6_create_required_documents],this.initialization=d({defaultValue:[],loader:async()=>{let i=[],t=await this.crudStore.list("Server Script",i,[],[],100),o=new Map(t.map(e=>[e.name,e]));for(let e of this.scripts){let s=o.get(e.name);if(!s){await this.crudStore.create("Server Script",e);continue}(s.script!==e.script||s.api_method!==e.api_method||s.script_type!==e.script_type)&&await this.crudStore.update("Server Script",s.name,{script:e.script,api_method:e.api_method,script_type:e.script_type})}return await this.crudStore.list("Server Script",i,[],[],100)}}),_(()=>{!this.initialization.isLoading()&&!this.initialization.error()&&this.router.navigateByUrl("/documents-preparation")})}static{this.\u0275fac=function(t){return new(t||a)}}static{this.\u0275cmp=p({type:a,selectors:[["app-initialization"]],decls:5,vars:0,consts:[[1,"h-screen","flex","items-center","justify-center"],["lines","none","color","clear",1,"min-w-60"]],template:function(t,o){t&1&&(m(0,"div",0)(1,"ion-item",1)(2,"ion-label"),l(3,"System is initializing"),r(),c(4,"ion-spinner"),r()())},dependencies:[y,f,g],encapsulation:2,changeDetection:0})}}return a})();export{C as InitializationComponent};
+    `},this.scripts=[this.si6_accounting_data,this.si6_app_bootstrap,this.si6_guard_context,this.si6_portal_data,this.si6_reference_data,this.si6_fetch_required_documents,this.si6_create_required_documents],this.initialization=l({defaultValue:[],loader:async()=>{let i=[],t=await this.crudStore.list("Server Script",i,[],[],100),o=new Map(t.map(e=>[e.name,e]));for(let e of this.scripts){let s=o.get(e.name);if(!s){await this.crudStore.create("Server Script",e);continue}(s.script!==e.script||s.api_method!==e.api_method||s.script_type!==e.script_type)&&await this.crudStore.update("Server Script",s.name,{script:e.script,api_method:e.api_method,script_type:e.script_type})}return await this.crudStore.list("Server Script",i,[],[],100)}}),p(()=>{!this.initialization.isLoading()&&!this.initialization.error()&&this.router.navigateByUrl("/documents-preparation")})}static{this.\u0275fac=function(t){return new(t||a)}}static{this.\u0275cmp=_({type:a,selectors:[["app-initialization"]],decls:5,vars:0,consts:[[1,"h-screen","flex","items-center","justify-center"],["lines","none","color","clear",1,"min-w-60"]],template:function(t,o){t&1&&(m(0,"div",0)(1,"ion-item",1)(2,"ion-label"),d(3,"System is initializing"),n(),c(4,"ion-spinner"),n()())},dependencies:[y,f,g],encapsulation:2,changeDetection:0})}}return a})();export{C as InitializationComponent};
