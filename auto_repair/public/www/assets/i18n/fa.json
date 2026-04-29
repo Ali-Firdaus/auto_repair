@@ -1651,7 +1651,7 @@
     "mind-map": "نقشه ذهنی",
     "knowledge-hub": "مرکز دانش",
     "meetings": "جلسات",
-    "si6-bot": "ربات اس آی 6",
+    "si6-bot": "ربات Idarah",
     "si6-bot-message": "پیام",
     "si6-bot-response": "پاسخ",
     "links": {
@@ -1677,6 +1677,7 @@
       "all": "همه",
       "incomplete": "ناقص",
       "completed": "تکمیل شده",
+      "view-mode": "حالت نمایش",
       "scope-op": "عملیاتی",
       "scope-prod": "تولیدی"
     },
@@ -2023,7 +2024,7 @@
         "import": "ورود",
         "entries-created-success": "ورودی ها با موفقیت ایجاد شدند!",
         "upload-failed": "بارگذاری ورودی ها ممکن نشد!",
-        "invalid-file": "فایل انتخابی SI-6.xlsx نیست!"
+        "invalid-file": "فایل انتخابی Idarah.xlsx نیست!"
       },
       "cards": {
         "fiscal-years": "سال های مالی",
@@ -2222,7 +2223,7 @@
       "download-failed-message": "دانلود فایل پی دی اف ممکن نشد!",
       "ok": "باشه",
       "logo-alt": "لوگوی شرکت",
-      "report-description": "لطفاً منتظر بمانید تا SI-6 گزارش را تولید کند. پس از آماده شدن گزارش، می‌توانید آن را به عنوان یک فایل PDF برای مرجع خود دانلود کنید."
+      "report-description": "لطفاً منتظر بمانید تا Idarah گزارش را تولید کند. پس از آماده شدن گزارش، می‌توانید آن را به عنوان یک فایل PDF برای مرجع خود دانلود کنید."
     }
   },
   "common": {
@@ -2433,7 +2434,9 @@
         "qty": "تعداد",
         "unit-price": "قیمت واحد",
         "amount": "مبلغ",
-        "fallback-category": "محصولات"
+        "fallback-category": "محصولات",
+        "part": "قطعه",
+        "service": "خدمت"
       }
     }
   },

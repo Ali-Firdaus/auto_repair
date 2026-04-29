@@ -1651,7 +1651,7 @@
     "mind-map": "الخريطة الذهنية",
     "knowledge-hub": "مركز المعرفة",
     "meetings": "الاجتماعات",
-    "si6-bot": "روبوت إس آي 6",
+    "si6-bot": "مساعد Idarah",
     "si6-bot-message": "الرسالة",
     "si6-bot-response": "الرد",
     "links": {
@@ -1677,6 +1677,7 @@
       "all": "الكل",
       "incomplete": "غير مكتمل",
       "completed": "مكتمل",
+      "view-mode": "وضع العرض",
       "scope-op": "تشغيلي",
       "scope-prod": "إنتاجي"
     },
@@ -2025,7 +2026,7 @@
         "entries-created-success": "تم إنشاء السجلات بنجاح!",
         "upload-failed": "تعذر رفع السجلات!",
         "export-failed": "تعذر تصدير البيانات!",
-        "invalid-file": "الملف المحدد ليس SI-6.xlsx!"
+        "invalid-file": "الملف المحدد ليس Idarah.xlsx!"
       },
       "cards": {
         "fiscal-years": "السنوات المالية",
@@ -2225,7 +2226,7 @@
       "download-failed-message": "تعذر تنزيل ملف بي دي إف!",
       "ok": "موافق",
       "logo-alt": "شعار الشركة",
-      "report-description": "يرجى الانتظار ريثما يقوم برنامج SI-6 بإنشاء التقرير. بمجرد أن يصبح التقرير جاهزًا، يمكنك تنزيله كملف PDF للرجوع إليه."
+      "report-description": "يرجى الانتظار بينما يقوم Idarah بإنشاء التقرير. بمجرد أن يصبح التقرير جاهزًا، يمكنك تنزيله كملف PDF للرجوع إليه."
     }
   },
   "popovers": {
@@ -2497,7 +2498,9 @@
         "qty": "الكمية",
         "unit-price": "سعر الوحدة",
         "amount": "المبلغ",
-        "fallback-category": "المنتجات"
+        "fallback-category": "المنتجات",
+        "part": "قطعة",
+        "service": "خدمة"
       }
     }
   },

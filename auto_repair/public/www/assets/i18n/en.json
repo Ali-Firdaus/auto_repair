@@ -1651,7 +1651,7 @@
     "mind-map": "Mind Map",
     "knowledge-hub": "Knowledge Hub",
     "meetings": "Meetings",
-    "si6-bot": "SI6 Bot",
+    "si6-bot": "Idarah Bot",
     "si6-bot-message": "Message",
     "si6-bot-response": "Response",
     "links": {
@@ -1677,6 +1677,7 @@
       "all": "All",
       "incomplete": "Incomplete",
       "completed": "Completed",
+      "view-mode": "View Mode",
       "scope-op": "Op",
       "scope-prod": "Prod"
     },
@@ -2025,7 +2026,7 @@
         "entries-created-success": "Entries Created Successfully!",
         "upload-failed": "Could not upload entries!",
         "export-failed": "Could not export data!",
-        "invalid-file": "Selected file is not SI-6.xlsx!"
+        "invalid-file": "Selected file is not Idarah.xlsx!"
       },
       "cards": {
         "fiscal-years": "Fiscal Years",
@@ -2374,7 +2375,9 @@
         "qty": "Qty",
         "unit-price": "Unit Price",
         "amount": "Amount",
-        "fallback-category": "Products"
+        "fallback-category": "Products",
+        "part": "Part",
+        "service": "Service"
       }
     }
   },
@@ -2498,7 +2501,7 @@
       "download-failed-message": "Could not download PDF!",
       "ok": "OK",
       "logo-alt": "Company logo",
-      "report-description": "Please wait while SI-6 generates the report. Once the report is ready, you can download it as a PDF file for your reference."
+      "report-description": "Please wait while Idarah generates the report. Once the report is ready, you can download it as a PDF file for your reference."
     }
   },
   "about": "About",

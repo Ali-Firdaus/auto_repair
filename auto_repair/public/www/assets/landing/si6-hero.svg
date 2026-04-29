@@ -32,7 +32,7 @@
   <g filter="url(#cardShadow)">
     <circle cx="360" cy="360" r="130" fill="white" stroke="#e0e7ff" stroke-width="3"/>
     <circle cx="360" cy="360" r="110" fill="#6366f1" opacity="0.06"/>
-    <text x="360" y="348" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="#1e1b4b">SI-6</text>
+    <text x="360" y="348" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="#1e1b4b">Idarah</text>
     <text x="360" y="392" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#6366f1" letter-spacing="4">PLATFORM</text>
   </g>
 
