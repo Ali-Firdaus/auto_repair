@@ -1929,6 +1929,38 @@
         "update-subscription": "تحديث الاشتراك",
         "updated-success": "تم تحديث اشتراك الشركة بنجاح!",
         "update-failed": "تعذر تحديث اشتراك الشركة!"
+      },
+      "renewal-payment": {
+        "renew-cta": "تجديد الاشتراك",
+        "modal": {
+          "title": "تجديد الاشتراك",
+          "subtitle": "أكمل الدفع للحفاظ على جميع الميزات المشتركة مفعلة.",
+          "gateway-label": "بوابة الدفع",
+          "secure-payment": "يتم تشفير الدفع ومعالجته بشكل آمن.",
+          "order-summary": "ملخص الطلب",
+          "amount-details": {
+            "subtotal": "الإجمالي الفرعي",
+            "discount": "الخصم",
+            "tax": "الضريبة",
+            "total": "الإجمالي"
+          }
+        },
+        "gateways": {
+          "card": "بطاقة ائتمان / خصم",
+          "bank-transfer": "تحويل بنكي",
+          "wallet": "محفظة"
+        },
+        "status": {
+          "processing": "جار معالجة الدفع...",
+          "success": "تم الدفع بنجاح. تم تجديد اشتراكك.",
+          "failure": "فشل الدفع. يرجى المحاولة مرة أخرى."
+        },
+        "buttons": {
+          "pay-now": "ادفع الآن",
+          "retry": "إعادة المحاولة",
+          "cancel": "إلغاء",
+          "close": "إغلاق"
+        }
       }
     },
     "company": {

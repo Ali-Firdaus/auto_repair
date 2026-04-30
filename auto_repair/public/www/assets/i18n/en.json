@@ -1929,6 +1929,38 @@
         "update-subscription": "Update Subscription",
         "updated-success": "Company subscription updated successfully!",
         "update-failed": "Could not update company subscription!"
+      },
+      "renewal-payment": {
+        "renew-cta": "Renew Subscription",
+        "modal": {
+          "title": "Renew Subscription",
+          "subtitle": "Complete your payment to keep all subscribed features active.",
+          "gateway-label": "Payment Gateway",
+          "secure-payment": "Your payment is encrypted and processed securely.",
+          "order-summary": "Order Summary",
+          "amount-details": {
+            "subtotal": "Subtotal",
+            "discount": "Discount",
+            "tax": "Tax",
+            "total": "Total"
+          }
+        },
+        "gateways": {
+          "card": "Credit / Debit Card",
+          "bank-transfer": "Bank Transfer",
+          "wallet": "Wallet"
+        },
+        "status": {
+          "processing": "Processing your payment...",
+          "success": "Payment successful. Your subscription has been renewed.",
+          "failure": "Payment failed. Please try again."
+        },
+        "buttons": {
+          "pay-now": "Pay Now",
+          "retry": "Retry Payment",
+          "cancel": "Cancel",
+          "close": "Close"
+        }
       }
     },
     "company": {

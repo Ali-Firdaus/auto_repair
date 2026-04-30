@@ -1,0 +1,2 @@
+import{Nb as e,Ob as i,kb as n,lc as c}from"./chunk-QLJOQDBP.js";import"./chunk-FIRXXYNY.js";var s=(()=>{class t{constructor(){}ngOnInit(){}static{this.\u0275fac=function(o){return new(o||t)}}static{this.\u0275cmp=n({type:t,selectors:[["app-stock-reconciliation"]],decls:2,vars:0,template:function(o,a){o&1&&(e(0,"p"),c(1,` stock-reconciliation works!
+`),i())},encapsulation:2})}}return t})();export{s as StockReconciliationComponent};
