@@ -2443,12 +2443,15 @@
     },
     "pdfs": {
       "actions": {
-        "download": "دانلود"
+        "download": "دانلود",
+        "copy-image": "کپی تصویر"
       },
       "status": {
         "loading": "در حال بارگذاری",
         "action-failed": "انجام عملیات ناموفق بود",
         "download-failed": "دانلود PDF ممکن نشد!",
+        "copy-image-failed": "کپی تصویر فاکتور ممکن نشد!",
+        "image-copied": "تصویر فاکتور با موفقیت کپی شد!",
         "ok": "باشه"
       },
       "toggles": {

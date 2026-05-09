@@ -2384,12 +2384,15 @@
     },
     "pdfs": {
       "actions": {
-        "download": "Download"
+        "download": "Download",
+        "copy-image": "Copy Image"
       },
       "status": {
         "loading": "Loading",
         "action-failed": "Action Failed",
         "download-failed": "Could not download PDF!",
+        "copy-image-failed": "Could not copy invoice image!",
+        "image-copied": "Invoice image copied successfully!",
         "ok": "OK"
       },
       "toggles": {

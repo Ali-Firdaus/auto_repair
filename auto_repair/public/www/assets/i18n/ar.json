@@ -2507,12 +2507,15 @@
     },
     "pdfs": {
       "actions": {
-        "download": "تنزيل"
+        "download": "تنزيل",
+        "copy-image": "نسخ الصورة"
       },
       "status": {
         "loading": "جاري التحميل",
         "action-failed": "فشل الإجراء",
         "download-failed": "تعذر تنزيل ملف PDF!",
+        "copy-image-failed": "تعذر نسخ صورة الفاتورة!",
+        "image-copied": "تم نسخ صورة الفاتورة بنجاح!",
         "ok": "موافق"
       },
       "toggles": {
