@@ -1,0 +1,2 @@
+import{Nb as o,Ob as a,kb as n,lc as i}from"./chunk-R4DVUUWX.js";import"./chunk-FIRXXYNY.js";var p=(()=>{class e{constructor(){}ngOnInit(){}static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=n({type:e,selectors:[["app-sales-and-marketing"]],decls:2,vars:0,template:function(t,s){t&1&&(o(0,"p"),i(1,` sales-and-marketing works!
+`),a())},encapsulation:2})}}return e})();export{p as SalesAndMarketingComponent};
