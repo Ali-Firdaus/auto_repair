@@ -739,7 +739,16 @@
         "inspection": "Inspection"
       },
       "qc": {
-        "service-completed": "Service Completed"
+        "service-completed": "Service Completed",
+        "item-installed": "{{item}} Installed",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "loading": "Loading",
+        "confirm-check": "Confirm QC Check?",
+        "approved-success": "QC approved successfully!",
+        "action-failed": "Action Failed",
+        "update-failed": "Could not update QC!"
       },
       "confirmation": {
         "in-person": "In Person Confirmation",

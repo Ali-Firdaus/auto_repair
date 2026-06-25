@@ -739,7 +739,16 @@
         "inspection": "Inspection"
       },
       "qc": {
-        "service-completed": "Service Completed"
+        "service-completed": "Service Completed",
+        "item-installed": "{{item}} Installed",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "loading": "Loading",
+        "confirm-check": "Confirm QC Check?",
+        "approved-success": "QC approved successfully!",
+        "action-failed": "Action Failed",
+        "update-failed": "Could not update QC!"
       },
       "confirmation": {
         "in-person": "In Person Confirmation",
@@ -1308,7 +1317,16 @@
         "title": "Fiscal Years",
         "new-fiscal-year": "New Fiscal Year",
         "empty-subtitle": "List Empty",
-        "empty-instructions": "Please apply proper filters to see available fiscal years"
+        "empty-instructions": "Please apply proper filters to see available fiscal years",
+        "fiscal-year": {
+          "information": {
+            "title": "Title"
+          },
+          "fields": {
+            "name": "Name",
+            "date-range": "Daterange"
+          }
+        }
       },
       "bom-approvals": {
         "production-cost": "Production Cost",
@@ -1706,6 +1724,16 @@
       "options-title": "Job Options",
       "empty-subtitle": "No Jobs",
       "empty-instructions": "Please create a new job or apply proper filters to see available jobs",
+      "pending-process-status": "Pending Process Status",
+      "active-pending-tasks": "Active Pending Tasks"
+    },
+    "procedures": {
+      "title": "Procedures",
+      "my-items": "My Procedures",
+      "create": "New Procedure",
+      "options-title": "Procedure Options",
+      "empty-subtitle": "No Procedures",
+      "empty-instructions": "Please create a new procedure or apply proper filters to see available procedures",
       "pending-process-status": "Pending Process Status",
       "active-pending-tasks": "Active Pending Tasks"
     },
