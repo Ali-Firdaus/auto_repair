@@ -918,6 +918,7 @@
           },
           "fields": {
             "supplier": "المورد",
+            "tax-rate": "معدل الضريبة",
             "approver": "الموافق"
           },
           "summary": {
@@ -966,6 +967,7 @@
           },
           "fields": {
             "supplier": "المورد",
+            "tax-rate": "معدل الضريبة",
             "approver": "الموافق"
           },
           "summary": {

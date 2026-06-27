@@ -918,6 +918,7 @@
           },
           "fields": {
             "supplier": "تامین کننده",
+            "tax-rate": "نرخ مالیات",
             "approver": "تاییدکننده"
           },
           "summary": {
@@ -966,6 +967,7 @@
           },
           "fields": {
             "supplier": "تامین کننده",
+            "tax-rate": "نرخ مالیات",
             "approver": "تاییدکننده"
           },
           "summary": {

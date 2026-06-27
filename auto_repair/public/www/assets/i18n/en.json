@@ -918,6 +918,7 @@
           },
           "fields": {
             "supplier": "Supplier",
+            "tax-rate": "Tax Rate",
             "approver": "Approver"
           },
           "summary": {
@@ -966,6 +967,7 @@
           },
           "fields": {
             "supplier": "Supplier",
+            "tax-rate": "Tax Rate",
             "approver": "Approver"
           },
           "summary": {
