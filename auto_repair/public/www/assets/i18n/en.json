@@ -36,7 +36,7 @@
       },
       "empty-state": {
         "subtitle": "Action Required!",
-        "instructions": "Please import KPIs from settings to access the Strategic Framework."
+        "instructions": "Please Click on the button above to load KPIs"
       },
       "kpis": {
         "update-button": "Update KPIs"
@@ -435,92 +435,69 @@
   "production": {
     "title": "Production",
     "categories": "Categories",
-    "channels": {
-      "title": "Channels",
-      "garage": {
-        "title": "Garage",
-        "old-jobs": "Old Jobs",
-        "notifications": "Notifications",
+    "garage": {
+      "title": "Garage",
+      "old-jobs": "Old Jobs",
+      "notifications": "Notifications",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "vehicles": "Vehicles",
+      "brands": "Brands",
+      "import": "Import Data",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion",
+      "brands-actions": {
+        "download-template": "Download Template"
+      },
+      "brands-empty": {
+        "instructions": "Please apply proper filters to see available sales orders"
+      }
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "work-orders": {
+        "title": "Work Orders"
+      },
+      "production-operations": {
+        "title": "Operations"
+      },
+      "production-plans": {
+        "title": "Production Plans",
         "incomplete": "Incomplete",
-        "completed": "Completed",
-        "vehicles": "Vehicles",
-        "brands": "Brands",
-        "import": "Import Data",
-        "initiation": "Initiation",
-        "planning": "Planning",
-        "execution": "Execution",
-        "completion": "Completion",
-        "brands-actions": {
-          "download-template": "Download Template"
-        },
-        "brands-empty": {
-          "instructions": "Please apply proper filters to see available sales orders"
-        }
+        "completed": "Completed"
       },
-      "manufacturing": {
-        "title": "Manufacturing",
-        "work-orders": {
-          "title": "Work Orders"
-        },
-        "production-operations": {
-          "title": "Operations"
-        },
-        "production-plans": {
-          "title": "Production Plans",
-          "incomplete": "Incomplete",
-          "completed": "Completed"
-        },
-        "job-cards": {
-          "title": "Job Cards",
-          "incomplete": "Incomplete",
-          "completed": "Completed"
-        },
-        "import": "Import",
-        "boms": "BoMs",
-        "workstations": "Work Stations",
-        "initiation": "Initiation",
-        "planning": "Planning",
-        "execution": "Execution",
-        "completion": "Completion"
-      },
-      "consultancy": {
-        "title": "Consultancy",
+      "job-cards": {
+        "title": "Job Cards",
         "incomplete": "Incomplete",
-        "completed": "Completed",
-        "initiation": "Initiation",
-        "planning": "Planning",
-        "execution": "Execution",
-        "completion": "Completion"
+        "completed": "Completed"
       },
-      "investments": {
-        "title": "Investment",
-        "incomplete": "Incomplete",
-        "completed": "Completed",
-        "initiation": "Ideation",
-        "planning": "Planning",
-        "execution": "Protoyping",
-        "completion": "Commercialization"
-      },
-      "pos": {
-        "title": "POS",
-        "shop": "Shops",
-        "branches": "Branches",
-        "invoices": "Invoices",
-        "new-store": "New Store",
-        "branches-empty": {
-          "instructions": "Please apply proper filters to see available stores"
-        },
-        "branches-info": {
-          "instructions": "You can search stores by name."
-        },
-        "invoices-empty": {
-          "subtitle": "No Transactions!",
-          "instructions": "There are no transactions found. Please use the search box for filtering."
-        }
-      },
-      "tasks": "Task Management",
-      "jobs": "Job Management",
-      "projects": "Project Management"
+      "import": "Import",
+      "boms": "BoMs",
+      "workstations": "Work Stations",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "consultancy": {
+      "title": "Consultancy",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Completion"
+    },
+    "investments": {
+      "title": "Investment",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "initiation": "Ideation",
+      "planning": "Planning",
+      "execution": "Protoyping",
+      "completion": "Commercialization"
     },
     "menu": {
       "manufacturing-import": "Manufacturing Import",
@@ -614,193 +591,6 @@
       "material-requests": "Material Requests",
       "delivery-notes": "Delivery Notes",
       "operations": "Operations"
-    },
-    "garage": {
-      "sections": {
-        "general-information": "General Information",
-        "registration": "Registration",
-        "insurance": "Insurance",
-        "jobs-history": "Jobs History"
-      },
-      "fields": {
-        "select-date-range": "Select a date range",
-        "start-date": "Start date",
-        "end-date": "End date",
-        "brand": "Brand",
-        "model": "Model",
-        "production-year": "Production Year",
-        "chassis-number": "Chassis Number",
-        "owner": "Owner",
-        "plate-number": "Plate Number",
-        "plate-code": "Plate Code",
-        "registration-date-range": "Registration Date Range",
-        "registration-issue-date": "Registration Issue Date",
-        "registration-expiry-date": "Registration Expiry Date",
-        "insurance-company": "Insurance Company",
-        "insurance-date-range": "Insurance Date Range",
-        "insurance-issue-date": "Insurance Issue Date",
-        "insurance-expiry-date": "Insurance Expiry Date",
-        "logo-url": "Logo url",
-        "discount-omr": "Discount in OMR",
-        "qc-employee": "QC Employee",
-        "charge": "Charge",
-        "part": "Part",
-        "qty": "QTY",
-        "employee": "Employee",
-        "allocated-duration": "Allocated Duration",
-        "duration-unit": "Duration Unit",
-        "customer-name": "Customer Name",
-        "customer-phone": "Customer Phone",
-        "odometer": "Odometer",
-        "inspector": "Inspector",
-        "notes": "Notes",
-        "issue-date": "Issue Date",
-        "expiry-date": "Expiry Date",
-        "duration": "Duration",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "service-duration": "Service Duration",
-        "assigned-employee": "Assigned Employee"
-      },
-      "jobs": {
-        "count": "Jobs Count:",
-        "none-in-range": "No jobs found for the selected date range."
-      },
-      "brand": {
-        "details": "Brand Details",
-        "models": "Models"
-      },
-      "actions": {
-        "update": "Update",
-        "download": "Download",
-        "cancel": "Cancel",
-        "actions": "Actions",
-        "start": "Start",
-        "stop": "Stop",
-        "complete": "Complete",
-        "add-additional-services": "Add Additional Services",
-        "approve-services": "Approve Services",
-        "send-invoice": "Send Invoice",
-        "send-receipt": "Send Receipt",
-        "create-invoice": "Create Invoice",
-        "mark-as-delivered": "Mark as Delivered"
-      },
-      "invoice": {
-        "tax-invoice": "Tax Invoice",
-        "add-stamp": "Add stamp"
-      },
-      "table": {
-        "type": "Type",
-        "item": "Item",
-        "quantity": "Quantity",
-        "amount-omr": "Amount OMR",
-        "service": "Service",
-        "spare-part": "Spare Part",
-        "labor": "Labor"
-      },
-      "summary": {
-        "discount": "Discount",
-        "net-total": "Net Total",
-        "vat": "VAT (5%)",
-        "grand-total": "Grand Total",
-        "tax": "Tax"
-      },
-      "payment": {
-        "details": "Payment Details",
-        "methods": {
-          "card": "Card",
-          "cash": "Cash"
-        },
-        "confirm-payment": "Confirm Payment"
-      },
-      "errors": {
-        "invalid-amount": "Invalid amount!",
-        "no-employee": "No Employee",
-        "invalid-quantity": "Invalid Quantity",
-        "odometer-invalid": "Odometer invalid!",
-        "max-letters": "Reached maximum number of letters",
-        "insurance-company-invalid": "Insurance Company Invalid!",
-        "invalid-chassis-number": "Invalid chassis number",
-        "plate-number-invalid": "Plate number invalid!",
-        "plate-code-invalid": "Plate code invalid!"
-      },
-      "steps": {
-        "charges": "Charges",
-        "confirmation": "Confirmation",
-        "services-parts": "Services & Parts",
-        "extra-services-parts": "Extra Services & Parts",
-        "task-assignment": "Task Assignment",
-        "timing": "Timing",
-        "approval": "Approval",
-        "quality-control": "Quality Control",
-        "payment": "Payment",
-        "delivery": "Delivery",
-        "customer": "Customer",
-        "inspection": "Inspection"
-      },
-      "qc": {
-        "service-completed": "Service Completed",
-        "item-installed": "{{item}} Installed",
-        "confirm": "Confirm",
-        "cancel": "Cancel",
-        "ok": "OK",
-        "loading": "Loading",
-        "confirm-check": "Confirm QC Check?",
-        "approved-success": "QC approved successfully!",
-        "action-failed": "Action Failed",
-        "update-failed": "Could not update QC!"
-      },
-      "confirmation": {
-        "in-person": "In Person Confirmation",
-        "electronic-signature": "Electronic signature",
-        "whatsapp": "WhatsApp Confirmation",
-        "remote-link": "Remote Link",
-        "no-customer-confirmation": "No Customer Confirmation"
-      },
-      "signature": {
-        "customer-signature": "Customer Signature",
-        "services-repairs": "Services/Repairs",
-        "services": "Services",
-        "spare-parts": "Spare Parts",
-        "signature": "Signature"
-      },
-      "terms": {
-        "title": "General Terms and Conditions",
-        "accept": "Accept terms & conditions",
-        "consent-for-service": "Consent for Service:",
-        "understanding-of-services": "Understanding of Services:",
-        "cost-estimates": "Cost Estimates:",
-        "approval-for-additional-work": "Approval for Additional Work:",
-        "parts-and-labor-warranty": "Parts and Labor Warranty:",
-        "vehicle-pickup": "Vehicle Pickup:",
-        "liability": "Liability:",
-        "customer-responsibilities": "Customer Responsibilities:",
-        "dispute-resolution": "Dispute Resolution:"
-      },
-      "timing": {
-        "delay-warning": "There is a delay in this service!"
-      },
-      "units": {
-        "minute": "Minute",
-        "hour": "Hour",
-        "day": "Day"
-      },
-      "inspection": {
-        "previous-reading": "Previous reading"
-      },
-      "alerts": {
-        "confirmation": "Confirmation Alert!"
-      },
-      "messages": {
-        "no-add-after-confirmation": "Adding Services are parts are not possible after confirmation",
-        "services-approved": "Services Approved",
-        "discount-check-before-confirmation": "Please make sure discount amount is correct befor econfirmation",
-        "assign-employee-to-service": "Please assign an employee to this service",
-        "sign-within-boundaries": "Please sign within the boundaries of the highlighted borders"
-      },
-      "stock": {
-        "out-of-stock": "out of stock"
-      }
     }
   },
   "finance": {
@@ -1668,6 +1458,29 @@
   },
   "utilities": {
     "title": "Utilities",
+    "channels": {
+      "title": "Channels",
+      "pos": {
+        "title": "POS",
+        "shop": "Shops",
+        "branches": "Branches",
+        "invoices": "Invoices",
+        "new-store": "New Store",
+        "branches-empty": {
+          "instructions": "Please apply proper filters to see available stores"
+        },
+        "branches-info": {
+          "instructions": "You can search stores by name."
+        },
+        "invoices-empty": {
+          "subtitle": "No Transactions!",
+          "instructions": "There are no transactions found. Please use the search box for filtering."
+        }
+      },
+      "tasks": "Task Management",
+      "jobs": "Job Management",
+      "projects": "Project Management"
+    },
     "mind-map": "Mind Map",
     "knowledge-hub": "Knowledge Hub",
     "meetings": "Meetings",
@@ -1720,9 +1533,9 @@
       "project-name": "Project Name"
     },
     "jobs": {
-      "title": "Jobs",
+      "title": "Phase-wise",
       "my-items": "My Jobs",
-      "create": "New Job",
+      "create": "New phase-wise jobs",
       "options-title": "Job Options",
       "empty-subtitle": "No Jobs",
       "empty-instructions": "Please create a new job or apply proper filters to see available jobs",
@@ -1730,9 +1543,9 @@
       "active-pending-tasks": "Active Pending Tasks"
     },
     "procedures": {
-      "title": "Procedures",
+      "title": "Step-wise",
       "my-items": "My Procedures",
-      "create": "New Procedure",
+      "create": "New step-wise job",
       "options-title": "Procedure Options",
       "empty-subtitle": "No Procedures",
       "empty-instructions": "Please create a new procedure or apply proper filters to see available procedures",
