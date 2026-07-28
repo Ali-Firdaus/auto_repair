@@ -1008,6 +1008,7 @@
     "assets": {
       "title": "Assets",
       "asset-categories": "Asset Categories",
+      "asset-locations": "Asset Locations",
       "asset-purchase": "Asset Purchase",
       "asset-sale": "Asset Sale",
       "depreciations": "Depreciations",
@@ -1046,6 +1047,25 @@
           },
           "errors": {
             "invalid-asset-category-name": "Invalid Asset Category Name",
+            "invalid-accumulated-depreciation-account": "Invalid Accumulated Depreciation Account",
+            "invalid-depreciation-expense-account": "Invalid Depreciation Expense Account"
+          }
+        }
+      },
+      "asset-locations-ui": {
+        "new-asset-location": "New Asset Location",
+        "empty-subtitle": "List Empty",
+        "empty-instructions": "Please apply proper filters to see available Locations",
+        "search-instructions": "You can search asset by reference number or location name.",
+        "modal": {
+          "details": "Asset Location Details",
+          "fields": {
+            "asset-location-name": "Asset Location Name",
+            "latitude": "Latitude",
+            "longitude": "Longitude"
+          },
+          "errors": {
+            "invalid-asset-location-name": "Invalid Asset Location Name",
             "invalid-accumulated-depreciation-account": "Invalid Accumulated Depreciation Account",
             "invalid-depreciation-expense-account": "Invalid Depreciation Expense Account"
           }
