@@ -613,6 +613,9 @@
           "omr": "OMR"
         }
       },
+      "petty-cash": {
+        "title": "Petty Cash Topups"
+      },
       "expenses-ui": {
         "new-expense": "New Expense",
         "new-expense-entry": "New Expense Entry",
@@ -1148,6 +1151,15 @@
       "coa-table": {
         "no": "No.",
         "select-page": "Select page"
+      },
+      "bank-accounts": {
+        "title": "Bank Accounts",
+        "new-account": "New Account",
+        "empty-subtitle": "No Bank Accounts",
+        "empty-instructions": "Please create a new Bank Account"
+      },
+      "payment-settings": {
+        "title": "Payment Settings"
       }
     },
     "common": {
@@ -1553,7 +1565,7 @@
       "project-name": "Project Name"
     },
     "jobs": {
-      "title": "Phase-wise",
+      "title": "Phase-wise Jobs",
       "my-items": "My Jobs",
       "create": "New phase-wise jobs",
       "options-title": "Job Options",
@@ -1563,7 +1575,7 @@
       "active-pending-tasks": "Active Pending Tasks"
     },
     "procedures": {
-      "title": "Step-wise",
+      "title": "Step-wise Jobs",
       "my-items": "My Procedures",
       "create": "New step-wise job",
       "options-title": "Procedure Options",
