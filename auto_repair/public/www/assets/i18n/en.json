@@ -1158,8 +1158,11 @@
         "empty-subtitle": "No Bank Accounts",
         "empty-instructions": "Please create a new Bank Account"
       },
-      "payment-settings": {
-        "title": "Payment Settings"
+      "modes-of-payment": {
+        "title": "Modes of Payment"
+      },
+      "expenses-accounts": {
+        "title": "Expenses Accounts"
       }
     },
     "common": {
