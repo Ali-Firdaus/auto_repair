@@ -1568,9 +1568,9 @@
       "project-name": "Project Name"
     },
     "jobs": {
-      "title": "Phase-wise Jobs",
+      "title": "Jobs",
       "my-items": "My Jobs",
-      "create": "New phase-wise jobs",
+      "create": "New Job",
       "options-title": "Job Options",
       "empty-subtitle": "No Jobs",
       "empty-instructions": "Please create a new job or apply proper filters to see available jobs",
@@ -1584,6 +1584,16 @@
       "options-title": "Procedure Options",
       "empty-subtitle": "No Procedures",
       "empty-instructions": "Please create a new procedure or apply proper filters to see available procedures",
+      "pending-process-status": "Pending Process Status",
+      "active-pending-tasks": "Active Pending Tasks"
+    },
+    "phasewises": {
+      "title": "Phase-wise Jobs",
+      "my-items": "My Phase-wise Jobs",
+      "create": "New phase-wise job",
+      "options-title": "Phase-wise Job Options",
+      "empty-subtitle": "No Phase-wise Jobs",
+      "empty-instructions": "Please create a new phase-wise job or apply proper filters to see available phase-wise jobs",
       "pending-process-status": "Pending Process Status",
       "active-pending-tasks": "Active Pending Tasks"
     },
