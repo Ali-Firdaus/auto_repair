@@ -2257,6 +2257,11 @@
           "empty-instructions": "No Notes found.",
           "create": "New Note"
         },
+        "administrative-tasks": {
+          "empty-subtitle": "No Administrative Tasks",
+          "empty-instructions": "No Administrative Tasks found.",
+          "create": "New Administrative Task"
+        },
         "attachments": {
           "empty-subtitle": "No Attachments",
           "empty-instructions": "No Attachments found.",
