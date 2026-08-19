@@ -1589,6 +1589,7 @@
     },
     "phasewises": {
       "title": "Phase-wise Jobs",
+      "project-name": "Job Name",
       "my-items": "My Phase-wise Jobs",
       "create": "New phase-wise job",
       "options-title": "Phase-wise Job Options",
