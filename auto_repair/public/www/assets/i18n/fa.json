@@ -739,7 +739,16 @@
         "inspection": "Inspection"
       },
       "qc": {
-        "service-completed": "Service Completed"
+        "service-completed": "Service Completed",
+        "item-installed": "{{item}} Installed",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "loading": "Loading",
+        "confirm-check": "Confirm QC Check?",
+        "approved-success": "QC approved successfully!",
+        "action-failed": "Action Failed",
+        "update-failed": "Could not update QC!"
       },
       "confirmation": {
         "in-person": "In Person Confirmation",
@@ -909,6 +918,7 @@
           },
           "fields": {
             "supplier": "تامین کننده",
+            "tax-rate": "نرخ مالیات",
             "approver": "تاییدکننده"
           },
           "summary": {
@@ -957,6 +967,7 @@
           },
           "fields": {
             "supplier": "تامین کننده",
+            "tax-rate": "نرخ مالیات",
             "approver": "تاییدکننده"
           },
           "summary": {
@@ -2443,12 +2454,15 @@
     },
     "pdfs": {
       "actions": {
-        "download": "دانلود"
+        "download": "دانلود",
+        "copy-image": "کپی تصویر"
       },
       "status": {
         "loading": "در حال بارگذاری",
         "action-failed": "انجام عملیات ناموفق بود",
         "download-failed": "دانلود PDF ممکن نشد!",
+        "copy-image-failed": "کپی تصویر فاکتور ممکن نشد!",
+        "image-copied": "تصویر فاکتور با موفقیت کپی شد!",
         "ok": "باشه"
       },
       "toggles": {

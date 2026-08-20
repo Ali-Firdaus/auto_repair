@@ -739,7 +739,16 @@
         "inspection": "Inspection"
       },
       "qc": {
-        "service-completed": "Service Completed"
+        "service-completed": "Service Completed",
+        "item-installed": "{{item}} Installed",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "loading": "Loading",
+        "confirm-check": "Confirm QC Check?",
+        "approved-success": "QC approved successfully!",
+        "action-failed": "Action Failed",
+        "update-failed": "Could not update QC!"
       },
       "confirmation": {
         "in-person": "In Person Confirmation",
@@ -909,6 +918,7 @@
           },
           "fields": {
             "supplier": "المورد",
+            "tax-rate": "معدل الضريبة",
             "approver": "الموافق"
           },
           "summary": {
@@ -957,6 +967,7 @@
           },
           "fields": {
             "supplier": "المورد",
+            "tax-rate": "معدل الضريبة",
             "approver": "الموافق"
           },
           "summary": {
@@ -2507,12 +2518,15 @@
     },
     "pdfs": {
       "actions": {
-        "download": "تنزيل"
+        "download": "تنزيل",
+        "copy-image": "نسخ الصورة"
       },
       "status": {
         "loading": "جاري التحميل",
         "action-failed": "فشل الإجراء",
         "download-failed": "تعذر تنزيل ملف PDF!",
+        "copy-image-failed": "تعذر نسخ صورة الفاتورة!",
+        "image-copied": "تم نسخ صورة الفاتورة بنجاح!",
         "ok": "موافق"
       },
       "toggles": {
