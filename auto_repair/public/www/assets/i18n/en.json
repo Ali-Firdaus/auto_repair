@@ -1185,6 +1185,18 @@
       "on": "on",
       "validate-before-submit": "Please make sure that all fields are valid before submission",
       "fill-before-submit": "Please make sure that all fields are filled before submission"
+    },
+    "subscriptions-plans": {
+      "title": "Subscriptions Plans",
+      "new-subscription-plan": "New Subscription Plan",
+      "empty-subtitle": "List Empty",
+      "empty-instructions": "Please apply proper filters to see available subscription plans"
+    },
+    "subscriptions": {
+      "title": "Subscriptions",
+      "new-subscription": "New Subscription",
+      "empty-subtitle": "List Empty",
+      "empty-instructions": "Please apply proper filters to see available subscriptions"
     }
   },
   "innovation": {
@@ -1589,7 +1601,8 @@
     },
     "phasewises": {
       "title": "Phase-wise Jobs",
-      "project-name": "Job Name",
+      "project-name": "Job Name (Optional)",
+      "date-range": "Date Range (Optional)",
       "my-items": "My Phase-wise Jobs",
       "create": "New phase-wise job",
       "options-title": "Phase-wise Job Options",
@@ -1879,7 +1892,8 @@
           "title": "Controls",
           "enable_items_categorization": "Enable Items Categorization",
           "enable_device_camera": "Enable Device Camera",
-          "enable_notification_alerts": "Enable Notification Alerts"
+          "enable_notification_alerts": "Enable Notification Alerts",
+          "enable_pos_zero_qty_products": "Enable POS Zero Quantity Products"
         }
       },
       "business-types": {
