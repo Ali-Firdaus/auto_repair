@@ -562,8 +562,9 @@
         "status": {
           "paid": "Paid",
           "unpaid": "Unpaid",
-          "return": "Return",
+          "return": "Return Voucher",
           "overdue": "Overdue",
+          "cancelled": "Cancelled",
           "consolidated": "Consolidated"
         }
       }
@@ -1609,7 +1610,11 @@
       "empty-subtitle": "No Phase-wise Jobs",
       "empty-instructions": "Please create a new phase-wise job or apply proper filters to see available phase-wise jobs",
       "pending-process-status": "Pending Process Status",
-      "active-pending-tasks": "Active Pending Tasks"
+      "active-pending-tasks": "Active Pending Tasks",
+      "initiation": "Initiation",
+      "planning": "Planning",
+      "execution": "Execution",
+      "completion": "Closure"
     },
     "logs": {
       "title": "Logs",
@@ -2293,6 +2298,9 @@
     "pdfs": {
       "actions": {
         "download": "Download",
+        "cancel": "Cancel Invoice",
+        "credit": "Credit Customer",
+        "refund": "Refund",
         "copy-image": "Copy Image"
       },
       "status": {
@@ -2310,7 +2318,9 @@
       "labels": {
         "page": "Page",
         "notes": "Notes",
-        "reference": "Ref"
+        "reference": "Ref",
+        "cancelled": "Cancelled",
+        "return-voucher": "Return Voucher"
       },
       "entries": {
         "category": "Category",
