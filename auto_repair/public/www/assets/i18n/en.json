@@ -3,7 +3,7 @@
     "title": "Strategy",
     "organization-structure": "Organization Structure",
     "strategic-innovation-canvas": "Strategic Innovation Canvas",
-    "strategic-framework": " Perforamance Indices",
+    "strategic-framework": "Strategic Framework",
     "strategic-framework-view": {
       "toggles": {
         "systems-performance": "Systems Performance",
@@ -65,7 +65,7 @@
       "title": "Performance Analytics",
       "organization-structure": "Organization Structure",
       "strategic-innovation-canvas": "Strategic Innovation Canvas",
-      "strategic-framework": "Strategic Framework",
+      "performance-indices": "Performance Indices",
       "annual-business-plan": "Annual Business Plan",
       "daily-sales-reports": "Daily Sales Reports",
       "daily-sales-reports-view": {
@@ -123,6 +123,10 @@
           "ninety-to-95": "90-95%",
           "above-95": "Above 95%"
         }
+      },
+      "empty-state": {
+        "subtitle": "Not Available!",
+        "instructions": "No data available, please upload KPIs in the strategic framework."
       }
     },
     "dashboards": {
@@ -810,6 +814,7 @@
             "customer-name": "Customer Name",
             "mobile-number": "Mobile Number",
             "tax-template": "Tax Template",
+            "tax-rate": "Tax Rate",
             "warehouse": "Warehouse",
             "delivery-date": "Delivery Date",
             "approver": "Approver"
@@ -1178,6 +1183,7 @@
       "draft": "Draft",
       "confirm": "Confirm",
       "cancel": "Cancel",
+      "amend": "Generate a new document",
       "loading": "Loading",
       "action-failed": "Action Failed",
       "ok": "OK",
