@@ -14,7 +14,7 @@
       },
       "systems": {
         "overall": "Overall",
-        "update-button": "Update",
+        "update-button": "Overwrite",
         "update-confirm-header": "Update Systems Weights?",
         "confirm": "Confirm",
         "cancel": "Cancel",
@@ -146,11 +146,13 @@
       "year": "Year",
       "system": "System",
       "pillar": "Pillar",
+      "update": "Update",
       "update-existing": "Update Existing",
       "import-data": "Import Data",
       "search": "Search",
       "select-page": "Select page",
       "select-option": "Select an option",
+      "display-mode": "Display Mode",
       "this-month": "This Month",
       "accumulated": "Accumulated",
       "view-table": "View Table",
@@ -1385,6 +1387,7 @@
       "stock-analytics-report": "Stock Analytics Report",
       "stock-balance-report": "Stock Balance Report",
       "stock-reconciliation-report": "Stock Reconciliation Report",
+      "stock-reordering-report": "Stock Reordering Report",
       "customer-acquisition-report": "Customer Acquisition Report",
       "range": "Range",
       "quantity": "Quantity",
@@ -2123,6 +2126,7 @@
     "page": "page",
     "youre-on-page": "You're on page",
     "update": "Update",
+    "overwrite": "Overwrite",
     "not-found": {
       "title": "Page Not Found",
       "description": "The page you are looking for doesn't exist or has been moved.",
@@ -2339,6 +2343,21 @@
         "service": "Service"
       }
     }
+  },
+  "actions": {
+    "view-pdf": "View PDF",
+    "download-template": "Download Template",
+    "import": "Import Items",
+    "import-kpis": "Import KPIs",
+    "import-target-kpis": "Import Target KPIs",
+    "import-performance-kpis": "Import Performance KPIs",
+    "create": "Create",
+    "update": "Update",
+    "overwrite": "Overwrite",
+    "request-approval": "Request Approval",
+    "approve": "Approve",
+    "cancel": "Cancel",
+    "refund": "Refund"
   },
   "popovers": {
     "common": {
