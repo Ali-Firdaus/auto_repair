@@ -6,11 +6,11 @@
     "strategic-framework": "Strategic Framework",
     "strategic-framework-view": {
       "toggles": {
-        "systems-performance": "Systems Performance",
-        "kpis-targets": "KPIs Targets",
-        "kpis-weights": "KPIs Weights",
+        "kpis-targets": "Targets",
+        "systems-performance": "Performances",
+        "systems-weights": "Systems Weights",
         "pillars-weights": "Pillars Weights",
-        "systems-weights": "Systems Weights"
+        "kpis-weights": "KPIs Weights"
       },
       "systems": {
         "overall": "Overall",
@@ -36,7 +36,7 @@
       },
       "empty-state": {
         "subtitle": "Action Required!",
-        "instructions": "Please Click on the button above to load KPIs"
+        "instructions": "Please Click on the button above to update settings"
       },
       "kpis": {
         "update-button": "Update KPIs"
