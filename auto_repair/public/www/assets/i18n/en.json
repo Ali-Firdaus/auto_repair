@@ -117,7 +117,8 @@
         }
       },
       "strategic-framework-view": {
-        "company-performance": "Company Performance",
+        "company-performance": "Company",
+        "systems-performance": "Systems",
         "performance": {
           "zero-to-90": "0-90%",
           "ninety-to-95": "90-95%",
@@ -448,7 +449,10 @@
       "incomplete": "Incomplete",
       "completed": "Completed",
       "vehicles": "Vehicles",
+      "brand": "Brand",
       "brands": "Brands",
+      "model": "Model",
+      "models": "Models",
       "import": "Import Data",
       "initiation": "Initiation",
       "planning": "Planning",
@@ -628,6 +632,7 @@
         "new-expense-entry": "New Expense Entry",
         "empty-subtitle": "List Empty!",
         "empty-instructions": "No Expenses Created",
+        "expense-amount": "Expense Amount",
         "sections": {
           "request-details": "Request Details",
           "accounts": "Accounts",
@@ -1907,7 +1912,7 @@
           "enable_items_categorization": "Enable Items Categorization",
           "enable_device_camera": "Enable Device Camera",
           "enable_notification_alerts": "Enable Notification Alerts",
-          "enable_pos_zero_qty_products": "Enable POS Zero Quantity Products"
+          "ignore_approval": "Ignore Approval"
         }
       },
       "business-types": {
@@ -2133,6 +2138,14 @@
       "go-to-portal": "Go to Portal",
       "go-back": "Go Back"
     },
+    "unauthorized": {
+      "eyebrow": "Access Restricted",
+      "title": "You don't have access to this page",
+      "description": "Your account does not have permission to view this page. If you believe this is a mistake, please contact your administrator.",
+      "go-to-portal": "Go to Portal",
+      "go-back": "Go Back",
+      "lock-label": "Locked padlock"
+    },
     "cards": {
       "status": {
         "suspended": "Suspended"
@@ -2356,6 +2369,7 @@
     "overwrite": "Overwrite",
     "request-approval": "Request Approval",
     "approve": "Approve",
+    "confirm": "Confirm",
     "cancel": "Cancel",
     "refund": "Refund"
   },
