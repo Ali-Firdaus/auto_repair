@@ -1,0 +1,1 @@
+import{St as Rh,tn as _D}from"./chunk-XMMDyd3T.js";import"./chunk-DjQzzoZv.js";import{c as or}from"./chunk-CvuArTVg.js";var a=(()=>{class e{static{this.ɵfac=function(t){return new(t||e)}}static{this.ɵcmp=_D({type:e,selectors:[[`app-crm`]],decls:1,vars:0,template:function(t,m){t&1&&Rh(0,`router-outlet`)},dependencies:[or],encapsulation:2})}}return e})();export{a as CrmComponent};

@@ -1,0 +1,1 @@
+import{l as Ut,r as B}from"./chunk-CFF0f_gn.js";import{n as u}from"./chunk-BGNhXpsh.js";function c(n,i,e){let[f,d]=B(e?.in,n,i),m=(+f-+d)/Ut;return u(e?.roundingMethod)(m)}export{c as t};

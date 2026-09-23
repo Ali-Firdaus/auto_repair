@@ -1,0 +1,2 @@
+import{Ar as qw,In as gl,lr as ml,tn as _D}from"./chunk-XMMDyd3T.js";var m=(()=>{class t{constructor(){}ngOnInit(){}static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=_D({type:t,selectors:[[`app-sales-and-marketing`]],decls:3,vars:0,consts:[[1,`w-full`,`px-3`,`sm:px-4`,`lg:px-6`]],template:function(e,r){e&1&&(gl(0,`div`,0)(1,`p`),qw(2,` sales-and-marketing works!
+`),ml()())},encapsulation:2})}}return t})();export{m as SalesAndMarketingComponent};

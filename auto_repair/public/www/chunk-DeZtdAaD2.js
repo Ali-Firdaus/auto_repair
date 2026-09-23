@@ -1,0 +1,1 @@
+import{At as J,Ot as B,jt as Q,kt as H}from"./chunk-BUz2QEmb.js";var r=H({providedIn:`root`},Q({itemFields:[`name`,`item_code`,`item_name`,`item_group`,`stock_uom`,`sales_uom`,`purchase_uom`,`is_stock_item`,`valuation_rate`,`standard_rate`,`image`,`description`],item:void 0,serviceItemLoading:!1,serviceItem:void 0}),J(m=>({setItem:a=>{B(m,{item:a})}})));export{r as t};

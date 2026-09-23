@@ -1,0 +1,2 @@
+import{An as fT,Ar as qw,B as Il,Hr as uT,In as gl,Yt as YI,lr as ml,tn as _D}from"./chunk-XMMDyd3T.js";import{bn as Ct}from"./main-ADO3GQQL.js";var x=(()=>{class e{constructor(){}ngOnInit(){}static{this.ɵfac=function(t){return new(t||e)}}static{this.ɵcmp=_D({type:e,selectors:[[`app-hse`]],decls:3,vars:3,consts:[[1,`w-full`,`px-3`,`sm:px-4`,`md:px-5`,`lg:px-6`]],template:function(t,l){t&1&&(gl(0,`p`,0),qw(1),uT(2,`translate`),ml()),t&2&&(YI(),Il(` `,fT(2,1,`production.hse.title`),`
+`))},dependencies:[Ct],encapsulation:2})}}return e})();export{x as HseComponent};
