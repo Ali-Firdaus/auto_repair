@@ -1,1 +1,0 @@
-import{U as n$1}from"./chunk-BUz2QEmb.js";var n=()=>{if(n$1!==void 0)return n$1.Capacitor};export{n as t};

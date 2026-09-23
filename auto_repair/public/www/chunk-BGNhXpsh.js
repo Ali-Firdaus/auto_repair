@@ -1,1 +1,0 @@
-import{p as u$1}from"./chunk-CFF0f_gn.js";function u(t){return n=>{let e=(t?Math[t]:Math.trunc)(n);return e===0?0:e}}function d(t,n){return+u$1(t)-+u$1(n)}export{u as n,d as t};

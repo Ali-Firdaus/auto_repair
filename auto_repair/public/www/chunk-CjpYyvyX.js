@@ -1,2 +1,0 @@
-import{An as fT,Ar as qw,B as Il,Hr as uT,In as gl,Yt as YI,lr as ml,tn as _D}from"./chunk-XMMDyd3T.js";import{bn as Ct}from"./main-ADO3GQQL.js";var x=(()=>{class t{constructor(){}ngOnInit(){}static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=_D({type:t,selectors:[[`app-capacity`]],decls:3,vars:3,consts:[[1,`w-full`,`px-3`,`sm:px-4`,`md:px-5`,`lg:px-6`]],template:function(e,l){e&1&&(gl(0,`p`,0),qw(1),uT(2,`translate`),ml()),e&2&&(YI(),Il(` `,fT(2,1,`production.capacity`),`
-`))},dependencies:[Ct],encapsulation:2})}}return t})();export{x as CapacityComponent};

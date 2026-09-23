@@ -1,1 +1,0 @@
-import{p as u}from"./chunk-CFF0f_gn.js";function a(o,n){let t=u(o,n?.in),r=t.getMonth();return t.setFullYear(t.getFullYear(),r+1,0),t.setHours(23,59,59,999),t}export{a as t};

@@ -1,1 +1,0 @@
-import{r as AD}from"./chunk-XMMDyd3T.js";var a=(()=>{class t{transform(p){let e=p.replace(/-/g,` `).split(` `);for(var r=0;r<e.length;r++)e[r]=e[r].charAt(0).toUpperCase()+e[r].slice(1);return e.join(` `)}static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵpipe=AD({name:`removeHyphen`,type:t,pure:!0})}}return t})();export{a as t};

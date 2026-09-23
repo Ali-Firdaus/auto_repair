@@ -1,1 +1,0 @@
-import{d as f,p as u$1}from"./chunk-CFF0f_gn.js";function u(n,r,o){let t=u$1(n,o?.in);if(isNaN(r))return f(o?.in||n,NaN);if(!r)return t;let s=t.getDate(),e=f(o?.in||n,t.getTime());e.setMonth(t.getMonth()+r+1,0);return s>=e.getDate()?e:(t.setFullYear(e.getFullYear(),e.getMonth(),s),t)}export{u as t};

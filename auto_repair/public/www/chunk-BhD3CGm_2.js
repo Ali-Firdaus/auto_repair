@@ -1,1 +1,0 @@
-import{n as A}from"./chunk-BUz2QEmb.js";export{A as mdTransitionAnimation};

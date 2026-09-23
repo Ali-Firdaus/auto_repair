@@ -1,1 +1,0 @@
-import{an as ne,in as J}from"./main-ADO3GQQL.js";export{ne as createGesture};
