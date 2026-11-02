@@ -1,0 +1,2 @@
+import{A as Gl,Bn as dw,Zt as Wl,_i as xb,dn as Zl,dt as Nb,kr as nb,sr as jE}from"./chunk-CVMDIrxF.js";import{wn as Ct}from"./main-SE2HUMFK.js";var x=(()=>{class t{constructor(){}ngOnInit(){}static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=dw({type:t,selectors:[[`app-capacity`]],decls:3,vars:3,consts:[[1,`w-full`,`px-3`,`sm:px-4`,`md:px-5`,`lg:px-6`]],template:function(e,l){e&1&&(Wl(0,`p`,0),nb(1),Nb(2,`translate`),Gl()),e&2&&(jE(),Zl(` `,xb(2,1,`production.capacity`),`
+`))},dependencies:[Ct],encapsulation:2})}}return t})();export{x as CapacityComponent};

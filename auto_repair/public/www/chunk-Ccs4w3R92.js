@@ -1,0 +1,1 @@
+import{Gn as Kt,Hn as $t,Un as Gi,Yn as Yi}from"./main-SE2HUMFK.js";var r=Kt({providedIn:`root`},Yi({itemFields:[`name`,`item_code`,`item_name`,`item_group`,`stock_uom`,`sales_uom`,`purchase_uom`,`is_stock_item`,`valuation_rate`,`standard_rate`,`image`,`description`],item:void 0,serviceItemLoading:!1,serviceItem:void 0}),$t(m=>({setItem:a=>{Gi(m,{item:a})}})));export{r as t};

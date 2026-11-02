@@ -1,0 +1,1 @@
+import{Bn as dw,Ht as Tg}from"./chunk-CVMDIrxF.js";import"./chunk-DNTnUPeI.js";import{a as or}from"./chunk-D4zflo1i.js";var s=(()=>{class e{static{this.ɵfac=function(t){return new(t||e)}}static{this.ɵcmp=dw({type:e,selectors:[[`app-crm`]],decls:1,vars:0,template:function(t,m){t&1&&Tg(0,`router-outlet`)},dependencies:[or],encapsulation:2})}}return e})();export{s as CrmComponent};

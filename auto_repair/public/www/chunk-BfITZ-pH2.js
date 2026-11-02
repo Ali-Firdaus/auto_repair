@@ -1,0 +1,1 @@
+import{o as c}from"./chunk-C_5DDKgC.js";function u(r,o){let e=c(r,o?.in),a=e.getFullYear();return e.setFullYear(a+1,0,0),e.setHours(23,59,59,999),e}export{u as t};

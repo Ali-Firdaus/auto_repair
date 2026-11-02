@@ -1,0 +1,1 @@
+import{o as c}from"./chunk-C_5DDKgC.js";function u(t){return n=>{let e=(t?Math[t]:Math.trunc)(n);return e===0?0:e}}function d(t,n){return+c(t)-+c(n)}export{u as n,d as t};

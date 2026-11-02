@@ -1,0 +1,1 @@
+import{t as u}from"./chunk-D9jC_jmG.js";function a(t,o,d){return u(t,o*12,d)}export{a as t};

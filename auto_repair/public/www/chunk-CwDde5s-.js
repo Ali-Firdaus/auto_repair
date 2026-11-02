@@ -1,0 +1,2 @@
+import{A as Gl,Bn as dw,Zt as Wl,kr as nb}from"./chunk-CVMDIrxF.js";var a=(()=>{class t{constructor(){}ngOnInit(){}static{this.ɵfac=function(o){return new(o||t)}}static{this.ɵcmp=dw({type:t,selectors:[[`app-stock-reconciliation`]],decls:3,vars:0,consts:[[1,`w-full`,`px-3`,`sm:px-4`,`lg:px-6`]],template:function(o,s){o&1&&(Wl(0,`div`,0)(1,`p`),nb(2,` stock-reconciliation works!
+`),Gl()())},encapsulation:2})}}return t})();export{a as StockReconciliationComponent};

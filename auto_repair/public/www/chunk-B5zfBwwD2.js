@@ -1,0 +1,2 @@
+import{A as Gl,Bn as dw,Zt as Wl,_i as xb,dn as Zl,dt as Nb,kr as nb,sr as jE}from"./chunk-CVMDIrxF.js";import{wn as Ct}from"./main-SE2HUMFK.js";var x=(()=>{class e{constructor(){}ngOnInit(){}static{this.ɵfac=function(t){return new(t||e)}}static{this.ɵcmp=dw({type:e,selectors:[[`app-hse`]],decls:3,vars:3,consts:[[1,`w-full`,`px-3`,`sm:px-4`,`md:px-5`,`lg:px-6`]],template:function(t,l){t&1&&(Wl(0,`p`,0),nb(1),Nb(2,`translate`),Gl()),t&2&&(jE(),Zl(` `,xb(2,1,`production.hse.title`),`
+`))},dependencies:[Ct],encapsulation:2})}}return e})();export{x as HseComponent};

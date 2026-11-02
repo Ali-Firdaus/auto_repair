@@ -1,0 +1,1 @@
+import{i as W}from"./chunk-C_5DDKgC.js";import{o as T}from"./chunk-zE839IcV.js";import{Er as kh}from"./main-SE2HUMFK.js";import{t as b}from"./chunk-Bw5zFviK.js";function s(o,a){let r=new Date(o),d=new Date(a);return{from:o&&W(r)?b(T(r)):void 0,until:a&&W(d)?b(kh(T(d),1)):void 0}}export{s as t};

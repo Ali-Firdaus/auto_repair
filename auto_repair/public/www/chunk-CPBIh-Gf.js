@@ -1,0 +1,1 @@
+import{o as c}from"./chunk-C_5DDKgC.js";function r(e){return+c(e)}export{r as t};

@@ -1,0 +1,3669 @@
+{
+  "widgets": {
+    "pos": "نقطة البيع",
+    "daily-sales-reports": "تقارير المبيعات اليومية",
+    "expenses": "المصروفات",
+    "daily-sales-report": "تقرير المبيعات اليومي",
+    "sales-orders": "أوامر المبيعات",
+    "sales-invoices": "فواتير المبيعات",
+    "purchase-orders": "أوامر الشراء",
+    "purchase-invoices": "فواتير الشراء",
+    "stock": "المخزون",
+    "step-wise-jobs": "مهام حسب الخطوات",
+    "phase-wise-jobs": "مهام حسب المراحل"
+  },
+  "strategy": {
+    "title": "الاستراتيجية",
+    "organization-structure": "الهيكل التنظيمي",
+    "strategic-innovation-canvas": "لوحة الابتكار الاستراتيجي",
+    "strategic-framework": "الإطار الاستراتيجي",
+    "strategic-framework-view": {
+      "toggles": {
+        "systems-performance": "أداء الأنظمة",
+        "kpis-targets": "أهداف مؤشرات الأداء",
+        "kpis-weights": "أوزان مؤشرات الأداء",
+        "pillars-weights": "أوزان الركائز",
+        "systems-weights": "أوزان الأنظمة"
+      },
+      "systems": {
+        "overall": "الإجمالي",
+        "update-button": "تحديث",
+        "update-confirm-header": "تحديث أوزان الأنظمة؟",
+        "confirm": "تأكيد",
+        "cancel": "إلغاء",
+        "loading": "جاري التحميل",
+        "update-success": "تم تحديث أوزان الأنظمة بنجاح!",
+        "action-failed-header": "فشل الإجراء",
+        "update-failed-message": "تعذر تحديث أوزان الأنظمة!",
+        "ok": "موافق"
+      },
+      "actions": "الإجراءات",
+      "update-settings": "تحديث الإعدادات",
+      "pillars": {
+        "system-label": "النظام",
+        "all": "الكل",
+        "update-button": "تحديث الركائز",
+        "loading": "جار تحديث الركائز...",
+        "update-failed-message": "تعذر تحديث الركائز!",
+        "update-weights-confirm-header": "تحديث أوزان الركائز؟",
+        "update-weights-success": "تم تحديث أوزان الركائز بنجاح!",
+        "update-weights-failed-message": "تعذر تحديث أوزان الركائز!"
+      },
+      "empty-state": {
+        "subtitle": "إجراء مطلوب!",
+        "instructions": "يرجى استيراد مؤشرات الأداء من الإعدادات للوصول إلى الإطار الاستراتيجي."
+      },
+      "kpis": {
+        "update-button": "تحديث مؤشرات الأداء",
+        "update-confirm-header": "تحديث مؤشرات الأداء؟",
+        "loading": "جار التحميل",
+        "update-success": "تم تحديث مؤشرات الأداء بنجاح!",
+        "action-failed-header": "فشل الإجراء",
+        "update-failed-message": "تعذر تحديث مؤشرات الأداء!",
+        "import-targets-loading": "جار استيراد الأهداف",
+        "import-performance-loading": "جار استيراد الأداء",
+        "import-success": "اكتمل الاستيراد بنجاح!",
+        "import-targets-failed": "فشل استيراد أهداف مؤشرات الأداء!",
+        "import-performance-failed": "فشل استيراد أداء مؤشرات الأداء!",
+        "invalid-file": "الملف المحدد ليس {{file}}!",
+        "ok": "موافق"
+      },
+      "targets": {
+        "empty-state": "لا توجد أهداف متاحة.",
+        "templates": {
+          "strategy": "قالب الاستراتيجية",
+          "innovation": "قالب الابتكار",
+          "operations": "قالب العمليات",
+          "finance": "قالب المالية",
+          "production": "قالب الإنتاج",
+          "support": "قالب الدعم"
+        }
+      },
+      "performance": {
+        "templates": {
+          "strategy": "قالب الاستراتيجية",
+          "finance": "قالب المالية",
+          "production": "قالب الإنتاج",
+          "support": "قالب الدعم"
+        }
+      }
+    },
+    "annual-business-plan": "خطة الأعمال السنوية",
+    "performance-analytics": {
+      "title": "تحليلات الأداء",
+      "organization-structure": "الهيكل التنظيمي",
+      "strategic-innovation-canvas": "لوحة الابتكار الاستراتيجي",
+      "strategic-framework": "الإطار الاستراتيجي",
+      "annual-business-plan": "خطة الأعمال السنوية",
+      "daily-sales-reports": "تقارير المبيعات اليومية",
+      "daily-sales-reports-view": {
+        "summary": "راجع المبيعات والمدفوعات والنتائج المالية والوظائف للتواريخ المحددة.",
+        "analyze-report": "تحليل التقرير",
+        "report-view": "عرض التقرير",
+        "ai-prompt": {
+          "title": "تقرير المبيعات اليومي",
+          "persona": "أنت محلل بيانات متخصص في تحليل بيانات المبيعات وتقديم الرؤى والتوصيات لمساعدة الشركات على تحسين استراتيجيات المبيعات.",
+          "context": "بيانات المبيعات اليومية للفترة من {{from_date}} إلى {{to_date}}. تتضمن البيانات إدخالات مبيعات متنوعة مع تفاصيلها.",
+          "task": "حلل بيانات المبيعات اليومية المقدمة وأنشئ تقريرًا شاملًا يتضمن: 1) ملخصًا تنفيذيًا لأداء المبيعات الإجمالي. 2) تحديد المنتجات والفئات الأكثر مبيعًا. 3) الاتجاهات الملحوظة في المبيعات خلال الفترة المحددة. 4) توصيات محددة لتحسين استراتيجيات المبيعات استنادًا إلى البيانات. 5) أي مخاطر أو فرص محتملة ينبغي أخذها في الاعتبار بناءً على بيانات المبيعات.",
+          "format": "نظّم التقرير في أقسام واضحة لكل نقطة مذكورة أعلاه. استخدم النقاط أو المخططات أو الجداول عند الحاجة لتعزيز الوضوح. ينبغي أن تكون اللغة مهنية وموجزة ومناسبة للعرض على قيادة الشركة."
+        },
+        "select-date-range": "حدد نطاق تاريخ",
+        "start-date": "تاريخ البداية",
+        "end-date": "تاريخ النهاية",
+        "tabs": {
+          "details": "التفاصيل",
+          "payments": "المدفوعات",
+          "finance": "المالية",
+          "jobs": "الوظائف"
+        },
+        "empty-state": {
+          "subtitle": "غير متاح!",
+          "instructions": "لا توجد بيانات متاحة للفلاتر المحددة."
+        },
+        "details": {
+          "columns": {
+            "no": "الرقم",
+            "invoice": "الفاتورة",
+            "item": "الصنف",
+            "qty": "الكمية",
+            "total-amount": "إجمالي المبلغ",
+            "total-cost": "إجمالي التكلفة",
+            "gross-profit": "إجمالي الربح"
+          }
+        },
+        "payments": {
+          "columns": {
+            "date": "التاريخ",
+            "payment-method": "طريقة الدفع",
+            "net-total-omr": "الإجمالي الصافي (ر.ع)",
+            "taxes-omr": "الضرائب (ر.ع)",
+            "grand-total-omr": "الإجمالي الكلي (ر.ع)",
+            "owner": "المالك"
+          }
+        },
+        "jobs": {
+          "columns": {
+            "parameter": "المعيار",
+            "value": "القيمة"
+          }
+        },
+        "finance": {
+          "columns": {
+            "title": "العنوان",
+            "amount-omr": "المبلغ (ر.ع)"
+          }
+        }
+      },
+      "strategic-framework-view": {
+        "company-performance": "أداء الشركة",
+        "performance": {
+          "zero-to-90": "0-90%",
+          "ninety-to-95": "90-95%",
+          "above-95": "أعلى من 95%"
+        }
+      }
+    },
+    "dashboards": {
+      "title": "لوحات الأداء",
+      "strategy-dashboard": "لوحة الاستراتيجية",
+      "innovation-dashboard": "لوحة الابتكار",
+      "operation-dashboard": "لوحة العمليات",
+      "finance-dashboard": "لوحة المالية",
+      "production-dashboard": "لوحة الإنتاج",
+      "support-dashboard": "لوحة الدعم"
+    },
+    "business-intelligence": "ذكاء الأعمال",
+    "menu": {
+      "daily-reports": "التقارير اليومية"
+    },
+    "common": {
+      "year": "السنة",
+      "system": "النظام",
+      "pillar": "الركيزة",
+      "update-existing": "تحديث الموجود",
+      "import-data": "استيراد البيانات",
+      "search": "بحث",
+      "select-page": "اختر الصفحة",
+      "select-option": "اختر خيارا",
+      "this-month": "هذا الشهر",
+      "accumulated": "تراكمي",
+      "view-table": "عرض الجدول",
+      "kpi": "مؤشر الأداء",
+      "weight": "الوزن",
+      "keys": "المفاتيح",
+      "target": "الهدف",
+      "achieved": "المتحقق",
+      "efficiency": "الكفاءة",
+      "cumulative": "تراكمي",
+      "months": {
+        "jan": "ينا",
+        "feb": "فبر",
+        "mar": "مار",
+        "apr": "أبر",
+        "may": "ماي",
+        "jun": "يون",
+        "jul": "يول",
+        "aug": "أغس",
+        "sep": "سبت",
+        "oct": "أكت",
+        "nov": "نوف",
+        "dec": "ديس"
+      }
+    }
+  },
+  "operation": {
+    "title": "العمليات",
+    "menu": {
+      "system": "العمليات"
+    },
+    "departments": "الأقسام",
+    "employees": "الموظفون",
+    "appraisals": "التقييمات",
+    "leaves": "الإجازات",
+    "strategy-implementation": {
+      "title": "تنفيذ الاستراتيجية",
+      "organization-structure": "الهيكل التنظيمي",
+      "strategic-innovation-canvas": "لوحة الابتكار الاستراتيجي",
+      "strategic-framework": "الإطار الاستراتيجي",
+      "annual-business-plan": "خطة الأعمال السنوية",
+      "company-performance": "أداء الشركة",
+      "systems-performance": "أداء الأنظمة",
+      "action-required": "إجراء مطلوب!",
+      "kpi-import-instructions": "يرجى استيراد مؤشرات الأداء من الإعدادات للوصول إلى الإطار الاستراتيجي.",
+      "year": "السنة",
+      "system": "النظام",
+      "pillar": "الركيزة",
+      "this-month": "هذا الشهر",
+      "accumulated": "تراكمي",
+      "select-option": "اختر خيارا",
+      "view-table": "عرض الجدول",
+      "kpi": "مؤشر الأداء",
+      "weight": "الوزن",
+      "keys": "المفاتيح",
+      "target": "الهدف",
+      "achieved": "المتحقق",
+      "efficiency": "الكفاءة",
+      "cumulative": "تراكمي",
+      "select-page": "اختر الصفحة"
+    },
+    "regulatory-framework": {
+      "title": "الإطار التنظيمي",
+      "staff-handbook": "دليل الموظفين",
+      "working-environment": "بيئة العمل"
+    },
+    "hr-management": {
+      "title": "إدارة الموارد البشرية",
+      "employees": "الموظفون",
+      "new-employee": "موظف جديد",
+      "new-department": "قسم جديد",
+      "list-empty": "القائمة فارغة",
+      "employees-empty-instructions": "يرجى إضافة موظف في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض الموظفين المتاحين",
+      "departments-empty-instructions": "يرجى إضافة قسم في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض الأقسام المتاحة",
+      "process-recruitment": "عملية التوظيف",
+      "employees-development": "تطوير الموظفين",
+      "retention-plan": "خطة الاستبقاء",
+      "leaves": {
+        "title": "الإجازات",
+        "holiday-lists": "قوائم العطلات",
+        "new-holiday-list": "قائمة عطلات جديدة",
+        "holiday-lists-empty-instructions": "يرجى إضافة قائمة عطلات في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض قوائم العطلات المتاحة",
+        "leave-periods": "فترات الإجازة",
+        "new-leave-period": "فترة إجازة جديدة",
+        "leave-periods-empty-instructions": "يرجى إضافة فترة إجازة في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض فترات الإجازة المتاحة",
+        "leave-types": "أنواع الإجازات",
+        "new-leave-type": "نوع إجازة جديد",
+        "leave-types-empty-instructions": "يرجى إضافة نوع إجازة في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض أنواع الإجازات المتاحة",
+        "leave-policies": "سياسات الإجازات",
+        "new-leave-policy": "سياسة إجازة جديدة",
+        "leave-policies-empty-instructions": "يرجى إضافة سياسة إجازة في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض سياسات الإجازات المتاحة",
+        "leave-policy-assignments": "تعيينات سياسة الإجازات",
+        "new-leave-policy-assignment": "تعيين سياسة إجازة جديد",
+        "leave-policy-assignments-empty-instructions": "يرجى إضافة تعيين سياسة إجازة في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض تعيينات سياسة الإجازات المتاحة",
+        "leave-applications": "طلبات الإجازة",
+        "new-leave-application": "طلب إجازة جديد",
+        "leave-applications-empty-instructions": "يرجى إضافة طلب إجازة في الواجهة الخلفية أو تطبيق عوامل تصفية مناسبة لعرض طلبات الإجازة المتاحة"
+      },
+      "human-capital": "رأس المال البشري",
+      "departments": "الأقسام"
+    },
+    "pr": {
+      "title": "العلاقات العامة",
+      "utilise-tasks-and-projects": "الاستفادة من المهام والمشاريع",
+      "status": "العلاقات العامة تعمل!"
+    },
+    "processes": {
+      "title": "العمليات",
+      "task-management": "إدارة المهام",
+      "job-management": "إدارة الوظائف",
+      "project-management": "إدارة المشاريع"
+    },
+    "reports": {
+      "title": "التقارير",
+      "leave-balance-summary-report": "تقرير ملخص رصيد الإجازات",
+      "date": "التاريخ"
+    },
+    "cards": {
+      "common": {
+        "system-not-configured": "النظام غير مهيأ!",
+        "to": "إلى",
+        "owner-avatar-alt": "المالك"
+      },
+      "department": {
+        "status": {
+          "enabled": "مفعل",
+          "disabled": "معطل"
+        }
+      },
+      "employee": {
+        "contract": {
+          "left": "متبقي {{duration}}",
+          "expired": "انتهى العقد!"
+        }
+      },
+      "leave-application": {
+        "status": {
+          "approved": "موافق عليه",
+          "rejected": "مرفوض",
+          "open": "قيد الانتظار"
+        }
+      },
+      "leave-period": {
+        "status": {
+          "active": "نشط",
+          "inactive": "غير نشط"
+        }
+      },
+      "leave-policy": {
+        "status": {
+          "confirmed": "مؤكد",
+          "draft": "مسودة"
+        }
+      },
+      "leave-type": {
+        "days": "{{count}} يوم"
+      }
+    },
+    "forms": {
+      "common": {
+        "create": "إنشاء",
+        "update": "تحديث",
+        "confirm": "تأكيد",
+        "approve": "اعتماد",
+        "select-date-range": "اختر نطاق التاريخ",
+        "effective-from": "ساري من",
+        "effective-to": "ساري حتى"
+      },
+      "department": {
+        "details": "تفاصيل القسم",
+        "department-name": "اسم القسم",
+        "department-name-invalid": "اسم القسم غير صالح",
+        "system": "النظام",
+        "leave-approvers": "المعتمدون للإجازات",
+        "approver": "المعتمد"
+      },
+      "employee": {
+        "general": "عام",
+        "first-name": "الاسم الأول",
+        "last-name": "اسم العائلة",
+        "gender": "الجنس",
+        "male": "ذكر",
+        "female": "أنثى",
+        "mobile-phone": "رقم الهاتف المحمول",
+        "date-of-birth": "تاريخ الميلاد",
+        "contract": "العقد",
+        "department": "القسم",
+        "status": "الحالة",
+        "active": "نشط",
+        "inactive": "غير نشط",
+        "date-of-joining": "تاريخ الالتحاق",
+        "current-contract-duration": "مدة العقد الحالي",
+        "start-date": "تاريخ البدء",
+        "end-date": "تاريخ الانتهاء",
+        "salary": "الراتب",
+        "bank-name": "اسم البنك",
+        "bank-account-number": "رقم الحساب البنكي",
+        "salary-in-omr": "الراتب بالريال العماني",
+        "hr-cost": "تكلفة الموارد البشرية",
+        "monthly-cost": "التكلفة الشهرية",
+        "daily-cost": "التكلفة اليومية",
+        "hourly-cost": "التكلفة بالساعة",
+        "relative-cost-percentage": "نسبة التكلفة النسبية"
+      },
+      "employee-performance": {
+        "average-duration": "متوسط المدة",
+        "completion-rate": "معدل الإنجاز",
+        "monthly-jobs": "المهام الشهرية",
+        "assigned-services": "الخدمات المسندة",
+        "not-available": "غير متاح",
+        "job": "مهمة",
+        "jobs": "مهام",
+        "services": "خدمات"
+      },
+      "holiday-list": {
+        "details": "تفاصيل قائمة العطلات",
+        "year": "السنة",
+        "holiday-list-name": "اسم قائمة العطلات",
+        "official-holidays": "العطلات الرسمية",
+        "holidays": "العطلات",
+        "no-holidays-available": "لا توجد عطلات متاحة."
+      },
+      "leave-application": {
+        "details": "تفاصيل طلب الإجازة",
+        "employee": "الموظف",
+        "approver": "المعتمد",
+        "leave-type": "نوع الإجازة",
+        "description": "الوصف",
+        "duration": "مدة الإجازة",
+        "policy-assignment": "تعيين السياسة",
+        "select-leave-type-message": "يرجى اختيار نوع الإجازة لعرض تفاصيل التخصيص.",
+        "no-allocation-details": "لا تتوفر تفاصيل تخصيص الإجازة لـ {{leaveType}}.",
+        "total-leaves": "إجمالي الإجازات",
+        "expired-leaves": "الإجازات المنتهية",
+        "leaves-taken": "الإجازات المستخدمة",
+        "leaves-pending-approval": "الإجازات بانتظار الاعتماد",
+        "remaining-leaves": "الإجازات المتبقية",
+        "duration-days": "{{count}} يوم(أيام)",
+        "leave-approval": "اعتماد الإجازة",
+        "leave-approved-on": "تم اعتماد الإجازة في"
+      },
+      "leave-period": {
+        "details": "تفاصيل فترة الإجازة",
+        "is-active": "نشط"
+      },
+      "leave-policy": {
+        "details": "تفاصيل سياسة الإجازة",
+        "form-policy-name": "اسم السياسة",
+        "leave-type": "نوع الإجازة",
+        "annual-allocation-max": "التخصيص السنوي (الحد الأقصى: {{max}})"
+      },
+      "leave-policy-assignment": {
+        "details": "تفاصيل تعيين سياسة الإجازة",
+        "employee": "الموظف",
+        "leave-policy": "سياسة الإجازة",
+        "leave-period": "فترة الإجازة",
+        "add-unused-leaves": "إضافة الإجازات غير المستخدمة من التخصيصات السابقة",
+        "leave-types": "أنواع الإجازات",
+        "leave-type": "نوع الإجازة",
+        "annual-allocation": "التخصيص السنوي",
+        "no-leave-policy-details": "لا تتوفر تفاصيل لسياسة الإجازة."
+      },
+      "leave-type": {
+        "information": "المعلومات",
+        "leave-type-name": "اسم نوع الإجازة",
+        "leave-type-name-invalid": "اسم نوع الإجازة غير صالح",
+        "max-leaves-allowed": "الحد الأقصى للإجازات المسموح بها",
+        "max-leaves-invalid": "الحد الأقصى للإجازات غير صالح",
+        "leave-frequency": "تكرار الإجازة",
+        "monthly": "شهري",
+        "quarterly": "ربع سنوي",
+        "half-yearly": "نصف سنوي",
+        "yearly": "سنوي",
+        "options": "الخيارات",
+        "carry-forward": "ترحيل الرصيد",
+        "leave-with-full-payment": "إجازة مدفوعة بالكامل",
+        "leave-with-partial-payment": "إجازة مدفوعة جزئياً",
+        "leave-without-payment": "إجازة بدون أجر"
+      }
+    },
+    "dashboard": {
+      "year": "السنة",
+      "pillar": "الركيزة"
+    }
+  },
+  "production": {
+    "title": "الإنتاج",
+    "categories": "الفئات",
+    "channels": {
+      "title": "القنوات",
+      "garage": {
+        "title": "المرآب",
+        "old-jobs": "الوظائف القديمة",
+        "notifications": "الإشعارات",
+        "incomplete": "غير مكتمل",
+        "completed": "مكتمل",
+        "vehicles": "المركبات",
+        "brands": "العلامات التجارية",
+        "import": "استيراد البيانات",
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التنفيذ",
+        "completion": "الإكمال",
+        "brands-actions": {
+          "download-template": "تنزيل القالب"
+        },
+        "brands-empty": {
+          "instructions": "يرجى تطبيق عوامل تصفية مناسبة لعرض طلبات البيع المتاحة"
+        }
+      },
+      "manufacturing": {
+        "title": "التصنيع",
+        "work-orders": {
+          "title": "أوامر العمل"
+        },
+        "production-operations": {
+          "title": "العمليات"
+        },
+        "production-plans": {
+          "title": "خطط الإنتاج",
+          "incomplete": "غير مكتمل",
+          "completed": "مكتمل"
+        },
+        "job-cards": {
+          "title": "بطاقات العمل",
+          "incomplete": "غير مكتمل",
+          "completed": "مكتمل"
+        },
+        "import": "استيراد",
+        "boms": "قوائم المواد",
+        "workstations": "محطات العمل",
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التنفيذ",
+        "completion": "الإكمال"
+      },
+      "consultancy": {
+        "title": "الاستشارات",
+        "incomplete": "غير مكتمل",
+        "completed": "مكتمل",
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التنفيذ",
+        "completion": "الإكمال"
+      },
+      "investments": {
+        "title": "الاستثمار",
+        "incomplete": "غير مكتمل",
+        "completed": "مكتمل",
+        "initiation": "طرح الفكرة",
+        "planning": "التخطيط",
+        "execution": "النمذجة الأولية",
+        "completion": "التسويق"
+      },
+      "pos": {
+        "title": "نقطة البيع",
+        "shop": "المتاجر",
+        "branches": "الفروع",
+        "invoices": "الفواتير",
+        "new-store": "متجر جديد",
+        "branches-empty": {
+          "instructions": "يرجى تطبيق عوامل تصفية مناسبة لعرض المتاجر المتاحة"
+        },
+        "branches-info": {
+          "instructions": "يمكنك البحث عن المتاجر حسب الاسم."
+        },
+        "invoices-empty": {
+          "subtitle": "لا توجد معاملات!",
+          "instructions": "لم يتم العثور على معاملات. يرجى استخدام مربع البحث للتصفية."
+        }
+      },
+      "tasks": "إدارة المهام",
+      "jobs": "إدارة الوظائف",
+      "projects": "إدارة المشاريع"
+    },
+    "menu": {
+      "manufacturing-import": "استيراد التصنيع",
+      "garage": {
+        "notifications": "إشعارات المرآب",
+        "pending": "مهام المرآب المعلقة",
+        "completed": "مهام المرآب المكتملة",
+        "vehicles": "مركبات المرآب",
+        "import": "استيراد المرآب"
+      },
+      "consultancy": {
+        "pending": "استشارات معلقة",
+        "completed": "استشارات مكتملة"
+      },
+      "investment": {
+        "pending": "استثمارات معلقة",
+        "completed": "استثمارات مكتملة"
+      },
+      "pos": {
+        "shop": "متجر نقطة البيع",
+        "branches": "فروع نقطة البيع",
+        "transactions": "معاملات نقطة البيع"
+      }
+    },
+    "ui": {
+      "search": "بحث",
+      "vehicle": "مركبة",
+      "garage-jobs": "وظائف المرآب",
+      "results-count": "{{count}} نتيجة",
+      "actions": {
+        "create": "إنشاء"
+      },
+      "pagination": {
+        "previous": "السابق",
+        "next": "التالي",
+        "pagination": "ترقيم الصفحات",
+        "page": "صفحة",
+        "current": "أنت في الصفحة"
+      },
+      "empty": {
+        "list-empty": "القائمة فارغة"
+      },
+      "garage-jobs-empty": {
+        "subtitle": "لا توجد وظائف مرآب في النظام!",
+        "instructions": "يرجى إنشاء وظيفة مرآب جديدة عند الحاجة."
+      },
+      "vehicles-empty": {
+        "subtitle": "لا توجد مركبات في النظام!",
+        "instructions": "يرجى إنشاء مركبة جديدة عند إنشاء وظيفة جديدة."
+      }
+    },
+    "cards": {
+      "garage-job": {
+        "owner-avatar": "المالك"
+      },
+      "pos-invoice": {
+        "selling-amount": "مبلغ البيع",
+        "owner-avatar": "المالك",
+        "currency": {
+          "omr": "ر.ع"
+        },
+        "status": {
+          "paid": "مدفوعة",
+          "unpaid": "غير مدفوعة",
+          "return": "مرتجعة",
+          "overdue": "متأخرة",
+          "consolidated": "مجمعة"
+        }
+      }
+    },
+    "internal": {
+      "title": "داخلي",
+      "tasks": "إدارة المهام",
+      "projects": "إدارة المشاريع"
+    },
+    "capacity": "الطاقة الاستيعابية",
+    "maintenance": {
+      "title": "الصيانة",
+      "scheduled-maintenance-and-failure": "الصيانة المجدولة والأعطال",
+      "overall-equipment-effectiveness": "الفعالية الإجمالية للمعدات"
+    },
+    "hse": {
+      "title": "الصحة والسلامة والبيئة",
+      "hse-system": "نظام الصحة والسلامة والبيئة",
+      "safety-training-and-licenses": "التدريب والتراخيص السلامة"
+    },
+    "inventory": {
+      "title": "المخزون",
+      "stock": "المخزون",
+      "entries": "قيود المخزون",
+      "material-requests": "طلبات المواد",
+      "delivery-notes": "إشعارات التسليم",
+      "operations": "العمليات"
+    },
+    "garage": {
+      "sections": {
+        "general-information": "General Information",
+        "registration": "Registration",
+        "insurance": "Insurance",
+        "jobs-history": "Jobs History"
+      },
+      "fields": {
+        "select-date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "brand": "Brand",
+        "model": "Model",
+        "production-year": "Production Year",
+        "chassis-number": "Chassis Number",
+        "owner": "Owner",
+        "plate-number": "Plate Number",
+        "plate-code": "Plate Code",
+        "registration-date-range": "Registration Date Range",
+        "registration-issue-date": "Registration Issue Date",
+        "registration-expiry-date": "Registration Expiry Date",
+        "insurance-company": "Insurance Company",
+        "insurance-date-range": "Insurance Date Range",
+        "insurance-issue-date": "Insurance Issue Date",
+        "insurance-expiry-date": "Insurance Expiry Date",
+        "logo-url": "Logo url",
+        "discount-omr": "Discount in OMR",
+        "qc-employee": "QC Employee",
+        "charge": "Charge",
+        "part": "Part",
+        "qty": "QTY",
+        "employee": "Employee",
+        "allocated-duration": "Allocated Duration",
+        "duration-unit": "Duration Unit",
+        "customer-name": "Customer Name",
+        "customer-phone": "Customer Phone",
+        "odometer": "Odometer",
+        "inspector": "Inspector",
+        "notes": "Notes",
+        "issue-date": "Issue Date",
+        "expiry-date": "Expiry Date",
+        "duration": "Duration",
+        "start-time": "Start Time",
+        "stop-time": "Stop Time",
+        "service-duration": "Service Duration",
+        "assigned-employee": "Assigned Employee"
+      },
+      "jobs": {
+        "count": "Jobs Count:",
+        "none-in-range": "No jobs found for the selected date range."
+      },
+      "brand": {
+        "details": "Brand Details",
+        "models": "Models"
+      },
+      "actions": {
+        "update": "Update",
+        "download": "Download",
+        "cancel": "Cancel",
+        "actions": "Actions",
+        "start": "Start",
+        "stop": "Stop",
+        "complete": "Complete",
+        "add-additional-services": "Add Additional Services",
+        "approve-services": "Approve Services",
+        "send-invoice": "Send Invoice",
+        "send-receipt": "Send Receipt",
+        "create-invoice": "Create Invoice",
+        "mark-as-delivered": "Mark as Delivered"
+      },
+      "invoice": {
+        "tax-invoice": "Tax Invoice",
+        "add-stamp": "Add stamp"
+      },
+      "table": {
+        "type": "Type",
+        "item": "Item",
+        "quantity": "Quantity",
+        "amount-omr": "Amount OMR",
+        "service": "Service",
+        "spare-part": "Spare Part",
+        "labor": "Labor"
+      },
+      "summary": {
+        "discount": "Discount",
+        "net-total": "Net Total",
+        "vat": "VAT (5%)",
+        "grand-total": "Grand Total",
+        "tax": "Tax"
+      },
+      "payment": {
+        "details": "Payment Details",
+        "methods": {
+          "card": "Card",
+          "cash": "Cash"
+        },
+        "confirm-payment": "Confirm Payment"
+      },
+      "errors": {
+        "invalid-amount": "Invalid amount!",
+        "no-employee": "No Employee",
+        "invalid-quantity": "Invalid Quantity",
+        "odometer-invalid": "Odometer invalid!",
+        "max-letters": "Reached maximum number of letters",
+        "insurance-company-invalid": "Insurance Company Invalid!",
+        "invalid-chassis-number": "Invalid chassis number",
+        "plate-number-invalid": "Plate number invalid!",
+        "plate-code-invalid": "Plate code invalid!"
+      },
+      "steps": {
+        "charges": "Charges",
+        "confirmation": "Confirmation",
+        "services-parts": "Services & Parts",
+        "extra-services-parts": "Extra Services & Parts",
+        "task-assignment": "Task Assignment",
+        "timing": "Timing",
+        "approval": "Approval",
+        "quality-control": "Quality Control",
+        "payment": "Payment",
+        "delivery": "Delivery",
+        "customer": "Customer",
+        "inspection": "Inspection"
+      },
+      "qc": {
+        "service-completed": "Service Completed",
+        "item-installed": "{{item}} Installed",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "loading": "Loading",
+        "confirm-check": "Confirm QC Check?",
+        "approved-success": "QC approved successfully!",
+        "action-failed": "Action Failed",
+        "update-failed": "Could not update QC!"
+      },
+      "confirmation": {
+        "in-person": "In Person Confirmation",
+        "electronic-signature": "Electronic signature",
+        "whatsapp": "WhatsApp Confirmation",
+        "remote-link": "Remote Link",
+        "no-customer-confirmation": "No Customer Confirmation"
+      },
+      "signature": {
+        "customer-signature": "Customer Signature",
+        "services-repairs": "Services/Repairs",
+        "services": "Services",
+        "spare-parts": "Spare Parts",
+        "signature": "Signature"
+      },
+      "terms": {
+        "title": "General Terms and Conditions",
+        "accept": "Accept terms & conditions",
+        "consent-for-service": "Consent for Service:",
+        "understanding-of-services": "Understanding of Services:",
+        "cost-estimates": "Cost Estimates:",
+        "approval-for-additional-work": "Approval for Additional Work:",
+        "parts-and-labor-warranty": "Parts and Labor Warranty:",
+        "vehicle-pickup": "Vehicle Pickup:",
+        "liability": "Liability:",
+        "customer-responsibilities": "Customer Responsibilities:",
+        "dispute-resolution": "Dispute Resolution:"
+      },
+      "timing": {
+        "delay-warning": "There is a delay in this service!"
+      },
+      "units": {
+        "minute": "Minute",
+        "hour": "Hour",
+        "day": "Day"
+      },
+      "inspection": {
+        "previous-reading": "Previous reading"
+      },
+      "alerts": {
+        "confirmation": "Confirmation Alert!"
+      },
+      "messages": {
+        "no-add-after-confirmation": "Adding Services are parts are not possible after confirmation",
+        "services-approved": "Services Approved",
+        "discount-check-before-confirmation": "Please make sure discount amount is correct befor econfirmation",
+        "assign-employee-to-service": "Please assign an employee to this service",
+        "sign-within-boundaries": "Please sign within the boundaries of the highlighted borders"
+      },
+      "stock": {
+        "out-of-stock": "out of stock"
+      }
+    }
+  },
+  "finance": {
+    "title": "المالية",
+    "dashboard": {
+      "filters": {
+        "year": "السنة",
+        "pillar": "الركيزة"
+      }
+    },
+    "accounting": {
+      "title": "المحاسبة",
+      "common": {
+        "entry": "القيد",
+        "title": "العنوان",
+        "posting-date": "تاريخ الترحيل",
+        "posting-date-range": "نطاق تاريخ الترحيل",
+        "voucher-type": "نوع السند",
+        "debit": "مدين",
+        "credit": "دائن",
+        "created-by": "أنشئ بواسطة",
+        "search-entries": "بحث في القيود",
+        "entries": "قيود",
+        "status": "الحالة",
+        "invoice": "الفاتورة",
+        "quotation": "عرض السعر",
+        "quotation-date": "تاريخ عرض السعر",
+        "quantity": "الكمية",
+        "expense": "المصروف",
+        "amount": "المبلغ",
+        "approval-status": "حالة الموافقة",
+        "supplier": "المورد",
+        "customer": "العميل",
+        "total": "الإجمالي",
+        "outstanding": "المتبقي",
+        "order": "الطلب",
+        "order-date": "تاريخ الطلب",
+        "order-status": "حالة الطلب",
+        "payment": "الدفع",
+        "receipt": "الاستلام",
+        "delivery": "التسليم",
+        "not-applicable": "غير منطبق",
+        "from": "من",
+        "to": "إلى"
+      },
+      "journal-entries-ui": {
+        "title": "قيود اليومية",
+        "description": "مراجعة قيود اليومية المرحلة والمدين والدائن.",
+        "empty-title": "لم يتم العثور على قيود يومية",
+        "empty-description": "جرّب بحثاً مختلفاً أو نطاقاً آخر لتاريخ الترحيل.",
+        "search-placeholder": "رقم القيد أو العنوان أو نوع السند"
+      },
+      "payment-entries-ui": {
+        "empty-title": "لم يتم العثور على قيود دفع",
+        "empty-description": "جرّب بحثاً مختلفاً أو نطاقاً آخر للتاريخ.",
+        "search": "بحث في المدفوعات",
+        "search-placeholder": "رقم القيد أو العنوان أو نوع الدفع",
+        "paid-amount": "المبلغ المدفوع",
+        "payment-type": "نوع الدفع",
+        "results": "نتيجة"
+      },
+      "invoices-ui": {
+        "description": "مراجعة الفواتير وحالة الدفع والأرصدة المستحقة.",
+        "unknown-status": "غير معروف",
+        "new": "فاتورة جديدة",
+        "empty-title": "لم يتم العثور على فواتير",
+        "empty-description": "جرّب بحثاً أو نطاقاً زمنياً أو مرشح دفع مختلفاً.",
+        "search": "بحث في الفواتير",
+        "purchase-search-placeholder": "رقم الفاتورة أو المورد أو الهاتف أو الحالة",
+        "sales-search-placeholder": "رقم الفاتورة أو العميل أو الهاتف أو الحالة",
+        "new-sales-title": "فاتورة مبيعات جديدة",
+        "new-purchase-title": "فاتورة شراء جديدة",
+        "vat-exports": "ضريبة القيمة المضافة 0% (الصادرات)",
+        "vat-default": "ضريبة القيمة المضافة 5% (افتراضي)",
+        "actions": "الإجراءات",
+        "not-fully-paid": "غير مدفوعة بالكامل",
+        "count": "فواتير"
+      },
+      "orders-ui": {
+        "purchase-description": "مراجعة الطلبات والمدفوعات وتقدم الاستلام.",
+        "sales-description": "مراجعة الطلبات والمدفوعات وتقدم التسليم.",
+        "new": "طلب جديد",
+        "financing": "التمويل",
+        "actions": "الإجراءات",
+        "to-receive": "بانتظار الاستلام",
+        "not-delivered": "لم يتم التسليم",
+        "statuses": {
+          "draft": "مسودة",
+          "sent-for-approval": "مرسل للموافقة",
+          "approved": "موافق عليه",
+          "cancelled": "ملغي",
+          "refunded": "مسترد",
+          "fully-delivered": "تم التسليم بالكامل",
+          "partly-delivered": "تم التسليم جزئياً",
+          "partially-delivered": "تم التسليم جزئياً",
+          "unpaid": "غير مدفوع",
+          "unpaid-and-discounted": "غير مدفوع مع خصم",
+          "overdue": "متأخر",
+          "overdue-and-discounted": "متأخر مع خصم",
+          "partly-paid": "مدفوع جزئياً",
+          "partially-paid": "مدفوع جزئياً",
+          "partly-paid-and-discounted": "مدفوع جزئياً مع خصم",
+          "paid": "مدفوع",
+          "paid-and-discounted": "مدفوع مع خصم",
+          "credit-note-issued": "تم إصدار إشعار دائن",
+          "return": "مرتجع"
+        },
+        "empty-title": "لم يتم العثور على طلبات",
+        "purchase-empty-description": "جرّب بحثاً أو نطاقاً زمنياً أو مرشحات دفع واستلام مختلفة.",
+        "sales-empty-description": "جرّب بحثاً أو نطاقاً زمنياً أو مرشحات دفع وتسليم مختلفة.",
+        "search": "بحث في الطلبات",
+        "purchase-search-placeholder": "بحث في أوامر الشراء",
+        "sales-search-placeholder": "بحث في أوامر البيع",
+        "date-range": "نطاق تاريخ الطلب",
+        "not-fully-received": "لم يتم الاستلام بالكامل",
+        "not-fully-delivered": "لم يتم التسليم بالكامل",
+        "count": "طلبات"
+      },
+      "quotation-list-ui": {
+        "date-range": "حدد نطاقاً زمنياً",
+        "new-rfq": "طلب عرض سعر جديد",
+        "new-supplier-quotation": "عرض سعر جديد من المورد",
+        "search": "بحث",
+        "search-quotations": "بحث في عروض الأسعار",
+        "sales-search-placeholder": "المعرف أو العميل أو الهاتف أو الحالة",
+        "quotation-date-range": "نطاق تاريخ عرض السعر",
+        "results": "نتيجة",
+        "empty-title": "القائمة فارغة",
+        "empty-description": "يرجى تطبيق مرشحات مناسبة لعرض عروض الأسعار المتاحة",
+        "previous": "السابق",
+        "next": "التالي",
+        "pagination": "التنقل بين الصفحات",
+        "page": "صفحة",
+        "current-page": "أنت في الصفحة"
+      },
+      "journal-entries": "قيود اليومية",
+      "payment-entries": "قيود الدفع",
+      "sales-invoices": "فواتير المبيعات",
+      "suppliers": "الموردون",
+      "purchase-invoices": "فواتير الشراء",
+      "expenses": "المصروفات",
+      "petty-cash": {
+        "title": "تعزيزات النقد النثري",
+        "list": {
+          "new": "تعزيز جديد",
+          "empty-title": "لم يتم العثور على تعزيزات نقدية نثرية",
+          "empty-description": "جرّب بحثاً أو نطاقاً زمنياً مختلفاً، أو أنشئ تعزيزاً جديداً.",
+          "search": "بحث في التعزيزات",
+          "search-placeholder": "رقم القيد أو العنوان",
+          "count": "نتيجة"
+        },
+        "form": {
+          "new-title": "تعزيز نقد نثري جديد",
+          "confirmed": "مؤكد",
+          "draft": "مسودة",
+          "available-balance": "الرصيد المتاح",
+          "insufficient-balance": "الرصيد غير كافٍ",
+          "source-account": "الحساب المصدر",
+          "transfer-amount": "مبلغ التحويل بالريال العماني",
+          "posting-date": "تاريخ الترحيل",
+          "petty-cash-account": "حساب النقد النثري",
+          "petty-cash-balance": "رصيد النقد النثري"
+        }
+      },
+      "payment-terms": "شروط الدفع",
+      "payroll": "الرواتب",
+      "payroll-periods": "فترات الرواتب",
+      "payroll-settings": "إعدادات الرواتب",
+      "payroll-entries": "قيود الرواتب",
+      "salary-components": "مكونات الراتب",
+      "salary-structures": "هياكل الرواتب",
+      "salary-structure-assignments": "تعيينات هيكل الراتب",
+      "salary-slips": "قسائم الرواتب",
+      "payroll-ui": {
+        "title": "الرواتب",
+        "search": "بحث",
+        "results": "نتيجة",
+        "loading": "جارٍ تحميل بيانات الرواتب...",
+        "load-error": "تعذر تحميل بيانات الرواتب.",
+        "retry": "إعادة المحاولة",
+        "save": "حفظ",
+        "saving": "جارٍ الحفظ...",
+        "saved": "تم حفظ التغييرات.",
+        "save-error": "تعذر حفظ التغييرات.",
+        "company": "الشركة",
+        "period": "الفترة",
+        "start-date": "تاريخ البدء",
+        "end-date": "تاريخ الانتهاء",
+        "posting-date": "تاريخ القيد",
+        "currency": "العملة",
+        "exchange-rate": "سعر الصرف",
+        "status": "الحالة",
+        "remove": "إزالة",
+        "yes": "نعم",
+        "no": "لا",
+        "statuses": {
+          "draft": "مسودة",
+          "submitted": "مرسل",
+          "cancelled": "ملغي",
+          "queued": "في قائمة الانتظار",
+          "failed": "فشل"
+        },
+        "periods": {
+          "title": "فترات الرواتب",
+          "new": "فترة رواتب جديدة",
+          "edit": "تعديل فترة الرواتب",
+          "search-placeholder": "الفترة أو الشركة",
+          "empty-title": "لم يتم العثور على فترات رواتب",
+          "empty-description": "جرّب بحثاً آخر أو أنشئ فترة رواتب.",
+          "period": "فترة الرواتب",
+          "details": "تفاصيل الفترة",
+          "date-rows": "تواريخ فترة الرواتب",
+          "date-rows-help": "أضف نطاقات التواريخ التابعة لفترة الرواتب هذه.",
+          "add-date-row": "إضافة نطاق تاريخ",
+          "no-date-rows": "لم تتم إضافة نطاقات تواريخ.",
+          "required-fields": "الشركة وتاريخا البدء والانتهاء مطلوبة.",
+          "date-row-required": "أكمل التاريخين في كل صف من تواريخ الفترة."
+        },
+        "settings": {
+          "title": "إعدادات الرواتب",
+          "attendance": "الحضور وأيام العمل",
+          "payroll-based-on": "احتساب الرواتب بناءً على",
+          "leave": "الإجازة",
+          "attendance-option": "الحضور",
+          "unmarked-attendance": "اعتبار الحضور غير المحدد",
+          "present": "حاضر",
+          "absent": "غائب",
+          "max-hours": "الحد الأقصى لساعات كشف الدوام",
+          "half-day-fraction": "جزء الأجر اليومي لنصف يوم",
+          "include-holidays": "تضمين العطلات في إجمالي أيام العمل",
+          "marked-holiday-attendance": "احتساب الحضور المسجل في العطلات",
+          "leave-balances": "إظهار أرصدة الإجازات في كشوف الرواتب",
+          "disable-rounded-total": "تعطيل تقريب الإجمالي",
+          "overtime-slip": "إنشاء كشوف رواتب إضافية للعمل الإضافي",
+          "mandatory-benefits": "اشتراط طلب المزايا",
+          "email": "البريد الإلكتروني لكشف الراتب",
+          "sender": "مرسل البريد الإلكتروني",
+          "sender-copy": "نسخة المرسل",
+          "sender-email": "عنوان بريد المرسل",
+          "email-template": "قالب البريد الإلكتروني",
+          "password-policy": "سياسة كلمة مرور البريد الإلكتروني",
+          "email-slip": "إرسال كشوف الرواتب بالبريد للموظفين",
+          "encrypt-slip": "تشفير كشوف الرواتب المرسلة بالبريد",
+          "employee-accounting": "معالجة القيود المحاسبية حسب الموظف"
+        },
+        "entries": {
+          "title": "قيود الرواتب",
+          "new": "قيد رواتب جديد",
+          "detail-title": "قيد الرواتب",
+          "search-placeholder": "القيد أو الشركة أو الحالة",
+          "empty-title": "لم يتم العثور على قيود رواتب",
+          "empty-description": "جرّب بحثاً آخر أو أنشئ قيد رواتب.",
+          "entry": "قيد الرواتب",
+          "employee-count": "موظف(ون)",
+          "details": "تفاصيل القيد",
+          "frequency": "وتيرة الرواتب",
+          "payable-account": "حساب الرواتب المستحق",
+          "employees": "تفاصيل الموظفين",
+          "employee": "الموظف",
+          "department": "القسم",
+          "designation": "المسمى الوظيفي",
+          "withheld": "حجز الراتب",
+          "view-employees": "عرض جميع الموظفين",
+          "fill-employees": "تعبئة تفاصيل الموظفين",
+          "create-salary-slips": "إنشاء كشوف الرواتب",
+          "salary-slips-created": "تم إنشاء كشوف الرواتب.",
+          "employees-filled": "تمت تعبئة تفاصيل الموظفين.",
+          "no-employees": "لا يوجد موظفون في قيد الرواتب. املأ تفاصيل الموظفين قبل إنشاء كشوف الرواتب.",
+          "required-fields": "الشركة وتاريخا البدء والانتهاء مطلوبة.",
+          "duplicate": "يوجد قيد رواتب بالفعل لهذه الشركة والفترة: {{name}}.",
+          "open-existing": "فتح القيد الموجود",
+          "action-error": "تعذر إكمال إجراء الرواتب."
+        },
+        "employee-details": {
+          "title": "تفاصيل موظفي الرواتب",
+          "search-placeholder": "الموظف أو القسم أو المسمى الوظيفي",
+          "empty-title": "لم يتم العثور على موظفين",
+          "empty-description": "لا يحتوي قيد الرواتب هذا على تفاصيل موظفين.",
+          "row": "رقم"
+        }
+      },
+      "cards": {
+        "grand-total": "الإجمالي الكلي",
+        "outstanding-amount": "المبلغ المستحق",
+        "returned": "مرتجع",
+        "currency": {
+          "omr": "ر.ع"
+        }
+      },
+      "expenses-ui": {
+        "new-expense": "مصروف جديد",
+        "new-expense-entry": "قيد مصروف جديد",
+        "statuses": {
+          "new": "جديد"
+        },
+        "empty-subtitle": "القائمة فارغة!",
+        "empty-instructions": "لا توجد مصروفات منشأة",
+        "list": {
+          "description": "مراجعة المصروفات والمبالغ وتقدم الموافقات.",
+          "empty-title": "لم يتم العثور على مصروفات",
+          "empty-description": "جرّب بحثاً مختلفاً أو نطاقاً آخر لتاريخ الترحيل.",
+          "search": "بحث في المصروفات",
+          "search-placeholder": "رقم المصروف أو العنوان",
+          "count": "مصروفات",
+          "updating": "جارٍ التحديث...",
+          "refresh-error": "تعذر تحديث المصروفات. يتم عرض النتائج المحملة سابقاً."
+        },
+        "sections": {
+          "request-details": "تفاصيل الطلب",
+          "accounts": "الحسابات",
+          "description": "الوصف",
+          "attachments": "المرفقات",
+          "approval": "الموافقة"
+        },
+        "fields": {
+          "account": "الحساب",
+          "amount": "المبلغ",
+          "total": "الإجمالي",
+          "add-account": "إضافة حساب",
+          "description": "الوصف",
+          "approver": "الموافق",
+          "department": "القسم",
+          "available-balance": "الرصيد المتاح",
+          "insufficient-balance": "الرصيد غير كافٍ",
+          "source-account": "الحساب المصدر",
+          "posting-date": "تاريخ الترحيل",
+          "total-amount": "إجمالي المبلغ"
+        },
+        "attachments": {
+          "empty-subtitle": "لا توجد مرفقات",
+          "empty-instructions": "لا توجد مرفقات",
+          "import": "استيراد"
+        },
+        "expense": {
+          "title": "معلومات المصروف"
+        },
+        "actions": {
+          "upload-success": "تم رفع المرفق بنجاح!",
+          "upload-failed": "تعذر رفع المرفق!",
+          "remove-attachment-header": "إزالة المرفق؟",
+          "remove-success": "تمت إزالة المرفق بنجاح!",
+          "remove-failed": "تعذر إزالة المرفق!",
+          "create-header": "إنشاء قيد مصروف جديد؟",
+          "create-success": "تم إنشاء قيد المصروف بنجاح!",
+          "create-failed": "تعذر إنشاء قيد مصروف جديد!",
+          "update-header": "تحديث قيد المصروف؟",
+          "update-success": "تم تحديث قيد المصروف بنجاح!",
+          "update-failed": "تعذر تحديث قيد المصروف!",
+          "request-approval-header": "طلب الموافقة؟",
+          "request-approval-success": "تم إرسال طلب الموافقة بنجاح!",
+          "request-approval-failed": "تعذر إرسال طلب الموافقة!",
+          "approve-header": "اعتماد قيد المصروف؟",
+          "approve-success": "تم اعتماد قيد المصروف بنجاح!",
+          "approve-failed": "تعذر اعتماد قيد المصروف!"
+        },
+        "pending-approval": "قيد اليومية هذا بانتظار الموافقة"
+      },
+      "payments": {
+        "empty": "لا توجد دفعات!",
+        "paid-amount": "المبلغ المدفوع:",
+        "outstanding-amount": "المبلغ المستحق:",
+        "create": "إنشاء دفعة",
+        "actions": {
+          "create-success": "تم إنشاء الدفعة بنجاح!",
+          "create-failed": "تعذر إنشاء قيد الدفعة!"
+        }
+      },
+      "receipts": {
+        "empty": "لا توجد إيصالات شراء!",
+        "create": "إنشاء إيصال شراء",
+        "actions": {
+          "create-success": "تم إنشاء إيصال الشراء بنجاح!",
+          "create-failed": "تعذر إنشاء إشعار التسليم!"
+        }
+      },
+      "deliveries": {
+        "empty": "لا توجد عمليات تسليم!",
+        "create": "إنشاء إشعار تسليم",
+        "actions": {
+          "create-success": "تم إنشاء إشعار التسليم بنجاح!",
+          "create-failed": "تعذر إنشاء إشعار التسليم!"
+        }
+      },
+      "attachments": {
+        "empty": "لا توجد مرفقات!",
+        "import": "استيراد",
+        "actions": {
+          "upload-success": "تم رفع المرفق بنجاح!",
+          "upload-failed": "تعذر رفع المرفق!",
+          "remove-header": "إزالة المرفق؟",
+          "remove-success": "تمت إزالة المرفق بنجاح!",
+          "remove-failed": "تعذر إزالة المرفق!"
+        }
+      },
+      "rfqs": {
+        "title": "طلبات عروض الأسعار",
+        "rfq": {
+          "information": {
+            "title": "معلومات طلب عرض الأسعار"
+          },
+          "fields": {
+            "supplier": "المورد",
+            "tax-rate": "معدل الضريبة",
+            "approver": "الموافق"
+          },
+          "summary": {
+            "title": "الملخص",
+            "new-subtitle": "لم يتم إنشاء طلب عرض الأسعار بعد",
+            "new-instructions": "يرجى تعبئة وحفظ تفاصيل الطلب",
+            "draft-subtitle": "تم حفظ الطلب ولكنه غير مؤكد!",
+            "draft-instructions": "يرجى طلب الموافقة للمتابعة",
+            "confirmed-subtitle": "بانتظار الموافقة",
+            "confirmed-instructions": "طلب عرض الأسعار هذا بانتظار الموافقة"
+          },
+          "items": {
+            "title": "العناصر",
+            "item": "الصنف"
+          },
+          "actions": {
+            "view-pdf": "عرض PDF",
+            "create-supplier-quotation": "إنشاء عرض سعر مورد",
+            "create-header": "إنشاء طلب عرض أسعار جديد؟",
+            "create-success": "تم إنشاء طلب عرض الأسعار بنجاح!",
+            "create-failed": "تعذر إنشاء طلب عرض الأسعار!",
+            "update-header": "تحديث طلب عرض الأسعار؟",
+            "update-success": "تم تحديث طلب عرض الأسعار بنجاح!",
+            "update-failed": "تعذر تحديث طلب عرض الأسعار!",
+            "request-approval-header": "طلب اعتماد طلب عرض الأسعار؟",
+            "request-approval-success": "تم تحديث طلب عرض الأسعار بنجاح!",
+            "request-approval-failed": "تعذر تحديث طلب عرض الأسعار!",
+            "approve-header": "اعتماد طلب عرض الأسعار؟",
+            "approve-success": "تم اعتماد عرض السعر بنجاح!",
+            "approve-failed": "تعذر اعتماد عرض السعر!",
+            "create-supplier-quotation-header": "إنشاء عرض سعر مورد جديد؟",
+            "create-supplier-quotation-success": "تم إنشاء عرض سعر المورد بنجاح!",
+            "create-supplier-quotation-failed": "تعذر إنشاء عرض سعر المورد!"
+          }
+        },
+        "rfq-pdf-modal": {
+          "new": "طلب عرض أسعار جديد"
+        }
+      },
+      "purchase-orders": {
+        "title": "أوامر الشراء",
+        "purchase-order": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "معلومات أمر الشراء"
+          },
+          "fields": {
+            "supplier": "المورد",
+            "tax-rate": "معدل الضريبة",
+            "approver": "الموافق"
+          },
+          "summary": {
+            "title": "الملخص",
+            "net-total": "الصافي الإجمالي",
+            "vat": "ضريبة القيمة المضافة",
+            "grand-total": "الإجمالي الكلي"
+          },
+          "items": {
+            "title": "العناصر",
+            "item": "الصنف",
+            "rate-in-omr": "السعر بر.ع",
+            "amount-in-omr": "المبلغ بر.ع"
+          },
+          "payments": "الدفعات",
+          "purchase-receipts": "إيصالات الشراء",
+          "actions": {
+            "view-pdf": "عرض PDF",
+            "confirm-request-approval": "تأكيد وطلب الموافقة",
+            "create-header": "إنشاء أمر شراء؟",
+            "create-success": "تم إنشاء أمر الشراء بنجاح!",
+            "create-failed": "تعذر إنشاء أمر الشراء!",
+            "update-header": "تحديث أمر الشراء؟",
+            "update-success": "تم تحديث أمر الشراء بنجاح!",
+            "update-failed": "تعذر تحديث أمر الشراء!",
+            "request-approval-header": "طلب الموافقة؟",
+            "request-approval-success": "تم طلب الموافقة بنجاح!",
+            "request-approval-failed": "تعذر تحديث أمر الشراء!",
+            "approve-header": "اعتماد أمر الشراء؟",
+            "approve-success": "تم اعتماد أمر الشراء بنجاح!",
+            "approve-failed": "تعذر اعتماد أمر الشراء!"
+          }
+        },
+        "purchase-order-pdf-modal": {
+          "new": "أمر شراء جديد"
+        }
+      },
+      "sales-orders": {
+        "title": "أوامر المبيعات",
+        "sales-order": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "معلومات أمر المبيعات"
+          },
+          "fields": {
+            "customer-name": "اسم العميل",
+            "mobile-number": "رقم الهاتف المحمول",
+            "tax-rate": "معدل الضريبة",
+            "tax-template": "قالب الضريبة",
+            "warehouse": "المستودع",
+            "delivery-date": "تاريخ التسليم",
+            "approver": "الموافق"
+          },
+          "payment-terms": {
+            "title": "شروط الدفع",
+            "term": "شرط الدفع"
+          },
+          "items": {
+            "title": "العناصر"
+          },
+          "summary": {
+            "title": "الملخص",
+            "net-total": "الصافي الإجمالي",
+            "vat": "ضريبة القيمة المضافة",
+            "discount": "الخصم",
+            "grand-total": "الإجمالي الكلي"
+          },
+          "sales-invoice": "فاتورة مبيعات",
+          "payments": "الدفعات",
+          "delivery": "التسليم",
+          "actions": {
+            "confirm-request-approval": "تأكيد وطلب الموافقة",
+            "create-header": "إنشاء أمر مبيعات؟",
+            "create-success": "تم إنشاء أمر المبيعات بنجاح!",
+            "create-failed": "تعذر إنشاء أمر المبيعات!",
+            "update-header": "تحديث أمر المبيعات؟",
+            "update-success": "تم تحديث أمر المبيعات بنجاح!",
+            "update-failed": "تعذر تحديث أمر المبيعات!",
+            "request-approval-header": "طلب الموافقة؟",
+            "request-approval-success": "تم طلب الموافقة بنجاح!",
+            "request-approval-failed": "تعذر طلب الموافقة!",
+            "approve-header": "اعتماد أمر المبيعات؟",
+            "approve-success": "تم اعتماد أمر المبيعات بنجاح!",
+            "approve-failed": "تعذر اعتماد أمر المبيعات!",
+            "create-customer-failed": "تعذر إنشاء عميل جديد!"
+          }
+        }
+      },
+      "supplier-quotations": {
+        "title": "عروض أسعار الموردين",
+        "supplier-quotation": {
+          "omr": "ر.ع",
+          "information": {
+            "title": "معلومات عرض سعر المورد"
+          },
+          "fields": {
+            "supplier": "المورد",
+            "approver": "الموافق"
+          },
+          "summary": {
+            "title": "الملخص",
+            "net-total": "الصافي الإجمالي",
+            "vat": "ضريبة القيمة المضافة",
+            "grand-total": "الإجمالي الكلي",
+            "new-subtitle": "لم يتم إنشاء عرض سعر المورد بعد",
+            "new-instructions": "يرجى تعبئة وحفظ تفاصيل عرض السعر",
+            "draft-subtitle": "تم حفظ عرض السعر لكنه غير مؤكد!",
+            "draft-instructions": "يرجى طلب الموافقة للمتابعة",
+            "confirmed-subtitle": "بانتظار الموافقة",
+            "confirmed-instructions": "عرض سعر المورد هذا بانتظار الموافقة"
+          },
+          "items": {
+            "title": "العناصر",
+            "item": "الصنف",
+            "rate-in-omr": "السعر بر.ع",
+            "amount-in-omr": "المبلغ بر.ع"
+          },
+          "actions": {
+            "create-purchase-order": "إنشاء أمر شراء",
+            "create-header": "إنشاء عرض سعر مورد جديد؟",
+            "create-success": "تم إنشاء عرض سعر المورد بنجاح!",
+            "create-failed": "تعذر إنشاء عرض سعر المورد!",
+            "update-header": "تحديث عرض سعر المورد؟",
+            "update-success": "تم تحديث عرض سعر المورد بنجاح!",
+            "update-failed": "تعذر تحديث عرض سعر المورد!",
+            "request-approval-header": "طلب الموافقة؟",
+            "request-approval-success": "تم طلب الموافقة بنجاح!",
+            "request-approval-failed": "تعذر طلب الموافقة!",
+            "approve-header": "اعتماد عرض سعر المورد؟",
+            "approve-success": "تم اعتماد عرض سعر المورد بنجاح!",
+            "approve-failed": "تعذر اعتماد عرض سعر المورد!",
+            "create-purchase-order-header": "إنشاء أمر شراء جديد؟",
+            "create-purchase-order-success": "تم إنشاء أمر الشراء بنجاح!",
+            "create-purchase-order-failed": "تعذر إنشاء أمر الشراء!"
+          }
+        }
+      },
+      "payment-terms-ui": {
+        "new-payment-term": "شرط دفع جديد",
+        "due-date-label": "تاريخ الاستحقاق",
+        "created": "تاريخ الإنشاء",
+        "created-date-range": "نطاق تاريخ الإنشاء",
+        "invoice-percentage": "نسبة الفاتورة",
+        "empty-subtitle": "القائمة فارغة!",
+        "empty-instructions": "لا توجد شروط دفع منشأة",
+        "details": "تفاصيل شروط الدفع",
+        "fields": {
+          "payment-term-name": "اسم شرط الدفع",
+          "invoice-portion": "نسبة جزء الفاتورة %"
+        },
+        "errors": {
+          "invalid-payment-term-name": "اسم شرط الدفع غير صالح",
+          "invalid-invoice-portion": "نسبة الفاتورة غير صالحة",
+          "invalid-credit-duration": "مدة الائتمان غير صالحة",
+          "invalid-discount-amount": "مبلغ الخصم غير صالح",
+          "invalid-discount-validity": "صلاحية الخصم غير صالحة"
+        },
+        "credit-duration": {
+          "title": "مدة الائتمان",
+          "type": "النوع",
+          "credit-duration": "مدة الائتمان"
+        },
+        "due-date": {
+          "day-after-invoice-date": "يوم/أيام بعد تاريخ الفاتورة",
+          "day-after-end-of-invoice-month": "يوم/أيام بعد نهاية شهر الفاتورة",
+          "month-after-end-of-invoice-month": "شهر/أشهر بعد نهاية شهر الفاتورة"
+        },
+        "discount": {
+          "title": "تفاصيل الخصم",
+          "discount-type": "نوع الخصم",
+          "percentage": "نسبة",
+          "amount": "مبلغ",
+          "discount-amount": "مبلغ الخصم",
+          "discount-validity-based-on": "صلاحية الخصم بناءً على",
+          "discount-validity": "صلاحية الخصم"
+        }
+      },
+      "sales-quotations": {
+        "title": "عروض أسعار المبيعات",
+        "new-sales-quotation": "عرض سعر مبيعات جديد",
+        "draft": "مسودة",
+        "submitted": "مُعتمد",
+        "grand-total": "الإجمالي الكلي",
+        "currency": {
+          "omr": "ر.ع"
+        },
+        "empty-state": {
+          "subtitle": "القائمة فارغة",
+          "instructions": "يرجى تطبيق عوامل التصفية المناسبة لعرض عروض الأسعار المتاحة"
+        },
+        "sales-quotation": {
+          "omr": "ر.ع",
+          "grand-total": "الإجمالي الكلي",
+          "currency": {
+            "omr": "ر.ع"
+          },
+          "information": {
+            "title": "معلومات عرض سعر المبيعات",
+            "customer": "بيانات العميل",
+            "additional": "التمويل والتخزين"
+          },
+          "fields": {
+            "customer-name": "اسم العميل",
+            "mobile-number": "رقم الهاتف المحمول",
+            "tax-template": "قالب الضريبة",
+            "approver": "الموافق"
+          },
+          "errors": {
+            "invalid-customer-name": "اسم العميل غير صالح",
+            "invalid-mobile-number": "رقم الهاتف المحمول غير صالح",
+            "invalid-amount": "المبلغ غير صالح"
+          },
+          "payment-terms": {
+            "title": "شروط الدفع",
+            "term": "شرط الدفع"
+          },
+          "items": {
+            "title": "العناصر"
+          },
+          "summary": {
+            "title": "الملخص",
+            "net-total": "الصافي الإجمالي",
+            "vat": "ضريبة القيمة المضافة",
+            "discount": "الخصم",
+            "approved-by": "تمت الموافقة بواسطة",
+            "on": "بتاريخ"
+          },
+          "actions": {
+            "create": "إنشاء",
+            "update": "تحديث",
+            "request-approval": "طلب الموافقة",
+            "approve": "موافقة",
+            "create-sales-order": "إنشاء أمر مبيعات"
+          },
+          "approval": {
+            "pending-title": "معلق",
+            "pending-instructions": "عرض السعر هذا بانتظار الموافقة"
+          }
+        }
+      }
+    },
+    "payroll": {
+      "title": "الرواتب",
+      "payroll-periods": "فترات الرواتب",
+      "payroll-settings": "إعدادات الرواتب",
+      "payroll-entries": "قيود الرواتب",
+      "salary-components": "مكونات الراتب",
+      "salary-structures": "هياكل الرواتب",
+      "salary-structure-assignments": "تعيينات هيكل الراتب",
+      "salary-slips": "قسائم الرواتب",
+      "payroll-ui": {
+        "title": "الرواتب",
+        "search": "بحث",
+        "results": "نتيجة",
+        "loading": "جار تحميل بيانات الرواتب...",
+        "load-error": "تعذر تحميل بيانات الرواتب.",
+        "retry": "إعادة المحاولة",
+        "save": "حفظ",
+        "saving": "جارٍ الحفظ...",
+        "yes": "نعم",
+        "no": "لا",
+        "company": "الشركة",
+        "currency": "العملة",
+        "name": "الاسم",
+        "start-date": "تاريخ البدء",
+        "end-date": "تاريخ الانتهاء",
+        "posting-date": "تاريخ الترحيل",
+        "status": "الحالة",
+        "settings": {
+          "title": "إعدادات الرواتب",
+          "attendance": "الحضور وأيام العمل",
+          "payroll-based-on": "احتساب الرواتب بناءً على",
+          "leave": "الإجازة",
+          "attendance-option": "الحضور",
+          "unmarked-attendance": "اعتبار الحضور غير المحدد",
+          "present": "حاضر",
+          "absent": "غائب",
+          "max-hours": "الحد الأقصى لساعات كشف الدوام",
+          "half-day-fraction": "جزء الأجر اليومي لنصف يوم",
+          "include-holidays": "تضمين العطلات في إجمالي أيام العمل",
+          "marked-holiday-attendance": "احتساب الحضور المسجل في العطلات",
+          "leave-balances": "إظهار أرصدة الإجازات في كشوف الرواتب",
+          "disable-rounded-total": "تعطيل تقريب الإجمالي",
+          "overtime-slip": "إنشاء كشوف رواتب إضافية للعمل الإضافي",
+          "mandatory-benefits": "اشتراط طلب المزايا",
+          "email": "البريد الإلكتروني لكشف الراتب",
+          "sender": "مرسل البريد الإلكتروني",
+          "sender-copy": "نسخة المرسل",
+          "sender-email": "عنوان بريد المرسل",
+          "email-template": "قالب البريد الإلكتروني",
+          "password-policy": "سياسة كلمة مرور البريد الإلكتروني",
+          "email-slip": "إرسال كشوف الرواتب بالبريد للموظفين",
+          "encrypt-slip": "تشفير كشوف الرواتب المرسلة بالبريد",
+          "employee-accounting": "معالجة القيود المحاسبية حسب الموظف"
+        },
+        "periods": {
+          "title": "فترات الرواتب",
+          "new": "فترة رواتب جديدة",
+          "search-placeholder": "الفترة أو الشركة",
+          "empty-title": "لم يتم العثور على فترات رواتب",
+          "empty-description": "جرّب بحثاً آخر أو أنشئ فترة رواتب.",
+          "period": "فترة الرواتب"
+        },
+        "salary-slips": {
+          "title": "قسائم الرواتب",
+          "new": "قسيمة راتب جديدة",
+          "search-placeholder": "رقم القسيمة أو الشركة أو الحالة",
+          "slip": "قسيمة راتب",
+          "empty-title": "لم يتم العثور على قسائم رواتب",
+          "empty-description": "جرّب بحثاً آخر أو أنشئ قسيمة راتب.",
+          "details": "تفاصيل قسيمة الراتب",
+          "employee": "الموظف",
+          "salary-structure": "هيكل الراتب",
+          "payroll-entry": "قيد الرواتب",
+          "earnings": "المستحقات",
+          "deductions": "الاستقطاعات",
+          "employer-contributions": "مساهمات صاحب العمل",
+          "salary-component": "مكون الراتب",
+          "abbreviation": "الاختصار",
+          "amount": "المبلغ",
+          "no-components": "لم يتم احتساب مكونات الراتب.",
+          "total-working-days": "أيام العمل",
+          "payment-days": "أيام الاستحقاق",
+          "leave-without-pay": "إجازة بدون راتب",
+          "absent-days": "أيام الغياب",
+          "total-working-hours": "ساعات العمل",
+          "hour-rate": "أجر الساعة",
+          "gross-pay": "إجمالي الراتب",
+          "total-deduction": "إجمالي الاستقطاعات",
+          "net-pay": "صافي الراتب",
+          "rounded-total": "الإجمالي بعد التقريب",
+          "calculate": "احتساب التفاصيل",
+          "submit": "إرسال قسيمة الراتب",
+          "cancel-slip": "إلغاء قسيمة الراتب",
+          "cancel-title": "إلغاء قسيمة الراتب؟",
+          "cancel-message": "سيتم إلغاء قسيمة الراتب المقدمة.",
+          "calculate-success": "تم احتساب تفاصيل الراتب.",
+          "create-success": "تم إنشاء قسيمة الراتب.",
+          "update-success": "تم تحديث قسيمة الراتب.",
+          "submit-success": "تم إرسال قسيمة الراتب.",
+          "cancel-success": "تم إلغاء قسيمة الراتب."
+        }
+      },
+      "salary-component": {
+        "title": "مكونات الراتب",
+        "new": "مكون راتب جديد",
+        "search-placeholder": "اسم المكون أو نوعه",
+        "empty-title": "لم يتم العثور على مكونات الراتب",
+        "empty-description": "جرّب بحثاً آخر أو أنشئ مكون راتب.",
+        "component": "مكون الراتب",
+        "name": "اسم مكون الراتب",
+        "abbreviation": "الاختصار",
+        "earning": "استحقاق",
+        "deduction": "استقطاع",
+        "is-tax-applicable": "هل ينطبق عليه الضريبة؟",
+        "disabled": "معطل",
+        "load-error": "تعذر تحميل مكونات الراتب.",
+        "details": "تفاصيل المكون",
+        "type": "نوع المكون"
+      },
+      "salary-structure": {
+        "title": "هياكل الرواتب",
+        "new": "هيكل راتب جديد",
+        "search": "بحث في هياكل الرواتب",
+        "search-placeholder": "اسم الهيكل أو نوعه",
+        "structure": "هيكل الراتب",
+        "frequency": "دورية الرواتب",
+        "active": "نشط",
+        "loading": "جار تحميل هياكل الرواتب...",
+        "load-error": "تعذر تحميل هياكل الرواتب.",
+        "empty-title": "لم يتم العثور على هياكل رواتب",
+        "empty-description": "أنشئ هيكل راتب للبدء.",
+        "component": "معلومات هيكل الراتب",
+        "summary": "ملخص هيكل الراتب",
+        "earnings": "المستحقات",
+        "deductions": "الاستقطاعات",
+        "name": "هيكل الراتب",
+        "monthly": "شهري",
+        "fortnightly": "كل أسبوعين",
+        "bimonthly": "مرتين شهرياً",
+        "weekly": "أسبوعي",
+        "daily": "يومي",
+        "mode-of-payment": "طريقة الدفع",
+        "cash": "نقداً",
+        "bank-transfer": "تحويل بنكي",
+        "payment-account": "حساب الدفع",
+        "total-earnings": "إجمالي المستحقات",
+        "total-deductions": "إجمالي الاستقطاعات",
+        "total-payable": "إجمالي المستحق",
+        "salary-component": "مكون الراتب"
+      },
+      "salary-structure-assignment": {
+        "title": "تعيينات هيكل الراتب",
+        "new": "تعيين هيكل راتب جديد",
+        "component": "تفاصيل تعيين هيكل الراتب",
+        "search": "بحث في تعيينات الرواتب",
+        "search-placeholder": "ابحث حسب الهيكل أو الشركة أو العملة",
+        "loading": "جار تحميل تعيينات الرواتب...",
+        "load-error": "تعذر تحميل تعيينات هيكل الراتب.",
+        "structure": "هيكل الراتب",
+        "employee": "الموظف",
+        "from-date": "من تاريخ",
+        "empty-title": "لا توجد تعيينات رواتب بعد",
+        "empty-description": "أنشئ تعييناً لهيكل الراتب للبدء."
+      }
+    },
+    "banking": {
+      "title": "الخدمات المصرفية",
+      "cash-entry": "قيد نقدي",
+      "bank-reconciliation": "التسوية البنكية",
+      "audit-report": "تقرير التدقيق"
+    },
+    "financing": {
+      "title": "التمويل",
+      "loan-management": "إدارة القروض",
+      "equity": "حقوق الملكية",
+      "dividend-payment-entry": "قيد دفع الأرباح"
+    },
+    "assets": {
+      "title": "الأصول",
+      "asset-categories": "فئات الأصول",
+      "asset-locations": "مواقع الأصول",
+      "asset-purchase": "شراء الأصول",
+      "asset-sale": "بيع الأصول",
+      "depreciations": "الاستهلاكات",
+      "investments": "الاستثمارات",
+      "asset-purchase-ui": {
+        "new-asset": "أصل جديد",
+        "empty-subtitle": "القائمة فارغة",
+        "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لرؤية الأصول المتاحة",
+        "modal": {
+          "title": "نافذة الأصل",
+          "asset-details": "تفاصيل الأصل",
+          "fields": {
+            "asset-name": "اسم الأصل",
+            "asset-code": "رمز الأصل",
+            "gross-purchase-amount-omr": "إجمالي مبلغ الشراء ر.ع",
+            "opening-depreciation-amount-omr": "مبلغ الاستهلاك الافتتاحي ر.ع",
+            "asset-category": "فئة الأصل",
+            "purchase-date": "تاريخ الشراء",
+            "purchase-date-hint": "DD/MM/YYYY",
+            "location": "الموقع"
+          }
+        }
+      },
+      "asset-categories-ui": {
+        "new-asset-category": "فئة أصل جديدة",
+        "empty-subtitle": "القائمة فارغة",
+        "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لرؤية الفئات المتاحة",
+        "search-instructions": "يمكنك البحث عن الأصل برقم المرجع أو اسم الفئة.",
+        "modal": {
+          "details": "تفاصيل فئة الأصل",
+          "fields": {
+            "asset-category-name": "اسم فئة الأصل",
+            "fixed-asset-account": "حساب الأصل الثابت",
+            "accumulated-depreciation-account": "حساب الاستهلاك المتراكم",
+            "depreciation-expense-account": "حساب مصروف الاستهلاك"
+          },
+          "errors": {
+            "invalid-asset-category-name": "اسم فئة الأصل غير صالح",
+            "invalid-accumulated-depreciation-account": "حساب الاستهلاك المتراكم غير صالح",
+            "invalid-depreciation-expense-account": "حساب مصروف الاستهلاك غير صالح"
+          }
+        }
+      },
+      "asset-locations-ui": {
+        "new-asset-location": "موقع أصل جديد",
+        "empty-subtitle": "القائمة فارغة",
+        "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لرؤية المواقع المتاحة",
+        "search-instructions": "يمكنك البحث عن الأصل برقم المرجع أو اسم الموقع.",
+        "modal": {
+          "details": "تفاصيل موقع الأصل",
+          "fields": {
+            "asset-location-name": "اسم موقع الأصل",
+            "latitude": "خط العرض",
+            "longitude": "خط الطول"
+          },
+          "errors": {
+            "invalid-asset-location-name": "اسم موقع الأصل غير صالح",
+            "invalid-accumulated-depreciation-account": "حساب الاستهلاك المتراكم غير صالح",
+            "invalid-depreciation-expense-account": "حساب مصروف الاستهلاك غير صالح"
+          }
+        }
+      }
+    },
+    "reports": {
+      "title": "التقارير",
+      "general-ledger-report": "الأستاذ العام",
+      "trial-balance-report": "ميزان المراجعة",
+      "profit-and-loss-report": "الأرباح والخسائر",
+      "balance-sheet-report": "الميزانية العمومية",
+      "cash-flow-report": "التدفقات النقدية",
+      "payment-entries-report": "قيود الدفع",
+      "bank-reconciliation-report": "التسوية البنكية",
+      "purchase-analytics-report": "تحليلات المشتريات",
+      "sales-analytics-report": "تحليلات المبيعات",
+      "common": {
+        "year": "السنة",
+        "period": "الفترة",
+        "tree-type": "نوع الشجرة",
+        "document-type": "نوع المستند",
+        "value-quantity": "القيمة / الكمية"
+      },
+      "periodicity": {
+        "weekly": "أسبوعي",
+        "monthly": "شهري",
+        "quarterly": "ربع سنوي",
+        "half-yearly": "نصف سنوي",
+        "yearly": "سنوي"
+      },
+      "dimensions": {
+        "item": "الصنف",
+        "item-group": "مجموعة الأصناف",
+        "customer": "العميل",
+        "customer-group": "مجموعة العملاء",
+        "supplier": "المورد",
+        "supplier-group": "مجموعة الموردين"
+      },
+      "documents": {
+        "sales-order": "أمر مبيعات",
+        "sales-invoice": "فاتورة مبيعات",
+        "delivery-note": "إشعار تسليم",
+        "purchase-order": "أمر شراء",
+        "purchase-invoice": "فاتورة شراء",
+        "purchase-receipt": "إيصال شراء"
+      },
+      "measures": {
+        "value": "القيمة",
+        "quantity": "الكمية"
+      }
+    },
+    "accounts-settings": {
+      "title": "إعدادات الحسابات",
+      "chart-of-accounts": "دليل الحسابات",
+      "tax-settings": "إعدادات الضرائب",
+      "accounting-dimensions": {
+        "title": "الأبعاد المحاسبية",
+        "new": "بُعد محاسبي جديد",
+        "search": "البحث في الأبعاد المحاسبية",
+        "search-placeholder": "ابحث بالاسم أو التسمية أو اسم الحقل",
+        "results": "نتيجة",
+        "loading": "جارٍ تحميل الأبعاد المحاسبية...",
+        "load-error": "تعذر تحميل الأبعاد المحاسبية.",
+        "retry": "حاول مجدداً",
+        "empty-title": "لم يتم العثور على أبعاد محاسبية",
+        "empty-description": "أنشئ بُعداً محاسبياً أو عدّل البحث.",
+        "fields": {
+          "name": "الاسم",
+          "title": "التسمية",
+          "fieldname": "اسم الحقل"
+        },
+        "accounting-dimension": {
+          "title": "بُعد محاسبي",
+          "label": "تسمية البُعد المحاسبي",
+          "document-type": "نوع المستند",
+          "document-types": {
+            "department": "القسم",
+            "employee": "الموظف"
+          },
+          "actions": {
+            "create-success": "تم إنشاء البُعد المحاسبي بنجاح.",
+            "create-failed": "تعذر إنشاء البُعد المحاسبي."
+          }
+        }
+      },
+      "fiscal-years-period": "السنوات المالية - الفترة",
+      "cost-centers": "مراكز التكلفة",
+      "currency-and-exchange-rates": "العملة وأسعار الصرف",
+      "item-tax-template-list": {
+        "title": "قوالب ضرائب الأصناف",
+        "new": "قالب ضريبة صنف جديد",
+        "search": "البحث في قوالب ضرائب الأصناف",
+        "search-placeholder": "ابحث بالاسم أو العنوان أو الشركة",
+        "results": "نتيجة",
+        "loading": "جارٍ تحميل قوالب ضرائب الأصناف...",
+        "load-error": "تعذر تحميل قوالب ضرائب الأصناف.",
+        "retry": "حاول مجدداً",
+        "empty-title": "لم يتم العثور على قوالب ضرائب الأصناف",
+        "empty-description": "أنشئ قالب ضريبة صنف أو عدّل البحث.",
+        "fields": {
+          "name": "الاسم",
+          "title": "العنوان",
+          "company": "الشركة"
+        }
+      },
+      "item-tax-template": {
+        "title": "قالب ضريبة الصنف",
+        "title-label": "عنوان قالب ضريبة الصنف",
+        "tax-type": "نوع الضريبة",
+        "tax-rate": "معدل الضريبة",
+        "actions": {
+          "create-success": "تم إنشاء قالب ضريبة الصنف بنجاح.",
+          "create-failed": "تعذر إنشاء قالب ضريبة الصنف.",
+          "update-success": "تم تحديث قالب ضريبة الصنف بنجاح.",
+          "update-failed": "تعذر تحديث قالب ضريبة الصنف."
+        }
+      },
+      "fiscal-years": {
+        "title": "السنوات المالية",
+        "new-fiscal-year": "سنة مالية جديدة",
+        "empty-subtitle": "القائمة فارغة",
+        "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لرؤية السنوات المالية المتاحة"
+      },
+      "bom-approvals": {
+        "production-cost": "تكلفة الإنتاج",
+        "empty-subtitle": "القائمة فارغة!",
+        "empty-instructions": "لا توجد BoMs منشأة"
+      },
+      "bank-accounts": {
+        "title": "الحسابات البنكية",
+        "new-account": "حساب جديد",
+        "empty-subtitle": "لا توجد حسابات بنكية",
+        "empty-instructions": "يرجى إنشاء حساب بنكي جديد",
+        "modal": {
+          "title": "حساب بنكي",
+          "account-name": "اسم الحساب",
+          "account-number": "رقم الحساب",
+          "current-amount": "المبلغ الحالي بالريال العماني",
+          "parent-account": "الحساب الرئيسي",
+          "opening-journal-entry": "مرجع قيد اليومية الافتتاحي",
+          "opening-amount": "المبلغ الافتتاحي بالريال العماني"
+        }
+      },
+      "expenses-accounts": {
+        "title": "حسابات المصروفات",
+        "new": "جديد",
+        "search": "بحث",
+        "results": "نتيجة",
+        "empty-title": "لم يتم العثور على حسابات مصروفات",
+        "empty-description": "أنشئ حساب مصروفات أو عدّل البحث.",
+        "modal": {
+          "title": "حساب مصروفات",
+          "account-name": "اسم الحساب",
+          "account-type": "نوع الحساب",
+          "account-number": "رقم الحساب",
+          "types": {
+            "petty-cash": "عهدة نقدية",
+            "other": "أخرى"
+          }
+        }
+      },
+      "modes-of-payment": {
+        "title": "طرق الدفع",
+        "new": "جديد",
+        "search": "بحث",
+        "results": "نتيجة",
+        "empty-title": "لم يتم العثور على طرق دفع",
+        "empty-description": "أنشئ طريقة دفع أو عدّل البحث.",
+        "modal": {
+          "title": "طريقة الدفع",
+          "name": "اسم طريقة الدفع",
+          "linked-account": "الحساب المرتبط",
+          "payment-type": "نوع الدفع",
+          "types": {
+            "cash": "نقداً",
+            "bank": "بنك",
+            "general": "عام",
+            "phone": "هاتف"
+          }
+        }
+      },
+      "coa-table": {
+        "no": "رقم",
+        "select-page": "اختر الصفحة"
+      }
+    },
+    "common": {
+      "approved": "موافق عليه",
+      "results": "نتيجة",
+      "awaiting-approval": "بانتظار الموافقة",
+      "actions": "الإجراءات",
+      "create": "إنشاء",
+      "update": "تحديث",
+      "request-approval": "طلب الموافقة",
+      "approve": "موافقة",
+      "pending": "معلّق",
+      "draft": "مسودة",
+      "confirm": "تأكيد",
+      "cancel": "إلغاء",
+      "loading": "جار التحميل",
+      "action-failed": "فشل الإجراء",
+      "ok": "موافق",
+      "unit": "وحدة",
+      "approved-by": "تمت الموافقة بواسطة",
+      "on": "بتاريخ",
+      "validate-before-submit": "يرجى التأكد من صحة كل الحقول قبل الإرسال",
+      "fill-before-submit": "يرجى التأكد من تعبئة كل الحقول قبل الإرسال"
+    },
+    "subscriptions": {
+      "title": "الاشتراكات",
+      "new-subscription": "اشتراك جديد",
+      "empty-subtitle": "القائمة فارغة",
+      "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لرؤية الاشتراكات المتاحة"
+    },
+    "subscriptions-plans": {
+      "title": "خطط الاشتراك",
+      "new-subscription-plan": "خطة اشتراك جديدة",
+      "empty-subtitle": "القائمة فارغة",
+      "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لرؤية خطط الاشتراك المتاحة"
+    }
+  },
+  "innovation": {
+    "title": "الابتكار",
+    "innovation-process": "عملية الابتكار",
+    "innovation-management-process": "عملية إدارة الابتكار",
+    "innovation-development-process": "عملية تطوير الابتكار",
+    "innovation-commercialization-process": "عملية تسويق الابتكار",
+    "ip-management-process": "عملية إدارة الملكية الفكرية",
+    "dashboard": {
+      "filters": {
+        "year": "السنة",
+        "pillar": "المحور"
+      },
+      "ai": {
+        "title": "تحليل الابتكار لعام {{year}}",
+        "prompt": "حلل مؤشرات الأداء الرئيسية للابتكار بصيغة JSON للسنة {{year}} وقدم تقريرًا تفصيليًا مع التوصيات."
+      }
+    },
+    "processes": {
+      "title": "عمليات الابتكار",
+      "my-items": "عملياتي",
+      "create": "عملية ابتكار جديدة",
+      "toast-created": "تم إنشاء عملية الابتكار بنجاح!",
+      "alert-create-failed": "تعذر إنشاء عملية ابتكار جديدة!"
+    },
+    "options": {
+      "title": "خيارات العملية",
+      "confirm-create-header": "إنشاء عملية إدارة مشروع جديدة؟",
+      "labels": {
+        "recommendations": "التوصيات"
+      }
+    }
+  },
+  "support": {
+    "title": "الدعم",
+    "sales-and-marketing": {
+      "title": "المبيعات والتسويق",
+      "project-process": "عملية المشروع",
+      "sales-channels": "قنوات المبيعات",
+      "sales-team-by-channels-and-territories": "فريق المبيعات حسب القنوات والمناطق",
+      "sales-persons-with-annual-and-monthly-sales-target-and-achievements": "مندوبو المبيعات بأهداف وإنجازات سنوية وشهرية",
+      "market-share-region-wise": "الحصة السوقية حسب المنطقة",
+      "brand-awareness-regionwise": "الوعي بالعلامة التجارية حسب المنطقة",
+      "marketing-campaigns": "الحملات التسويقية",
+      "sales-partners-distributors": "شركاء المبيعات/الموزعون"
+    },
+    "crm": {
+      "title": "إدارة علاقات العملاء",
+      "leads": "العملاء المحتملون",
+      "opportunities": "الفرص",
+      "contacts": "جهات الاتصال",
+      "accounts": "الحسابات",
+      "sales-pipeline": "مسار المبيعات",
+      "customer-communication": "التواصل مع العملاء"
+    },
+    "customer-support": {
+      "title": "دعم العملاء",
+      "customers": "العملاء",
+      "issues-ticket": "تذاكر المشاكل",
+      "customer-communication": "التواصل مع العملاء",
+      "service-level-agreement": "اتفاقية مستوى الخدمة",
+      "warranty": "الضمان",
+      "maintenance-visit": "زيارة الصيانة",
+      "customer-feedback": "ملاحظات العملاء",
+      "help-and-faqs": "المساعدة والأسئلة الشائعة",
+      "new-customer": "عميل جديد",
+      "customers-empty-instructions": "يرجى إنشاء عميل جديد أو تطبيق عوامل تصفية مناسبة لعرض العملاء المتاحين.",
+      "new-issue": "مشكلة جديدة",
+      "issues-empty-instructions": "لا توجد مشاكل منشأة",
+      "customer": "العميل",
+      "general-information": "معلومات عامة",
+      "customer-name": "اسم العميل",
+      "mobile-number": "رقم الجوال",
+      "type": "النوع",
+      "individual": "فرد",
+      "company": "شركة",
+      "customer-info-check": "يرجى التأكد من تعبئة جميع الحقول بشكل صحيح",
+      "invalid-customer-name": "اسم العميل غير صالح",
+      "invalid-mobile-number": "رقم الجوال غير صالح",
+      "description": "الوصف",
+      "subject": "الموضوع",
+      "priority": "الأولوية",
+      "low": "منخفض",
+      "medium": "متوسط",
+      "high": "مرتفع",
+      "issue-type": "نوع المشكلة",
+      "slow-connection": "اتصال بطيء",
+      "data-loss": "فقدان البيانات",
+      "invalid-data": "بيانات غير صالحة",
+      "feature-request": "طلب ميزة",
+      "bug": "خطأ",
+      "status": "الحالة",
+      "open": "مفتوح",
+      "replied": "تم الرد",
+      "on-hold": "معلق",
+      "resolved": "تم الحل",
+      "closed": "مغلق"
+    },
+    "inventory-and-stores-management": {
+      "title": "إدارة المخزون والمستودعات",
+      "items": "عناصر المخزون",
+      "warehouse": "المستودع",
+      "all-warehouses": "كل المستودعات",
+      "category": "الفئة",
+      "all-categories": "كل الفئات",
+      "trading": "تجاري",
+      "products": "المنتجات",
+      "raw-material": "مواد خام",
+      "stocks-ui": {
+        "description": "راجع توفر المخزون والأسعار والهوامش عبر المستودعات.",
+        "recyclable": "قابل لإعادة التدوير",
+        "projected-quantity": "الكمية المتوقعة",
+        "selling-rate": "سعر البيع",
+        "purchase-rate": "سعر الشراء",
+        "gross-margin": "إجمالي الهامش",
+        "empty-title": "لم يتم العثور على أصناف مخزون",
+        "empty-description": "جرّب بحثًا أو مستودعًا أو فئة مختلفة.",
+        "search": "البحث عن الأصناف",
+        "search-placeholder": "اسم الصنف أو رمزه",
+        "count": "أصناف",
+        "statuses": {
+          "available": "متوفر",
+          "shortage": "نقص",
+          "out-of-stock": "غير متوفر"
+        }
+      },
+      "new-item": "عنصر جديد",
+      "empty-subtitle": "القائمة فارغة",
+      "empty-instructions": "يرجى تطبيق عوامل التصفية المناسبة لعرض قطع الغيار المتاحة",
+      "item-operations": "عمليات التصنيع",
+      "warehouses": "المستودعات",
+      "new-warehouse": "مستودع جديد",
+      "warehouses-empty-instructions": "يرجى إنشاء مستودع جديد.",
+      "stock-entry": "قيود المخزون",
+      "purchase-invoice": "فاتورة الشراء",
+      "delivery-notes": "إشعارات التسليم",
+      "delivery-notes-empty-instructions": "يرجى إنشاء إشعار تسليم جديد.",
+      "purchase-receipts": "استلامات الشراء",
+      "purchase-receipts-empty-instructions": "يرجى إنشاء استلام شراء جديد.",
+      "stock-reconciliation": "تسوية المخزون",
+      "material-request": "طلب مواد",
+      "barcodes": "الباركود",
+      "no-barcodes-available": "لا توجد باركودات متاحة",
+      "new-material-request": "طلب مواد جديد",
+      "material-requests-empty-instructions": "يرجى إضافة طلب مواد",
+      "request-details": "تفاصيل الطلب",
+      "request-type": "نوع الطلب",
+      "manufacture": "تصنيع",
+      "purchase": "شراء",
+      "material-transfer": "تحويل مواد",
+      "material-issue": "صرف مواد",
+      "item": "العنصر",
+      "bill-of-material": "قائمة المواد",
+      "add-item": "إضافة عنصر",
+      "production-cost": "تكلفة الإنتاج",
+      "raw-material-and-sub-assembly": "المواد الخام والتجميع الفرعي",
+      "operations": "العمليات",
+      "total-production-cost": "إجمالي تكلفة الإنتاج",
+      "approval": "الموافقة",
+      "approver": "المعتمد",
+      "department": "القسم",
+      "waiting-approval": "هذا الطلب بانتظار الموافقة",
+      "new-operation": "عملية جديدة",
+      "operations-empty-instructions": "يرجى إنشاء عملية جديدة.",
+      "new-stock-transfer": "تحويل مخزون جديد",
+      "stock-entries-empty-instructions": "يرجى إضافة طلب مواد",
+      "stock-transfer": "تحويل مخزون",
+      "locations": "المواقع",
+      "source-warehouse": "المستودع المصدر",
+      "destination-warehouse": "المستودع الوجهة",
+      "select-source-warehouse": "يرجى اختيار المستودع المصدر.",
+      "create-transfer": "إنشاء تحويل",
+      "topup-quantity": "كمية التعبئة",
+      "invalid-topup-quantity": "كمية تعبئة غير صالحة",
+      "confirm-topup": "تأكيد التعبئة",
+      "confirm-topup-header": "تأكيد تعبئة المخزون؟",
+      "no-stock-movement-for-item": "لا توجد حركة مخزون لهذا الصنف"
+    },
+    "dashboard": {
+      "filters": {
+        "year": "السنة",
+        "pillar": "المحور"
+      },
+      "ai": {
+        "title": "تحليل الدعم لعام {{year}}",
+        "prompt": "حلل مؤشرات الأداء الرئيسية للدعم بصيغة JSON للسنة {{year}} وقدم تقريرًا تفصيليًا مع التوصيات."
+      }
+    },
+    "transport-and-logistics": {
+      "title": "النقل والخدمات اللوجستية",
+      "delivery-trip": "رحلة التسليم",
+      "vehicle": "المركبة",
+      "driver": "السائق",
+      "shipment": "الشحنة"
+    },
+    "supplier-management": {
+      "title": "إدارة الموردين",
+      "suppliers-information": "معلومات الموردين",
+      "suppliers": "الموردون",
+      "new-supplier": "مورد جديد",
+      "empty-instructions": "يرجى إضافة مورد أو تطبيق عوامل تصفية مناسبة لعرض الموردين المتاحين",
+      "supplier-details": "تفاصيل المورد",
+      "supplier-name": "اسم المورد",
+      "invalid-supplier-name": "اسم المورد غير صالح",
+      "country": "الدولة",
+      "country-oman": "عُمان",
+      "country-uae": "الإمارات",
+      "country-usa": "الولايات المتحدة",
+      "country-india": "الهند",
+      "country-china": "الصين",
+      "contact-details": "تفاصيل اتصال المورد",
+      "mobile-phone": "هاتف الجوال",
+      "invalid-phone-number": "رقم الهاتف غير صالح",
+      "supplier-email": "بريد المورد",
+      "invalid-email": "البريد الإلكتروني غير صالح",
+      "address": "العنوان",
+      "invalid-address": "العنوان غير صالح",
+      "supplier-type": "نوع المورد",
+      "supplier-group": "مجموعة الموردين",
+      "all-supplier-groups": "كل مجموعات الموردين",
+      "group-services": "خدمات",
+      "group-local": "محلي",
+      "group-electrical": "كهربائي",
+      "group-hardware": "أجهزة",
+      "group-pharmaceutical": "دوائي",
+      "group-distributor": "موزع",
+      "company": "شركة",
+      "individual": "فرد",
+      "proprietorship": "مؤسسة فردية",
+      "partnership": "شراكة"
+    },
+    "hospitality": {
+      "title": "الضيافة",
+      "tasks-and-projects": "المهام والمشاريع"
+    },
+    "services": {
+      "title": "الخدمات",
+      "new-service": "خدمة جديدة",
+      "empty-instructions": "يرجى تطبيق عوامل تصفية مناسبة لعرض الخدمات المتاحة",
+      "service-information": "معلومات الخدمة",
+      "service-name": "اسم الخدمة",
+      "service-number": "رقم الخدمة",
+      "selling-rate-omr": "سعر البيع (ريال)",
+      "costing-and-profitability": "التكلفة والربحية",
+      "target-profit": "الربح المستهدف %",
+      "invalid-target-profit-percentage": "نسبة الربح المستهدف غير صالحة",
+      "hr-costs": "تكاليف الموارد البشرية",
+      "other-costs": "تكاليف أخرى",
+      "summary": "الملخص",
+      "employee": "الموظف",
+      "hours": "الساعات",
+      "invalid-hours": "عدد الساعات غير صالح",
+      "amount-in-omr": "المبلغ بالريال",
+      "invalid-amount": "المبلغ غير صالح",
+      "invalid-quantity": "الكمية غير صالحة",
+      "accommodation": "الإقامة",
+      "travel": "السفر",
+      "food": "الطعام",
+      "other": "أخرى",
+      "no-entry": "لا توجد بيانات!",
+      "add-raw-material-item": "يرجى إضافة عنصر مادة خام.",
+      "add-hr-cost": "يرجى إضافة تكلفة موارد بشرية",
+      "add-other-cost": "يرجى إضافة تكلفة أخرى"
+    },
+    "segments": {
+      "all-items": "الكل",
+      "load-failed": "تعذر تحميل القطاعات.",
+      "retry": "إعادة المحاولة",
+      "image": "صورة القطاع (اختياري)",
+      "choose-image": "اختيار صورة",
+      "replace-image": "استبدال الصورة",
+      "remove-image": "إزالة الصورة",
+      "image-hint": "JPG أو PNG أو WebP أو GIF. الحد الأقصى 5 ميجابايت.",
+      "image-invalid": "اختر صورة JPG أو PNG أو WebP أو GIF بحجم لا يتجاوز 5 ميجابايت.",
+      "saving": "جارٍ الحفظ…",
+      "saved": "تم حفظ القطاع بنجاح.",
+      "save-failed": "تعذر إكمال حفظ القطاع والصورة. تم الاحتفاظ باختيارك؛ يرجى المحاولة مجددًا.",
+      "title": "القطاعات",
+      "new-segment": "قطاع جديد",
+      "new-category-segment": "فئة/قطاع جديد",
+      "segment-name": "اسم القطاع",
+      "parent-category": "الفئة الأصل",
+      "empty-instructions": "يرجى تطبيق عوامل تصفية مناسبة لعرض الفئات والقطاعات المتاحة"
+    },
+    "menu": {
+      "assets": "الأصول",
+      "assets-categories": "فئات الأصول",
+      "stock": "المخزون",
+      "material-requests": "طلبات المواد"
+    },
+    "common": {
+      "search": "بحث",
+      "year": "السنة",
+      "results": "نتيجة",
+      "list-empty": "القائمة فارغة",
+      "previous": "السابق",
+      "next": "التالي",
+      "pagination": "ترقيم الصفحات",
+      "page": "صفحة",
+      "you-are-on-page": "أنت في الصفحة",
+      "cancel": "إلغاء",
+      "create": "إنشاء",
+      "update": "تحديث",
+      "actions": "الإجراءات",
+      "active": "نشط",
+      "disabled": "معطل",
+      "download": "تنزيل",
+      "select-date-range": "حدد نطاق تاريخ",
+      "start-date": "تاريخ البداية",
+      "end-date": "تاريخ النهاية",
+      "check-information": "تحقق من المعلومات",
+      "fill-before-submission": "يرجى التأكد من تعبئة جميع الحقول قبل الإرسال",
+      "fill-before-confirmation": "يرجى التأكد من تعبئة جميع الحقول قبل التأكيد",
+      "request-approval": "طلب موافقة",
+      "approve": "اعتماد",
+      "pending": "قيد الانتظار",
+      "approved-by": "تم الاعتماد بواسطة",
+      "on": "في"
+    },
+    "reports": {
+      "title": "التقارير",
+      "stock-ledger-report": "تقرير دفتر المخزون",
+      "stock-analytics-report": "تقرير تحليلات المخزون",
+      "stock-balance-report": "تقرير رصيد المخزون",
+      "stock-reconciliation-report": "تقرير تسوية المخزون",
+      "customer-acquisition-report": "تقرير اكتساب العملاء",
+      "range": "النطاق",
+      "quantity": "الكمية",
+      "value": "القيمة",
+      "weekly": "أسبوعي",
+      "monthly": "شهري",
+      "quarterly": "ربع سنوي",
+      "yearly": "سنوي"
+    }
+  },
+  "utilities": {
+    "title": "الأدوات",
+    "channels": {
+      "title": "القنوات",
+      "pos": {
+        "title": "نقطة البيع",
+        "shop": "المتاجر",
+        "branches": "الفروع",
+        "invoices": "الفواتير",
+        "new-store": "متجر جديد",
+        "branch-editor": {
+          "new-store": "متجر جديد",
+          "store-name": "اسم المتجر",
+          "warehouse": "المستودع",
+          "create": "إنشاء",
+          "update": "تحديث",
+          "cancel": "إلغاء",
+          "confirm": "تأكيد",
+          "create-confirm": "إنشاء ملف نقطة البيع؟",
+          "update-confirm": "تحديث ملف نقطة البيع؟",
+          "loading": "جار التحميل",
+          "created": "تم إنشاء ملف نقطة البيع بنجاح!",
+          "updated": "تم تحديث ملف نقطة البيع بنجاح!",
+          "action-failed": "فشل الإجراء",
+          "create-failed": "تعذر إنشاء ملف نقطة البيع!",
+          "update-failed": "تعذر تحديث ملف نقطة البيع!",
+          "ok": "موافق"
+        },
+        "branches-view": {
+          "description": "إدارة فروع نقاط البيع ومستودعاتها.",
+          "new-branch": "فرع جديد",
+          "edit-branch": "تعديل الفرع {{name}}",
+          "table-label": "فروع نقاط البيع",
+          "branch": "الفرع",
+          "warehouse": "المستودع",
+          "currency": "العملة",
+          "empty-title": "لم يتم العثور على فروع",
+          "empty-description": "جرّب بحثًا آخر أو أنشئ فرعًا جديدًا لنقطة البيع.",
+          "search": "البحث في الفروع",
+          "loading": "جار التحميل"
+        },
+        "shop-view": {
+          "logout": "تسجيل الخروج",
+          "item-category": "فئة الصنف",
+          "category": "الفئة",
+          "all": "الكل",
+          "view-checkout": "عرض إتمام الشراء ({{count}})",
+          "checkout": "إتمام الشراء",
+          "close": "إغلاق",
+          "choose-store": "اختر متجرًا لفتح جلسة نقطة البيع.",
+          "open-store": "فتح {{name}}",
+          "open-store-action": "فتح المتجر",
+          "table-label": "متاجر نقاط البيع",
+          "store": "المتجر",
+          "warehouse": "المستودع",
+          "action": "الإجراء",
+          "empty-title": "لم يتم العثور على متاجر",
+          "empty-search": "جرّب اسم متجر أو مستودع آخر.",
+          "empty-branches": "أضف فرع نقطة بيع لفتح جلسة متجر.",
+          "search-stores": "البحث في المتاجر",
+          "manage-branches": "إدارة الفروع",
+          "opening-store": "جار فتح المتجر...",
+          "store-opened": "تم فتح المتجر بنجاح!",
+          "action-failed": "فشل الإجراء",
+          "open-store-failed": "تعذر فتح المتجر!",
+          "ok": "موافق"
+        },
+        "catalog": {
+          "search": "بحث",
+          "all": "الكل",
+          "trading": "التجارة",
+          "products": "المنتجات",
+          "services": "الخدمات",
+          "no-items": "لم يتم العثور على أصناف!",
+          "add-items": "يرجى إضافة أصناف",
+          "loading-items": "جار تحميل الأصناف",
+          "load-failed": "تعذر تحميل الأصناف. يرجى المحاولة مرة أخرى.",
+          "retry": "إعادة المحاولة",
+          "load-more": "تحميل المزيد من الأصناف",
+          "ready-to-scan": "جاهز للمسح",
+          "click-to-scan": "* انقر هنا للمسح",
+          "loading-pos": "جار تحميل نقطة البيع",
+          "loading-products": "المنتجات",
+          "loading-categories": "الفئات"
+        },
+        "checkout-view": {
+          "invoice": "الفاتورة",
+          "temporary-cart-title": "سلة نقطة البيع المؤقتة {{id}}",
+          "save-cart": "حفظ السلة",
+          "reset-cart": "إعادة تعيين السلة",
+          "items-suffix": "أصناف",
+          "edit-item": "تعديل {{name}}",
+          "quantity": "الكمية",
+          "decrease-quantity": "تقليل كمية {{name}}",
+          "increase-quantity": "زيادة كمية {{name}}",
+          "delete-item": "حذف {{name}}",
+          "delete": "حذف",
+          "cart-empty": "السلة فارغة!",
+          "cart-empty-instructions": "أضف المنتجات إلى السلة بالنقر على أي صنف في قائمة المنتجات.",
+          "net-total": "الإجمالي الصافي",
+          "taxes": "الضرائب",
+          "subtotal": "المجموع الفرعي",
+          "discount": "الخصم",
+          "omr": "ر.ع",
+          "invalid-amount": "المبلغ غير صالح!",
+          "vat-default": "ضريبة القيمة المضافة 5% (افتراضي)",
+          "vat-zero": "ضريبة القيمة المضافة 0%",
+          "grand-total": "الإجمالي الكلي",
+          "checkout": "إتمام الشراء",
+          "loading": "جار التحميل"
+        },
+        "login": {
+          "store-title": "متجر {{name}}",
+          "open-store": "فتح متجر {{name}}",
+          "opening-cash": "مبلغ النقد الافتتاحي",
+          "invalid-opening-cash": "مبلغ النقد الافتتاحي غير صالح",
+          "open": "فتح المتجر"
+        },
+        "session": {
+          "cancel": "إلغاء",
+          "session-opening": "بداية الجلسة",
+          "store": "المتجر",
+          "opening-cash-balance": "رصيد النقد الافتتاحي",
+          "total-cash-payments": "إجمالي المدفوعات النقدية",
+          "expected-cash": "المبلغ النقدي المتوقع",
+          "closing-cash-balance": "رصيد النقد الختامي",
+          "closing-difference": "الختامي - النقد المتوقع",
+          "confirm": "تأكيد",
+          "confirm-close": "إغلاق جلسة المتجر؟",
+          "closed": "تم إغلاق المتجر بنجاح!",
+          "action-failed": "فشل الإجراء",
+          "close-failed": "تعذر إغلاق المتجر!",
+          "loading": "جار التحميل",
+          "ok": "موافق",
+          "cash": "نقدًا",
+          "card": "بطاقة",
+          "at": "في"
+        },
+        "payment": {
+          "title": "الدفع",
+          "cancel": "إلغاء",
+          "bill-details": "تفاصيل الفاتورة",
+          "net-total": "الإجمالي الصافي",
+          "tax": "الضريبة",
+          "discount": "الخصم:",
+          "grand-total": "الإجمالي الكلي",
+          "payment": "الدفع",
+          "change": "الباقي:",
+          "insufficient": "المبلغ غير كافٍ!",
+          "invalid-amount": "المبلغ غير صالح!",
+          "customer": "العميل",
+          "customer-phone": "هاتف العميل",
+          "customer-name-optional": "اسم العميل (اختياري)",
+          "confirm-payment": "تأكيد الدفع",
+          "confirm": "تأكيد",
+          "confirm-header": "المتابعة إلى الدفع؟",
+          "loading": "جار التحميل",
+          "action-failed": "فشل الإجراء",
+          "load-customer-failed": "تعذر تحميل بيانات العميل!",
+          "printer-error": "خطأ في الطابعة",
+          "printer-error-message": "تم إنشاء المعاملة بنجاح، لكن تعذرت طباعة الإيصال. {{details}}",
+          "created": "تم إنشاء المعاملة بنجاح!",
+          "create-failed": "تعذر إنشاء المعاملة!",
+          "printer-retry": "يرجى المحاولة مرة أخرى في متصفح Chrome.",
+          "ok": "موافق",
+          "omr": "ر.ع"
+        },
+        "invoice-download": {
+          "loading": "جار التحميل",
+          "action-failed": "فشل الإجراء",
+          "pdf-failed": "تعذر تنزيل ملف PDF!",
+          "ok": "موافق"
+        },
+        "scanner": {
+          "searching-item": "جار البحث عن الصنف {{barcode}}"
+        },
+        "receipt": {
+          "visit-again": "نسعد بزيارتكم مرة أخرى."
+        },
+        "branches-empty": {
+          "instructions": "يرجى تطبيق عوامل التصفية المناسبة لعرض المتاجر المتاحة"
+        },
+        "branches-info": {
+          "instructions": "يمكنك البحث عن المتاجر حسب الاسم."
+        },
+        "invoices-empty": {
+          "subtitle": "لا توجد معاملات!",
+          "instructions": "لم يتم العثور على معاملات. يرجى استخدام مربع البحث للتصفية."
+        }
+      }
+    },
+    "mind-map": "الخريطة الذهنية",
+    "knowledge-hub": "مركز المعرفة",
+    "meetings": "الاجتماعات",
+    "si6-bot": "مساعد Idarah",
+    "si6-bot-message": "الرسالة",
+    "si6-bot-response": "الرد",
+    "links": {
+      "title": "الروابط",
+      "enter-link": "أدخل رابطا",
+      "create": "إنشاء رابط",
+      "empty-subtitle": "لا توجد روابط",
+      "empty-instructions": "يرجى إنشاء رابط جديد أو تطبيق عوامل تصفية مناسبة لعرض الروابط المتاحة"
+    },
+    "events": {
+      "title": "أحداث التقويم",
+      "create": "حدث جديد",
+      "empty-subtitle": "لا توجد أحداث",
+      "empty-instructions": "يرجى إنشاء حدث جديد أو تطبيق عوامل تصفية مناسبة لعرض الأحداث المتاحة"
+    },
+    "notes": {
+      "title": "الملاحظات",
+      "create": "ملاحظة جديدة",
+      "empty-subtitle": "لا توجد ملاحظات",
+      "empty-instructions": "يرجى إنشاء ملاحظة جديدة أو تطبيق عوامل تصفية مناسبة لعرض الملاحظات المتاحة"
+    },
+    "filters": {
+      "all": "الكل",
+      "incomplete": "غير مكتمل",
+      "completed": "مكتمل",
+      "view-mode": "وضع العرض",
+      "scope-op": "تشغيلي",
+      "scope-prod": "إنتاجي"
+    },
+    "tasks": {
+      "title": "المهام",
+      "my-items": "مهامي",
+      "create": "مهمة جديدة",
+      "empty-subtitle": "لا توجد مهام",
+      "empty-instructions": "يرجى إنشاء مهمة جديدة أو تطبيق عوامل تصفية مناسبة لعرض المهام المتاحة"
+    },
+    "projects": {
+      "title": "المشاريع",
+      "my-items": "مشاريعي",
+      "create": "مشروع جديد",
+      "empty-subtitle": "لا توجد مشاريع",
+      "empty-instructions": "يرجى إنشاء مشروع جديد أو تطبيق عوامل تصفية مناسبة لعرض المشاريع المتاحة",
+      "pending-process-status": "حالة العمليات المعلقة",
+      "active-pending-tasks": "المهام المعلقة النشطة",
+      "project-information": "معلومات المشروع",
+      "project-name": "اسم المشروع"
+    },
+    "jobs": {
+      "title": "الوظائف",
+      "my-items": "وظائفي",
+      "create": "وظيفة جديدة",
+      "options-title": "خيارات الوظيفة",
+      "empty-subtitle": "لا توجد وظائف",
+      "empty-instructions": "يرجى إنشاء وظيفة جديدة أو تطبيق عوامل تصفية مناسبة لعرض الوظائف المتاحة",
+      "pending-process-status": "حالة العمليات المعلقة",
+      "active-pending-tasks": "المهام المعلقة النشطة"
+    },
+    "procedures": {
+      "title": "الوظائف حسب الخطوات",
+      "my-items": "إجراءاتي",
+      "new": "جديد",
+      "create": "إجراء جديد حسب الخطوات",
+      "table-label": "الوظائف حسب الخطوات",
+      "job-details": "تفاصيل الوظيفة",
+      "search": "بحث",
+      "search-aria": "البحث في الوظائف حسب الخطوات",
+      "date-range": "حدد نطاق تاريخ",
+      "from": "من",
+      "to": "إلى",
+      "results-count": "{{count}} نتيجة",
+      "columns": {
+        "brand": "العلامة التجارية",
+        "customer": "العميل",
+        "job-vehicle": "الوظيفة / المركبة",
+        "invoice-total": "الفاتورة / الإجمالي",
+        "created-by": "أنشئ بواسطة"
+      },
+      "confirm": "تأكيد",
+      "cancel": "إلغاء",
+      "create-confirm": "إنشاء وظيفة؟",
+      "loading": "جار التحميل",
+      "created": "تم إنشاء الإجراء الجديد بنجاح!",
+      "action-failed": "فشل الإجراء",
+      "create-failed": "تعذر إنشاء الإجراء!",
+      "ok": "موافق",
+      "options-title": "خيارات الإجراء",
+      "empty-subtitle": "لا توجد إجراءات",
+      "empty-instructions": "يرجى إنشاء إجراء جديد أو تطبيق عوامل تصفية مناسبة لعرض الإجراءات المتاحة",
+      "pending-process-status": "حالة العمليات المعلقة",
+      "active-pending-tasks": "المهام المعلقة النشطة"
+    },
+    "phasewises": {
+      "title": "الوظائف حسب المراحل",
+      "project-name": "اسم الوظيفة (اختياري)",
+      "date-range": "نطاق التاريخ (اختياري)",
+      "my-items": "وظائفي حسب المراحل",
+      "new": "جديد",
+      "create": "وظيفة جديدة حسب المراحل",
+      "table-label": "الوظائف حسب المراحل",
+      "job-details": "تفاصيل الوظيفة",
+      "search": "بحث",
+      "search-aria": "البحث في الوظائف حسب المراحل",
+      "date-range-label": "حدد نطاق تاريخ",
+      "from": "من",
+      "to": "إلى",
+      "results-count": "{{count}} نتيجة",
+      "columns": {
+        "phase": "المرحلة",
+        "dates": "التواريخ",
+        "job": "الوظيفة",
+        "customer": "العميل",
+        "module": "الوحدة",
+        "created-by": "أنشئ بواسطة"
+      },
+      "loading": "جار التحميل",
+      "created": "تم إنشاء الوظيفة الجديدة حسب المراحل بنجاح!",
+      "action-failed": "فشل الإجراء",
+      "create-failed": "تعذر إنشاء الوظيفة حسب المراحل!",
+      "ok": "موافق",
+      "options-title": "خيارات الوظيفة حسب المراحل",
+      "empty-subtitle": "لا توجد وظائف حسب المراحل",
+      "empty-instructions": "يرجى إنشاء وظيفة جديدة حسب المراحل أو تطبيق عوامل تصفية مناسبة لعرض الوظائف المتاحة",
+      "pending-process-status": "حالة العمليات المعلقة",
+      "active-pending-tasks": "المهام المعلقة النشطة",
+      "initiation": "البدء",
+      "planning": "التخطيط",
+      "execution": "التنفيذ",
+      "completion": "الإكمال"
+    },
+    "logs": {
+      "title": "السجلات",
+      "empty-subtitle": "القائمة فارغة",
+      "empty-instructions": "يرجى تطبيق عوامل تصفية مناسبة لعرض سجلات النشاط المتاحة"
+    },
+    "translations-page": {
+      "create": "ترجمة جديدة",
+      "download-template": "تنزيل القالب",
+      "import": "استيراد",
+      "empty-subtitle": "القائمة فارغة",
+      "empty-instructions": "لا توجد ترجمات منشأة"
+    },
+    "translation-modal": {
+      "new": "ترجمة جديدة",
+      "language": "لغة الترجمة",
+      "source-text": "النص المصدر",
+      "translated-text": "النص المترجم",
+      "create": "إنشاء",
+      "update": "تحديث",
+      "cancel": "إلغاء"
+    },
+    "modal-options": {
+      "source-system": "النظام المصدر",
+      "task-details": "تفاصيل المهمة",
+      "subject": "الموضوع",
+      "description": "الوصف",
+      "employee": "الموظف",
+      "department": "القسم",
+      "date-range": "حدد نطاق تاريخ",
+      "start-date": "تاريخ البداية",
+      "invalid-description": "وصف المهمة غير صالح",
+      "create-task": "إنشاء مهمة",
+      "customer": "العميل",
+      "customer-name": "اسم العميل",
+      "customer-phone": "هاتف العميل",
+      "customer-email": "بريد العميل الإلكتروني",
+      "invalid-name": "الاسم غير صالح!",
+      "invalid-phone": "رقم الهاتف غير صالح!",
+      "invalid-email": "البريد الإلكتروني غير صالح!"
+    },
+    "key-documents": "المستندات الرئيسية",
+    "translations": "الترجمات",
+    "issues": "المشكلات",
+    "transactions": "المعاملات",
+    "processes": {
+      "Jobs": "الوظائف",
+      "tasks": "المهام",
+      "approvals": "الموافقات",
+      "internal-scope-full": "تشغيلي (ت)",
+      "external-scope-full": "إنتاجي (إ)",
+      "internal-scope": "ت",
+      "external-scope": "إ",
+      "labels": {
+        "requester": "مقدم الطلب",
+        "channeling": "الإحالة",
+        "assignment": "الإسناد",
+        "canvas": "لوحة العمل",
+        "feasibility": "الجدوى",
+        "rfq": "طلب عرض سعر",
+        "supplier-quotation": "عرض سعر المورد",
+        "purchase-order": "أمر شراء",
+        "poa": "خطة عمل",
+        "approval": "اعتماد",
+        "quality-control": "ضبط الجودة",
+        "attachments": "المرفقات",
+        "feedback": "التغذية الراجعة",
+        "report": "تقرير",
+        "closure": "إغلاق",
+        "customer": "العميل",
+        "initial-request": "الطلب الأولي",
+        "initial-request-items": "عناصر الطلب الأولي",
+        "items-selection": "اختيار العناصر",
+        "sales-quotation": "عرض سعر المبيعات",
+        "parking": "الموقف",
+        "vehicle-details": "تفاصيل المركبة",
+        "vehicle-inspection": "فحص المركبة",
+        "customer-signature": "توقيع العميل",
+        "sales-order": "أمر مبيعات",
+        "raw-material-transfer": "نقل المواد الخام",
+        "additional-items": "عناصر إضافية",
+        "material-transfer": "نقل المواد",
+        "remarks": "ملاحظات",
+        "profitability": "الربحية",
+        "invoice": "فاتورة",
+        "payment": "دفع",
+        "delivery": "تسليم",
+        "follow-up": "متابعة"
+      },
+      "external": {
+        "initiation": "تفاصيل العميل",
+        "planning": "تقديم الطلب",
+        "execution": "معالجة الطلب",
+        "completion": "الإكمال"
+      },
+      "internal": {
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التطوير",
+        "completion": "التنفيذ"
+      },
+      "manufacturing": {
+        "initiation": "تحضير الطلب",
+        "planning": "التخطيط",
+        "execution": "الإنتاج",
+        "completion": "التسليم"
+      },
+      "innovation": {
+        "initiation": "البدء",
+        "planning": "التخطيط",
+        "execution": "التطوير",
+        "completion": "الإكمال"
+      }
+    }
+  },
+  "settings": {
+    "page-title": "الإعدادات",
+    "tabs": {
+      "subscription": "الاشتراك",
+      "company": "الشركة",
+      "system-data": "بيانات النظام",
+      "roles": "الأدوار",
+      "users": "المستخدمون"
+    },
+    "status": {
+      "ready": "جاهز",
+      "not-ready": "غير جاهز"
+    },
+    "common": {
+      "loading": "جار التحميل",
+      "action-failed": "فشل الإجراء",
+      "ok": "موافق",
+      "systems": "الأنظمة",
+      "checkbox-label": "خيار",
+      "general-information": "المعلومات العامة",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "assign": "إسناد",
+      "operate": "تشغيل",
+      "approve": "اعتماد",
+      "update": "تحديث",
+      "strategy-pages": "صفحات الاستراتيجية",
+      "operation-pages": "صفحات العمليات",
+      "production-pages": "صفحات الإنتاج",
+      "finance-pages": "صفحات المالية",
+      "innovation-pages": "صفحات الابتكار",
+      "support-pages": "صفحات الدعم",
+      "utilities-pages": "صفحات الأدوات",
+      "portal-pages": "صفحات البوابة",
+      "others-pages": "صفحات أخرى",
+      "fill-before-submission": "يرجى التأكد من تعبئة جميع الحقول قبل الإرسال",
+      "portal": "البوابة",
+      "other": "أخرى"
+    },
+    "users": {
+      "title": "المستخدمون",
+      "new-user": "مستخدم جديد",
+      "employee-not-set": "الموظف غير محدد!",
+      "user-photo-alt": "صورة المستخدم",
+      "empty": {
+        "subtitle": "لا يوجد مستخدمون",
+        "instructions": "يرجى إنشاء مستخدم جديد أو تطبيق فلاتر مناسبة لعرض المستخدمين"
+      },
+      "modal": {
+        "telephone-number": "رقم الهاتف",
+        "invalid-name": "الاسم غير صالح",
+        "invalid-email": "البريد الإلكتروني غير صالح",
+        "actions": {
+          "create-header": "إنشاء مستخدم جديد؟",
+          "update-header": "تحديث المستخدم؟",
+          "created-success": "تم إنشاء المستخدم بنجاح!",
+          "updated-success": "تم تحديث المستخدم بنجاح!",
+          "create-failed": "تعذر إنشاء المستخدم!",
+          "update-failed": "تعذر تحديث المستخدم!"
+        }
+      }
+    },
+    "roles": {
+      "title": "الأدوار",
+      "new-role": "دور جديد",
+      "counts": {
+        "systems": "نظام",
+        "operations": "عملية",
+        "views": "عرض"
+      },
+      "modal": {
+        "role-name": "اسم الدور",
+        "invalid-role-name": "اسم الدور غير صالح",
+        "actions": {
+          "create-header": "إنشاء دور جديد؟",
+          "update-header": "تحديث الدور؟",
+          "created-success": "تم إنشاء الدور بنجاح!",
+          "updated-success": "تم تحديث الدور بنجاح!",
+          "update-failed": "تعذر تحديث الدور!"
+        }
+      }
+    },
+    "subscription": {
+      "title": "الاشتراك",
+      "restricted": "مقيد",
+      "package": "الباقة",
+      "grace-period-days": "فترة السماح بالأيام *",
+      "last-paid-date": "آخر تاريخ دفع",
+      "next-due-date": "تاريخ الاستحقاق التالي",
+      "custom-package": "باقة مخصصة",
+      "packages": {
+        "gold": "ذهبي",
+        "silver": "فضي",
+        "bronze": "برونزي",
+        "pos": "نقطة البيع",
+        "custom": "مخصص"
+      },
+      "no-custom-package": "لا توجد باقة مخصصة!",
+      "create-custom-package": "إنشاء باقة مخصصة",
+      "custom-package-features": "توجد {{count}} ميزة متاحة في الباقة المخصصة.",
+      "update-custom-package": "تحديث الباقة المخصصة",
+      "not-available": "غير متاح!",
+      "actions": {
+        "update-subscription": "تحديث الاشتراك",
+        "updated-success": "تم تحديث اشتراك الشركة بنجاح!",
+        "update-failed": "تعذر تحديث اشتراك الشركة!"
+      },
+      "renewal-payment": {
+        "renew-cta": "تجديد الاشتراك",
+        "modal": {
+          "title": "تجديد الاشتراك",
+          "subtitle": "أكمل الدفع للحفاظ على جميع الميزات المشتركة مفعلة.",
+          "gateway-label": "بوابة الدفع",
+          "secure-payment": "يتم تشفير الدفع ومعالجته بشكل آمن.",
+          "order-summary": "ملخص الطلب",
+          "amount-details": {
+            "subtotal": "الإجمالي الفرعي",
+            "discount": "الخصم",
+            "tax": "الضريبة",
+            "total": "الإجمالي"
+          }
+        },
+        "gateways": {
+          "card": "بطاقة ائتمان / خصم",
+          "bank-transfer": "تحويل بنكي",
+          "wallet": "محفظة"
+        },
+        "status": {
+          "processing": "جار معالجة الدفع...",
+          "success": "تم الدفع بنجاح. تم تجديد اشتراكك.",
+          "failure": "فشل الدفع. يرجى المحاولة مرة أخرى."
+        },
+        "buttons": {
+          "pay-now": "ادفع الآن",
+          "retry": "إعادة المحاولة",
+          "cancel": "إلغاء",
+          "close": "إغلاق"
+        }
+      }
+    },
+    "company": {
+      "documents": {
+        "start-date": "تاريخ البداية",
+        "expiry-date": "تاريخ الانتهاء",
+        "invalid-dates": "يجب أن يكون تاريخ الانتهاء في تاريخ البداية أو بعده.",
+        "delete": "حذف المستند المحفوظ",
+        "delete-confirm": "هل تريد حذف الملف المحفوظ الآن؟ سيبقى الرقم المرجعي والمعلومات الإضافية.",
+        "cancel": "إلغاء",
+        "deleted": "تم حذف المستند.",
+        "delete-partial": "تمت إزالة المستند من هذا القسم، لكن تعذر حذف الملف من الخادم.",
+        "delete-failed": "تعذر حذف المستند. تحقق من صلاحياتك أو حدّث الصفحة إذا تغيّر المستند، ثم حاول مجددًا.",
+        "preview-loading": "جارٍ تحميل المعاينة…",
+        "preview-unavailable": "المعاينة غير متاحة. افتح المستند المحفوظ لعرضه.",
+        "title": "مستندات الشركة",
+        "cr": "السجل التجاري (CR)",
+        "occi": "عضوية غرفة تجارة وصناعة عمان (OCCI)",
+        "riyada": "بطاقة ريادة",
+        "tenancy": "عقد الإيجار",
+        "reference": "الرقم / المرجع",
+        "details": "معلومات إضافية",
+        "no-file": "لم يتم اختيار مستند",
+        "pending": "تم الاختيار — احفظ من الإجراءات ← تحديث",
+        "manage": "المستند",
+        "replace": "استبدال المستند",
+        "upload": "رفع المستند",
+        "view": "عرض المستند المحفوظ",
+        "cancel-selection": "إلغاء الاختيار",
+        "file-hint": "PDF أو JPG أو PNG أو WebP · الحد الأقصى 10 ميجابايت",
+        "invalid-file": "اختر ملف PDF أو JPG أو PNG أو WebP.",
+        "invalid-size": "اختر ملفًا غير فارغ لا يتجاوز 10 ميجابايت."
+      },
+      "form": {
+        "business-type": "نوع النشاط *",
+        "tax-identification-number": "الرقم الضريبي *",
+        "website": "الموقع الإلكتروني",
+        "slogan": "الشعار",
+        "default-holiday-list": "قائمة الإجازات الافتراضية",
+        "contact-info": "معلومات التواصل",
+        "email": "البريد الإلكتروني *",
+        "primary-number": "الرقم الأساسي *",
+        "whatsapp-number": "رقم واتساب",
+        "instagram-account": "حساب إنستغرام",
+        "address": "العنوان",
+        "city": "المدينة *",
+        "address-line-1": "العنوان 1 *",
+        "address-line-2": "العنوان 2",
+        "logos": "الشعارات",
+        "company-logo": "شعار الشركة *",
+        "company-logo-alt": "شعار الشركة",
+        "stamp": "الختم *",
+        "stamp-alt": "ختم الشركة",
+        "brand": "العلامة التجارية",
+        "brand-alt": "علامة الشركة",
+        "controls": {
+          "title": "التحكمات",
+          "enable_items_categorization": "تمكين تصنيف العناصر",
+          "enable_device_camera": "تمكين كاميرا الجهاز",
+          "enable_notification_alerts": "تمكين تنبيهات الإشعارات"
+        }
+      },
+      "business-types": {
+        "auto-repairs": "إصلاح السيارات",
+        "restaurant": "مطعم",
+        "beauty-salon": "صالون تجميل",
+        "retail": "تجزئة",
+        "manufacturing": "تصنيع",
+        "fashion-shop": "متجر أزياء",
+        "medical-center": "مركز طبي",
+        "investment": "استثمار",
+        "consultancy": "استشارات"
+      },
+      "actions": {
+        "photo-uploaded-success": "تم رفع الصورة بنجاح!",
+        "upload-photo-failed": "تعذر رفع الصورة!",
+        "photo-deleted-success": "تم حذف الصورة بنجاح!",
+        "delete-photo-failed": "تعذر حذف الصورة!",
+        "updated-success": "تم تحديث بيانات الشركة بنجاح!",
+        "update-failed": "تعذر تحديث بيانات الشركة!"
+      }
+    },
+    "configuration": {
+      "steps": {
+        "global-settings": "الإعدادات العامة",
+        "fiscal-years": "السنوات المالية",
+        "service-repair-categories": "فئات الخدمة/الإصلاح",
+        "maximum-job-delay": "أقصى تأخير للوظيفة",
+        "stock-warning-level": "مستوى تحذير المخزون",
+        "system-reset": "إعادة ضبط النظام"
+      },
+      "global": {
+        "job-creation": "إنشاء الوظائف",
+        "view-canceled-job": "عرض الوظائف الملغاة",
+        "customer-portal": "بوابة العملاء",
+        "device-camera": "كاميرا الجهاز",
+        "notification-alerts": "تنبيهات الإشعارات",
+        "backend-configurations": "إعدادات الخادم",
+        "performance-dashboard": "لوحة الأداء"
+      },
+      "form": {
+        "hours": "الساعات",
+        "invalid-hours": "قيمة غير صالحة، الحد الأدنى ساعة واحدة",
+        "stock-quantity": "كمية المخزون",
+        "invalid-stock-quantity": "قيمة غير صالحة، الحد الأدنى عنصران"
+      },
+      "fiscal-years": {
+        "year": "السنة",
+        "start-of-year": "بداية السنة",
+        "end-of-year": "نهاية السنة"
+      },
+      "actions": {
+        "confirm": "تأكيد",
+        "cancel": "إلغاء",
+        "update-header": "تحديث الإعدادات؟",
+        "updated-success": "تم تحديث الإعدادات بنجاح!",
+        "update-failed": "تعذر تحديث الإعدادات!"
+      }
+    },
+    "system-data": {
+      "actions": {
+        "download-template": "تنزيل القالب",
+        "import": "استيراد",
+        "export": "تصدير",
+        "entries-created-success": "تم إنشاء السجلات بنجاح!",
+        "upload-failed": "تعذر رفع السجلات!",
+        "export-failed": "تعذر تصدير البيانات!",
+        "invalid-file": "الملف المحدد ليس Idarah.xlsx!"
+      },
+      "cards": {
+        "fiscal-years": "السنوات المالية",
+        "accounts": "الحسابات",
+        "departments": "الأقسام",
+        "users": "المستخدمون",
+        "employees": "الموظفون",
+        "segments": "التصنيفات",
+        "raw-material": "المواد الخام",
+        "trading-items": "عناصر التداول",
+        "products-items": "عناصر المنتجات",
+        "services": "الخدمات",
+        "assets": "الأصول",
+        "customers": "العملاء",
+        "suppliers": "الموردون",
+        "vehicles": "المركبات",
+        "opening-accounts": "حسابات الافتتاح",
+        "invoices": "الفواتير"
+      },
+      "loading": {
+        "importing-fiscal-years": "جاري استيراد السنوات المالية",
+        "importing-accounts": "جاري استيراد الحسابات",
+        "importing-departments": "جاري استيراد الأقسام",
+        "importing-users": "جاري استيراد المستخدمين",
+        "importing-employees": "جاري استيراد الموظفين",
+        "importing-segments": "جاري استيراد التصنيفات",
+        "importing-services": "جاري استيراد الخدمات",
+        "importing-products": "جاري استيراد المنتجات",
+        "importing-raw-material": "جاري استيراد المواد الخام",
+        "importing-trading": "جاري استيراد التداول",
+        "importing-assets": "جاري استيراد الأصول",
+        "importing-opening-accounts": "جاري استيراد حسابات الافتتاح",
+        "importing-customers": "جاري استيراد العملاء",
+        "importing-suppliers": "جاري استيراد الموردين",
+        "importing-vehicles": "جاري استيراد المركبات",
+        "importing-outstanding-invoices": "جاري استيراد الفواتير المستحقة",
+        "importing-invoices": "جاري استيراد الفواتير",
+        "exporting": "جاري تصدير البيانات..."
+      }
+    },
+    "reset": {
+      "actions": {
+        "confirm": "تأكيد",
+        "cancel": "إلغاء",
+        "confirm-reset": "تأكيد إعادة الضبط",
+        "reset-all-transactions": "إعادة ضبط كل المعاملات؟",
+        "reset-success": "تمت إعادة ضبط المعاملات بنجاح!",
+        "reset-failed": "تعذرت إعادة ضبط المعاملات!"
+      },
+      "records": {
+        "quotation": "عرض سعر",
+        "sales-order": "أمر بيع",
+        "sales-invoice": "فاتورة بيع",
+        "delivery-note": "إشعار تسليم",
+        "request-for-quotation": "طلب عرض سعر",
+        "supplier-quotation": "عرض سعر المورد",
+        "purchase-order": "أمر شراء",
+        "purchase-invoice": "فاتورة شراء",
+        "purchase-receipt": "إيصال شراء",
+        "stock-ledger-entry": "قيد دفتر المخزون",
+        "payment-ledger-entry": "قيد دفتر الدفع",
+        "stock-entry": "قيد مخزون",
+        "payment-entry": "قيد دفع",
+        "gl-entry": "قيد دفتر الأستاذ",
+        "account": "حساب",
+        "cost-center": "مركز تكلفة",
+        "warehouse": "مستودع",
+        "budget": "ميزانية",
+        "party-account": "حساب الطرف",
+        "employee": "موظف",
+        "sales-taxes-and-charges-template": "قالب ضرائب ورسوم المبيعات",
+        "purchase-taxes-and-charges-template": "قالب ضرائب ورسوم المشتريات",
+        "pos-profile": "ملف نقطة البيع",
+        "bom": "قائمة المواد",
+        "company": "شركة",
+        "bank-account": "حساب بنكي",
+        "item-tax-template": "قالب ضريبة الصنف",
+        "mode-of-payment": "طريقة الدفع",
+        "mode-of-payment-account": "حساب طريقة الدفع",
+        "item-default": "إعدادات الصنف الافتراضية",
+        "customer": "عميل",
+        "supplier": "مورد"
+      }
+    }
+  },
+  "portal": {
+    "calendar-events": {
+      "repeat-end-hint": "اختياري. اتركه فارغاً للتكرار بدون تاريخ انتهاء.",
+      "tasks": "المهام في هذا التاريخ",
+      "linked-task": "المهمة المرتبطة (اختياري)",
+      "no-linked-task": "بدون مهمة مرتبطة",
+      "select-day": "اختر تاريخاً لعرض فعالياته",
+      "all-events": "جميع الفعاليات",
+      "load-error": "تعذر تحميل الفعاليات.",
+      "retry": "حاول مجدداً",
+      "no-events": "لا توجد فعاليات في هذا التاريخ",
+      "add-day-event": "استخدم + لإضافة فعالية في التاريخ المحدد.",
+      "weekly-hint": "تتكرر كل {{day}} في الوقت المحدد.",
+      "series-edit": "تُطبق التغييرات على السلسلة المتكررة بالكامل."
+    },
+    "table": {
+      "subject": "الموضوع",
+      "type": "النوع",
+      "status": "الحالة",
+      "owner": "أنشئ بواسطة",
+      "phase": "المرحلة",
+      "dates": "التواريخ",
+      "scope": "النطاق",
+      "module": "الوحدة",
+      "customer": "العميل"
+    },
+    "search": "بحث",
+    "in-progress": "قيد التنفيذ",
+    "overdue": "متأخر",
+    "calendar": "التقويم",
+    "events": {
+      "title": "الفعاليات",
+      "subtitle": "لا توجد فعاليات معلقة!",
+      "instructions": "يرجى إنشاء فعالية جديدة"
+    },
+    "notes": {
+      "title": "الملاحظات والتذكيرات",
+      "subtitle": "لا توجد ملاحظات معلقة!",
+      "instructions": "يرجى إنشاء ملاحظة جديدة"
+    },
+    "jobs": {
+      "title": "الوظائف",
+      "subtitle": "لا توجد وظائف معلقة!",
+      "instructions": "يرجى إنشاء وظيفة جديدة"
+    },
+    "wos": {
+      "title": "أوامر العمل",
+      "subtitle": "لا توجد أوامر عمل معلقة!",
+      "instructions": "يرجى إنشاء أمر عمل جديد"
+    },
+    "tasks": {
+      "title": "المهام",
+      "subtitle": "لا توجد مهام معلقة!",
+      "instructions": "يرجى إنشاء مهمة جديدة"
+    },
+    "approvals": {
+      "title": "الموافقات",
+      "subtitle": "لا توجد موافقات معلقة!",
+      "instructions": "يرجى إنشاء موافقة جديدة"
+    },
+    "projects": {
+      "title": "المشاريع",
+      "subtitle": "لا توجد مشاريع معلقة!",
+      "instructions": "يرجى إنشاء مشروع جديد"
+    },
+    "transactions": {
+      "title": "المعاملات",
+      "subtitle": "لا توجد معاملات معلقة!",
+      "instructions": "يرجى إنشاء معاملة جديدة"
+    },
+    "statistics": "الإحصاءات",
+    "employee": "الموظف",
+    "department": "القسم",
+    "strategy": "الاستراتيجية",
+    "innovation": "الابتكار",
+    "operations": "العمليات",
+    "finance": "المالية",
+    "production": "الإنتاج",
+    "support": "الدعم"
+  },
+  "modals": {
+    "common": {
+      "invalid-task-subject": "موضوع المهمة غير صالح",
+      "approver": "المعتمد",
+      "end-date": "تاريخ الانتهاء",
+      "main-assignee": "المكلف الرئيسي",
+      "allocated-duration": "المدة المخصصة",
+      "duration-unit": "وحدة المدة",
+      "minute": "دقيقة",
+      "hour": "ساعة",
+      "day": "يوم",
+      "start": "بدء",
+      "finish": "إنهاء"
+    },
+    "new-task": {
+      "title": "مهمة جديدة"
+    },
+    "new-step": {
+      "title": "إضافة خطوة جديدة",
+      "create-addition-step": "إنشاء خطوة إضافية"
+    },
+    "alteration-request": {
+      "additional-task": "مهمة إضافية",
+      "request-approval": "طلب اعتماد التعديل"
+    },
+    "alteration-approval": {
+      "title": "اعتماد تعديل المرحلة",
+      "approve": "اعتماد التعديل"
+    },
+    "approval-task": {
+      "project": "المشروع",
+      "parent-task": "المهمة الأصل",
+      "phase": "المرحلة",
+      "system": "النظام",
+      "department": "القسم"
+    },
+    "task-type": {
+      "product": "منتج",
+      "service": "خدمة",
+      "no-raw-material-product": "لا توجد مواد خام مطلوبة لهذا المنتج",
+      "no-raw-material-service": "لا توجد مواد خام مطلوبة لهذه الخدمة"
+    },
+    "operation": {
+      "title": "عملية جديدة",
+      "operation-name": "اسم العملية",
+      "workstation": "محطة العمل"
+    },
+    "sales-order": {
+      "new": "أمر مبيعات جديد"
+    },
+    "ai": {
+      "confirm": "تأكيد",
+      "cancel": "إلغاء",
+      "download": "تنزيل",
+      "loading": "جاري التحميل",
+      "action-failed-header": "فشل الإجراء",
+      "download-failed-message": "تعذر تنزيل ملف بي دي إف!",
+      "ok": "موافق",
+      "logo-alt": "شعار الشركة",
+      "report-description": "يرجى الانتظار بينما يقوم Idarah بإنشاء التقرير. بمجرد أن يصبح التقرير جاهزًا، يمكنك تنزيله كملف PDF للرجوع إليه."
+    }
+  },
+  "actions": {
+    "actions": "الإجراءات",
+    "approve": "موافقة",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "create": "إنشاء",
+    "download-template": "تنزيل القالب",
+    "draft": "مسودة",
+    "import": "استيراد",
+    "refund": "استرداد",
+    "request-approval": "طلب الموافقة",
+    "approved-by": "تمت الموافقة بواسطة",
+    "on": "بتاريخ",
+    "unit": "وحدة",
+    "update": "تحديث"
+  },
+  "popovers": {
+    "common": {
+      "confirm": "تأكيد",
+      "cancel": "إلغاء"
+    },
+    "ai-prompt": {
+      "prompt-fields": "حقول الموجه",
+      "prompt-label": "الموجه",
+      "persona": "الشخصية",
+      "context": "السياق",
+      "task": "المهمة",
+      "format": "التنسيق",
+      "ollama-model-label": "نموذج أولاما",
+      "data-preview": "معاينة البيانات",
+      "ai-prompt-title": "موجه الذكاء الاصطناعي",
+      "available-local-ollama-models": "نماذج أولاما المحلية المتاحة",
+      "model-name": "اسم النموذج",
+      "parameter-size": "حجم المعلمات",
+      "valid-prompt": "موجه صالح",
+      "valid-data": "بيانات صالحة",
+      "generate": "توليد",
+      "confirm-prompt-header": "تأكيد الموجه؟",
+      "prompt-copied-successfully": "تم نسخ الموجه بنجاح!"
+    },
+    "payment": {
+      "outstanding-amount": "المبلغ المستحق",
+      "due-date": "تاريخ الاستحقاق",
+      "method-card": "بطاقة",
+      "method-cash": "نقداً",
+      "payment-amount": "مبلغ الدفع",
+      "invalid-amount": "مبلغ غير صالح!",
+      "confirm-payment": "تأكيد الدفع",
+      "confirm-payment-header": "تأكيد الدفع؟"
+    },
+    "receipt": {
+      "received-item-list": "قائمة العناصر المستلمة",
+      "item-label": "العنصر",
+      "unit-fallback": "وحدة",
+      "confirm-item-receipt": "تأكيد استلام العناصر",
+      "confirm-receipt-header": "تأكيد استلام العناصر؟"
+    },
+    "duration": {
+      "project-duration": "مدة المشروع",
+      "select-date-range": "اختر نطاق التاريخ",
+      "start-date": "تاريخ البدء",
+      "end-date": "تاريخ الانتهاء",
+      "create": "إنشاء",
+      "confirm-duration-header": "تأكيد المدة؟"
+    },
+    "delivery": {
+      "delivery-item-list": "قائمة عناصر التسليم",
+      "item-label": "العنصر",
+      "confirm-item-delivery": "تأكيد تسليم العناصر",
+      "confirm-delivery-header": "تأكيد تسليم العناصر؟"
+    },
+    "links": {
+      "title": "الروابط",
+      "enter-link": "أدخل رابطا",
+      "create": "إنشاء رابط"
+    }
+  },
+  "common": {
+    "search": "بحث",
+    "create": "إنشاء",
+    "result-suffix": "نتيجة/نتائج",
+    "previous": "السابق",
+    "next": "التالي",
+    "pagination": "ترقيم الصفحات",
+    "page": "صفحة",
+    "youre-on-page": "أنت على الصفحة",
+    "update": "تحديث",
+    "not-found": {
+      "title": "الصفحة غير موجودة",
+      "description": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+      "go-to-portal": "الذهاب إلى البوابة",
+      "go-back": "رجوع"
+    },
+    "unauthorized": {
+      "eyebrow": "الوصول مقيد",
+      "title": "ليس لديك حق الوصول إلى هذه الصفحة",
+      "description": "حسابك ليس لديه صلاحية لعرض هذه الصفحة. إذا كنت تعتقد أن هذا خطأ، فيرجى الاتصال بمسؤول النظام.",
+      "go-to-portal": "الذهاب إلى البوابة",
+      "go-back": "رجوع",
+      "lock-label": "قفل"
+    },
+    "cards": {
+      "status": {
+        "suspended": "معلق"
+      },
+      "visibility": {
+        "public": "عام",
+        "private": "خاص"
+      }
+    },
+    "process": {
+      "project-tree": "شجرة المشروع",
+      "progress-timing": "توقيت التقدم",
+      "workflow": "سير العمل",
+      "invalid-job": "وظيفة غير صالحة",
+      "invalid-job-instructions": "يرجى اختيار وظيفة أو إنشاء وظيفة جديدة",
+      "initial-items-selection": "اختيار العناصر الأولية",
+      "appointment": "موعد",
+      "appointment-date": "تاريخ الموعد",
+      "appointment-time": "وقت الموعد",
+      "action-required": "إجراء مطلوب",
+      "complete-required-fields": "يرجى التأكد من تعبئة جميع الحقول قبل التأكيد!",
+      "save": "حفظ",
+      "charges-and-profitability": "الرسوم والربحية",
+      "material-consumption": "استهلاك المواد",
+      "material-storage": "تخزين المواد",
+      "extra-items": "عناصر إضافية",
+      "recommendations": "التوصيات",
+      "completion-approval": "اعتماد الإكمال",
+      "no-attachments": "لا توجد مرفقات",
+      "upload-attachment": "يرجى تحميل مرفق",
+      "attachments-not-found": "لم يتم العثور على مرفقات",
+      "import": "استيراد"
+    },
+    "components": {
+      "approval": {
+        "subject": "Subject",
+        "invalid-task-subject": "Invalid Task Subject",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "approver": "Approver",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "alteration-approval": "Alteration Approval"
+      },
+      "cost-summary": {
+        "raw-material": "Raw Material",
+        "human-resources": "Human Resources",
+        "other-costs": "Other Costs",
+        "total-cost": "Total Cost",
+        "suggested-selling-rate": "Suggested Selling Rate",
+        "actual-selling-rate": "Actual Selling Rate",
+        "net-profit": "Net Profit",
+        "net-profit-percentage": "Net Profit Percentage"
+      },
+      "erpnext-report": {
+        "export": "Export",
+        "select-page": "Select page"
+      },
+      "note": {
+        "is-public": "Is Public",
+        "title": "Title",
+        "note-content": "Note Content",
+        "max-letters": "Reached maximum number of letters",
+        "delete": "Delete"
+      },
+      "step": {
+        "subject": "Subject",
+        "invalid-task-subject": "Invalid Task Subject",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "department": "Department",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "complete": "Complete"
+      },
+      "event": {
+        "event-information": "Event Information",
+        "subject": "Subject",
+        "event-type": "Event Type",
+        "event-type-options": {
+          "event": "Event",
+          "meeting": "Meeting",
+          "call": "Call",
+          "sent-received-email": "Sent/Received Email",
+          "other": "Other"
+        },
+        "description": "Description",
+        "event-timing": "Event Timing",
+        "event-date": "Event Date",
+        "starting-time": "Starting Time",
+        "ending-time": "Ending Time",
+        "repeat-till": "Repeat Till",
+        "repeat-frequency": "Repeat Frequency",
+        "repeat-frequency-options": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly",
+          "yearly": "Yearly"
+        },
+        "auto-repeat-schedule": "Auto Repeat Schedule",
+        "next-schedule": "Next Schedule",
+        "repeat-event": "Repeat Event",
+        "participants": "Participants",
+        "invalid-date-timing": "Invalid date & timing",
+        "no-participants-assigned": "No Participants Assigned",
+        "photo": "Photo",
+        "actions": "Actions",
+        "complete": "Complete",
+        "suspend": "Suspend"
+      },
+      "task": {
+        "view-original": "View Original",
+        "description": "Description",
+        "invalid-task-description": "Invalid Task Description",
+        "employee": "Employee",
+        "department": "Department",
+        "source-system": "Source System",
+        "date-range": "Select a date range",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "toggles": {
+          "alterations": "Alterations",
+          "steps": "Steps",
+          "events": "Events",
+          "notes": "Notes",
+          "attachments": "Attachments",
+          "actions": "Actions"
+        },
+        "alterations": {
+          "empty-subtitle": "No Alterations",
+          "empty-instructions": "No Alterations found.",
+          "request": "Request Alteration"
+        },
+        "steps": {
+          "empty-subtitle": "No Steps",
+          "empty-instructions": "No Steps found.",
+          "create": "New Step"
+        },
+        "events": {
+          "empty-subtitle": "No Events",
+          "empty-instructions": "No Events found.",
+          "create": "New Event"
+        },
+        "notes": {
+          "empty-subtitle": "No Notes",
+          "empty-instructions": "No Notes found.",
+          "create": "New Note"
+        },
+        "attachments": {
+          "empty-subtitle": "No Attachments",
+          "empty-instructions": "No Attachments found.",
+          "add": "Add Attachment"
+        },
+        "action-required-instructions": "Please ensure all approvals and steps are completed before finishing this task.",
+        "start": "Start",
+        "finish": "Finish",
+        "pending-approvals": "There are pending approvals.",
+        "pending-steps": "There are pending steps.",
+        "completed": "Task Completed!"
+      }
+    },
+    "pdfs": {
+      "actions": {
+        "download": "تنزيل",
+        "copy-image": "نسخ الصورة"
+      },
+      "status": {
+        "loading": "جاري التحميل",
+        "action-failed": "فشل الإجراء",
+        "download-failed": "تعذر تنزيل ملف PDF!",
+        "copy-image-failed": "تعذر نسخ صورة الفاتورة!",
+        "image-copied": "تم نسخ صورة الفاتورة بنجاح!",
+        "ok": "موافق"
+      },
+      "toggles": {
+        "show-stamp": "إظهار الختم",
+        "show-notes": "إظهار الملاحظات"
+      },
+      "labels": {
+        "page": "صفحة",
+        "notes": "ملاحظات",
+        "reference": "مرجع"
+      },
+      "entries": {
+        "category": "الفئة",
+        "description": "التفاصيل",
+        "qty": "الكمية",
+        "unit-price": "سعر الوحدة",
+        "amount": "المبلغ",
+        "fallback-category": "المنتجات",
+        "part": "قطعة",
+        "service": "خدمة"
+      }
+    }
+  },
+  "toolbar": {
+    "home": "الرئيسية",
+    "my-account": "حسابي",
+    "sync": "مزامنة",
+    "logout": "تسجيل الخروج",
+    "open-actions": "فتح إجراءات شريط الأدوات",
+    "select-language": "اختر اللغة"
+  },
+  "about": "حول",
+  "dashboard": "لوحة الأداء",
+  "dashboards": "لوحات الأداء",
+  "user-guide": {
+    "title": "دليل المستخدم",
+    "subtitle": "دليلك خطوة بخطوة لتشغيل النظام",
+    "sections": {
+      "setup": {
+        "title": "إعداد النظام",
+        "description": "ابدأ بالانتقال إلى صفحة الإعدادات. هذه هي نقطة البداية لتكوين النظام بالكامل. أكمل كل علامة تبويب بالترتيب لتشغيل مؤسستك."
+      },
+      "subscription": {
+        "title": "الاشتراك والشركة",
+        "description": "قم بتفعيل خطة اشتراكك لفتح ميزات النظام. ثم قم بتكوين ملف شركتك بالتفاصيل الأساسية مثل الرقم الضريبي ورقم الهاتف والنطاق والشعار والختم الرسمي."
+      },
+      "system-data": {
+        "title": "استيراد البيانات",
+        "description": "قم باستيراد بيانات مؤسستك بما في ذلك الموظفين ودليل الحسابات والأصناف والسجلات الأساسية الأخرى. يرشدك معالج الاستيراد خلال رفع الملفات وربط الحقول."
+      },
+      "roles-users": {
+        "title": "الأدوار والمستخدمين",
+        "description": "حدد الأدوار بصلاحيات محددة للتحكم في الوصول عبر الوحدات. ثم أنشئ حسابات المستخدمين وعيّن لهم الأدوار المناسبة لضمان وصول آمن قائم على الأدوار."
+      },
+      "systems": {
+        "title": "نظرة عامة على الأنظمة",
+        "description": "يتكون التطبيق من ستة أنظمة متكاملة، كل منها يخدم وظيفة تجارية مختلفة. قم بتفعيل الأنظمة التي تحتاجها من إعدادات اشتراكك.",
+        "strategy": {
+          "title": "الاستراتيجية",
+          "desc": "تحديد الأهداف الاستراتيجية ومؤشرات الأداء وخطط العمل"
+        },
+        "operation": {
+          "title": "العمليات",
+          "desc": "إدارة الموارد البشرية والأقسام والإجازات والامتثال التنظيمي"
+        },
+        "production": {
+          "title": "الإنتاج",
+          "desc": "التصنيع وعمليات الورشة وقنوات نقاط البيع"
+        },
+        "finance": {
+          "title": "المالية",
+          "desc": "المحاسبة والخدمات المصرفية والأصول والتقارير المالية"
+        },
+        "innovation": {
+          "title": "الابتكار",
+          "desc": "قيادة عمليات الابتكار من الفكرة إلى التسويق"
+        },
+        "support": {
+          "title": "الدعم",
+          "desc": "المبيعات والتسويق وإدارة العملاء واللوجستيات وإدارة المخزون"
+        }
+      },
+      "portal": {
+        "title": "صفحة البوابة",
+        "description": "البوابة هي لوحة التحكم المركزية. اعرض المهام الجارية والعناصر المتأخرة والأحداث القادمة وإحصائيات الأقسام والملاحظات السريعة — كل ذلك في مكان واحد."
+      },
+      "kpi-import": {
+        "title": "استيراد مؤشرات الأداء من الاستراتيجية",
+        "description": "يتم تحديد مؤشرات الأداء في الإطار الاستراتيجي لوحدة الاستراتيجية. بمجرد تكوينها، تتدفق تلقائيًا إلى لوحات الأداء عبر جميع الأنظمة."
+      },
+      "dashboards": {
+        "title": "لوحات الأداء",
+        "description": "يحتوي كل نظام على لوحة أداء مخصصة تعرض المقاييس والرسوم البيانية الرئيسية. تسحب اللوحات بيانات مؤشرات الأداء من وحدة الاستراتيجية."
+      },
+      "finance": {
+        "title": "المالية للمحاسبين",
+        "description": "توفر وحدة المالية مجموعة محاسبية كاملة. إدارة دليل الحسابات وتسجيل القيود اليومية وتتبع المعاملات المصرفية وإدارة الأصول والتمويل وإنشاء التقارير المالية.",
+        "chart-of-accounts": "دليل الحسابات",
+        "journal-entries": "القيود اليومية",
+        "banking": "الخدمات المصرفية",
+        "assets": "الأصول",
+        "financing": "التمويل",
+        "reports": "التقارير"
+      },
+      "support-inventory": {
+        "title": "الدعم والمخزون",
+        "description": "استخدم وحدة الدعم لإنشاء وإدارة الأصناف ومراقبة مستويات المخزون وتتبع حركات المخزون وإدارة الموردين.",
+        "items": "إنشاء وإدارة الأصناف",
+        "inventory": "مراقبة مستويات المخزون",
+        "suppliers": "إدارة الموردين"
+      },
+      "tasks-jobs-projects": {
+        "title": "المهام والوظائف والمشاريع",
+        "description": "هذه هي الإجراءات الرئيسية المحركة للنظام. المهام هي عناصر عمل فردية، والوظائف تجمع المهام ذات الصلة، والمشاريع تنظم وظائف متعددة في مبادرات أكبر.",
+        "task": {
+          "title": "المهام",
+          "desc": "عناصر عمل فردية قابلة للتنفيذ مخصصة لأعضاء الفريق"
+        },
+        "job": {
+          "title": "الوظائف",
+          "desc": "مجموعات من المهام ذات الصلة مع جداول زمنية ومعالم"
+        },
+        "project": {
+          "title": "المشاريع",
+          "desc": "مبادرات كبيرة تجمع بين وظائف وموارد متعددة"
+        }
+      }
+    }
+  }
+}
